@@ -1,0 +1,11 @@
+Community Map
+CommunityMap.cfg
+1, 1, 1
+6000, 0, 6000, 6000, 0, 6000, 6000, 0, 6000
+
+//author basics 4 Thomas
+//fileinfo -1, 5000, 1
+
+grid 6000, 0.1, 6000
+
+end
