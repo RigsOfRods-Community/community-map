@@ -1,0 +1,6 @@
+Caseys-store.mesh
+1, 1, 1
+beginmesh
+mesh Caseys-store-col.mesh
+endmesh
+end

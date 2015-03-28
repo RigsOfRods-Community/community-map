@@ -1,0 +1,37 @@
+material speedlimit
+{
+   technique
+   {
+      pass
+      {
+         48.0, 60.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture speedlimit70.png
+         }
+      }
+   }
+}
+material sign_grey
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.662745098039216 0.662745098039216 0.662745098039216 1.0
+         ambient 0.662745098039216 0.662745098039216 0.662745098039216 1.0
+      }
+   }
+}
+material _SketchupDefault
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1.0 1.0 1.0
+         ambient 1.0 1.0 1.0
+      }
+   }
+}

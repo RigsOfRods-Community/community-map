@@ -1,0 +1,220 @@
+material black
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.0 0.0 0.0 1.0
+         ambient 0.0 0.0 0.0 1.0
+      }
+   }
+}
+material Beige1
+{
+   technique
+   {
+      pass
+      {
+         24.0, 12.6
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture 155585_131420056917621_2994129_n.jpg
+         }
+      }
+   }
+}
+material Color_B24
+{
+   technique
+   {
+      pass
+      {
+         24.0, 24.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture 430401_313088045417487_23319871_n1.jpg
+         }
+      }
+   }
+}
+material building3_brick
+{
+   technique
+   {
+      pass
+      {
+         24.0, 32.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture 420103_313084702084488_1563725626_n.jpg
+         }
+      }
+   }
+}
+material Sidewalk
+{
+   technique
+   {
+      pass
+      {
+         168.0, 168.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture 65695_131432240249736_5201435_n.jpg
+         }
+      }
+   }
+}
+material 96,96,96
+{
+   technique
+   {
+      pass
+      {
+         24.0, 17.5125
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture 431562_303301546396137_990939646_n.jpg
+         }
+      }
+   }
+}
+material building3-trim
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.141176470588235 0.184313725490196 0.258823529411765 1.0
+         ambient 0.141176470588235 0.184313725490196 0.258823529411765 1.0
+      }
+   }
+}
+material Building_2trim
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.137254901960784 0.137254901960784 0.137254901960784 1.0
+         ambient 0.137254901960784 0.137254901960784 0.137254901960784 1.0
+      }
+   }
+}
+material Building2-brick
+{
+   technique
+   {
+      pass
+      {
+         24.0, 24.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture 430401_313088045417487_23319871_n.jpg
+         }
+      }
+   }
+}
+material dc_roads-straight2
+{
+   technique
+   {
+      pass
+      {
+         432.0, 432.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture 156379_131430553583238_1878862_n.jpg
+         }
+      }
+   }
+}
+material dc_roads-straight3
+{
+   technique
+   {
+      pass
+      {
+         432.0, 432.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture 156379_131430546916572_8348195_n.jpg
+         }
+      }
+   }
+}
+material dc_roads-sidewalk
+{
+   technique
+   {
+      pass
+      {
+         240.0, 240.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture 65695_131432240249736_5201435_n.jpg
+         }
+      }
+   }
+}
+material dc_roads-straight1
+{
+   technique
+   {
+      pass
+      {
+         432.0, 432.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture 156379_131430550249905_2606671_n.jpg
+         }
+      }
+   }
+}
+material dc_roads-T
+{
+   technique
+   {
+      pass
+      {
+         432.0, 432.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture 155071_131430866916540_503512_n.jpg
+         }
+      }
+   }
+}
+material building1-trim
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.776470588235294 0.776470588235294 0.776470588235294 1.0
+         ambient 0.776470588235294 0.776470588235294 0.776470588235294 1.0
+      }
+   }
+}
+material _SketchupDefault
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1.0 1.0 1.0
+         ambient 1.0 1.0 1.0
+      }
+   }
+}

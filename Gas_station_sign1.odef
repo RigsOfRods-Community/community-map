@@ -1,0 +1,6 @@
+Gas_station_sign1.mesh
+1, 1, 1
+beginmesh
+mesh Gas_station_sign1.mesh
+endmesh
+end

@@ -1,0 +1,255 @@
+material Splat/ShadowCast
+{
+	// Vertex program waving grass
+    technique
+    {
+        pass
+        {
+            
+  			alpha_rejection greater 150 
+            
+  			scene_blend alpha_blend
+            
+  		    cull_hardware none
+              cull_software none
+
+          }
+      }
+}
+material Splat/ShadowRecieve
+{
+	// Vertex program waving grass
+    technique
+    {
+        pass 
+		{
+			scene_blend add
+  
+			alpha_rejection greater 150       
+            
+		    cull_hardware none
+            cull_software none 
+            
+            texture_unit ShadowMap
+            {
+                 tex_address_mode border
+                 tex_border_colour 1.0 1.0 1.0 0.0                
+                 content_type shadow
+                 filtering linear linear none		
+                 tex_coord_set 0
+            }
+        }
+        
+    }
+}
+material Specular/Shadow
+{
+	transparency_casts_shadows on
+    receive_shadows on
+	technique
+	{
+	    shadow_caster_material Splat/ShadowCast
+        shadow_receiver_material Splat/ShadowRecieve
+		pass
+		{
+			scene_blend alpha_blend
+			cull_hardware none
+			shading phong
+			texture_unit
+			{
+				texture_alias base
+			}
+		}
+		pass
+		{
+			scene_blend modulate
+			cull_hardware none
+			alpha_rejection greater 128
+			shading phong
+			texture_unit
+			{
+				scale 0.0125 0.0125
+				texture_alias base_detail
+			}
+		}
+		pass
+		{
+			scene_blend_op subtract 
+			texture_unit
+			{
+				texture_alias specular
+			}
+			
+		}
+		pass
+		{
+			diffuse 0 0 0 0
+			emissive 0 0 0 0
+			specular 0.5 0.5 0.5 1 64
+			scene_blend add 
+			ambient 0.25 0.25 0.25 0
+			texture_unit
+			{
+				texture_alias specular
+			}
+			
+		}
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit Splat1
+			{
+				texture_alias watermap
+				// use alpha from this texture
+				alpha_op_ex source1 src_texture src_texture
+				// and colour from last pass
+				colour_op_ex source2 src_texture src_texture
+			}
+			texture_unit
+			{
+				cubic_texture EnvironmentTexture combinedUVW
+				color_op_ex blend_manual src_texture src_current 0.5
+				tex_address_mode wrap
+                scale 1 1
+				env_map cubic_reflection
+
+				tex_coord_set 1
+				alpha blend colour with colour from last pass
+				colour_op_ex blend_diffuse_alpha src_texture src_current
+            }
+			
+		}
+		pass
+		{
+			scene_blend alpha_blend
+			cull_hardware none
+			shading phong
+			texture_unit
+			{
+				texture_alias base_transparent
+			}
+		}
+		pass Shadow
+		{
+			// base colours, not needed for rendering, but as information
+			// to lighting pass categorisation routine
+			ambient 0 0 0 
+			
+			// do this for each light
+			iteration once
+			
+			//scene_blend src_colour src_colour
+			scene_blend modulate
+			alpha_rejection greater 150 
+            texture_unit ShadowMap
+            {
+                 tex_address_mode border
+                 tex_border_colour 1.0 1.0 1.0 0.0                
+                 content_type shadow
+                 filtering anisotropic
+                 tex_coord_set 0
+            }
+		}
+	}
+}
+
+material Dc-highway : Specular/Shadow
+{
+	set_texture_alias base				highway.png
+	set_texture_alias watermap			highway_water.png
+	set_texture_alias base_transparent	highway_trans.png
+	set_texture_alias base_detail		terrain_detail.dds
+	set_texture_alias specular			highway_spec.png
+}
+
+material 2Dc-highway
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000 1.000000
+			diffuse 0.800000 0.800000 0.800000 1.000000
+			specular 0.000000 0.000000 0.000000 1.000000 12.500000
+			emissive 0.000000 0.000000 0.000000 1.000000
+			texture_unit
+			{
+				texture highway.png
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+
+material Caseysstore-tex
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000 1.000000
+			diffuse 0.800000 0.800000 0.800000 1.000000
+			specular 0.000000 0.000000 0.000000 1.000000 12.500000
+			emissive 0.000000 0.000000 0.000000 1.000000
+			texture_unit
+			{
+				texture caseys-store.png
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material Caseyspumpisland-tex
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000 1.000000
+			diffuse 0.800000 0.800000 0.800000 1.000000
+			specular 0.000000 0.000000 0.000000 1.000000 12.500000
+			emissive 0.000000 0.000000 0.000000 1.000000
+			texture_unit
+			{
+				texture caseyspump.png
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+
+
+material Caseys-lot-tex : Specular/Shadow
+{
+	set_texture_alias base				caseysparkinglot-tex.png
+	set_texture_alias watermap			caseysparkinglot_water.png
+	set_texture_alias base_transparent	caseysparkinglot_trans.png
+	set_texture_alias base_detail		terrain_detail.dds
+	set_texture_alias specular			caseysparkinglot_spec.png
+}
+material GasStationSigns1-tex
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000 1.000000
+			diffuse 0.800000 0.800000 0.800000 1.000000
+			specular 0.000000 0.000000 0.000000 1.000000 12.500000
+			emissive 0.000000 0.000000 0.000000 1.000000
+			texture_unit
+			{
+				texture gasstationsigns1.png
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}

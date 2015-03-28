@@ -1,0 +1,6 @@
+test.mesh
+1, 1, 1
+beginmesh
+mesh test.mesh
+endmesh
+end
