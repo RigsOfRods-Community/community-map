@@ -1,0 +1,16 @@
+material Int-speedlimit-tex
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture interstate-speedlimit-tex.png
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
