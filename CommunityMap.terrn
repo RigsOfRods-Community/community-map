@@ -15,5 +15,6 @@ CommunityMap.cfg
 140.0997, 0.695239, 678.446, 0, 0, 0, intspeedlimit-70
 40.017, 8.8652, 833.446, 0, 90, 0, intspeedlimit-55
 240.017, 8.8652, 843.446, 0, 270, 0, intspeedlimit-55
+// the change
 
 end
