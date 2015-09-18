@@ -1,0 +1,6 @@
+billboard-3.mesh
+1, 1, 1
+beginmesh
+mesh billboard-3.mesh
+endmesh
+end

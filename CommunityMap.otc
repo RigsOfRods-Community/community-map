@@ -1,0 +1,20 @@
+WorldSizeX=30000
+WorldSizeZ=30000
+WorldSizeY=0
+ 
+PageSize=1025
+PageFileFormat=CommunityMap-page-0-0.otc
+ 
+Heightmap.0.0.raw.size=5
+Heightmap.0.0.raw.bpp=2
+Heightmap.0.0.flipX=false
+ 
+disableCaching=1
+LightmapEnabled=0
+NormalMappingEnabled=0
+SpecularMappingEnabled=1
+ParallaxMappingEnabled=0
+GlobalColourMapEnabled=0
+ReceiveDynamicShadowsDepth=0 to use depth shadows.
+ReceiveDynamicShadowsDepth=false
+

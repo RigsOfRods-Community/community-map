@@ -1,0 +1,6 @@
+Case_dealer.mesh
+1, 1, 1
+beginmesh
+mesh Case_dealer-col.mesh
+endmesh
+end

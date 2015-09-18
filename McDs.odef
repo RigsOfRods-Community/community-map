@@ -1,0 +1,6 @@
+McDs.mesh
+1, 1, 1
+beginmesh
+mesh McDs.mesh
+endmesh
+end

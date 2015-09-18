@@ -1,0 +1,6 @@
+highway-depot-lot.mesh
+1, 1, 1
+beginmesh
+mesh highway-depot-lot.mesh
+endmesh
+end

@@ -1,0 +1,6 @@
+terminalparklot.mesh
+1, 1, 1
+beginmesh
+mesh terminalparklot-col.mesh
+endmesh
+end

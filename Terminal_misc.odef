@@ -1,0 +1,6 @@
+Terminal_misc.mesh
+1, 1, 1
+beginmesh
+mesh Terminal_misc.mesh
+endmesh
+end

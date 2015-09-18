@@ -1,0 +1,7 @@
+CommunityMap.raw
+1
+; worldSize, diffusespecular, normalheight, blendmap, blendmapmode, alpha
+;Main texture
+12000,  CommunityMap2.dds, CommunityMap2.dds
+
+
