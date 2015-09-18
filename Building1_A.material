@@ -1,0 +1,664 @@
+
+material _missing_material_
+{
+    receive_shadows off
+    technique
+    {
+        pass
+        {
+            ambient 0.1 0.1 0.1 1.0
+            diffuse 0.8 0.0 0.0 1.0
+            //specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.3 0.3 0.3 1.0
+        }
+    }
+}
+
+// BLD1_BRICKSB genrated by blender2ogre 0.5.9
+
+material BLD1_BRICKSB 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass BLD1_BRICKSB
+        {
+            ambient 0.505 0.505 0.505 1.0
+            diffuse 0.6400000190734865 0.6400000190734865 0.6400000190734865 1.0
+            //specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            mesh_exporter <bpy_struct, MaterialProperties("")>
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+            texture_unit 
+            {
+                texture BLD1_BRICKSG.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture BLD1_AO.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+		pass specular
+		{
+			specular 0.05 0.05 0.05 1.0 12.5
+			scene_blend add
+			
+			texture_unit
+			{
+				texture BLD1_BRICKS_s.png
+				tex_coord_set 0
+				colour_op blend_diffuse_alpha
+			}
+		}
+    }
+}
+// BLD1_BRICKSA genrated by blender2ogre 0.5.9
+
+material BLD1_BRICKSA 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass BLD1_BRICKSA
+        {
+            ambient 0.505 0.505 0.505 1.0
+            diffuse 0.6400000190734865 0.6400000190734865 0.6400000190734865 1.0
+            //specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            mesh_exporter <bpy_struct, MaterialProperties("")>
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+            texture_unit 
+            {
+                texture BLD1_BRICKS.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture BLD1_AO.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+		pass specular
+		{
+			specular 0.05 0.05 0.05 1.0 12.5
+			scene_blend add
+			
+			texture_unit
+			{
+				texture BLD1_BRICKS_s.png
+				tex_coord_set 0
+				colour_op blend_diffuse_alpha
+			}
+		}
+    }
+}
+// BLD1_WINDOWC genrated by blender2ogre 0.5.9
+
+material BLD1_WINDOWC 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass BLD1_WINDOWC
+        {
+            ambient 0.505 0.505 0.505 1.0
+            diffuse 0.6400000190734865 0.6400000190734865 0.6400000190734865 1.0
+            //specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            mesh_exporter <bpy_struct, MaterialProperties("")>
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+            texture_unit 
+            {
+                texture BLD1_WIND_SMALL_t.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture BLD1_AO.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+		pass nighttime
+		{
+			lighting off
+			scene_blend	add
+			
+			texture_unit 
+            {
+                texture BLD1_WIND_SMALL_e.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+		}
+		pass specular
+		{
+			specular 0.05 0.05 0.05 1.0 12.5
+			scene_blend add
+			
+			texture_unit
+			{
+				texture BLD1_WIND_SMALL_s.png
+				tex_coord_set 0
+				colour_op blend_diffuse_alpha
+			}
+		}
+    }
+}
+// BLD1_WINDOWA genrated by blender2ogre 0.5.9
+
+material BLD1_WINDOWA 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass BLD1_WINDOWA
+        {
+            ambient 0.505 0.505 0.505 1.0
+            diffuse 0.6400000190734865 0.6400000190734865 0.6400000190734865 1.0
+            //specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            mesh_exporter <bpy_struct, MaterialProperties("")>
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+            texture_unit 
+            {
+                texture BLD1_WIND_CLOSED_t.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture BLD1_AO.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+		pass nighttime
+		{
+			lighting off
+			scene_blend	add
+			
+			texture_unit 
+            {
+                texture BLD1_WIND_CLOSED_e.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+		}
+		pass specular
+		{
+			specular 0.05 0.05 0.05 1.0 12.5
+			scene_blend add
+			
+			texture_unit
+			{
+				texture BLD1_WIND_CLOSED_s.png
+				tex_coord_set 0
+				colour_op blend_diffuse_alpha
+			}
+		}
+    }
+}
+// BLD1_DOORR genrated by blender2ogre 0.5.9
+
+material BLD1_DOORR 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass BLD1_DOORR
+        {
+            ambient 0.505 0.505 0.505 1.0
+            diffuse 0.6400000190734865 0.6400000190734865 0.6400000190734865 1.0
+            //specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            mesh_exporter <bpy_struct, MaterialProperties("")>
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+            texture_unit 
+            {
+                texture BLD1_DOOR_R_t.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture BLD1_AO.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+		pass nighttime
+		{
+			lighting off
+			scene_blend	add
+			
+			texture_unit 
+            {
+                texture BLD1_DOOR_R_e.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+		}
+		pass specular
+		{
+			specular 0.05 0.05 0.05 1.0 12.5
+			scene_blend add
+			
+			texture_unit
+			{
+				texture BLD1_DOOR_R_s.png
+				tex_coord_set 0
+				colour_op blend_diffuse_alpha
+			}
+		}
+    }
+}
+// BLD1_DOORL genrated by blender2ogre 0.5.9
+
+material BLD1_DOORL 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass BLD1_DOORL
+        {
+            ambient 0.505 0.505 0.505 1.0
+            diffuse 0.6400000190734865 0.6400000190734865 0.6400000190734865 1.0
+            //specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            mesh_exporter <bpy_struct, MaterialProperties("")>
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+            texture_unit 
+            {
+                texture BLD1_DOOR_L_t.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture BLD1_AO.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+		pass nighttime
+		{
+			lighting off
+			scene_blend	add
+			
+			texture_unit 
+            {
+                texture BLD1_DOOR_L_e.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+		}
+		pass specular
+		{
+			specular 0.05 0.05 0.05 1.0 12.5
+			scene_blend add
+			
+			texture_unit
+			{
+				texture BLD1_DOOR_L_s.png
+				tex_coord_set 0
+				colour_op blend_diffuse_alpha
+			}
+		}
+    }
+}
+// BLD1_WINDOWD genrated by blender2ogre 0.5.9
+
+material BLD1_WINDOWD 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass BLD1_WINDOWD
+        {
+            ambient 0.505 0.505 0.505 1.0
+            diffuse 0.6400000190734865 0.6400000190734865 0.6400000190734865 1.0
+            //specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            mesh_exporter <bpy_struct, MaterialProperties("")>
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+            texture_unit 
+            {
+                texture BLD1_WINDOW_SMALL_AC_t.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture BLD1_AO.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+		pass nighttime
+		{
+			lighting off
+			scene_blend	add
+			
+			texture_unit 
+            {
+                texture BLD1_WINDOW_SMALL_AC_e.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+		}
+		pass specular
+		{
+			specular 0.05 0.05 0.05 1.0 12.5
+			scene_blend add
+			
+			texture_unit
+			{
+				texture BLD1_WINDOW_SMALL_AC_s.png
+				tex_coord_set 0
+				colour_op blend_diffuse_alpha
+			}
+		}
+    }
+}
+// BLD1_WINDOWB genrated by blender2ogre 0.5.9
+
+material BLD1_WINDOWB 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass BLD1_WINDOWB
+        {
+            ambient 0.505 0.505 0.505 1.0
+            diffuse 0.6400000190734865 0.6400000190734865 0.6400000190734865 1.0
+            //specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            mesh_exporter <bpy_struct, MaterialProperties("")>
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+            texture_unit 
+            {
+                texture BLD1_WINDOW_OPEN_t.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture BLD1_AO.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+		pass nighttime
+		{
+			lighting off
+			scene_blend	add
+			
+			texture_unit 
+            {
+                texture BLD1_WINDOW_OPEN_e.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+		}
+		pass specular
+		{
+			specular 0.05 0.05 0.05 1.0 12.5
+			scene_blend add
+			
+			texture_unit
+			{
+				texture BLD1_WINDOW_OPEN_s.png
+				tex_coord_set 0
+				colour_op blend_diffuse_alpha
+			}
+		}
+    }
+}
+// BLD1_SIGNA genrated by blender2ogre 0.5.9
+
+material BLD1_SIGNA 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass BLD1_SIGNA
+        {
+            ambient 0.505 0.505 0.505 1.0
+            diffuse 0.6400000190734865 0.6400000190734865 0.6400000190734865 1.0
+            //specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            mesh_exporter <bpy_struct, MaterialProperties("")>
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+            texture_unit 
+            {
+                texture BLD1_SIGN1_t.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture BLD1_AO.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
