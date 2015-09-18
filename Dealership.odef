@@ -1,0 +1,9 @@
+Dealership.mesh
+1.0, 1.0, 1.0, 
+
+beginmesh
+mesh Dealership_col.mesh
+std_friction asphalt
+endmesh
+
+end

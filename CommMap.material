@@ -1,0 +1,1524 @@
+import * from "managed_mats.material"
+material Splat/ShadowCast
+{
+	// Vertex program waving grass
+    technique
+    {
+        pass
+        {
+            
+  			alpha_rejection greater 150 
+            
+  			scene_blend alpha_blend
+            
+  		    cull_hardware none
+              cull_software none
+
+          }
+      }
+}
+material Splat/ShadowRecieve
+{
+	// Vertex program waving grass
+    technique
+    {
+        pass 
+		{
+			scene_blend add
+  
+			alpha_rejection greater 150       
+            
+		    cull_hardware none
+            cull_software none 
+            
+            texture_unit ShadowMap
+            {
+                 tex_address_mode border
+                 tex_border_colour 1.0 1.0 1.0 0.0                
+                 content_type shadow
+                 filtering linear linear none		
+                 tex_coord_set 0
+            }
+        }
+        
+    }
+}
+material Specular/Shadow
+{
+	transparency_casts_shadows on
+    receive_shadows on
+	technique
+	{
+	    shadow_caster_material Splat/ShadowCast
+        shadow_receiver_material Splat/ShadowRecieve
+		pass
+		{
+			scene_blend alpha_blend
+			cull_hardware none
+			shading phong
+			texture_unit
+			{
+				texture_alias base
+			}
+		}
+		pass
+		{
+			scene_blend modulate
+			cull_hardware none
+			alpha_rejection greater 128
+			shading phong
+			texture_unit
+			{
+				scale 0.0125 0.0125
+				texture_alias base_detail
+			}
+		}
+		pass
+		{
+			scene_blend_op subtract 
+			texture_unit
+			{
+				texture_alias specular
+			}
+			
+		}
+		pass
+		{
+			diffuse 0 0 0 0
+			emissive 0 0 0 0
+			specular 0.5 0.5 0.5 1 64
+			scene_blend add 
+			ambient 0.25 0.25 0.25 0
+			texture_unit
+			{
+				texture_alias specular
+			}
+			
+		}
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit Splat1
+			{
+				texture_alias watermap
+				// use alpha from this texture
+				alpha_op_ex source1 src_texture src_texture
+				// and colour from last pass
+				colour_op_ex source2 src_texture src_texture
+			}
+			texture_unit
+			{
+				cubic_texture EnvironmentTexture combinedUVW
+				color_op_ex blend_manual src_texture src_current 0.5
+				tex_address_mode wrap
+                scale 1 1
+				env_map cubic_reflection
+
+				tex_coord_set 1
+				alpha blend colour with colour from last pass
+				colour_op_ex blend_diffuse_alpha src_texture src_current
+            }
+			
+		}
+		pass
+		{
+			scene_blend alpha_blend
+			cull_hardware none
+			shading phong
+			texture_unit
+			{
+				texture_alias base_transparent
+			}
+		}
+		pass Shadow
+		{
+			// base colours, not needed for rendering, but as information
+			// to lighting pass categorisation routine
+			ambient 0 0 0 
+			
+			// do this for each light
+			iteration once
+			
+			//scene_blend src_colour src_colour
+			scene_blend modulate
+			alpha_rejection greater 150 
+            texture_unit ShadowMap
+            {
+                 tex_address_mode border
+                 tex_border_colour 1.0 1.0 1.0 0.0                
+                 content_type shadow
+                 filtering anisotropic
+                 tex_coord_set 0
+            }
+		}
+	}
+}
+
+material Dc-highway : RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+
+			texture_unit Diffuse_Map
+			{
+				texture highway.png
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material 2Dc-highwaytex: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture highway.png
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+
+material Caseysstore-tex : RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+
+			texture_unit Diffuse_Map
+			{
+				texture caseys-store.png
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material Caseyspumpisland-tex: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			//Ambient, diffuse, emissive stuff here
+
+			texture_unit Diffuse_Map
+			{
+				texture caseyspump.png
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+
+material Caseys-lot-tex: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture caseysparkinglot-tex.png
+			}
+		}
+	}
+}
+material Terminal_parklot-tex: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+
+			texture_unit Diffuse_Map
+			{
+				texture Terminal_parklot-tex.png
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material Casedealerlot1-tex : RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+
+			texture_unit Diffuse_Map
+			{
+				texture case-lottex-2.png
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material Casedealerlot2-tex : RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+
+			texture_unit Diffuse_Map
+			{
+				texture case-lot-tex1.png
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material Dealership_ground : RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+
+			texture_unit Diffuse_Map
+			{
+				texture Dealership_ground.png
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material communitymap-grass 
+{
+    receive_shadows on
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture community-map-grass.jpg
+            }
+        }
+        pass Shadow
+        {
+            // base colours, not needed for rendering, but as information
+            // to lighting pass categorisation routine
+            ambient 0 0 0 
+            
+            // do this for each light
+            iteration once
+            
+            //scene_blend src_colour src_colour
+            scene_blend modulate
+            alpha_rejection greater 150 
+            texture_unit ShadowMap
+            {
+                 tex_address_mode border
+                 tex_border_colour 1.0 1.0 1.0 0.0                
+                 content_type shadow
+                 filtering anisotropic
+                 tex_coord_set 0
+            }
+        }
+    }
+}
+material DC-roads-tex2 : RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+
+			texture_unit Diffuse_Map
+			{
+				texture 3-laneroad-tex.png
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material MCDs-lot-tex : RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+
+			texture_unit Diffuse_Map
+			{
+				texture mcd-lot-tex.png
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+
+material GasStationSigns1-tex: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture gasstationsigns1.png
+
+			}
+		}
+	}
+}
+material Billboards1-tex: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			//Ambient, diffuse, emissive stuff here
+
+			texture_unit Diffuse_Map
+			{
+				texture bilboards-tex.png
+			}
+		}
+		pass
+		
+        	{
+			scene_blend alpha_blend
+			lighting off
+			texture_unit
+            		{
+                		texture bilboards-emissive.png
+           
+            		}
+			}
+   	}
+}
+material Billboard-tex2: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			//Ambient, diffuse, emissive stuff here
+
+			texture_unit Diffuse_Map
+			{
+				texture bilboards2-tex.png
+			}
+		}
+	}
+}
+material tbell-lot-decals: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			ambient 0.500000 0.500000 0.500000 0.540000
+			diffuse 0.800000 0.800000 0.800000 0.540000
+			specular 0.000000 0.000000 0.000000 0.540000 12.500000
+			emissive 0.000000 0.000000 0.000000 0.540000
+			scene_blend alpha_blend
+			depth_write off
+
+			texture_unit Diffuse_Map
+			{
+				texture lot-decals.png
+			}
+		}
+	}
+}
+material tbell-lot-tex: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			//Ambient, diffuse, emissive stuff here
+
+			texture_unit Diffuse_Map
+			{
+				texture tbell-lot-tex.png
+			}
+		}
+	}
+}
+material tbell-build-tex: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			//Ambient, diffuse, emissive stuff here
+
+			texture_unit Diffuse_Map
+			{
+				texture tbell-tex.png
+			}
+		}
+	}
+}
+material tbell-build-tex2: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			//Ambient, diffuse, emissive stuff here
+
+			texture_unit Diffuse_Map
+			{
+				texture tell-tex.png
+			}
+		}
+	}
+}
+
+material tbell-dthru-tex: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			//Ambient, diffuse, emissive stuff here
+
+			texture_unit Diffuse_Map
+			{
+				texture tbell-dthru-tex.png
+			}
+		}
+	}
+}
+
+material CommMap-asphalt1: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			//Ambient, diffuse, emissive stuff here
+
+			texture_unit Diffuse_Map
+			{
+				texture commMap-asphalt1.png
+			}
+		}
+	}
+}
+material CommMap-Concrete1: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			//Ambient, diffuse, emissive stuff here
+
+			texture_unit Diffuse_Map
+			{
+				texture CommMap-Concrete1.jpg
+			}
+		}
+	}
+}
+material Aldi-lot-tex: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			//Ambient, diffuse, emissive stuff here
+
+			texture_unit Diffuse_Map
+			{
+				texture aldi-lot-misc.png
+			}
+		}
+	}
+}
+material CommunityMap-grass-1: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			//Ambient, diffuse, emissive stuff here
+
+			texture_unit Diffuse_Map
+			{
+				texture CommMap-grass1.png
+			}
+		}
+	}
+}
+material CommMap-sidewalk-1: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			//Ambient, diffuse, emissive stuff here
+
+			texture_unit Diffuse_Map
+			{
+				texture CommMap-sidewalk1.jpg
+			}
+		}
+	}
+}
+material CommMap-lot-decals: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			ambient 0.500000 0.500000 0.500000 0.540000
+			diffuse 0.800000 0.800000 0.800000 0.540000
+			specular 0.000000 0.000000 0.000000 0.540000 12.500000
+			emissive 0.000000 0.000000 0.000000 0.540000
+			scene_blend alpha_blend
+			depth_write off
+
+			texture_unit Diffuse_Map
+			{
+				texture lot-decals.png
+			}
+		}
+	}
+}
+material CommMap-Glass-tex: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			ambient 0.500000 0.500000 0.500000 0.500000
+			diffuse 0.401569 0.401569 0.401569 0.500000
+			specular 0.000000 0.000000 0.000000 0.500000 12.500000
+			emissive 0.000000 0.000000 0.000000 0.500000
+			scene_blend alpha_blend
+			depth_write off
+		}
+	}
+}
+material Aldi-tex2: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			//Ambient, diffuse, emissive stuff here
+
+			texture_unit Diffuse_Map
+			{
+				texture aldi2-tex.png
+			}
+		}
+	}
+}
+material Aldi1-tex: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			//Ambient, diffuse, emissive stuff here
+
+			texture_unit Diffuse_Map
+			{
+				texture aldi-tex.png
+			}
+		}
+	}
+}
+material DC-Bridge-tex: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture bridge.png
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material CaseDealer1-tex: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture casetex-2.png
+			}
+		}
+	}
+}
+material CaseDealer2-tex: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture case-tex2.png
+			}
+		}
+	}
+}
+material Case_dealer-fence: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			scene_blend alpha_blend
+			depth_write off
+			texture_unit Diffuse_Map
+		
+			{
+				texture case-fence.png
+			}
+		}
+	}
+}
+material Dealership_ground
+{
+    technique
+    {
+        pass
+        {
+
+            texture_unit
+            {
+                texture Dealership_ground.png
+            }
+ 
+ 
+          }
+
+     }  
+
+}
+
+material Dealership: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture Dealership.png
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material Dealership_sign: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			emissive 1.0 1.0 1.0 1.0
+			texture_unit Diffuse_Map
+			{
+				texture Dealership.png
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material Dealership_building: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture Dealership_building.png
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material Dealership_garage: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture Dealership_garage.png
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material Dealership_Ginterior: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture Dealership_garage.png
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material Dealership_Gdetails: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture Dealership_Gdetails.png
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material Dealership_Gdetails_2: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture Dealership_Gdetails_2.png
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material Dealership_decals: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+		    alpha_rejection greater 128
+			scene_blend alpha_blend
+			cull_hardware none
+			texture_unit Diffuse_Map
+			{
+				texture Dealership_decals.png
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material Dealership_aircon: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture Dealership_Gdetails_2.png
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material ROR_dpw_asphalt : RoR/Managed_Mats/Base
+{
+	set_texture_alias diffuse_tex ASPHALT3.jpg
+}
+material ROR_dpw_fence_pole : RoR/Managed_Mats/Base
+{
+	set_texture_alias diffuse_tex pole.dds
+}
+material ROR_dpw_Roof: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture Roofing_Metal_Standing_Seam_Red.jpg
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material ROR_dpw_spreader_shack: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture T800_color_black.png
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+
+material ROR_dpw_brick1-tex : RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture hwydpt-brick3.dds
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material ROR_dpw_misc1-tex : RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture hwydpt-misctex.dds
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material ROR_DPW_floor1-tex : RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture hwydpt-Floor3.dds
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material ROR_dpw_roofext1-tex: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture hwydpt-roof_ext3.dds
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material ROR_dpw_walls1-tex : RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture hwydpt-walls3.dds
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material ROR_dpw_roofint1-tex : RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture hwydpt-int_roof3.dds
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material ROR_dpw_Build2-tex  : RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture hwydpt-build2.png
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material ROR_dpw_build3-tex : RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture hwydpt-build3.png
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material ROR_dpw_Door: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture hwydpt-walls3.dds
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material ROR_dpw_Roof: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture Roofing_Metal_Standing_Seam_Red.jpg
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material ROR_dpw_spreader_shack: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture spreader_shack.dds
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material Salt-dome-tex: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture salt-dome-tex.png
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material MerchantsII-2-tex: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			//Ambient, diffuse, emissive stuff here
+
+			texture_unit Diffuse_Map
+			{
+				texture build2.png
+			}
+		}
+	}
+}
+
+material MerchantsII-roof: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			//Ambient, diffuse, emissive stuff here
+
+			texture_unit Diffuse_Map
+			{
+				texture mainstreet-roof.png
+			}
+		}
+	}
+}
+material MerchantsrowII-tex: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			//Ambient, diffuse, emissive stuff here
+
+			texture_unit Diffuse_Map
+			{
+				texture mainstreet-tex.png
+			}
+		}
+	}
+}
+material MerchantsII-1-tex: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			//Ambient, diffuse, emissive stuff here
+
+			texture_unit Diffuse_Map
+			{
+				texture build1.png
+			}
+		}
+	}
+}
+material MerchantsII-sidewalk: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			//Ambient, diffuse, emissive stuff here
+
+			texture_unit Diffuse_Map
+			{
+				texture walk.png
+			}
+		}
+	}
+}
+material MerchantsII-3-tex: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			//Ambient, diffuse, emissive stuff here
+
+			texture_unit Diffuse_Map
+			{
+				texture build3.png
+			}
+		}
+	}
+}
+material McD-tex1: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture mcd-tex1.png
+			}
+		}
+	}
+}
+material McD-tex2: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture mcd-tex2.png
+			}
+		}
+	}
+}
+material Rest-signs-tex : RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture rest-signs.png
+				tex_address_mode wrap
+				filtering trilinear
+             }
+
+    
+    	}
+        pass BaseRender
+        {
+            scene_blend alpha_blend
+            lighting off
+            texture_unit
+            {
+                texture rest-signs_emissive.dds
+           
+            }
+        }
+    }
+}
+material Int-speedlimit-tex : RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture interstate-speedlimit-tex.png
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material terminal-tex: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture Terminal-tex.png
+			}
+		}
+	}
+}
+material Terminal_fence
+{
+   receive_shadows on
+   technique
+   {
+      pass
+      {
+         scene_blend alpha_blend
+	 alpha_rejection greater 128 
+	 texture_unit
+         {
+            texture Terminal_chainlink-fence.png
+         }
+		
+     }
+   }
+}
+
+material teminal-misc-tex: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture Terminal_misc-tex.png
+			}
+		}
+	}
+}
+material Terminal_door_glass: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+		    scene_blend alpha_blend
+			depth_check on
+			depth_write off
+			6.0, 6.0
+			diffuse 1 1 1 0.5
+			texture_unit Diffuse_Map
+			{
+				texture Terminal_door_glass.png
+			}
+		}
+	}
+}
+
+material Terminal_Mesh_steps: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+		    scene_blend alpha_blend
+			depth_check on
+			depth_write off
+			6.0, 6.0
+			diffuse 1 1 1 0.5
+			texture_unit Diffuse_Map
+			{
+				texture Terminal_Mesh_steps.png
+			}
+		}
+	}
+}
+material Loading-Ramp-tex: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture Loadingramp-tex.png
+			}
+		}
+	}
+}
+material SOLID/TEX/LJTreeBirchTrunk.dds: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture LJTreeBirchTrunk.dds
+			}
+		}
+	}
+}
+material ALPHA/TEX/Branches02branchonly.dds/TWOSIDE: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			alpha_rejection greater_equal 128 
+			scene_blend alpha_blend 
+			cull_hardware none
+			cull_software none
+			texture_unit Diffuse_Map
+			{
+				texture Branches02branchonly.dds
+			}
+		}
+	}
+}
+material ALPHA/TEX/LJTreeBirchBranchesa.dds/TWOSIDE: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			alpha_rejection greater_equal 128 
+			scene_blend alpha_blend 
+			cull_hardware none
+			cull_software none
+			texture_unit Diffuse_Map
+			{
+				texture LJTreeBirchBranchesa.dds
+			}
+		}
+	}
+}
+material ALPHA/TEX/LJTreeBirchBranchesb.dds/TWOSIDE: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			alpha_rejection greater_equal 128 
+			scene_blend alpha_blend 
+			cull_hardware none
+			cull_software none
+			texture_unit Diffuse_Map
+			{
+				texture LJTreeBirchBranchesb.dds
+			}
+		}
+	}
+}
+material SOLID/TEX/LJTreeBirchTrunk.dds: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture LJTreeBirchTrunk.dds
+			}
+		}
+	}
+}
+material ALPHA/TEX/Branches02branchonly.dds/TWOSIDE: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			alpha_rejection greater_equal 128 
+			scene_blend alpha_blend 
+			cull_hardware none
+			cull_software none
+			texture_unit Diffuse_Map
+			{
+				texture Branches02branchonly.dds
+			}
+		}
+	}
+}
+material ALPHA/TEX/LJTreeBirchBranchesa.dds/TWOSIDE: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			alpha_rejection greater_equal 128 
+			scene_blend alpha_blend 
+			cull_hardware none
+			cull_software none
+			texture_unit Diffuse_Map
+			{
+				texture LJTreeBirchBranchesa.dds
+			}
+		}
+	}
+}
+material ALPHA/TEX/LJTreeBirchBranchesb.dds/TWOSIDE: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			alpha_rejection greater_equal 128 
+			scene_blend alpha_blend 
+			cull_hardware none
+			cull_software none
+			texture_unit Diffuse_Map
+			{
+				texture LJTreeBirchBranchesb.dds
+			}
+		}
+	}
+}
+material 96,96,96: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture 431562_303301546396137_990939646_n.jpg
+			}
+		}
+	}
+}
+material dc_roads-straight3: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture 156379_131430546916572_8348195_n.jpg
+			}
+		}
+	}
+}
+material dc_roads-sidewalk: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture 65695_131432240249736_5201435_n.jpg
+			}
+		}
+	}
+}
+material dc_roads-straight1: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture 156379_131430550249905_2606671_n.jpg
+			}
+		}
+	}
+}
+material dc_roads-T: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture 155071_131430866916540_503512_n.jpg
+			}
+		}
+	}
+}

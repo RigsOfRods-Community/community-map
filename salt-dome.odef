@@ -1,0 +1,6 @@
+salt-dome.mesh
+1, 1, 1
+beginmesh
+mesh salt-dome.mesh
+endmesh
+end

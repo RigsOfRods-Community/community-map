@@ -1,0 +1,6 @@
+loading_ramp.mesh
+1, 1, 1
+beginmesh
+mesh loading_ramp_col.mesh
+endmesh
+end
