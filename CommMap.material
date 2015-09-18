@@ -1522,3 +1522,92 @@ material dc_roads-T: RoR/Managed_Mats/Base
 		}
 	}
 }
+material Station2_tex2: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture firetex2.png
+			}
+		}
+	}
+}
+material Station_2tex1: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture fire-tex1.png
+			}
+		}
+	}
+}
+material fd_warning_lights: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture fd_red_glass.png
+			}
+		}
+	}
+}
+material FD_door-tex: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture fd_garage_door.png
+			}
+		}
+	}
+}
+material Glass_Gray: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+		    scene_blend alpha_blend
+			depth_check on
+			depth_write off
+			24.0, 24.0
+			diffuse 1 1 1 0.48
+			texture_unit Diffuse_Map
+			{
+				texture fd_grey_glass.png
+			}
+			texture_unit Diffuse_Map
+			{
+			env_map cubic_reflection
+			cubic_texture CubicShadow.dds combinedUVW
+			colour_op_ex modulate_x2 src_current src_texture
+			}
+		}
+	}
+}
+material Firestation2_park-tex: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture PARKINGLOT.jpg
+			}
+		}
+	}
+}

@@ -20,3 +20,14 @@ material loading_ramp_col
       }
    }
 }
+material Firestation2_colision
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.337254901960784 0.337254901960784 0.337254901960784 1.0
+         ambient 0.337254901960784 0.337254901960784 0.337254901960784 1.0
+      }
+   }
+}

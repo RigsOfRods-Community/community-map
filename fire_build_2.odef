@@ -1,0 +1,6 @@
+fire_build_2.mesh
+1, 1, 1
+beginmesh
+mesh fire_build_2_collision.mesh
+endmesh
+end
