@@ -2,7 +2,7 @@ MCD-sign1.mesh
 1, 1, 1
 
 beginmesh
-mesh MCD-sign1.mesh
+mesh MCD-sign1-col.mesh
 stdfriction concrete
 endmesh
 

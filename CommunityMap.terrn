@@ -42,6 +42,11 @@ CommunityMap.cfg
 1022.35, 26.7915, 40.2901, 0, 180, 0, Hwydepartment_build2
 978.13, 26.8169, 57.8201, 0, 180, 0, truck2 Garage_test.load
 1047.96, 25.9025, 81.1116, 90, 0, 90, salt-dome
+502.1, 9.038556, 1475.65, 90, 0, 0, fd_grass
+380.8611, 9.13896, 1458.67, 0, 270, 0, fire_build_2
+380.8611, 9.13896, 1458.67, 0, 270, 0, fd_red_lamps
+380.8611, 9.13896, 1458.67, 0, 270, 0, firestation2_parklot
+381.1681, 9.18896, 1454.86, 0, 270, 0, truck2 Firedepartment_station2.load
 
 //trees
 323.173, 9.13896, 1478.96, 0, 0, 0,  LJTreeBirch01

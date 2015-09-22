@@ -1,6 +1,6 @@
 McDs-dumpster.mesh
 1, 1, 1
 beginmesh
-mesh McDs-dumpster.mesh
+mesh McDs-dumpster-col.mesh
 endmesh
 end

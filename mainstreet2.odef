@@ -2,7 +2,7 @@ mainstreet2.mesh
 1, 1, 1
 
 beginmesh
-mesh mainstreet2.mesh
+mesh mainstreet2-col.mesh
 stdfriction concrete
 endmesh
 
