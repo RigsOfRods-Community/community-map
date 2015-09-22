@@ -1,6 +1,6 @@
 tbelldrive-thru.mesh
 1, 1, 1
 beginmesh
-mesh tbelldrive-thru.mesh
+mesh tbelldrive-thru-col.mesh
 endmesh
 end
