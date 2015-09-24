@@ -859,9 +859,30 @@ material Dealership_aircon: RoR/Managed_Mats/Base
 }
 material ROR_dpw_asphalt : RoR/Managed_Mats/Base
 {
-	set_texture_alias diffuse_tex ASPHALT3.jpg
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture ASPHALT3.jpg
+			}	
+		}	
+	}
 }
 material ROR_dpw_fence_pole : RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture pole.dds
+			}	
+		}	
+	}
+}
 {
 	set_texture_alias diffuse_tex pole.dds
 }
