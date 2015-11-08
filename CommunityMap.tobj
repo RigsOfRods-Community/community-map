@@ -44,6 +44,22 @@ collision-tris 1000000
 133.5, 0, 1200.5, 	270, 180, 0, billboard-2
 133.5, 0, 1240.5, 	270, 180, 0, billboard-1
 133.5, 0, 1280.5, 	270, 180, 0, billboard-3
+//signs
+
+361.201, 9.08816, 1495.99, 90, 0, 270, DCsign-stop1
+380.114, 9.34216, 1479.92, 90, 0, 90, DCsign-stop1
+419.97, 9.03856, 1479.62, 90, 0, 0, DCsign-stop1
+501.079, 9.03856, 1447.86, 90, 0, 90, DCsign-stop1
+540.066, 9.01196, 1443.98, 90, 0, 90, DCsign-stop1
+601.341, 9.03736, 1443.1,  90, 0, 90, DCsign-stop1
+
+247.732, 8.71586, 1500.03, 90, 0, 90, DCsign-DNE
+238.406, 8.5021, 1500.32, 90, 0, 90, DCsign-DNE
+
+237.891, 7.57697, 1513.49, 90, 0, 90, DCsign-wrong
+246.32, 7.79133, 1513.29, 90, 0, 90, DCsign-wrong
+
+
 //trees
 323.173, 9.13896, 1478.96, 0, 0, 0,  LJTreeBirch01
 345.394, 9.13896, 1479.12, 0, 0, 0,  LJTreeBirch02
@@ -61,3 +77,94 @@ collision-tris 1000000
 365.061, 9.13896, 1436.24, 0, 0, 0,  LJTreeBirch02
 65.088, 9.13896, 1449.5, 0, 0, 0,    LJTreeBirch01
 364.845, 9.13896, 1461.23, 0, 0, 0,  LJTreeBirch02
+
+//signs_test
+312, 0, 1510, 90, 0, 0, DCsign-dedend
+312, 0, 1512, 90, 0, 0, DCsign-amish
+312, 0, 1514, 90, 0, 0, DC-icybridge
+312, 0, 1516, 90, 0, 0, DCsign-wetpavement
+312, 0, 1518, 90, 0, 0, DCsign-bike
+312, 0, 1520, 90, 0, 0, DCsign-bridge1
+312, 0, 1522, 90, 0, 0, DCsign-bridge2
+312, 0, 1524, 90, 0, 0, DCsign-bump
+312, 0, 1526, 90, 0, 0, Dcsign-curve1
+312, 0, 1528, 90, 0, 0, Dcsign-curve2
+312, 0, 1530, 90, 0, 0, Dcsign-curve3
+
+313, 0, 1510, 90, 0, 0, Dcsign-curve4
+313, 0, 1512, 90, 0, 0, Dcsign-curve5
+313, 0, 1514, 90, 0, 0, Dcsign-curve6
+313, 0, 1516, 90, 0, 0, Dcsign-curve7
+313, 0, 1518, 90, 0, 0, Dcsign-curve8
+313, 0, 1520, 90, 0, 0, Dcsign-curve9
+313, 0, 1522, 90, 0, 0, Dcsign-curve10
+313, 0, 1524, 90, 0, 0, Dcsign-curve11
+313, 0, 1526, 90, 0, 0, Dcsign-curve12
+313, 0, 1528, 90, 0, 0, Dcsign-curve13
+313, 0, 1530, 90, 0, 0, DCsign-deer
+
+314, 0, 1510, 90, 0, 0, Dcsign-dip
+314, 0, 1512, 90, 0, 0, Dcsign-fiyatruck
+314, 0, 1514, 90, 0, 0, Dcsign-hill1
+314, 0, 1516, 90, 0, 0, Dcsign-hill2
+314, 0, 1518, 90, 0, 0, DCsign-intersect1
+314, 0, 1520, 90, 0, 0, DCsign-intersect2
+314, 0, 1522, 90, 0, 0, DCsign-intersect3
+314, 0, 1524, 90, 0, 0, DCsign-intersect4
+314, 0, 1526, 90, 0, 0, DCsign-intersect5
+314, 0, 1528, 90, 0, 0, DCsign-intersect6
+314, 0, 1530, 90, 0, 0, DCsign-intersect7
+
+315, 0, 1510, 90, 0, 0, Dcsign-laneend1
+315, 0, 1512, 90, 0, 0, Dcsign-laneend2
+315, 0, 1514, 90, 0, 0, DCsign-lowgrndcln
+315, 0, 1516, 90, 0, 0, DCsign-lowheight1
+315, 0, 1518, 90, 0, 0, DCsign-merge1
+315, 0, 1520, 90, 0, 0, DCsign-merge3
+315, 0, 1522, 90, 0, 0, DCsign-merge4
+315, 0, 1524, 90, 0, 0, DCsign-nooutlet
+315, 0, 1526, 90, 0, 0, DCsign-pavementend
+315, 0, 1528, 90, 0, 0, DCsign-people
+315, 0, 1530, 90, 0, 0, DCsign-playgrnd
+
+316, 0, 1510, 90, 0, 0, DCsign-rounda
+316, 0, 1512, 90, 0, 0, DCsigns-divhwy1
+316, 0, 1514, 90, 0, 0, DCsigns-divhwy2
+316, 0, 1516, 90, 0, 0, DCsign-Shoulder1
+316, 0, 1518, 90, 0, 0, DCsign-Shoulder2
+316, 0, 1520, 90, 0, 0, DCsign-Shoulder3
+316, 0, 1522, 90, 0, 0, DCsign-sigahd1
+316, 0, 1524, 90, 0, 0, DCsign-sigahd2
+316, 0, 1526, 90, 0, 0, DCsign-speedhmp
+316, 0, 1528, 90, 0, 0, DCsign-squiggly1
+316, 0, 1530, 90, 0, 0, DCsign-squiggly2
+
+317, 0, 1510, 90, 0, 0, DCsign-stopahd1
+317, 0, 1512, 90, 0, 0, DCsign-stopahd2
+317, 0, 1514, 90, 0, 0, DCsign-stopeventlly
+317, 0, 1516, 90, 0, 0, DCsign-tractor
+317, 0, 1518, 90, 0, 0, DCsign-trucktip
+317, 0, 1520, 90, 0, 0, DCsign-T-tracks
+317, 0, 1522, 90, 0, 0, DCsign-yieldahd1
+317, 0, 1524, 90, 0, 0, DCsign-yieldahd2
+317, 0, 1526, 90, 0, 0, DCsign-watchisland
+317, 0, 1528, 90, 0, 0, DCsign-unevenlane
+317, 0, 1530, 90, 0, 0, DCsign-undivhwy
+
+318, 0, 1510, 90, 0, 0, DCsign-yield1
+318, 0, 1512, 90, 0, 0, DCsign-yield2
+318, 0, 1514, 90, 0, 0, DCsign-stop1
+318, 0, 1516, 90, 0, 0, DCsign-stop2
+318, 0, 1518, 90, 0, 0, DCsign-stop3
+318, 0, 1520, 90, 0, 0, DCsign-smlarrowL
+318, 0, 1522, 90, 0, 0, DCsign-smlarrowR
+318, 0, 1524, 90, 0, 0, DCsign-wrong
+318, 0, 1526, 90, 0, 0, DCsign-DNE
+318, 0, 1528, 90, 0, 0, DCsign-rightway
+318, 0, 1530, 90, 0, 0, DCsign-leftway
+
+319, 0, 1510, 90, 0, 0, DCsign-arrowL
+319, 0, 1512, 90, 0, 0, DCsign-arrows
+319, 0, 1514, 90, 0, 0, DCsign-arrowR
+
+

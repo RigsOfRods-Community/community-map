@@ -1,0 +1,6 @@
+DCsign-arrowR.mesh
+1, 1, 1
+beginmesh
+mesh DCsign-arrow-col.mesh
+endmesh
+end
