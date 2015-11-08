@@ -859,30 +859,9 @@ material Dealership_aircon: RoR/Managed_Mats/Base
 }
 material ROR_dpw_asphalt : RoR/Managed_Mats/Base
 {
-	technique BaseTechnique
-	{
-		pass BaseRender
-		{
-			texture_unit Diffuse_Map
-			{
-				texture ASPHALT3.jpg
-			}	
-		}	
-	}
+	set_texture_alias diffuse_tex ASPHALT3.jpg
 }
 material ROR_dpw_fence_pole : RoR/Managed_Mats/Base
-{
-	technique BaseTechnique
-	{
-		pass BaseRender
-		{
-			texture_unit Diffuse_Map
-			{
-				texture pole.dds
-			}	
-		}	
-	}
-}
 {
 	set_texture_alias diffuse_tex pole.dds
 }
@@ -1628,6 +1607,58 @@ material Firestation2_park-tex: RoR/Managed_Mats/Base
 			texture_unit Diffuse_Map
 			{
 				texture PARKINGLOT.jpg
+			}
+		}
+	}
+}
+material Sign2-tex: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture signs2-tex.png
+			}
+		}
+	}
+}
+material signs3-tex: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture signs3-tex.png
+			}
+		}
+	}
+}
+material Signs-tex: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture signs1-tex.png
+			}
+		}
+	}
+}
+material Signbacks-tex: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture sign-backs-tex.png
 			}
 		}
 	}
