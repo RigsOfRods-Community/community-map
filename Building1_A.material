@@ -49,7 +49,7 @@ material BLD1_BRICKSB
 
             texture_unit 
             {
-                texture BLD1_BRICKSG.png
+                texture BLD1_BRICKSG.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
@@ -57,7 +57,7 @@ material BLD1_BRICKSB
             }
             texture_unit 
             {
-                texture BLD1_AO.png
+                texture BLD1_AO.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
@@ -71,7 +71,7 @@ material BLD1_BRICKSB
 			
 			texture_unit
 			{
-				texture BLD1_BRICKS_s.png
+				texture BLD1_BRICKS_s.dds
 				tex_coord_set 0
 				colour_op blend_diffuse_alpha
 			}
@@ -113,7 +113,7 @@ material BLD1_BRICKSA
 
             texture_unit 
             {
-                texture BLD1_BRICKS.png
+                texture BLD1_BRICKS.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
@@ -121,7 +121,7 @@ material BLD1_BRICKSA
             }
             texture_unit 
             {
-                texture BLD1_AO.png
+                texture BLD1_AO.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
@@ -135,7 +135,7 @@ material BLD1_BRICKSA
 			
 			texture_unit
 			{
-				texture BLD1_BRICKS_s.png
+				texture BLD1_BRICKS_s.dds
 				tex_coord_set 0
 				colour_op blend_diffuse_alpha
 			}
@@ -177,7 +177,7 @@ material BLD1_WINDOWC
 
             texture_unit 
             {
-                texture BLD1_WIND_SMALL_t.png
+                texture BLD1_WIND_SMALL_t.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
@@ -185,7 +185,7 @@ material BLD1_WINDOWC
             }
             texture_unit 
             {
-                texture BLD1_AO.png
+                texture BLD1_AO.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
@@ -199,7 +199,7 @@ material BLD1_WINDOWC
 			
 			texture_unit 
             {
-                texture BLD1_WIND_SMALL_e.png
+                texture BLD1_WIND_SMALL_e.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
@@ -213,7 +213,7 @@ material BLD1_WINDOWC
 			
 			texture_unit
 			{
-				texture BLD1_WIND_SMALL_s.png
+				texture BLD1_WIND_SMALL_s.dds
 				tex_coord_set 0
 				colour_op blend_diffuse_alpha
 			}
@@ -255,7 +255,7 @@ material BLD1_WINDOWA
 
             texture_unit 
             {
-                texture BLD1_WIND_CLOSED_t.png
+                texture BLD1_WIND_CLOSED_t.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
@@ -263,7 +263,7 @@ material BLD1_WINDOWA
             }
             texture_unit 
             {
-                texture BLD1_AO.png
+                texture BLD1_AO.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
@@ -277,7 +277,7 @@ material BLD1_WINDOWA
 			
 			texture_unit 
             {
-                texture BLD1_WIND_CLOSED_e.png
+                texture BLD1_WIND_CLOSED_e.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
@@ -291,7 +291,7 @@ material BLD1_WINDOWA
 			
 			texture_unit
 			{
-				texture BLD1_WIND_CLOSED_s.png
+				texture BLD1_WIND_CLOSED_s.dds
 				tex_coord_set 0
 				colour_op blend_diffuse_alpha
 			}
@@ -333,7 +333,7 @@ material BLD1_DOORR
 
             texture_unit 
             {
-                texture BLD1_DOOR_R_t.png
+                texture BLD1_DOOR_R_t.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
@@ -341,7 +341,7 @@ material BLD1_DOORR
             }
             texture_unit 
             {
-                texture BLD1_AO.png
+                texture BLD1_AO.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
@@ -355,7 +355,7 @@ material BLD1_DOORR
 			
 			texture_unit 
             {
-                texture BLD1_DOOR_R_e.png
+                texture BLD1_DOOR_R_e.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
@@ -369,7 +369,7 @@ material BLD1_DOORR
 			
 			texture_unit
 			{
-				texture BLD1_DOOR_R_s.png
+				texture BLD1_DOOR_R_s.dds
 				tex_coord_set 0
 				colour_op blend_diffuse_alpha
 			}
@@ -411,7 +411,7 @@ material BLD1_DOORL
 
             texture_unit 
             {
-                texture BLD1_DOOR_L_t.png
+                texture BLD1_DOOR_L_t.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
@@ -419,7 +419,7 @@ material BLD1_DOORL
             }
             texture_unit 
             {
-                texture BLD1_AO.png
+                texture BLD1_AO.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
@@ -433,7 +433,7 @@ material BLD1_DOORL
 			
 			texture_unit 
             {
-                texture BLD1_DOOR_L_e.png
+                texture BLD1_DOOR_L_e.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
@@ -447,7 +447,7 @@ material BLD1_DOORL
 			
 			texture_unit
 			{
-				texture BLD1_DOOR_L_s.png
+				texture BLD1_DOOR_L_s.dds
 				tex_coord_set 0
 				colour_op blend_diffuse_alpha
 			}
@@ -489,7 +489,7 @@ material BLD1_WINDOWD
 
             texture_unit 
             {
-                texture BLD1_WINDOW_SMALL_AC_t.png
+                texture BLD1_WINDOW_SMALL_AC_t.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
@@ -497,7 +497,7 @@ material BLD1_WINDOWD
             }
             texture_unit 
             {
-                texture BLD1_AO.png
+                texture BLD1_AO.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
@@ -511,7 +511,7 @@ material BLD1_WINDOWD
 			
 			texture_unit 
             {
-                texture BLD1_WINDOW_SMALL_AC_e.png
+                texture BLD1_WINDOW_SMALL_AC_e.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
@@ -525,7 +525,7 @@ material BLD1_WINDOWD
 			
 			texture_unit
 			{
-				texture BLD1_WINDOW_SMALL_AC_s.png
+				texture BLD1_WINDOW_SMALL_AC_s.dds
 				tex_coord_set 0
 				colour_op blend_diffuse_alpha
 			}
@@ -567,7 +567,7 @@ material BLD1_WINDOWB
 
             texture_unit 
             {
-                texture BLD1_WINDOW_OPEN_t.png
+                texture BLD1_WINDOW_OPEN_t.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
@@ -575,7 +575,7 @@ material BLD1_WINDOWB
             }
             texture_unit 
             {
-                texture BLD1_AO.png
+                texture BLD1_AO.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
@@ -589,7 +589,7 @@ material BLD1_WINDOWB
 			
 			texture_unit 
             {
-                texture BLD1_WINDOW_OPEN_e.png
+                texture BLD1_WINDOW_OPEN_e.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
@@ -603,7 +603,7 @@ material BLD1_WINDOWB
 			
 			texture_unit
 			{
-				texture BLD1_WINDOW_OPEN_s.png
+				texture BLD1_WINDOW_OPEN_s.dds
 				tex_coord_set 0
 				colour_op blend_diffuse_alpha
 			}
@@ -645,7 +645,7 @@ material BLD1_SIGNA
 
             texture_unit 
             {
-                texture BLD1_SIGN1_t.png
+                texture BLD1_SIGN1_t.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
@@ -653,7 +653,7 @@ material BLD1_SIGNA
             }
             texture_unit 
             {
-                texture BLD1_AO.png
+                texture BLD1_AO.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
