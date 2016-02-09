@@ -163,7 +163,7 @@ material Dc-highway : RoR/Managed_Mats/Base
 
 			texture_unit Diffuse_Map
 			{
-				texture highway.png
+				texture highway.dds
 				tex_address_mode wrap
 				filtering trilinear
 			}
@@ -178,7 +178,7 @@ material 2Dc-highwaytex: RoR/Managed_Mats/Base
 		{
 			texture_unit Diffuse_Map
 			{
-				texture highway.png
+				texture highway.dds
 				tex_address_mode wrap
 				filtering trilinear
 			}
@@ -195,7 +195,7 @@ material Caseysstore-tex : RoR/Managed_Mats/Base
 
 			texture_unit Diffuse_Map
 			{
-				texture caseys-store.png
+				texture caseys-store.dds
 				tex_address_mode wrap
 				filtering trilinear
 			}
@@ -212,7 +212,7 @@ material Caseyspumpisland-tex: RoR/Managed_Mats/Base
 
 			texture_unit Diffuse_Map
 			{
-				texture caseyspump.png
+				texture caseyspump.dds
 				tex_address_mode wrap
 				filtering trilinear
 			}
@@ -228,7 +228,7 @@ material Caseys-lot-tex: RoR/Managed_Mats/Base
 		{
 			texture_unit Diffuse_Map
 			{
-				texture caseysparkinglot-tex.png
+				texture caseysparkinglot-tex.dds
 			}
 		}
 	}
@@ -242,7 +242,7 @@ material Terminal_parklot-tex: RoR/Managed_Mats/Base
 
 			texture_unit Diffuse_Map
 			{
-				texture Terminal_parklot-tex.png
+				texture Terminal_parklot-tex.dds
 				tex_address_mode wrap
 				filtering trilinear
 			}
@@ -258,7 +258,7 @@ material Casedealerlot1-tex : RoR/Managed_Mats/Base
 
 			texture_unit Diffuse_Map
 			{
-				texture case-lottex-2.png
+				texture case-lottex-2.dds
 				tex_address_mode wrap
 				filtering trilinear
 			}
@@ -274,7 +274,7 @@ material Casedealerlot2-tex : RoR/Managed_Mats/Base
 
 			texture_unit Diffuse_Map
 			{
-				texture case-lot-tex1.png
+				texture case-lot-tex1.dds
 				tex_address_mode wrap
 				filtering trilinear
 			}
@@ -290,7 +290,7 @@ material Dealership_ground : RoR/Managed_Mats/Base
 
 			texture_unit Diffuse_Map
 			{
-				texture Dealership_ground.png
+				texture Dealership_ground.dds
 				tex_address_mode wrap
 				filtering trilinear
 			}
@@ -306,7 +306,7 @@ material communitymap-grass
         {
             texture_unit
             {
-                texture community-map-grass.jpg
+                texture community-map-grass.dds
             }
         }
         pass Shadow
@@ -341,7 +341,7 @@ material DC-roads-tex2 : RoR/Managed_Mats/Base
 
 			texture_unit Diffuse_Map
 			{
-				texture 3-laneroad-tex.png
+				texture 3-laneroad-tex.dds
 				tex_address_mode wrap
 				filtering trilinear
 			}
@@ -357,7 +357,7 @@ material MCDs-lot-tex : RoR/Managed_Mats/Base
 
 			texture_unit Diffuse_Map
 			{
-				texture mcd-lot-tex.png
+				texture mcd-lot-tex.dds
 				tex_address_mode wrap
 				filtering trilinear
 			}
@@ -373,7 +373,7 @@ material GasStationSigns1-tex: RoR/Managed_Mats/Base
 		{
 			texture_unit Diffuse_Map
 			{
-				texture gasstationsigns1.png
+				texture gasstationsigns1.dds
 
 			}
 		}
@@ -389,7 +389,7 @@ material Billboards1-tex: RoR/Managed_Mats/Base
 
 			texture_unit Diffuse_Map
 			{
-				texture bilboards-tex.png
+				texture bilboards-tex.dds
 			}
 		}
 		pass
@@ -399,7 +399,7 @@ material Billboards1-tex: RoR/Managed_Mats/Base
 			lighting off
 			texture_unit
             		{
-                		texture bilboards-emissive.png
+                		texture bilboards-emissive.dds
            
             		}
 			}
@@ -415,7 +415,7 @@ material Billboard-tex2: RoR/Managed_Mats/Base
 
 			texture_unit Diffuse_Map
 			{
-				texture bilboards2-tex.png
+				texture bilboards2-tex.dds
 			}
 		}
 	}
@@ -435,7 +435,7 @@ material tbell-lot-decals: RoR/Managed_Mats/Base
 
 			texture_unit Diffuse_Map
 			{
-				texture lot-decals.png
+				texture lot-decals.dds
 			}
 		}
 	}
@@ -450,7 +450,7 @@ material tbell-lot-tex: RoR/Managed_Mats/Base
 
 			texture_unit Diffuse_Map
 			{
-				texture tbell-lot-tex.png
+				texture tbell-lot-tex.dds
 			}
 		}
 	}
@@ -465,7 +465,7 @@ material tbell-build-tex: RoR/Managed_Mats/Base
 
 			texture_unit Diffuse_Map
 			{
-				texture tbell-tex.png
+				texture tbell-tex.dds
 			}
 		}
 	}
@@ -480,7 +480,7 @@ material tbell-build-tex2: RoR/Managed_Mats/Base
 
 			texture_unit Diffuse_Map
 			{
-				texture tell-tex.png
+				texture tell-tex.dds
 			}
 		}
 	}
@@ -496,7 +496,7 @@ material tbell-dthru-tex: RoR/Managed_Mats/Base
 
 			texture_unit Diffuse_Map
 			{
-				texture tbell-dthru-tex.png
+				texture tbell-dthru-tex.dds
 			}
 		}
 	}
@@ -512,7 +512,7 @@ material CommMap-asphalt1: RoR/Managed_Mats/Base
 
 			texture_unit Diffuse_Map
 			{
-				texture commMap-asphalt1.png
+				texture commMap-asphalt1.dds
 			}
 		}
 	}
@@ -527,7 +527,7 @@ material CommMap-Concrete1: RoR/Managed_Mats/Base
 
 			texture_unit Diffuse_Map
 			{
-				texture CommMap-Concrete1.jpg
+				texture CommMap-Concrete1.dds
 			}
 		}
 	}
@@ -542,7 +542,23 @@ material Aldi-lot-tex: RoR/Managed_Mats/Base
 
 			texture_unit Diffuse_Map
 			{
-				texture aldi-lot-misc.png
+				texture aldi-lot-misc.dds
+			}
+		}
+	}
+}
+material Vegetation_Grass1 : RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+
+			texture_unit Diffuse_Map
+			{
+				texture grass-temp.dds
+				tex_address_mode wrap
+				filtering trilinear
 			}
 		}
 	}
@@ -557,7 +573,7 @@ material CommunityMap-grass-1: RoR/Managed_Mats/Base
 
 			texture_unit Diffuse_Map
 			{
-				texture CommMap-grass1.png
+				texture CommMap-grass1.dds
 			}
 		}
 	}
@@ -572,7 +588,7 @@ material CommMap-sidewalk-1: RoR/Managed_Mats/Base
 
 			texture_unit Diffuse_Map
 			{
-				texture CommMap-sidewalk1.jpg
+				texture CommMap-sidewalk1.dds
 			}
 		}
 	}
@@ -592,7 +608,7 @@ material CommMap-lot-decals: RoR/Managed_Mats/Base
 
 			texture_unit Diffuse_Map
 			{
-				texture lot-decals.png
+				texture lot-decals.dds
 			}
 		}
 	}
@@ -622,7 +638,7 @@ material Aldi-tex2: RoR/Managed_Mats/Base
 
 			texture_unit Diffuse_Map
 			{
-				texture aldi2-tex.png
+				texture aldi2-tex.dds
 			}
 		}
 	}
@@ -637,7 +653,7 @@ material Aldi1-tex: RoR/Managed_Mats/Base
 
 			texture_unit Diffuse_Map
 			{
-				texture aldi-tex.png
+				texture aldi-tex.dds
 			}
 		}
 	}
@@ -650,7 +666,7 @@ material DC-Bridge-tex: RoR/Managed_Mats/Base
 		{
 			texture_unit Diffuse_Map
 			{
-				texture bridge.png
+				texture bridge.dds
 				tex_address_mode wrap
 				filtering trilinear
 			}
@@ -665,7 +681,7 @@ material CaseDealer1-tex: RoR/Managed_Mats/Base
 		{
 			texture_unit Diffuse_Map
 			{
-				texture casetex-2.png
+				texture casetex-2.dds
 			}
 		}
 	}
@@ -678,7 +694,7 @@ material CaseDealer2-tex: RoR/Managed_Mats/Base
 		{
 			texture_unit Diffuse_Map
 			{
-				texture case-tex2.png
+				texture case-tex2.dds
 			}
 		}
 	}
@@ -694,7 +710,7 @@ material Case_dealer-fence: RoR/Managed_Mats/Base
 			texture_unit Diffuse_Map
 		
 			{
-				texture case-fence.png
+				texture chainlink-fence.dds
 			}
 		}
 	}
@@ -708,7 +724,7 @@ material Dealership_ground
 
             texture_unit
             {
-                texture Dealership_ground.png
+                texture Dealership_ground.dds
             }
  
  
@@ -726,7 +742,7 @@ material Dealership: RoR/Managed_Mats/Base
 		{
 			texture_unit Diffuse_Map
 			{
-				texture Dealership.png
+				texture Dealership.dds
 				tex_address_mode wrap
 				filtering trilinear
 			}
@@ -742,7 +758,7 @@ material Dealership_sign: RoR/Managed_Mats/Base
 			emissive 1.0 1.0 1.0 1.0
 			texture_unit Diffuse_Map
 			{
-				texture Dealership.png
+				texture Dealership.dds
 				tex_address_mode wrap
 				filtering trilinear
 			}
@@ -757,7 +773,7 @@ material Dealership_building: RoR/Managed_Mats/Base
 		{
 			texture_unit Diffuse_Map
 			{
-				texture Dealership_building.png
+				texture Dealership_building.dds
 				tex_address_mode wrap
 				filtering trilinear
 			}
@@ -772,7 +788,7 @@ material Dealership_garage: RoR/Managed_Mats/Base
 		{
 			texture_unit Diffuse_Map
 			{
-				texture Dealership_garage.png
+				texture Dealership_garage.dds
 				tex_address_mode wrap
 				filtering trilinear
 			}
@@ -787,7 +803,7 @@ material Dealership_Ginterior: RoR/Managed_Mats/Base
 		{
 			texture_unit Diffuse_Map
 			{
-				texture Dealership_garage.png
+				texture Dealership_garage.dds
 				tex_address_mode wrap
 				filtering trilinear
 			}
@@ -802,7 +818,7 @@ material Dealership_Gdetails: RoR/Managed_Mats/Base
 		{
 			texture_unit Diffuse_Map
 			{
-				texture Dealership_Gdetails.png
+				texture Dealership_Gdetails.dds
 				tex_address_mode wrap
 				filtering trilinear
 			}
@@ -817,7 +833,7 @@ material Dealership_Gdetails_2: RoR/Managed_Mats/Base
 		{
 			texture_unit Diffuse_Map
 			{
-				texture Dealership_Gdetails_2.png
+				texture Dealership_Gdetails_2.dds
 				tex_address_mode wrap
 				filtering trilinear
 			}
@@ -835,7 +851,7 @@ material Dealership_decals: RoR/Managed_Mats/Base
 			cull_hardware none
 			texture_unit Diffuse_Map
 			{
-				texture Dealership_decals.png
+				texture Dealership_decals.dds
 				tex_address_mode wrap
 				filtering trilinear
 			}
@@ -850,7 +866,7 @@ material Dealership_aircon: RoR/Managed_Mats/Base
 		{
 			texture_unit Diffuse_Map
 			{
-				texture Dealership_Gdetails_2.png
+				texture Dealership_Gdetails_2.dds
 				tex_address_mode wrap
 				filtering trilinear
 			}
@@ -859,7 +875,7 @@ material Dealership_aircon: RoR/Managed_Mats/Base
 }
 material ROR_dpw_asphalt : RoR/Managed_Mats/Base
 {
-	set_texture_alias diffuse_tex ASPHALT3.jpg
+	set_texture_alias diffuse_tex ASPHALT3.dds
 }
 material ROR_dpw_fence_pole : RoR/Managed_Mats/Base
 {
@@ -873,7 +889,7 @@ material ROR_dpw_Roof: RoR/Managed_Mats/Base
 		{
 			texture_unit Diffuse_Map
 			{
-				texture Roofing_Metal_Standing_Seam_Red.jpg
+				texture Roofing_Metal_Standing_Seam_Red.dds
 				tex_address_mode wrap
 				filtering trilinear
 			}
@@ -888,7 +904,7 @@ material ROR_dpw_spreader_shack: RoR/Managed_Mats/Base
 		{
 			texture_unit Diffuse_Map
 			{
-				texture T800_color_black.png
+				texture T800_color_black.dds
 				tex_address_mode wrap
 				filtering trilinear
 			}
@@ -994,7 +1010,7 @@ material ROR_dpw_Build2-tex  : RoR/Managed_Mats/Base
 		{
 			texture_unit Diffuse_Map
 			{
-				texture hwydpt-build2.png
+				texture hwydpt-build2.dds
 				tex_address_mode wrap
 				filtering trilinear
 			}
@@ -1009,7 +1025,7 @@ material ROR_dpw_build3-tex : RoR/Managed_Mats/Base
 		{
 			texture_unit Diffuse_Map
 			{
-				texture hwydpt-build3.png
+				texture hwydpt-build3.dds
 				tex_address_mode wrap
 				filtering trilinear
 			}
@@ -1039,7 +1055,7 @@ material ROR_dpw_Roof: RoR/Managed_Mats/Base
 		{
 			texture_unit Diffuse_Map
 			{
-				texture Roofing_Metal_Standing_Seam_Red.jpg
+				texture Roofing_Metal_Standing_Seam_Red.dds
 				tex_address_mode wrap
 				filtering trilinear
 			}
@@ -1069,7 +1085,7 @@ material Salt-dome-tex: RoR/Managed_Mats/Base
 		{
 			texture_unit Diffuse_Map
 			{
-				texture salt-dome-tex.png
+				texture salt-dome-tex.dds
 				tex_address_mode wrap
 				filtering trilinear
 			}
@@ -1086,7 +1102,7 @@ material MerchantsII-2-tex: RoR/Managed_Mats/Base
 
 			texture_unit Diffuse_Map
 			{
-				texture build2.png
+				texture build2.dds
 			}
 		}
 	}
@@ -1102,7 +1118,7 @@ material MerchantsII-roof: RoR/Managed_Mats/Base
 
 			texture_unit Diffuse_Map
 			{
-				texture mainstreet-roof.png
+				texture mainstreet-roof.dds
 			}
 		}
 	}
@@ -1117,7 +1133,7 @@ material MerchantsrowII-tex: RoR/Managed_Mats/Base
 
 			texture_unit Diffuse_Map
 			{
-				texture mainstreet-tex.png
+				texture mainstreet-tex.dds
 			}
 		}
 	}
@@ -1132,7 +1148,7 @@ material MerchantsII-1-tex: RoR/Managed_Mats/Base
 
 			texture_unit Diffuse_Map
 			{
-				texture build1.png
+				texture build1.dds
 			}
 		}
 	}
@@ -1147,7 +1163,7 @@ material MerchantsII-sidewalk: RoR/Managed_Mats/Base
 
 			texture_unit Diffuse_Map
 			{
-				texture walk.png
+				texture walk.dds
 			}
 		}
 	}
@@ -1162,7 +1178,7 @@ material MerchantsII-3-tex: RoR/Managed_Mats/Base
 
 			texture_unit Diffuse_Map
 			{
-				texture build3.png
+				texture build3.dds
 			}
 		}
 	}
@@ -1175,7 +1191,7 @@ material McD-tex1: RoR/Managed_Mats/Base
 		{
 			texture_unit Diffuse_Map
 			{
-				texture mcd-tex1.png
+				texture mcd-tex1.dds
 			}
 		}
 	}
@@ -1188,7 +1204,7 @@ material McD-tex2: RoR/Managed_Mats/Base
 		{
 			texture_unit Diffuse_Map
 			{
-				texture mcd-tex2.png
+				texture mcd-tex2.dds
 			}
 		}
 	}
@@ -1201,7 +1217,7 @@ material Rest-signs-tex : RoR/Managed_Mats/Base
 		{
 			texture_unit Diffuse_Map
 			{
-				texture rest-signs.png
+				texture rest-signs.dds
 				tex_address_mode wrap
 				filtering trilinear
              }
@@ -1228,7 +1244,7 @@ material Int-speedlimit-tex : RoR/Managed_Mats/Base
 		{
 			texture_unit Diffuse_Map
 			{
-				texture interstate-speedlimit-tex.png
+				texture interstate-speedlimit-tex.dds
 				tex_address_mode wrap
 				filtering trilinear
 			}
@@ -1243,7 +1259,7 @@ material terminal-tex: RoR/Managed_Mats/Base
 		{
 			texture_unit Diffuse_Map
 			{
-				texture Terminal-tex.png
+				texture Terminal-tex.dds
 			}
 		}
 	}
@@ -1259,7 +1275,7 @@ material Terminal_fence
 	 alpha_rejection greater 128 
 	 texture_unit
          {
-            texture Terminal_chainlink-fence.png
+            texture chainlink-fence.dds
          }
 		
      }
@@ -1274,7 +1290,7 @@ material teminal-misc-tex: RoR/Managed_Mats/Base
 		{
 			texture_unit Diffuse_Map
 			{
-				texture Terminal_misc-tex.png
+				texture Terminal_misc-tex.dds
 			}
 		}
 	}
@@ -1292,7 +1308,7 @@ material Terminal_door_glass: RoR/Managed_Mats/Base
 			diffuse 1 1 1 0.5
 			texture_unit Diffuse_Map
 			{
-				texture Terminal_door_glass.png
+				texture Terminal_door_glass.dds
 			}
 		}
 	}
@@ -1311,7 +1327,7 @@ material Terminal_Mesh_steps: RoR/Managed_Mats/Base
 			diffuse 1 1 1 0.5
 			texture_unit Diffuse_Map
 			{
-				texture Terminal_Mesh_steps.png
+				texture Terminal_Mesh_steps.dds
 			}
 		}
 	}
@@ -1324,7 +1340,7 @@ material Loading-Ramp-tex: RoR/Managed_Mats/Base
 		{
 			texture_unit Diffuse_Map
 			{
-				texture Loadingramp-tex.png
+				texture Loadingramp-tex.dds
 			}
 		}
 	}
@@ -1465,7 +1481,7 @@ material 96,96,96: RoR/Managed_Mats/Base
 		{
 			texture_unit Diffuse_Map
 			{
-				texture 431562_303301546396137_990939646_n.jpg
+				texture 431562_303301546396137_990939646_n.dds
 			}
 		}
 	}
@@ -1478,7 +1494,7 @@ material dc_roads-straight3: RoR/Managed_Mats/Base
 		{
 			texture_unit Diffuse_Map
 			{
-				texture 156379_131430546916572_8348195_n.jpg
+				texture 156379_131430546916572_8348195_n.dds
 			}
 		}
 	}
@@ -1491,7 +1507,7 @@ material dc_roads-sidewalk: RoR/Managed_Mats/Base
 		{
 			texture_unit Diffuse_Map
 			{
-				texture 65695_131432240249736_5201435_n.jpg
+				texture 65695_131432240249736_5201435_n.dds
 			}
 		}
 	}
@@ -1504,7 +1520,7 @@ material dc_roads-straight1: RoR/Managed_Mats/Base
 		{
 			texture_unit Diffuse_Map
 			{
-				texture 156379_131430550249905_2606671_n.jpg
+				texture 156379_131430550249905_2606671_n.dds
 			}
 		}
 	}
@@ -1517,7 +1533,7 @@ material dc_roads-T: RoR/Managed_Mats/Base
 		{
 			texture_unit Diffuse_Map
 			{
-				texture 155071_131430866916540_503512_n.jpg
+				texture 155071_131430866916540_503512_n.dds
 			}
 		}
 	}
@@ -1530,7 +1546,7 @@ material Station2_tex2: RoR/Managed_Mats/Base
 		{
 			texture_unit Diffuse_Map
 			{
-				texture firetex2.png
+				texture firetex2.dds
 			}
 		}
 	}
@@ -1543,7 +1559,7 @@ material Station_2tex1: RoR/Managed_Mats/Base
 		{
 			texture_unit Diffuse_Map
 			{
-				texture fire-tex1.png
+				texture fire-tex1.dds
 			}
 		}
 	}
@@ -1556,7 +1572,7 @@ material fd_warning_lights: RoR/Managed_Mats/Base
 		{
 			texture_unit Diffuse_Map
 			{
-				texture fd_red_glass.png
+				texture fd_red_glass.dds
 			}
 		}
 	}
@@ -1569,7 +1585,7 @@ material FD_door-tex: RoR/Managed_Mats/Base
 		{
 			texture_unit Diffuse_Map
 			{
-				texture fd_garage_door.png
+				texture fd_garage_door.dds
 			}
 		}
 	}
@@ -1587,7 +1603,7 @@ material Glass_Gray: RoR/Managed_Mats/Base
 			diffuse 1 1 1 0.48
 			texture_unit Diffuse_Map
 			{
-				texture fd_grey_glass.png
+				texture fd_grey_glass.dds
 			}
 			texture_unit Diffuse_Map
 			{
@@ -1606,7 +1622,7 @@ material Firestation2_park-tex: RoR/Managed_Mats/Base
 		{
 			texture_unit Diffuse_Map
 			{
-				texture PARKINGLOT.jpg
+				texture PARKINGLOT.dds
 			}
 		}
 	}
@@ -1619,7 +1635,7 @@ material Sign2-tex: RoR/Managed_Mats/Base
 		{
 			texture_unit Diffuse_Map
 			{
-				texture signs2-tex.png
+				texture signs2-tex.dds
 			}
 		}
 	}
@@ -1632,7 +1648,7 @@ material signs3-tex: RoR/Managed_Mats/Base
 		{
 			texture_unit Diffuse_Map
 			{
-				texture signs3-tex.png
+				texture signs3-tex.dds
 			}
 		}
 	}
@@ -1645,7 +1661,7 @@ material Signs-tex: RoR/Managed_Mats/Base
 		{
 			texture_unit Diffuse_Map
 			{
-				texture signs1-tex.png
+				texture signs1-tex.dds
 			}
 		}
 	}
@@ -1658,7 +1674,7 @@ material Signbacks-tex: RoR/Managed_Mats/Base
 		{
 			texture_unit Diffuse_Map
 			{
-				texture sign-backs-tex.png
+				texture sign-backs-tex.dds
 			}
 		}
 	}
