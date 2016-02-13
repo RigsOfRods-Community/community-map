@@ -2,6 +2,7 @@
 Name = Community Map
 GeometryConfig = CommunityMap.otc
 AmbientColor = 0.93, 0.86, 0.76
+CaelumConfigFile = CommunityMap.terrn.os
 StartPosition = 321.146, 20.1081, 1516.04
 SandStormCubeMap = tracks/skyboxcol
 Gravity = -9.81
