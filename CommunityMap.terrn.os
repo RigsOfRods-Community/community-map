@@ -42,7 +42,7 @@ caelum_sky_system CommunityMap.terrn.os
 
         haze_enabled no
 
-        sky_gradients_image WhiteSky.png
+        sky_gradients_image WhiteSky.dds
 
         atmosphere_depth_image AtmosphereDepth.png
 
