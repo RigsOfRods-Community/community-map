@@ -1,6 +1,6 @@
 tbell-lot.mesh
 1, 1, 1
 beginmesh
-mesh tbell-lot-col.mesh
+mesh tbell-lot-col2.mesh
 endmesh
 end
