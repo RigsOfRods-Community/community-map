@@ -1,6 +1,6 @@
 highwaypiece.mesh
 1,1,1
 beginmesh
-mesh highwaypiece-col2.mesh
+mesh highwaypiece-col.mesh
 endmesh
 end
