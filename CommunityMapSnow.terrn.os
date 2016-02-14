@@ -1,7 +1,7 @@
 caelum_sky_system CommunityMapSnow.terrn.os
 {
     // J2000
-    julian_day 245760
+    julian_day 2457441
     time_scale 1
 	latitude 46 18 52
 	longitude 6 57 46
@@ -30,7 +30,7 @@ caelum_sky_system CommunityMapSnow.terrn.os
     }
 
     moon {
-        ambient_multiplier 1 0.2 0.2
+        ambient_multiplier 0.2 0.2 0.2
         diffuse_multiplier 1 1 .9
         specular_multiplier 1 1 1
 
