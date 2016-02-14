@@ -30,7 +30,7 @@ caelum_sky_system CommunityMapRain.terrn.os
     }
 
     moon {
-        ambient_multiplier 1 0.2 0.2
+        ambient_multiplier 0.2 0.2 0.2
         diffuse_multiplier 1 1 .9
         specular_multiplier 1 1 1
 
