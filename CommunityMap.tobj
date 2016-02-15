@@ -1,4 +1,5 @@
-collision-tris 1000000524, 29.03736, 1710, 90, 0, 0, mainstreet2
+collision-tris 1000000
+524, 29.03736, 1710, 90, 0, 0, mainstreet2
 571, 29.03736, 1710, 90, 0, 0, test
 170, 21, 800, 90, 0, 0, highwaypiece
 2517.57, 15, 11265.6, 0, 0, 0, city-roads
