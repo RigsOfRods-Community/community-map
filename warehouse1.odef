@@ -1,0 +1,10 @@
+warehouse1.mesh
+1,1,1
+beginmesh
+mesh warehouse1_lod1.mesh
+endmesh
+
+beginlodmesh
+500, warehouse1_lod1.mesh
+endlodmesh
+end

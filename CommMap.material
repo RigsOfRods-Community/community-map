@@ -1358,7 +1358,7 @@ material SOLID/TEX/LJTreeBirchTrunk.dds: RoR/Managed_Mats/Base
 		}
 	}
 }
-material ALPHA/TEX/Branches02branchonly.dds/TWOSIDE: RoR/Managed_Mats/Base
+material ALPHA/TEX/Branches02branchonly.dds/TWOSIDE: RoR/Managed_Mats/Vegetation
 {
 	technique BaseTechnique
 	{
@@ -1375,7 +1375,7 @@ material ALPHA/TEX/Branches02branchonly.dds/TWOSIDE: RoR/Managed_Mats/Base
 		}
 	}
 }
-material ALPHA/TEX/LJTreeBirchBranchesa.dds/TWOSIDE: RoR/Managed_Mats/Base
+material ALPHA/TEX/LJTreeBirchBranchesa.dds/TWOSIDE: RoR/Managed_Mats/Vegetation
 {
 	technique BaseTechnique
 	{
@@ -1392,7 +1392,7 @@ material ALPHA/TEX/LJTreeBirchBranchesa.dds/TWOSIDE: RoR/Managed_Mats/Base
 		}
 	}
 }
-material ALPHA/TEX/LJTreeBirchBranchesb.dds/TWOSIDE: RoR/Managed_Mats/Base
+material ALPHA/TEX/LJTreeBirchBranchesb.dds/TWOSIDE: RoR/Managed_Mats/Vegetation
 {
 	technique BaseTechnique
 	{
@@ -1422,7 +1422,7 @@ material SOLID/TEX/LJTreeBirchTrunk.dds: RoR/Managed_Mats/Base
 		}
 	}
 }
-material ALPHA/TEX/Branches02branchonly.dds/TWOSIDE: RoR/Managed_Mats/Base
+material ALPHA/TEX/Branches02branchonly.dds/TWOSIDE: RoR/Managed_Mats/Vegetation
 {
 	technique BaseTechnique
 	{
@@ -1439,7 +1439,7 @@ material ALPHA/TEX/Branches02branchonly.dds/TWOSIDE: RoR/Managed_Mats/Base
 		}
 	}
 }
-material ALPHA/TEX/LJTreeBirchBranchesa.dds/TWOSIDE: RoR/Managed_Mats/Base
+material ALPHA/TEX/LJTreeBirchBranchesa.dds/TWOSIDE: RoR/Managed_Mats/Vegetation
 {
 	technique BaseTechnique
 	{
@@ -1456,7 +1456,7 @@ material ALPHA/TEX/LJTreeBirchBranchesa.dds/TWOSIDE: RoR/Managed_Mats/Base
 		}
 	}
 }
-material ALPHA/TEX/LJTreeBirchBranchesb.dds/TWOSIDE: RoR/Managed_Mats/Base
+material ALPHA/TEX/LJTreeBirchBranchesb.dds/TWOSIDE: RoR/Managed_Mats/Vegetation
 {
 	technique BaseTechnique
 	{
@@ -1675,6 +1675,36 @@ material Signbacks-tex: RoR/Managed_Mats/Base
 			texture_unit Diffuse_Map
 			{
 				texture sign-backs-tex.dds
+			}
+		}
+	}
+}
+material CommMap-ConcWall : RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture CommMap-Concwall.dds
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material WaterTower1-tex : RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture watertower-1-tex.dds
+				tex_address_mode wrap
+				filtering trilinear
 			}
 		}
 	}

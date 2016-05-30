@@ -1,0 +1,9 @@
+woodys.mesh
+1,1,1
+beginmesh
+mesh woodysbox.mesh
+endmesh
+beginlodmesh
+500, woodys_LOD1.mesh
+endlodmesh
+end

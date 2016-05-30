@@ -1,0 +1,53 @@
+import * from "managed_mats.material"
+material 40x48pallet-tex-2: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture 40x48_pallet-tex1.dds
+			}
+		}
+	}
+}
+material 40x48pallet-tex-3: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture 40x48_pallet-tex3.dds
+			}
+		}
+	}
+}
+material 40x48pallet-tex : RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture 40x48_pallet-tex.dds
+			}
+		}
+	}
+}
+material 40x40pallet-tex : RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture 40x40_pallet-tex.dds
+			}
+		}
+	}
+}

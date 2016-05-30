@@ -1,0 +1,578 @@
+// blender material: MMwarehouse7lod
+material MMwarehouse7lod 
+{
+    receive_shadows on
+    technique b2ogre_1324919467.18
+    {
+        pass b2ogre_1324919467.18
+        {
+
+            texture_unit b2ogre_1324919467.18
+            {
+                texture norfolkwarehouse7.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+            texture_unit b2ogre_1324919467.182
+            {
+                texture norfolkwarehouseAOlod.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: MMwarehouse1lod
+material MMwarehouse1lod 
+{
+    receive_shadows on
+    technique b2ogre_1324919467.19
+    {
+        pass b2ogre_1324919467.19
+        {
+
+            texture_unit b2ogre_1324919467.19
+            {
+                texture norfolkwarehouse1.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+            texture_unit b2ogre_1324919467.192
+            {
+                texture norfolkwarehouseAOlod.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: MMwarehouse6lod
+material MMwarehouse6lod 
+{
+    receive_shadows on
+    technique b2ogre_1324919467.193
+    {
+        pass b2ogre_1324919467.193
+        {
+
+            texture_unit b2ogre_1324919467.193
+            {
+                texture norfolkwarehouse6.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+            texture_unit b2ogre_1324919467.196
+            {
+                texture norfolkwarehouseAOlod.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: MMwarehouse5lod
+material MMwarehouse5lod 
+{
+    receive_shadows on
+    technique b2ogre_1324919467.198
+    {
+        pass b2ogre_1324919467.198
+        {
+
+            texture_unit b2ogre_1324919467.198
+            {
+                texture norfolkwarehouse5.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+            texture_unit b2ogre_1324919467.199
+            {
+                texture norfolkwarehouseAOlod.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: MMwarehouse3lod
+material MMwarehouse3lod 
+{
+    receive_shadows on
+    technique b2ogre_1324919467.2
+    {
+        pass b2ogre_1324919467.2
+        {
+
+            texture_unit b2ogre_1324919467.201
+            {
+                texture norfolkwarehouse3.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+            texture_unit b2ogre_1324919467.202
+            {
+                texture norfolkwarehouseAOlod.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: MMwarehouse2lod
+material MMwarehouse2lod 
+{
+    receive_shadows on
+    technique b2ogre_1324919467.203
+    {
+        pass b2ogre_1324919467.203
+        {
+
+            texture_unit b2ogre_1324919467.204
+            {
+                texture norfolkwarehouse2.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+            texture_unit b2ogre_1324919467.205
+            {
+                texture norfolkwarehouseAOlod.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: MMwarehouse4lod
+material MMwarehouse4lod 
+{
+    receive_shadows on
+    technique b2ogre_1324919467.206
+    {
+        pass b2ogre_1324919467.206
+        {
+
+            texture_unit b2ogre_1324919467.206
+            {
+                texture norfolkwarehouse4.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+            texture_unit b2ogre_1324919467.208
+            {
+                texture norfolkwarehouseAOlod.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+// blender material: MMwarehouse8lod
+material MMwarehouse8lod 
+{
+    receive_shadows on
+    technique b2ogre_1324919467.21
+    {
+        pass b2ogre_1324919467.21
+        {
+
+            texture_unit b2ogre_1324919467.21
+            {
+                texture norfolkwarehouse8.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+            texture_unit b2ogre_1324919467.212
+            {
+                texture norfolkwarehouseAOlod.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: MMwarehouse9lod
+material MMwarehouse9lod 
+{
+    receive_shadows on
+    technique b2ogre_1324919467.215
+    {
+        pass b2ogre_1324919467.215
+        {
+
+            texture_unit b2ogre_1324919467.215
+            {
+                texture norfolkwarehouse9.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+            texture_unit b2ogre_1324919467.217
+            {
+                texture norfolkwarehouseAOlod.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: MMmetalroof01lod
+material MMmetalroof01lod 
+{
+    receive_shadows on
+    technique b2ogre_1324919467.218
+    {
+        pass b2ogre_1324919467.218
+        {
+
+            texture_unit b2ogre_1324919467.218
+            {
+                texture Metalroof01.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+            texture_unit b2ogre_1324919467.22
+            {
+                texture norfolkwarehouseAOlod.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: MMwarehouse7
+material MMwarehouse7 
+{
+    receive_shadows on
+    technique b2ogre_1324919467.222
+    {
+        pass b2ogre_1324919467.222
+        {
+
+            texture_unit b2ogre_1324919467.222
+            {
+                texture norfolkwarehouse7.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+            texture_unit b2ogre_1324919467.222
+            {
+                texture lightmap1.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: MMwarehouse1
+material MMwarehouse1 
+{
+    receive_shadows on
+    technique b2ogre_1324919467.225
+    {
+        pass b2ogre_1324919467.225
+        {
+
+            texture_unit b2ogre_1324919467.225
+            {
+                texture norfolkwarehouse1.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+            texture_unit b2ogre_1324919467.225
+            {
+                texture lightmap1.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: MMwarehouse6
+material MMwarehouse6 
+{
+    receive_shadows on
+    technique b2ogre_1324919467.227
+    {
+        pass b2ogre_1324919467.227
+        {
+
+            texture_unit b2ogre_1324919467.227
+            {
+                texture norfolkwarehouse6.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+            texture_unit b2ogre_1324919467.228
+            {
+                texture lightmap1.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: MMwarehouse5
+material MMwarehouse5 
+{
+    receive_shadows on
+    technique b2ogre_1324919467.229
+    {
+        pass b2ogre_1324919467.229
+        {
+
+            texture_unit b2ogre_1324919467.229
+            {
+                texture norfolkwarehouse5.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+            texture_unit b2ogre_1324919467.229
+            {
+                texture lightmap1.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: MMwarehouse3
+material MMwarehouse3 
+{
+    receive_shadows on
+    technique b2ogre_1324919467.231
+    {
+        pass b2ogre_1324919467.231
+        {
+
+            texture_unit b2ogre_1324919467.231
+            {
+                texture norfolkwarehouse3.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+            texture_unit b2ogre_1324919467.231
+            {
+                texture lightmap1.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: MMwarehouse2
+material MMwarehouse2 
+{
+    receive_shadows on
+    technique b2ogre_1324919467.232
+    {
+        pass b2ogre_1324919467.232
+        {
+
+            texture_unit b2ogre_1324919467.232
+            {
+                texture norfolkwarehouse2.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+            texture_unit b2ogre_1324919467.233
+            {
+                texture lightmap1.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: MMwarehouse4
+material MMwarehouse4 
+{
+    receive_shadows on
+    technique b2ogre_1324919467.234
+    {
+        pass b2ogre_1324919467.234
+        {
+
+            texture_unit b2ogre_1324919467.235
+            {
+                texture norfolkwarehouse4.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+            texture_unit b2ogre_1324919467.235
+            {
+                texture lightmap1.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: MMwarehouse8
+material MMwarehouse8 
+{
+    receive_shadows on
+    technique b2ogre_1324919467.236
+    {
+        pass b2ogre_1324919467.236
+        {
+
+            texture_unit b2ogre_1324919467.236
+            {
+                texture norfolkwarehouse8.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+            texture_unit b2ogre_1324919467.236
+            {
+                texture lightmap1.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: MMwarehouse9
+material MMwarehouse9 
+{
+    receive_shadows on
+    technique b2ogre_1324919467.238
+    {
+        pass b2ogre_1324919467.238
+        {
+
+            texture_unit b2ogre_1324919467.238
+            {
+                texture norfolkwarehouse9.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+            texture_unit b2ogre_1324919467.239
+            {
+                texture lightmap1.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: MMmetalroof01
+material MMmetalroof01 
+{
+    receive_shadows on
+    technique b2ogre_1324919467.24
+    {
+        pass b2ogre_1324919467.24
+        {
+
+            texture_unit b2ogre_1324919467.24
+            {
+                texture Metalroof01.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+			texture_unit b2ogre_1324919467.239
+            {
+                texture lightmap1.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}

@@ -1,0 +1,460 @@
+// blender material: rowhouse3concrete
+material rowhouse3concrete 
+{
+    receive_shadows on
+    technique b2ogre_1326850430.923
+    {
+        pass b2ogre_1326850430.925
+        {
+            
+            texture_unit b2ogre_1326850430.936
+            {
+                texture rowhouse3concrete.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse3stoop1
+material rowhouse3stoop1 
+{
+    receive_shadows on
+    technique b2ogre_1326850430.963
+    {
+        pass b2ogre_1326850430.963
+        {
+            
+            texture_unit b2ogre_1326850430.965
+            {
+                texture rowhouse3stoop2.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse3window3
+material rowhouse3window3 
+{
+    receive_shadows on
+    technique b2ogre_1326850431.011
+    {
+        pass b2ogre_1326850431.011
+        {
+            
+            texture_unit b2ogre_1326850431.011
+            {
+                texture rowhouse3window3.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse3window1
+material rowhouse3window1 
+{
+    receive_shadows on
+    technique b2ogre_1326850431.019
+    {
+        pass b2ogre_1326850431.019
+        {
+            
+            texture_unit b2ogre_1326850431.019
+            {
+                texture rowhouse3window1.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse3window2_1
+material rowhouse3window2_1 
+{
+    receive_shadows on
+    technique b2ogre_1326850431.029
+    {
+        pass b2ogre_1326850431.029
+        {
+            
+            texture_unit b2ogre_1326850431.03
+            {
+                texture rowhouse3window2.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse3cornice
+material rowhouse3cornice 
+{
+    receive_shadows on
+    technique b2ogre_1326850431.037
+    {
+        pass b2ogre_1326850431.037
+        {
+            
+            texture_unit b2ogre_1326850431.037
+            {
+                texture rowhouse3window3.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse3door1
+material rowhouse3door1 
+{
+    receive_shadows on
+    technique b2ogre_1326850431.038
+    {
+        pass b2ogre_1326850431.038
+        {
+            
+            texture_unit b2ogre_1326850431.038
+            {
+                texture rowhouse3door1.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse3window2_2
+material rowhouse3window2_2 
+{
+    receive_shadows on
+    technique b2ogre_1326850431.047
+    {
+        pass b2ogre_1326850431.047
+        {
+            
+            texture_unit b2ogre_1326850431.047
+            {
+                texture rowhouse3window2_3.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse3door1_2
+material rowhouse3door1_2 
+{
+    receive_shadows on
+    technique b2ogre_1326850431.057
+    {
+        pass b2ogre_1326850431.057
+        {
+            
+            texture_unit b2ogre_1326850431.058
+            {
+                texture rowhouse3door1_2.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse3window1_2
+material rowhouse3window1_2 
+{
+    receive_shadows on
+    technique b2ogre_1326850431.113
+    {
+        pass b2ogre_1326850431.113
+        {
+            
+            texture_unit b2ogre_1326850431.113
+            {
+                texture rowhouse3window1_2.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse3window3_2
+material rowhouse3window3_2 
+{
+    receive_shadows on
+    technique b2ogre_1326850431.121
+    {
+        pass b2ogre_1326850431.121
+        {
+            
+            texture_unit b2ogre_1326850431.121
+            {
+                texture rowhouse3window3_2.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse3window2_5
+material rowhouse3window2_5 
+{
+    receive_shadows on
+    technique b2ogre_1326850431.129
+    {
+        pass b2ogre_1326850431.129
+        {
+            
+            texture_unit b2ogre_1326850431.129
+            {
+                texture rowhouse3window2_5.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse3window2_4
+material rowhouse3window2_4 
+{
+    receive_shadows on
+    technique b2ogre_1326850431.137
+    {
+        pass b2ogre_1326850431.137
+        {
+            
+            texture_unit b2ogre_1326850431.138
+            {
+                texture rowhouse3window2_4.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse4window1
+material rowhouse4window1 
+{
+    receive_shadows on
+    technique b2ogre_1326850431.146
+    {
+        pass b2ogre_1326850431.146
+        {
+            
+            texture_unit b2ogre_1326850431.146
+            {
+                texture rowhouse4_2.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse4door1
+material rowhouse4door1 
+{
+    receive_shadows on
+    technique b2ogre_1326850431.154
+    {
+        pass b2ogre_1326850431.154
+        {
+            
+            texture_unit b2ogre_1326850431.154
+            {
+                texture rowhouse4_1.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse4mansard
+material rowhouse4mansard 
+{
+    receive_shadows on
+    technique b2ogre_1326850431.163
+    {
+        pass b2ogre_1326850431.163
+        {
+            
+            texture_unit b2ogre_1326850431.163
+            {
+                texture rowhouse4_4.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse4door1_2
+material rowhouse4door1_2 
+{
+    receive_shadows on
+    technique b2ogre_1326850431.175
+    {
+        pass b2ogre_1326850431.175
+        {
+            
+            texture_unit b2ogre_1326850431.176
+            {
+                texture rowhouse4_1_2.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse4window1_2
+material rowhouse4window1_2 
+{
+    receive_shadows on
+    technique b2ogre_1326850431.184
+    {
+        pass b2ogre_1326850431.184
+        {
+            
+            texture_unit b2ogre_1326850431.185
+            {
+                texture rowhouse4_2_2.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse4mansard2
+material rowhouse4mansard2 
+{
+    receive_shadows on
+    technique b2ogre_1326850431.193
+    {
+        pass b2ogre_1326850431.193
+        {
+            
+            texture_unit b2ogre_1326850431.193
+            {
+                texture rowhouse4_4_2.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse4window2
+material rowhouse4window2 
+{
+    receive_shadows on
+    technique b2ogre_1326850431.206
+    {
+        pass b2ogre_1326850431.206
+        {
+            
+            texture_unit b2ogre_1326850431.207
+            {
+                texture rowhouse4_3.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse4window2_2
+material rowhouse4window2_2 
+{
+    receive_shadows on
+    technique b2ogre_1326850431.214
+    {
+        pass b2ogre_1326850431.214
+        {
+            
+            texture_unit b2ogre_1326850431.214
+            {
+                texture rowhouse4_3_2.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: rowhouse3window2_7
+material rowhouse3window2_7 
+{
+    receive_shadows on
+    technique b2ogre_1326850431.222
+    {
+        pass b2ogre_1326850431.222
+        {
+            
+            texture_unit b2ogre_1326850431.223
+            {
+                texture rowhouse3window2_7.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}

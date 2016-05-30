@@ -1,0 +1,6 @@
+Lg-palletstack2.mesh
+1,1,1
+beginmesh
+mesh Lg-palletstack-col.mesh
+endmesh
+end

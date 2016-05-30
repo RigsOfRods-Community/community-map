@@ -1,5 +1,5 @@
-WorldSizeX=30000
-WorldSizeZ=30000
+WorldSizeX=18000
+WorldSizeZ=18000
 WorldSizeY=0
  
 PageSize=1025
@@ -10,9 +10,9 @@ Heightmap.0.0.raw.bpp=2
 Heightmap.0.0.flipX=false
  
 disableCaching=1
-LightmapEnabled=0
+LightmapEnabled=1
 NormalMappingEnabled=0
-SpecularMappingEnabled=1
+SpecularMappingEnabled=0
 ParallaxMappingEnabled=0
 GlobalColourMapEnabled=0
 ReceiveDynamicShadowsDepth=0 to use depth shadows.

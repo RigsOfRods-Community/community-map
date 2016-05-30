@@ -1,0 +1,11 @@
+jythomson.mesh
+1,1,1
+beginmesh
+mesh jythomson_LOD2.mesh
+endmesh
+
+beginlodmesh
+250, jythomson_LOD1.mesh
+500, jythomson_LOD2.mesh
+endlodmesh
+end

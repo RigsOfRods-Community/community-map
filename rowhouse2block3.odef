@@ -1,0 +1,10 @@
+rowhouse2block3.mesh
+1,1,1
+beginlodmesh
+300, rowhouse2block3_lod1.mesh
+endlodmesh
+
+beginmesh
+mesh rowhouse2block3_lod1.mesh
+endmesh
+end
