@@ -1,0 +1,715 @@
+material citystreets
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 1 1 1.0
+
+			texture_unit
+			{
+				texture citystreets.dds
+			}
+		}
+
+	}
+
+}
+
+material citytrafficlight/citytrafficlight
+{
+    technique
+    {
+        pass
+        {
+            // Makes the pixel shader alpha output be used for alpha blending
+            scene_blend alpha_blend
+			alpha_rejection greater 170 
+            diffuse vertexcolour
+            //specular 0.3 0.3 0.3 1 12.5
+
+            // Make this pass use the vertex shader
+            vertex_program_ref ple_specmap_base_VS
+            {
+            }
+            // Make this pass use the pixel shader
+            fragment_program_ref ple_specmap_PS
+            {
+            }
+		cull_hardware none
+	     cull_software none
+           texture_unit diffusetex
+            {
+                // This pass will use this 2D texture as its input
+                texture citytrafficlight.dds 2d
+                tex_coord_set 0
+            }
+			texture_unit speculartex
+            {
+                // This pass will use this 2D texture as its input
+                texture citytrafficlight_s.dds 2d
+                tex_coord_set 0
+           	   }
+	    }
+     }
+}
+
+material citytrafficlight/citytrafficlightb
+{
+    technique
+    {
+        pass
+        {
+            // Makes the pixel shader alpha output be used for alpha blending
+            scene_blend alpha_blend
+			alpha_rejection greater 170 
+            diffuse vertexcolour
+            //specular 0.3 0.3 0.3 1 12.5
+
+            // Make this pass use the vertex shader
+            vertex_program_ref ple_specmap_base_VS
+            {
+            }
+            // Make this pass use the pixel shader
+            fragment_program_ref ple_specmap_PS
+            {
+            }
+		cull_hardware none
+	     cull_software none
+           texture_unit diffusetex
+            {
+                // This pass will use this 2D texture as its input
+                texture citytrafficlightb.dds 2d
+                tex_coord_set 0
+            }
+			texture_unit speculartex
+            {
+                // This pass will use this 2D texture as its input
+                texture citytrafficlightb_s.dds 2d
+                tex_coord_set 0
+           	   }
+	    }
+     }
+}
+
+material citylot
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 1 1 1.0
+
+			texture_unit
+			{
+				texture citylot.dds
+			}
+		}
+
+	}
+
+}
+
+material citybuilding01a
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture citybuilding01a.dds
+			}
+			texture_unit
+			{
+				texture citybuilding01a.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture citystreets_chrome.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         		}
+		}
+	}
+}
+
+
+material citybuilding01b
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture citybuilding01b.dds
+			}
+			texture_unit
+			{
+				texture citybuilding01b.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture citystreets_chrome.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         		}
+		}
+	}
+}
+
+material citybuilding01c
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture citybuilding01c.dds
+			}
+			texture_unit
+			{
+				texture citybuilding01c.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture citystreets_chrome.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         		}
+		}
+	}
+}
+
+
+material citydumpster
+{
+    technique
+    {
+        pass
+        {
+            // Makes the pixel shader alpha output be used for alpha blending
+            scene_blend alpha_blend
+			alpha_rejection greater 170 
+            diffuse vertexcolour
+            //specular 0.3 0.3 0.3 1 12.5
+
+            // Make this pass use the vertex shader
+            vertex_program_ref ple_specmap_base_VS
+            {
+            }
+            // Make this pass use the pixel shader
+            fragment_program_ref ple_specmap_PS
+            {
+            }
+	    cull_hardware none
+	    cull_software none
+            texture_unit diffusetex
+            {
+                // This pass will use this 2D texture as its input
+                texture citydumpster.dds 2d
+                tex_coord_set 0
+            }
+		texture_unit speculartex
+            {
+                // This pass will use this 2D texture as its input
+                texture citydumpster_s.dds 2d
+                tex_coord_set 0
+           	}
+
+		texture_unit
+		{
+           	texture citystreets_chrome.dds
+           	colour_op_ex blend_current_alpha src_texture src_current
+		env_map spherical
+         	}
+	    }
+     }
+}
+
+material cityhighrise01a/cityhighrise01a_glass
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture cityhighrise01a_glass.dds
+			}
+			texture_unit
+			{
+				texture cityhighrise01a_glass.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture citystreets_chrome.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         		}
+			texture_unit AO
+		        {
+ 		            	texture cityhighrise01a_AO.dds
+          		    	tex_address_mode wrap
+       		            	scale 1.0 1.0
+           		    	tex_coord_set 1
+           		    	colour_op modulate
+            		}
+		}
+	}
+}
+
+material cityhighrise01a/cityhighrise01a_concrete
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 1 1 1.0
+
+			texture_unit
+			{
+				texture cityhighrise01a_concrete.dds
+			}
+		        texture_unit AO
+		        {
+ 		            	texture cityhighrise01a_AO.dds
+          		    	tex_address_mode wrap
+       		            	scale 1.0 1.0
+           		    	tex_coord_set 1
+           		    	colour_op modulate
+            		}
+		}
+
+	}
+
+}
+
+
+material cityhighrise01a/cityhighrise01a_bracing
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture cityhighrise01a_bracing.dds
+			}
+			texture_unit
+			{
+				texture cityhighrise01a_bracing.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture citystreets_chrome.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+
+
+material cityhighrise02a/cityhighrise02a_glass
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture cityhighrise02a_glass.dds
+			}
+			texture_unit
+			{
+				texture cityhighrise02a_glass.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture citystreets_chrome.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         		}
+			texture_unit AO
+		        {
+ 		            	texture cityhighrise02a_AO.dds
+          		    	tex_address_mode wrap
+       		            	scale 1.0 1.0
+           		    	tex_coord_set 1
+           		    	colour_op modulate
+            		}
+		}
+	}
+}
+
+
+material cityhighrise02a/cityhighrise02a_concrete
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 1 1 1.0
+
+			texture_unit
+			{
+				texture cityhighrise02a_concrete.dds
+			}
+			texture_unit
+			{
+				texture cityhighrise02a_concrete.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture citystreets_chrome.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         		}
+			texture_unit AO
+		        {
+ 		            	texture cityhighrise02a_AO.dds
+          		    	tex_address_mode wrap
+       		            	scale 1.0 1.0
+           		    	tex_coord_set 1
+           		    	colour_op modulate
+            		}
+		}
+
+	}
+
+}
+
+
+
+material cityhighrise03a/cityhighrise03a_glass
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture cityhighrise03a_glass.dds
+			}
+			texture_unit
+			{
+				texture cityhighrise03a_glass.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture citystreets_chrome.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         		}
+			texture_unit AO
+		        {
+ 		            	texture cityhighrise03a_AO.dds
+          		    	tex_address_mode wrap
+       		            	scale 1.0 1.0
+           		    	tex_coord_set 1
+           		    	colour_op modulate
+            		}
+		}
+	}
+}
+
+
+material cityhighrise03a/cityhighrise03a_concrete
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 1 1 1.0
+
+			texture_unit
+			{
+				texture cityhighrise03a_concrete.dds
+			}
+			texture_unit
+			{
+				texture cityhighrise03a_concrete.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture citystreets_chrome.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         		}
+			texture_unit AO
+		        {
+ 		            	texture cityhighrise03a_AO.dds
+          		    	tex_address_mode wrap
+       		            	scale 1.0 1.0
+           		    	tex_coord_set 1
+           		    	colour_op modulate
+            		}
+		}
+
+	}
+
+}
+
+
+
+material cityhighrise03a/cityhighrise03a_bracing
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture cityhighrise03a_bracing.dds
+			}
+			texture_unit
+			{
+				texture cityhighrise03a_bracing.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture citystreets_chrome.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         		}
+			texture_unit AO
+		        {
+ 		            	texture cityhighrise03a_AO.dds
+          		    	tex_address_mode wrap
+       		            	scale 1.0 1.0
+           		    	tex_coord_set 1
+           		    	colour_op modulate
+            		}
+		}
+	}
+}
+
+
+
+material cityhighrise04a/cityhighrise04a_wall
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture cityhighrise04a_wall.dds
+			}
+			texture_unit
+			{
+				texture cityhighrise04a_wall.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture citystreets_chrome.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         		}
+			texture_unit AO
+		        {
+ 		            	texture cityhighrise04a_AO.dds
+          		    	tex_address_mode wrap
+       		            	scale 1.0 1.0
+           		    	tex_coord_set 1
+           		    	colour_op modulate
+            		}
+		}
+	}
+}
+
+
+material cityhighrise04a/cityhighrise04a_concrete
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture cityhighrise04a_concrete.dds
+			}
+			texture_unit
+			{
+				texture cityhighrise04a_concrete.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture citystreets_chrome.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         		}
+			texture_unit AO
+		        {
+ 		            	texture cityhighrise04a_AO.dds
+          		    	tex_address_mode wrap
+       		            	scale 1.0 1.0
+           		    	tex_coord_set 1
+           		    	colour_op modulate
+            		}
+		}
+	}
+}
+
+
+material cityhighrise04a/cityhighrise04a_concrete2
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture cityhighrise04a_concrete2.dds
+			}
+			texture_unit AO
+		        {
+ 		            	texture cityhighrise04a_AO.dds
+          		    	tex_address_mode wrap
+       		            	scale 1.0 1.0
+           		    	tex_coord_set 1
+           		    	colour_op modulate
+            		}
+		}
+	}
+}
+
+
+material cityhighrise04a/cityhighrise04a_glass
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture cityhighrise04a_glass.dds
+			}
+			texture_unit
+			{
+				texture cityhighrise04a_glass.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture citystreets_chrome.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         		}
+			texture_unit AO
+		        {
+ 		            	texture cityhighrise04a_AO.dds
+          		    	tex_address_mode wrap
+       		            	scale 1.0 1.0
+           		    	tex_coord_set 1
+           		    	colour_op modulate
+            		}
+		}
+	}
+}
+
+material cityhighrise05a/cityhighrise05a_wall
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture cityhighrise05a_wall.dds
+			}
+			texture_unit
+			{
+				texture cityhighrise05a_wall.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture citystreets_chrome.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         		}
+		}
+	}
+}
+
+
+material cityhighrise05a/cityhighrise05a_concrete
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture cityhighrise05a_concrete.dds
+			}
+			texture_unit
+			{
+				texture cityhighrise05a_concrete.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture citystreets_chrome.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         		}
+		}
+	}
+}
+
+material cityhighrise05a/cityhighrise05a_glass
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture cityhighrise05a_glass.dds
+			}
+			texture_unit
+			{
+				texture cityhighrise05a_glass.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture citystreets_chrome.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         		}
+		}
+	}
+}

@@ -1,0 +1,33 @@
+import * from "managed_mats.material"
+material DC-treetrunk1-tex : RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			cull_hardware none
+			cull_software none
+			texture_unit Diffuse_Map
+			{
+				texture dc-bark1.dds
+			}
+		}
+	}
+}
+material DC-tree-leaf1-tex : RoR/Managed_Mats/Vegetation
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			alpha_rejection greater_equal 128 
+			scene_blend alpha_blend 
+			cull_hardware none
+			cull_software none
+			texture_unit Diffuse_Map
+			{
+				texture dc-leaf1-tex.dds
+			}
+		}
+	}
+}

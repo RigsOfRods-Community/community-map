@@ -1,0 +1,9 @@
+cityhighrise03aa.mesh
+1,1,1
+beginlodmesh
+200, cityhighrise03aa_lod1.mesh
+endlodmesh
+beginmesh
+mesh cityhighrise03aa_lod1.mesh
+endmesh
+end

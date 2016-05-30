@@ -1,0 +1,77 @@
+material modWall-interior/SOLID/TEX/DC-modsteel-1a-AO.png
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1.000000 1.000000 1.000000
+			specular 0.000000 0.000000 0.000000 12.500000
+			texture_unit
+			{
+				texture int-walls.png
+			}
+			texture_unit AO
+		    {
+				texture DC-modsteel-1a-AO.png
+				tex_address_mode wrap
+       		    scale 1.0 1.0
+           	    tex_coord_set 1
+           		colour_op modulate
+            }
+		}
+
+	}
+
+}
+
+material Mod_build-Concrete/SOLID/TEX/DC-modsteel-1a-AO.png
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1.000000 1.000000 1.000000
+			specular 0.000000 0.000000 0.000000 12.500000
+			texture_unit
+			{
+				texture modular-floors-tex.png
+			}
+			texture_unit AO
+		    {
+				texture DC-modsteel-1a-AO.png
+				tex_address_mode wrap
+       		    scale 1.0 1.0
+           	    tex_coord_set 1
+           		colour_op modulate
+            }
+		}
+
+	}
+
+}
+
+material Indust-exterior1-tex/SOLID/TEX/DC-modsteel-1a-AO.png
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1.000000 1.000000 1.000000
+			specular 0.000000 0.000000 0.000000 12.500000
+			texture_unit
+			{
+				texture walls-exter1.png
+			}
+			texture_unit AO
+		    {
+				texture DC-modsteel-1a-AO.png
+				tex_address_mode wrap
+       		    scale 1.0 1.0
+           	    tex_coord_set 1
+           		colour_op modulate
+            }
+		}
+
+	}
+
+}

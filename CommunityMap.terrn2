@@ -2,8 +2,8 @@
 Name = Community Map
 GeometryConfig = CommunityMap.otc
 AmbientColor = 0.93, 0.86, 0.76
-CaelumConfigFile = CommunityMap.terrn.os
-StartPosition = 321.146, 30.1081, 1516.04
+StartPosition = 2128.33, 68.0023, 14381.2
+;StartPosition = 321.146, 30.1081, 1516.04
 SandStormCubeMap = tracks/skyboxcol
 Gravity = -9.81
 CategoryID = 129
@@ -13,7 +13,7 @@ GUID = CommunityMap
 [Authors]
 terrain = Community/DarthCain
 converting = Hotrod55
-sky = Ton03
+
  
 [Objects]
 CommunityMap.tobj=

@@ -1,0 +1,833 @@
+// blender material: woodys
+material woodys
+{
+    receive_shadows on
+    technique b2ogre_1324338339.122
+    {
+        pass b2ogre_1324338339.122
+        {
+            texture_unit b2ogre_1324338339.122
+            {
+                texture woodys1.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+			texture_unit
+			{
+				texture woodys1spec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture dark.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+            texture_unit b2ogre_1324338339.126
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+// blender material: woodys1
+material woodys1 
+{
+    receive_shadows on
+    technique b2ogre_1324338339.122
+    {
+        pass b2ogre_1324338339.122
+        {
+            texture_unit b2ogre_1324338339.122
+            {
+                texture woodys1.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+			texture_unit
+			{
+				texture woodys1spec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture dark.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+            texture_unit b2ogre_1324338339.126
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: woodys2
+material woodys2 
+{
+    receive_shadows on
+    technique b2ogre_1324338339.173
+    {
+        pass b2ogre_1324338339.173
+        {
+            texture_unit b2ogre_1324338339.173
+            {
+                texture woodys2.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+			texture_unit
+			{
+				texture woodys2spec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture dark.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+            texture_unit b2ogre_1324338339.179
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: woodys3
+material woodys3 
+{
+    receive_shadows on
+    technique b2ogre_1324338339.18
+    {
+        pass b2ogre_1324338339.18
+        {
+            texture_unit b2ogre_1324338339.18
+            {
+                texture woodys3.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+			texture_unit
+			{
+				texture woodys3spec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture dark.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+            texture_unit b2ogre_1324338339.187
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: woodys4
+material woodys4 
+{
+    receive_shadows on
+    technique b2ogre_1324338339.188
+    {
+        pass b2ogre_1324338339.188
+        {
+            texture_unit b2ogre_1324338339.189
+            {
+                texture woodys4.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+			texture_unit
+			{
+				texture woodys4spec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture dark.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+            texture_unit b2ogre_1324338339.193
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: woodys5
+material woodys5 
+{
+    receive_shadows on
+    technique b2ogre_1324338339.194
+    {
+        pass b2ogre_1324338339.194
+        {
+            texture_unit b2ogre_1324338339.194
+            {
+                texture woodys5.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+            texture_unit b2ogre_1324338339.198
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: woodys6
+material woodys6 
+{
+    receive_shadows on
+    technique b2ogre_1324338339.199
+    {
+        pass b2ogre_1324338339.199
+        {
+            texture_unit b2ogre_1324338339.2
+            {
+                texture woodys6.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+			texture_unit
+			{
+				texture woodys6spec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture dark.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+            texture_unit b2ogre_1324338339.203
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: woodys7
+material woodys7 
+{
+    receive_shadows on
+    technique b2ogre_1324338339.205
+    {
+        pass b2ogre_1324338339.205
+        {
+            texture_unit b2ogre_1324338339.205
+            {
+                texture woodys7.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+            texture_unit b2ogre_1324338339.209
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: woodys8
+material woodys8 
+{
+    receive_shadows on
+    technique b2ogre_1324338339.21
+    {
+        pass b2ogre_1324338339.21
+        {
+            texture_unit b2ogre_1324338339.21
+            {
+                texture woodys8.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+			texture_unit
+			{
+				texture woodys8spec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture dark.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+            texture_unit b2ogre_1324338339.214
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: woodys9
+material woodys9 
+{
+    receive_shadows on
+    technique b2ogre_1324338339.215
+    {
+        pass b2ogre_1324338339.215
+        {
+            texture_unit b2ogre_1324338339.215
+            {
+                texture woodys9.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+            texture_unit b2ogre_1324338339.219
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: woodys10
+material woodys10 
+{
+    receive_shadows on
+    technique b2ogre_1324338339.219
+    {
+        pass b2ogre_1324338339.22
+        {
+            texture_unit b2ogre_1324338339.22
+            {
+                texture woodys10.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+			texture_unit
+			{
+				texture woodys10spec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture dark.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+            texture_unit b2ogre_1324338339.224
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: woodys12
+material woodys12 
+{
+    receive_shadows on
+    technique b2ogre_1324338339.225
+    {
+        pass b2ogre_1324338339.225
+        {
+            texture_unit b2ogre_1324338339.225
+            {
+                texture woodys12.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+			texture_unit
+			{
+				texture woodys12spec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture dark.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+            texture_unit b2ogre_1324338339.231
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: woodys13
+material woodys13 
+{
+    receive_shadows on
+    technique b2ogre_1324338339.232
+    {
+        pass b2ogre_1324338339.232
+        {
+            texture_unit b2ogre_1324338339.232
+            {
+                texture woodys13.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+			texture_unit
+			{
+				texture woodys13spec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture dark.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+            texture_unit b2ogre_1324338339.238
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: woodys14
+material woodys14 
+{
+    receive_shadows on
+    technique b2ogre_1324338339.239
+    {
+        pass b2ogre_1324338339.239
+        {
+            texture_unit b2ogre_1324338339.239
+            {
+                texture woodys14.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+			texture_unit
+			{
+				texture woodys14spec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture dark.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+            texture_unit b2ogre_1324338339.243
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: woodys15
+material woodys15 
+{
+    receive_shadows on
+    technique b2ogre_1324338339.244
+    {
+        pass b2ogre_1324338339.244
+        {
+            texture_unit b2ogre_1324338339.244
+            {
+                texture woodys15.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+			texture_unit
+			{
+				texture woodys15spec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture dark.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+            texture_unit b2ogre_1324338339.248
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: woodys16
+material woodys16 
+{
+    receive_shadows on
+    technique b2ogre_1324338339.249
+    {
+        pass b2ogre_1324338339.249
+        {
+            texture_unit b2ogre_1324338339.249
+            {
+                texture woodys16.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+			texture_unit
+			{
+				texture woodys16spec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture dark.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+            texture_unit b2ogre_1324338339.253
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: woodys17
+material woodys17 
+{
+    receive_shadows on
+    technique b2ogre_1324338339.254
+    {
+        pass b2ogre_1324338339.254
+        {
+            texture_unit b2ogre_1324338339.254
+            {
+                texture woodys17.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+            texture_unit b2ogre_1324338339.256
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: richshoes
+material richshoes 
+{
+    receive_shadows on
+    technique b2ogre_1324338339.257
+    {
+        pass b2ogre_1324338339.257
+        {
+			alpha_rejection greater 128
+            alpha_to_coverage on
+            texture_unit b2ogre_1324338339.257
+            {
+                texture richshoes.dds
+				tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op alpha_blend
+            }
+			texture_unit b2ogre_1324338339.598
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: woodiesawning
+material woodiesawning 
+{
+    receive_shadows on
+    technique b2ogre_1324338339.261
+    {
+        pass b2ogre_1324338339.261
+        {
+            ambient 0.800000011920929 0.800000011920929 0.800000011920929 0.0
+            diffuse 0.6400000190734865 0.6400000190734865 0.6400000190734865 0.0
+            specular 0.5 0.5 0.5 0.0 12.5
+            emissive 0.0 0.0 0.0 0.0
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+            texture_unit b2ogre_1324338339.262
+            {
+                texture woodiesawning.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op alpha_blend
+            }
+        }
+    }
+}
+
+// blender material: genericawning1
+material genericawning1 
+{
+    receive_shadows on
+    technique b2ogre_1324338339.572
+    {
+        pass b2ogre_1324338339.572
+        {
+            alpha_rejection greater 128
+            alpha_to_coverage on
+			texture_unit
+            {
+                texture genericawning1.dds
+				tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op alpha_blend
+            }
+			texture_unit b2ogre_1324338339.598
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: genericawning2
+material genericawning2 
+{
+    receive_shadows on
+    technique b2ogre_1324338339.577
+    {
+        pass b2ogre_1324338339.577
+        {
+			alpha_rejection greater 128
+            alpha_to_coverage on
+            texture_unit b2ogre_1324338339.578
+            {
+                texture genericawning2.dds
+				tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op alpha_blend
+            }
+			texture_unit b2ogre_1324338339.598
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: metalroof
+material metalroof 
+{
+    receive_shadows on
+    technique b2ogre_1324338339.59
+    {
+        pass b2ogre_1324338339.59
+        {
+            ambient 0.800000011920929 0.800000011920929 0.800000011920929 1.0
+            diffuse 0.6400000190734865 0.6400000190734865 0.6400000190734865 1.0
+            
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+            texture_unit b2ogre_1324338339.591
+            {
+                texture Metalroof01.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+            texture_unit b2ogre_1324338339.598
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: woodys18
+material woodys18 
+{
+    receive_shadows on
+    technique b2ogre_1324338339.6
+    {
+        pass b2ogre_1324338339.6
+        {
+            ambient 0.800000011920929 0.800000011920929 0.800000011920929 1.0
+            diffuse 0.6400000190734865 0.6400000190734865 0.6400000190734865 1.0
+            
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+            texture_unit b2ogre_1324338339.6
+            {
+                texture woodyslightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op replace
+            }
+        }
+    }
+}

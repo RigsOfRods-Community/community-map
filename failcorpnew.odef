@@ -1,0 +1,11 @@
+failcorpnew.mesh
+1,1,1
+beginmesh
+mesh failcorpnew_lod1.mesh
+endmesh
+
+beginlodmesh
+500, failcorpnew_lod1.mesh
+endlodmesh
+
+end

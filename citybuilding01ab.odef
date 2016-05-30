@@ -1,0 +1,8 @@
+citybuilding01ab.mesh
+0.925,1,0.925
+beginlodmesh
+150, citybuilding01ab_lod1.mesh
+endlodmesh
+mesh citybuilding01ab_C.mesh
+endmesh
+end

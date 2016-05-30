@@ -1,0 +1,10 @@
+norfolk_warehouse.mesh
+1,1,1
+beginmesh
+mesh norfolk_warehouse_lod1.mesh
+endmesh
+
+beginlodmesh
+500, norfolk_warehouse_lod1.mesh
+endlodmesh
+end
