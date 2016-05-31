@@ -1,13 +1,13 @@
 // blender material: rowhouse3concrete
-material rowhouse3concrete 
+material rowhouse3concrete : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1326850430.923
+    technique BaseTechnique
     {
-        pass b2ogre_1326850430.925
+        pass BaseRender
         {
             
-            texture_unit b2ogre_1326850430.936
+            texture_unit Diffuse_Map
             {
                 texture rowhouse3concrete.dds
                 tex_address_mode wrap
@@ -19,15 +19,15 @@ material rowhouse3concrete
 }
 
 // blender material: rowhouse3stoop1
-material rowhouse3stoop1 
+material rowhouse3stoop1 : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1326850430.963
+    technique BaseTechnique
     {
-        pass b2ogre_1326850430.963
+       pass BaseRender
         {
             
-            texture_unit b2ogre_1326850430.965
+            texture_unit Diffuse_Map
             {
                 texture rowhouse3stoop2.dds
                 tex_address_mode wrap
@@ -40,15 +40,15 @@ material rowhouse3stoop1
 }
 
 // blender material: rowhouse3window3
-material rowhouse3window3 
+material rowhouse3window3 : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1326850431.011
+    technique BaseTechnique
     {
-        pass b2ogre_1326850431.011
-        {
+       pass BaseRender
+	   {
             
-            texture_unit b2ogre_1326850431.011
+            texture_unit Diffuse_Map
             {
                 texture rowhouse3window3.dds
                 tex_address_mode wrap
@@ -61,15 +61,15 @@ material rowhouse3window3
 }
 
 // blender material: rowhouse3window1
-material rowhouse3window1 
+material rowhouse3window1 : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1326850431.019
+    technique BaseTechnique
     {
-        pass b2ogre_1326850431.019
-        {
+       pass BaseRender
+	   {
             
-            texture_unit b2ogre_1326850431.019
+            texture_unit Diffuse_Map
             {
                 texture rowhouse3window1.dds
                 tex_address_mode wrap
@@ -82,15 +82,15 @@ material rowhouse3window1
 }
 
 // blender material: rowhouse3window2_1
-material rowhouse3window2_1 
+material rowhouse3window2_1 : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1326850431.029
+    technique BaseTechnique
     {
-        pass b2ogre_1326850431.029
-        {
+       pass BaseRender
+	   {
             
-            texture_unit b2ogre_1326850431.03
+            texture_unit Diffuse_Map
             {
                 texture rowhouse3window2.dds
                 tex_address_mode wrap
@@ -103,15 +103,15 @@ material rowhouse3window2_1
 }
 
 // blender material: rowhouse3cornice
-material rowhouse3cornice 
+material rowhouse3cornice : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1326850431.037
+    technique BaseTechnique
     {
-        pass b2ogre_1326850431.037
-        {
+       pass BaseRender
+	   {
             
-            texture_unit b2ogre_1326850431.037
+            texture_unit Diffuse_Map
             {
                 texture rowhouse3window3.dds
                 tex_address_mode wrap
@@ -124,15 +124,15 @@ material rowhouse3cornice
 }
 
 // blender material: rowhouse3door1
-material rowhouse3door1 
+material rowhouse3door1 : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1326850431.038
+    technique BaseTechnique
     {
-        pass b2ogre_1326850431.038
-        {
+       pass BaseRender
+	   {
             
-            texture_unit b2ogre_1326850431.038
+            texture_unit Diffuse_Map
             {
                 texture rowhouse3door1.dds
                 tex_address_mode wrap
@@ -145,15 +145,15 @@ material rowhouse3door1
 }
 
 // blender material: rowhouse3window2_2
-material rowhouse3window2_2 
+material rowhouse3window2_2 : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1326850431.047
+    technique BaseTechnique
     {
-        pass b2ogre_1326850431.047
-        {
+       pass BaseRender
+	   {
             
-            texture_unit b2ogre_1326850431.047
+            texture_unit Diffuse_Map
             {
                 texture rowhouse3window2_3.dds
                 tex_address_mode wrap
@@ -166,15 +166,15 @@ material rowhouse3window2_2
 }
 
 // blender material: rowhouse3door1_2
-material rowhouse3door1_2 
+material rowhouse3door1_2 : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1326850431.057
+    technique BaseTechnique
     {
-        pass b2ogre_1326850431.057
-        {
+       pass BaseRender
+	   {
             
-            texture_unit b2ogre_1326850431.058
+            texture_unit Diffuse_Map
             {
                 texture rowhouse3door1_2.dds
                 tex_address_mode wrap
@@ -187,15 +187,15 @@ material rowhouse3door1_2
 }
 
 // blender material: rowhouse3window1_2
-material rowhouse3window1_2 
+material rowhouse3window1_2 : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1326850431.113
+    technique BaseTechnique
     {
-        pass b2ogre_1326850431.113
-        {
+       pass BaseRender
+	   {
             
-            texture_unit b2ogre_1326850431.113
+            texture_unit Diffuse_Map
             {
                 texture rowhouse3window1_2.dds
                 tex_address_mode wrap
@@ -208,15 +208,15 @@ material rowhouse3window1_2
 }
 
 // blender material: rowhouse3window3_2
-material rowhouse3window3_2 
+material rowhouse3window3_2 : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1326850431.121
+    technique BaseTechnique
     {
-        pass b2ogre_1326850431.121
-        {
+       pass BaseRender
+	   {
             
-            texture_unit b2ogre_1326850431.121
+            texture_unit Diffuse_Map
             {
                 texture rowhouse3window3_2.dds
                 tex_address_mode wrap
@@ -229,15 +229,15 @@ material rowhouse3window3_2
 }
 
 // blender material: rowhouse3window2_5
-material rowhouse3window2_5 
+material rowhouse3window2_5 : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1326850431.129
+    technique BaseTechnique
     {
-        pass b2ogre_1326850431.129
-        {
+       pass BaseRender
+	   {
             
-            texture_unit b2ogre_1326850431.129
+            texture_unit Diffuse_Map
             {
                 texture rowhouse3window2_5.dds
                 tex_address_mode wrap
@@ -250,15 +250,15 @@ material rowhouse3window2_5
 }
 
 // blender material: rowhouse3window2_4
-material rowhouse3window2_4 
+material rowhouse3window2_4 : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1326850431.137
+    technique BaseTechnique
     {
-        pass b2ogre_1326850431.137
-        {
+       pass BaseRender
+	   {
             
-            texture_unit b2ogre_1326850431.138
+            texture_unit Diffuse_Map
             {
                 texture rowhouse3window2_4.dds
                 tex_address_mode wrap
@@ -271,15 +271,15 @@ material rowhouse3window2_4
 }
 
 // blender material: rowhouse4window1
-material rowhouse4window1 
+material rowhouse4window1 : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1326850431.146
+    technique BaseTechnique
     {
-        pass b2ogre_1326850431.146
-        {
+       pass BaseRender
+	   {
             
-            texture_unit b2ogre_1326850431.146
+            texture_unit Diffuse_Map
             {
                 texture rowhouse4_2.dds
                 tex_address_mode wrap
@@ -292,15 +292,15 @@ material rowhouse4window1
 }
 
 // blender material: rowhouse4door1
-material rowhouse4door1 
+material rowhouse4door1 : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1326850431.154
+    technique BaseTechnique
     {
-        pass b2ogre_1326850431.154
-        {
+       pass BaseRender
+	   {
             
-            texture_unit b2ogre_1326850431.154
+            texture_unit Diffuse_Map
             {
                 texture rowhouse4_1.dds
                 tex_address_mode wrap
@@ -313,15 +313,15 @@ material rowhouse4door1
 }
 
 // blender material: rowhouse4mansard
-material rowhouse4mansard 
+material rowhouse4mansard : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1326850431.163
+    technique BaseTechnique
     {
-        pass b2ogre_1326850431.163
-        {
+       pass BaseRender
+	   {
             
-            texture_unit b2ogre_1326850431.163
+            texture_unit Diffuse_Map
             {
                 texture rowhouse4_4.dds
                 tex_address_mode wrap
@@ -334,15 +334,15 @@ material rowhouse4mansard
 }
 
 // blender material: rowhouse4door1_2
-material rowhouse4door1_2 
+material rowhouse4door1_2 : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1326850431.175
+    technique BaseTechnique
     {
-        pass b2ogre_1326850431.175
-        {
+       pass BaseRender
+	   {
             
-            texture_unit b2ogre_1326850431.176
+            texture_unit Diffuse_Map
             {
                 texture rowhouse4_1_2.dds
                 tex_address_mode wrap
@@ -355,15 +355,14 @@ material rowhouse4door1_2
 }
 
 // blender material: rowhouse4window1_2
-material rowhouse4window1_2 
+material rowhouse4window1_2 : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1326850431.184
+    technique BaseTechnique
     {
-        pass b2ogre_1326850431.184
-        {
+       pass BaseRender        {
             
-            texture_unit b2ogre_1326850431.185
+            texture_unit Diffuse_Map
             {
                 texture rowhouse4_2_2.dds
                 tex_address_mode wrap
@@ -376,15 +375,15 @@ material rowhouse4window1_2
 }
 
 // blender material: rowhouse4mansard2
-material rowhouse4mansard2 
+material rowhouse4mansard2 : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1326850431.193
+    technique BaseTechnique
     {
-        pass b2ogre_1326850431.193
-        {
+       pass BaseRender
+	   {
             
-            texture_unit b2ogre_1326850431.193
+            texture_unit Diffuse_Map
             {
                 texture rowhouse4_4_2.dds
                 tex_address_mode wrap
@@ -397,15 +396,15 @@ material rowhouse4mansard2
 }
 
 // blender material: rowhouse4window2
-material rowhouse4window2 
+material rowhouse4window2 : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1326850431.206
+    technique BaseTechnique
     {
-        pass b2ogre_1326850431.206
-        {
+       pass BaseRender
+	   {
             
-            texture_unit b2ogre_1326850431.207
+            texture_unit Diffuse_Map
             {
                 texture rowhouse4_3.dds
                 tex_address_mode wrap
@@ -418,15 +417,15 @@ material rowhouse4window2
 }
 
 // blender material: rowhouse4window2_2
-material rowhouse4window2_2 
+material rowhouse4window2_2 : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1326850431.214
+    technique BaseTechnique
     {
-        pass b2ogre_1326850431.214
-        {
+       pass BaseRender
+	   {
             
-            texture_unit b2ogre_1326850431.214
+            texture_unit Diffuse_Map
             {
                 texture rowhouse4_3_2.dds
                 tex_address_mode wrap
@@ -439,15 +438,15 @@ material rowhouse4window2_2
 }
 
 // blender material: rowhouse3window2_7
-material rowhouse3window2_7 
+material rowhouse3window2_7 : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1326850431.222
+    technique BaseTechnique
     {
-        pass b2ogre_1326850431.222
-        {
+       pass BaseRender
+	   {
             
-            texture_unit b2ogre_1326850431.223
+            texture_unit Diffuse_Map
             {
                 texture rowhouse3window2_7.dds
                 tex_address_mode wrap

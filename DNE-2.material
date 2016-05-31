@@ -406,7 +406,7 @@ material rowhouse2facade1 : RoR/Managed_Mats/Base
     {
         pass BaseRender
         {
-            texture_unit Diffuse_Map4
+            texture_unit Diffuse_Map
             {
                 texture rowhouse2_1.dds
                 tex_address_mode wrap
