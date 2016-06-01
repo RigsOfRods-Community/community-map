@@ -1,0 +1,10 @@
+LOD
+skyscraper02.mesh
+1,1,1
+beginlodmesh
+300, skyscraper02_lod1.mesh
+endlodmesh
+beginmesh
+mesh skyscraper02box.mesh
+endmesh
+end

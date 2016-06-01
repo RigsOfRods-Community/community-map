@@ -1,0 +1,9 @@
+hospital.mesh
+1,1,1
+beginlodmesh
+150, hospital_lod1.mesh
+endlodmesh
+beginmesh
+mesh hospitalbox.mesh
+endmesh
+end

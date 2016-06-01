@@ -1,0 +1,84 @@
+import * from "managed_mats.material"
+material Map-3_barricade-tex2 : RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+
+			texture_unit Diffuse_Map
+			{
+				texture type3-tex.dds
+
+			}
+		}
+	}
+}
+material Map-Barricade_light : RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+
+			texture_unit Diffuse_Map
+			{
+				texture type2-tex.dds
+
+			}
+		}
+	}
+}
+material Orange_flash1
+{
+	receive_shadows off
+	technique
+	{
+		pass
+		{
+			lighting off
+ 			scene_blend alpha_blend
+			alpha_rejection greater 2
+			depth_write off
+			//depth_check off
+			texture_unit
+			{
+				anim_texture Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds  Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds  Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds  1.0
+			}
+		}
+	}
+}
+material Orange_flash2
+{
+	receive_shadows off
+	technique
+	{
+		pass
+		{
+			lighting off
+ 			scene_blend alpha_blend
+			alpha_rejection greater 2
+			depth_write off
+			//depth_check off
+			texture_unit
+			{
+				anim_texture  Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds Map-orangeflare.dds  Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds 1.0
+			}
+		}
+	}
+}
+material Map-3_barricade-tex : RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+
+			texture_unit Diffuse_Map
+			{
+				texture type3_Rd2-tex.dds
+
+			}
+		}
+	}
+}

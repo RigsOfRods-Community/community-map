@@ -1,0 +1,10 @@
+LOD
+highrise01.mesh
+1,1,1
+beginlodmesh
+300, highrise01_lod1.mesh
+endlodmesh
+beginmesh
+mesh highrise01box.mesh
+endmesh
+end
