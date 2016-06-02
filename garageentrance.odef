@@ -1,0 +1,6 @@
+garageentrance.mesh
+1,1,1
+beginmesh
+mesh garageentrancebox.mesh
+endmesh
+end

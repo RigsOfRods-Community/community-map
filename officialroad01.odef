@@ -1,0 +1,6 @@
+officialroad01.mesh
+1,1,1
+beginmesh
+mesh officialroad01.mesh
+endmesh
+end

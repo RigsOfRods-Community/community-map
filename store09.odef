@@ -1,0 +1,10 @@
+LOD
+store09.mesh
+1,1,1
+beginlodmesh
+300, store09_lod1.mesh
+endlodmesh
+beginmesh
+mesh store09box.mesh
+endmesh
+end

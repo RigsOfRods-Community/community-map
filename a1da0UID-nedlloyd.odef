@@ -1,0 +1,33 @@
+a1da0UID-nedlloyd.mesh
+1, 1, 1
+
+beginbox
+boxcoords -15.00, 12.00, 0.00, 3.81, -104.10, 42.0
+endbox
+
+beginbox
+boxcoords -19.65, -5.65, 3.31, 3.81, -142.785, -92.955
+rotate 0, 39.25, 0
+endbox
+
+beginbox
+boxcoords -17.00, -14.16, 0.00, 11.35, -104.10, 42.0
+endbox
+
+beginbox
+boxcoords 8.78, 17, 0.00, 11.35, -104.10, 42.0
+endbox
+
+beginbox
+boxcoords -15.00, 12.00, 0.00, 11.00, 41.30, 42.0
+endbox
+
+beginbox
+boxcoords -17.00, 17.00, 10.55, 11.35, -104.10, 42.0
+endbox
+
+beginbox
+boxcoords -14.00, 2.00, 3.31, 3.81, -109.00, -104.00
+endbox
+
+end
