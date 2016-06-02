@@ -1,0 +1,42 @@
+
+material busstopNJTopaqe
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture busstopdiffuse.png
+			}
+		}
+	}
+}
+material busstopNJTtrans
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			depth_write off
+			alpha_rejection greater 0
+			cull_hardware none
+			
+			texture_unit
+			{
+				texture busstopNJTtrans.dds
+			}
+			
+			texture_unit Spec_Map
+			   {
+			   	 colour_op_ex blend_manual src_texture src_current 0.1
+			   	 env_map spherical
+				   texture busstopNJTtrans_spec.jpg
+
+			   }
+			   
+		   }
+	   }
+}
