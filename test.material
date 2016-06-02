@@ -1,0 +1,130 @@
+
+material test/TEXFACE/window_smooth_standard_lightgreytan.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture window_smooth_standard_lightgreytan.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material test/TEXFACE/Metalroof01.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture Metalroof01.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material test/TEXFACE/40wallstreetcornicestandard.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 40wallstreetcornicestandard.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material test/TEXFACE/window_smooth_standard_lightgreygreen.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture window_smooth_standard_lightgreygreen.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material greentest
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			diffuse 0.430430 0.454735 0.390220 1.000000
+		}
+	}
+}
+material test/TEXFACE/window_smooth_narrow_lightgreytan.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture window_smooth_narrow_lightgreytan.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material test/TEXFACE/window_smooth_narrow_lightgreygreen.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture window_smooth_narrow_lightgreygreen.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material Material.053/TEXFACE/40wallstreetwindow01.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 40wallstreetwindow01.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material test/TEXFACE
+{
+	technique
+	{
+		pass
+		{			
+			ambient 0.500000 0.500000 0.500000 1.000000
+			diffuse 0.800000 0.800000 0.800000 1.000000
+			specular 0.500000 0.500000 0.500000 1.000000 12.500000
+			emissive 0.000000 0.000000 0.000000 1.000000
+		}
+	}
+}

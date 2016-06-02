@@ -1,0 +1,10 @@
+LOD
+officeblock08.mesh
+1,1,1
+beginlodmesh
+200, officeblock08_lod1.mesh
+endlodmesh
+beginmesh
+mesh officeblock08box.mesh
+endmesh
+end

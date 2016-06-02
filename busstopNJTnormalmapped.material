@@ -1,0 +1,133 @@
+// Bump map with Parallax offset vertex program, support for this is required
+vertex_program SingleBumpVP cg 
+{ 
+   source singlebump.cg 
+   entry_point main_vp 
+   profiles vs_1_1 arbvp1 
+} 
+
+// Bump map with parallax fragment program 
+fragment_program SingleBumpFP cg 
+{ 
+   source singlebump.cg 
+
+   default_params 
+   { 
+       param_named lightmapactive float2 1.0 1.0 
+   } 
+
+   entry_point main_fp 
+   profiles ps_2_0 arbfp1 
+} 
+
+material busstopNJTopaqe_old
+{ 
+   lod_distances 500
+
+  // This is the preferred technique which uses both vertex and 
+   // fragment programs, supports coloured lights 
+   technique 
+   { 
+      // do the lighting  and bump mapping with parallax pass 
+      // NB we don't do decal texture here because this is repeated per light 
+      pass 
+      { 
+        
+         // Vertex program reference 
+         vertex_program_ref SingleBumpVP 
+         { 
+            param_named_auto lightPosition light_position_object_space 0 
+            param_named_auto eyePosition camera_position_object_space 
+            param_named_auto worldViewProj worldviewproj_matrix 
+         } 
+
+         // Fragment program 
+         fragment_program_ref SingleBumpFP 
+         { 
+      param_named_auto lightAmbient ambient_light_colour 0 
+            param_named_auto lightDiffuse light_diffuse_colour 0 
+            param_named_auto light light_specular_colour 0 
+       
+      // 1 active, 0 deactive. The second parameter will be the lightmap force (still not implemented) 
+      param_named lightmapactive float2 0.0 0.0 
+
+            // Parallax Height scale and bias 
+            param_named scaleBias float4 0.0 -0.0 1 0 
+  
+         } 
+          
+         // NORMAL + HEIGHT MAP 
+         texture_unit 
+         { 
+      texture_alias normalmap 
+            texture busstopnormals.png
+            tex_coord_set 0 
+         } 
+
+         // DIFFUSE 
+         texture_unit 
+         { 
+      texture_alias diffusemap 
+            texture busstopdiffuse.png
+            tex_coord_set 1 
+         } 
+
+      // LIGHTMAP 
+         texture_unit 
+         { 
+      texture_alias lightmap 
+            texture busstopdiffuse.png
+      tex_coord_set 2      
+         } 
+      } 
+   } 
+  
+   // Simple no-shader fallback 
+   technique 
+   { 
+   lod_index 1 
+      pass 
+      { 
+         // Base diffuse texture map 
+         texture_unit 
+         { 
+      texture_alias diffusemap 
+            texture busstopdiffuse.png
+      tex_coord_set 0 
+         } 
+
+      // LIGHTMAP 
+         texture_unit 
+         { 
+            texture_alias lightmap 
+            texture busstopdiffuse.png
+         tex_coord_set 2 
+         colour_op modulate 
+         } 
+
+     } 
+   } 
+
+}
+material busstopNJTtrans_old
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			depth_write off
+			cull_hardware none
+			texture_unit
+			{
+				texture busstopdiffuse.png
+				color_op modulate
+			}
+		}
+	}
+}
+
+
+
+

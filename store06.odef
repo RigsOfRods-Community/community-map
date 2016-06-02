@@ -1,0 +1,10 @@
+LOD
+store06.mesh
+1,1,1
+beginlodmesh
+150, store06_lod1.mesh
+endlodmesh
+beginmesh
+mesh store06box.mesh
+endmesh
+end

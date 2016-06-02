@@ -1,0 +1,6 @@
+busstopNJT.mesh
+1,1,1
+beginmesh
+mesh busstopNJTbox.mesh
+endmesh
+end

@@ -1,0 +1,126 @@
+material /TEXFACE/Epicrailhqwindow06fixed.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture Epicrailhqwindow06fixed.dds
+			}
+		}
+	}
+}
+material /TEXFACE/Epicrailhqwindow02fixed.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture Epicrailhqwindow02fixed.dds
+			}
+		}
+	}
+}
+material /TEXFACE/Epicrailhqwindow04fixed.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture Epicrailhqwindow04fixed.dds
+			}
+		}
+	}
+}
+material /TEXFACE/Epicrailhqwindow05fixed.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture Epicrailhqwindow05fixed.dds
+			}
+		}
+	}
+}
+material /TEXFACE/sidewalk01.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture sidewalk01.dds
+			}
+		}
+	}
+}
+material /TEXFACE/Epicrailhqwindow01fixed.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture Epicrailhqwindow01fixed.dds
+			}
+		}
+	}
+}
+material /TEXFACE/Epicrailhqwindow03fixed.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture Epicrailhqwindow03fixed.dds
+			}
+		}
+	}
+}
+material /TEXFACE/sidewalkedge.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture sidewalkedge.dds
+			}
+		}
+	}
+}
+material /TEXFACE/epicrailroof.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture epicrailroof.dds
+			}
+		}
+	}
+}

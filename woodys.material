@@ -1,12 +1,13 @@
+import * from "managed_mats.material"
 // blender material: woodys
-material woodys
+material woodys : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1324338339.122
+    technique BaseTechnique
     {
-        pass b2ogre_1324338339.122
+        pass BaseRender
         {
-            texture_unit b2ogre_1324338339.122
+            texture_unit Diffuse_Map
             {
                 texture woodys1.dds
                 tex_address_mode wrap
@@ -25,7 +26,7 @@ material woodys
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
-            texture_unit b2ogre_1324338339.126
+            texture_unit Diffuse_Map
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap
@@ -37,14 +38,14 @@ material woodys
     }
 }
 // blender material: woodys1
-material woodys1 
+material woodys1 : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1324338339.122
+    technique BaseTechnique
     {
-        pass b2ogre_1324338339.122
+        pass BaseRender
         {
-            texture_unit b2ogre_1324338339.122
+            texture_unit Diffuse_Map
             {
                 texture woodys1.dds
                 tex_address_mode wrap
@@ -63,7 +64,7 @@ material woodys1
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
-            texture_unit b2ogre_1324338339.126
+            texture_unit Diffuse_Map
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap
@@ -76,14 +77,14 @@ material woodys1
 }
 
 // blender material: woodys2
-material woodys2 
+material woodys2 : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1324338339.173
+    technique BaseTechnique
     {
-        pass b2ogre_1324338339.173
+        pass BaseRender
         {
-            texture_unit b2ogre_1324338339.173
+            texture_unit Diffuse_Map
             {
                 texture woodys2.dds
                 tex_address_mode wrap
@@ -102,7 +103,7 @@ material woodys2
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
-            texture_unit b2ogre_1324338339.179
+            texture_unit Diffuse_Map
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap
@@ -115,14 +116,14 @@ material woodys2
 }
 
 // blender material: woodys3
-material woodys3 
+material woodys3 : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1324338339.18
+    technique BaseTechnique
     {
-        pass b2ogre_1324338339.18
+        pass BaseRender
         {
-            texture_unit b2ogre_1324338339.18
+            texture_unit Diffuse_Map
             {
                 texture woodys3.dds
                 tex_address_mode wrap
@@ -141,7 +142,7 @@ material woodys3
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
-            texture_unit b2ogre_1324338339.187
+            texture_unit Diffuse_Map
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap
@@ -154,14 +155,14 @@ material woodys3
 }
 
 // blender material: woodys4
-material woodys4 
+material woodys4 : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1324338339.188
+    technique BaseTechnique
     {
-        pass b2ogre_1324338339.188
+        pass BaseRender
         {
-            texture_unit b2ogre_1324338339.189
+            texture_unit Diffuse_Map
             {
                 texture woodys4.dds
                 tex_address_mode wrap
@@ -180,7 +181,7 @@ material woodys4
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
-            texture_unit b2ogre_1324338339.193
+            texture_unit Diffuse_Map
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap
@@ -193,14 +194,14 @@ material woodys4
 }
 
 // blender material: woodys5
-material woodys5 
+material woodys5 : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1324338339.194
+    technique BaseTechnique
     {
-        pass b2ogre_1324338339.194
+        pass BaseRender
         {
-            texture_unit b2ogre_1324338339.194
+            texture_unit Diffuse_Map
             {
                 texture woodys5.dds
                 tex_address_mode wrap
@@ -208,7 +209,7 @@ material woodys5
                 tex_coord_set 0
                 colour_op replace
             }
-            texture_unit b2ogre_1324338339.198
+            texture_unit Diffuse_Map
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap
@@ -221,14 +222,14 @@ material woodys5
 }
 
 // blender material: woodys6
-material woodys6 
+material woodys6 : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1324338339.199
+    technique BaseTechnique
     {
-        pass b2ogre_1324338339.199
+        pass BaseRender
         {
-            texture_unit b2ogre_1324338339.2
+            texture_unit Diffuse_Map
             {
                 texture woodys6.dds
                 tex_address_mode wrap
@@ -247,7 +248,7 @@ material woodys6
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
-            texture_unit b2ogre_1324338339.203
+            texture_unit Diffuse_Map
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap
@@ -260,14 +261,14 @@ material woodys6
 }
 
 // blender material: woodys7
-material woodys7 
+material woodys7 : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1324338339.205
+    technique BaseTechnique
     {
-        pass b2ogre_1324338339.205
+        pass BaseRender
         {
-            texture_unit b2ogre_1324338339.205
+            texture_unit Diffuse_Map
             {
                 texture woodys7.dds
                 tex_address_mode wrap
@@ -275,7 +276,7 @@ material woodys7
                 tex_coord_set 0
                 colour_op replace
             }
-            texture_unit b2ogre_1324338339.209
+            texture_unit Diffuse_Map
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap
@@ -288,14 +289,14 @@ material woodys7
 }
 
 // blender material: woodys8
-material woodys8 
+material woodys8 : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1324338339.21
+    technique BaseTechnique
     {
-        pass b2ogre_1324338339.21
+        pass BaseRender
         {
-            texture_unit b2ogre_1324338339.21
+            texture_unit Diffuse_Map
             {
                 texture woodys8.dds
                 tex_address_mode wrap
@@ -314,7 +315,7 @@ material woodys8
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
-            texture_unit b2ogre_1324338339.214
+            texture_unit Diffuse_Map
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap
@@ -327,14 +328,14 @@ material woodys8
 }
 
 // blender material: woodys9
-material woodys9 
+material woodys9 : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1324338339.215
+    technique BaseTechnique
     {
-        pass b2ogre_1324338339.215
+        pass BaseRender
         {
-            texture_unit b2ogre_1324338339.215
+            texture_unit Diffuse_Map
             {
                 texture woodys9.dds
                 tex_address_mode wrap
@@ -342,7 +343,7 @@ material woodys9
                 tex_coord_set 0
                 colour_op replace
             }
-            texture_unit b2ogre_1324338339.219
+            texture_unit Diffuse_Map
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap
@@ -355,14 +356,14 @@ material woodys9
 }
 
 // blender material: woodys10
-material woodys10 
+material woodys10 : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1324338339.219
+    technique BaseTechnique
     {
-        pass b2ogre_1324338339.22
+        pass BaseRender
         {
-            texture_unit b2ogre_1324338339.22
+            texture_unit Diffuse_Map
             {
                 texture woodys10.dds
                 tex_address_mode wrap
@@ -381,7 +382,7 @@ material woodys10
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
-            texture_unit b2ogre_1324338339.224
+            texture_unit Diffuse_Map
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap
@@ -394,14 +395,14 @@ material woodys10
 }
 
 // blender material: woodys12
-material woodys12 
+material woodys12 : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1324338339.225
+    technique BaseTechnique
     {
-        pass b2ogre_1324338339.225
+        pass BaseRender
         {
-            texture_unit b2ogre_1324338339.225
+            texture_unit Diffuse_Map
             {
                 texture woodys12.dds
                 tex_address_mode wrap
@@ -420,7 +421,7 @@ material woodys12
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
-            texture_unit b2ogre_1324338339.231
+            texture_unit Diffuse_Map
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap
@@ -433,14 +434,14 @@ material woodys12
 }
 
 // blender material: woodys13
-material woodys13 
+material woodys13 : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1324338339.232
+    technique BaseTechnique
     {
-        pass b2ogre_1324338339.232
+        pass BaseRender
         {
-            texture_unit b2ogre_1324338339.232
+            texture_unit Diffuse_Map
             {
                 texture woodys13.dds
                 tex_address_mode wrap
@@ -459,7 +460,7 @@ material woodys13
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
-            texture_unit b2ogre_1324338339.238
+            texture_unit Diffuse_Map
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap
@@ -472,14 +473,14 @@ material woodys13
 }
 
 // blender material: woodys14
-material woodys14 
+material woodys14 : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1324338339.239
+    technique BaseTechnique
     {
-        pass b2ogre_1324338339.239
+        pass BaseRender
         {
-            texture_unit b2ogre_1324338339.239
+            texture_unit Diffuse_Map
             {
                 texture woodys14.dds
                 tex_address_mode wrap
@@ -498,7 +499,7 @@ material woodys14
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
-            texture_unit b2ogre_1324338339.243
+            texture_unit Diffuse_Map
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap
@@ -511,14 +512,14 @@ material woodys14
 }
 
 // blender material: woodys15
-material woodys15 
+material woodys15 : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1324338339.244
+    technique BaseTechnique
     {
-        pass b2ogre_1324338339.244
+        pass BaseRender
         {
-            texture_unit b2ogre_1324338339.244
+            texture_unit Diffuse_Map
             {
                 texture woodys15.dds
                 tex_address_mode wrap
@@ -537,7 +538,7 @@ material woodys15
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
-            texture_unit b2ogre_1324338339.248
+            texture_unit Diffuse_Map
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap
@@ -550,14 +551,14 @@ material woodys15
 }
 
 // blender material: woodys16
-material woodys16 
+material woodys16 : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1324338339.249
+    technique BaseTechnique
     {
-        pass b2ogre_1324338339.249
+        pass BaseRender
         {
-            texture_unit b2ogre_1324338339.249
+            texture_unit Diffuse_Map
             {
                 texture woodys16.dds
                 tex_address_mode wrap
@@ -576,7 +577,7 @@ material woodys16
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
-            texture_unit b2ogre_1324338339.253
+            texture_unit Diffuse_Map
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap
@@ -589,14 +590,14 @@ material woodys16
 }
 
 // blender material: woodys17
-material woodys17 
+material woodys17 : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1324338339.254
+    technique BaseTechnique
     {
-        pass b2ogre_1324338339.254
+        pass BaseRender
         {
-            texture_unit b2ogre_1324338339.254
+            texture_unit Diffuse_Map
             {
                 texture woodys17.dds
                 tex_address_mode wrap
@@ -604,7 +605,7 @@ material woodys17
                 tex_coord_set 0
                 colour_op replace
             }
-            texture_unit b2ogre_1324338339.256
+            texture_unit Diffuse_Map
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap
@@ -617,16 +618,16 @@ material woodys17
 }
 
 // blender material: richshoes
-material richshoes 
+material richshoes : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1324338339.257
+    technique BaseTechnique
     {
-        pass b2ogre_1324338339.257
+        pass BaseRender
         {
 			alpha_rejection greater 128
             alpha_to_coverage on
-            texture_unit b2ogre_1324338339.257
+            texture_unit Diffuse_Map
             {
                 texture richshoes.dds
 				tex_address_mode wrap
@@ -634,7 +635,7 @@ material richshoes
                 tex_coord_set 0
                 colour_op alpha_blend
             }
-			texture_unit b2ogre_1324338339.598
+			texture_unit Diffuse_Map
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap
@@ -647,12 +648,12 @@ material richshoes
 }
 
 // blender material: woodiesawning
-material woodiesawning 
+material woodiesawning : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1324338339.261
+    technique BaseTechnique
     {
-        pass b2ogre_1324338339.261
+        pass BaseRender
         {
             ambient 0.800000011920929 0.800000011920929 0.800000011920929 0.0
             diffuse 0.6400000190734865 0.6400000190734865 0.6400000190734865 0.0
@@ -674,7 +675,7 @@ material woodiesawning
             scene_blend_op add
             shading gouraud
             transparent_sorting on
-            texture_unit b2ogre_1324338339.262
+            texture_unit Diffuse_Map
             {
                 texture woodiesawning.dds
                 tex_address_mode wrap
@@ -687,12 +688,12 @@ material woodiesawning
 }
 
 // blender material: genericawning1
-material genericawning1 
+material genericawning1 : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1324338339.572
+    technique BaseTechnique
     {
-        pass b2ogre_1324338339.572
+        pass BaseRender
         {
             alpha_rejection greater 128
             alpha_to_coverage on
@@ -704,7 +705,7 @@ material genericawning1
                 tex_coord_set 0
                 colour_op alpha_blend
             }
-			texture_unit b2ogre_1324338339.598
+			texture_unit Diffuse_Map
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap
@@ -717,16 +718,16 @@ material genericawning1
 }
 
 // blender material: genericawning2
-material genericawning2 
+material genericawning2 : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1324338339.577
+    technique BaseTechnique
     {
-        pass b2ogre_1324338339.577
+        pass BaseRender
         {
 			alpha_rejection greater 128
             alpha_to_coverage on
-            texture_unit b2ogre_1324338339.578
+            texture_unit Diffuse_Map
             {
                 texture genericawning2.dds
 				tex_address_mode wrap
@@ -734,7 +735,7 @@ material genericawning2
                 tex_coord_set 0
                 colour_op alpha_blend
             }
-			texture_unit b2ogre_1324338339.598
+			texture_unit Diffuse_Map
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap
@@ -747,12 +748,12 @@ material genericawning2
 }
 
 // blender material: metalroof
-material metalroof 
+material metalroof : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1324338339.59
+    technique BaseTechnique
     {
-        pass b2ogre_1324338339.59
+        pass BaseRender
         {
             ambient 0.800000011920929 0.800000011920929 0.800000011920929 1.0
             diffuse 0.6400000190734865 0.6400000190734865 0.6400000190734865 1.0
@@ -773,7 +774,7 @@ material metalroof
             scene_blend_op add
             shading gouraud
             transparent_sorting on
-            texture_unit b2ogre_1324338339.591
+            texture_unit Diffuse_Map
             {
                 texture Metalroof01.dds
                 tex_address_mode wrap
@@ -781,7 +782,7 @@ material metalroof
                 tex_coord_set 0
                 colour_op replace
             }
-            texture_unit b2ogre_1324338339.598
+            texture_unit Diffuse_Map
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap
@@ -794,12 +795,12 @@ material metalroof
 }
 
 // blender material: woodys18
-material woodys18 
+material woodys18 : RoR/Managed_Mats/Base
 {
     receive_shadows on
-    technique b2ogre_1324338339.6
+    technique BaseTechnique
     {
-        pass b2ogre_1324338339.6
+        pass BaseRender
         {
             ambient 0.800000011920929 0.800000011920929 0.800000011920929 1.0
             diffuse 0.6400000190734865 0.6400000190734865 0.6400000190734865 1.0
@@ -820,7 +821,7 @@ material woodys18
             scene_blend_op add
             shading gouraud
             transparent_sorting on
-            texture_unit b2ogre_1324338339.6
+            texture_unit Diffuse_Map
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap

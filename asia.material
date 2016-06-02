@@ -1,0 +1,121 @@
+
+material Material_#58/asiaconcrete
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture asiaconcrete.dds
+			}
+		}
+	}
+}
+material Material_#58/asiawindow
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture asiawindow.dds
+				colour_op modulate
+			}
+			texture_unit
+			{
+				texture asiawindow_spec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material Material_#58/darkcrete
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture darkcrete.dds
+			}
+		}
+	}
+}
+material Material_#58/redcrete
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture redcrete.dds
+			}
+		}
+	}
+}
+material Material_#58/asiamarble
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture marble.dds
+				colour_op modulate
+			}
+			texture_unit
+			{
+				texture marble_spec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material Material_#58/asiafacade
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture asiafacade.dds
+				colour_op modulate
+			}
+			texture_unit
+			{
+				texture asiafacade_spec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
