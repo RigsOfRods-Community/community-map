@@ -1,3 +1,5 @@
+//Heightmap options
+
 WorldSizeX=18000
 WorldSizeZ=18000
 WorldSizeY=0
@@ -8,13 +10,21 @@ PageFileFormat=CommunityMap-page-0-0.otc
 Heightmap.0.0.raw.size=5
 Heightmap.0.0.raw.bpp=2
 Heightmap.0.0.flipX=false
+
+//Lighting options
  
 disableCaching=1
+
 LightmapEnabled=1
+
 NormalMappingEnabled=0
+
 SpecularMappingEnabled=1
+
 ParallaxMappingEnabled=0
+
 GlobalColourMapEnabled=0
-ReceiveDynamicShadowsDepth=0 to use depth shadows.
+
+//ReceiveDynamicShadowsDepth=0 to use depth shadows.
 ReceiveDynamicShadowsDepth=false
 
