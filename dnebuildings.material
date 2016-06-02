@@ -1,0 +1,3532 @@
+material modularbuildings/TEXFACE/sidewalk01.dds
+{
+
+	receive_shadows on
+	technique near
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture sidewalk01.dds
+			}		
+		}
+	}
+}
+material modularbuildings/TEXFACE/sidewalkedge.dds
+{
+
+	receive_shadows on
+	technique near
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture sidewalkedge.dds
+			}		
+		}
+	}
+}
+material modularbuildings/TEXFACE/Metalroof01.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture Metalroof01.dds
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/base_wall_largeblocks_darkgrey.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture base_wall_largeblocks_darkgrey.dds
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/base_window_narrow_darkgrey.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture base_window_narrow_darkgrey.dds
+			}
+			texture_unit 
+			{
+				texture base_window_narrow_darkgreyspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/window_narrow_darkgrey.dds
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture window_narrow_darkgrey.dds
+			}			
+			texture_unit 
+			{
+				texture window_narrow_tan_croppedspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/window_narrow_archtop_darkgrey.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture window_narrow_archtop_darkgrey.dds
+				colour_op modulate
+			}
+			texture_unit 
+			{
+				texture window_narrow_archtop_darkgreyspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/sidewalk01.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture sidewalk01.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/wall_largeblocks_darkgrey.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture wall_largeblocks_darkgrey.dds
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/Epicrailhqwindow06fixed.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture Epicrailhqwindow06fixed.dds
+			}
+			texture_unit 
+			{
+				texture Epicrailhqwindow06fixedspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/Epicrailhqwindow02fixed.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture Epicrailhqwindow02fixed.dds
+			}
+			texture_unit 
+			{
+				texture Epicrailhqwindow02fixedspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/Epicrailhqwindow04fixed.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture Epicrailhqwindow04fixed.dds
+			}
+			texture_unit 
+			{
+				texture Epicrailhqwindow04fixedspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/Epicrailhqwindow05fixed.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture Epicrailhqwindow05fixed.dds
+			}
+			texture_unit 
+			{
+				texture Epicrailhqwindow05fixedspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/Epicrailhqwindow01fixed.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture Epicrailhqwindow01fixed.dds
+			}
+			texture_unit 
+			{
+				texture Epicrailhqwindow01fixedspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/Epicrailhqwindow03fixed.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture Epicrailhqwindow03fixed.dds
+			}
+			texture_unit 
+			{
+				texture Epicrailhqwindow03fixedspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/epicrailroof.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture epicrailroof.dds
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/window_chicago_lightgrey.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture window_chicago_lightgrey.dds
+			}
+			texture_unit 
+			{
+				texture window_chicago_lightgreyspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/base_window_chicago_lightgrey.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture base_window_chicago_lightgrey.dds
+			}
+			texture_unit 
+			{
+				texture base_window_chicago_lightgreyspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/base_window_largearch_lightgrey.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture base_window_largearch_lightgrey.dds
+				colour_op modulate
+			}
+			texture_unit 
+			{
+				texture base_window_largearch_lightgreyspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/brickwindowarch_darkred.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture brickwindowarch_darkred.dds
+				colour_op modulate
+			}
+			texture_unit 
+			{
+				texture brickwindowarch_darkredspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/sign01.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture sign01.dds
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/brickwall_darkred.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture brickwall_darkred.dds
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/base_brickentrance_darkred.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture base_brickentrance_darkred.dds
+				colour_op modulate
+			}
+			texture_unit 
+			{
+				texture base_brickentrance_darkredspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/base_brickdoor_darkred.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture base_brickdoor_darkred.dds
+				colour_op modulate
+			}
+			texture_unit 
+			{
+				texture base_brickdoor_darkredspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/brickwindowplain_darkred.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture brickwindowplain_darkred.dds
+				colour_op modulate
+			}
+			texture_unit 
+			{
+				texture brickwindowplain_darkredspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/base_brickwindow_darkred.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture base_brickwindow_darkred.dds
+				colour_op modulate
+			}
+			texture_unit 
+			{
+				texture base_brickwindow_darkredspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/cornice01_white.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture cornice01_white.dds
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/brickwindowarch_darkblue.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture brickwindowarch_darkblue.dds
+			}
+
+			texture_unit 
+			{
+				texture brickwindowarch_darkredspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/base_brickwindow_white.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture base_brickwindow_white.dds
+			}
+
+			texture_unit 
+			{
+				texture base_brickwindow_darkredspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/brickwindowplain_yeller.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture brickwindowplain_yeller.dds
+			}
+
+			texture_unit 
+			{
+				texture brickwindowplain_darkredspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/brickwindow_yeller.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture brickwindow_yeller.dds
+			}
+
+			texture_unit 
+			{
+				texture brickwindowplain_darkredspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/brickwall_darkblue.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture brickwall_darkblue.dds
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/brickwall_white.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture brickwall_white.dds
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/brickwindownonarch_white.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture brickwindownonarch_white.dds
+			}
+
+			texture_unit 
+			{
+				texture brickwindowplain_darkredspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit 
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/brickwindowplain_darkblue.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture brickwindowplain_darkblue.dds
+			}
+
+			texture_unit 
+			{
+				texture brickwindowplain_darkredspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit 
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/cornice01_darkblue.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture cornice01_darkblue.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/base_brickentrance_white.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture base_brickentrance_white.dds
+			}
+
+			texture_unit 
+			{
+				texture base_brickentrance_darkredspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/cornice01_darkred.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture cornice01_darkred.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/base_brickentrance_darkblue.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture base_brickentrance_darkblue.dds
+			}
+
+			texture_unit 
+			{
+				texture base_brickentrance_darkredspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/cornice02_darkred.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture cornice02_darkred.dds
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/brickwall_yeller.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture brickwall_yeller.dds
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/window_chicago_darkgrey.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture window_chicago_darkgrey.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture window_chicago_lightgreyspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/base_window_largearch_darkgrey.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture base_window_largearch_darkgrey.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture base_window_largearch_lightgreyspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/window_2small_darkgrey.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture window_2small_darkgrey.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture window_2small_lightgreyspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/base_window_chicago_darkgrey.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture base_window_chicago_darkgrey.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture base_window_chicago_lightgreyspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/base_window_standard_tan_cropped.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture base_window_standard_tan_cropped.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture base_window_standard_tan_croppedspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/base_window_arch_tan_cropped.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture base_window_arch_tan_cropped.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture base_window_arch_tan_croppedspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/window_standard_tan_cropped.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture window_standard_tan_cropped.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture window_standard_tan_croppedspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/window_narrow_tan_cropped.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture window_narrow_tan_cropped.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture window_narrow_tan_croppedspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/base_window_narrow_tan_cropped.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture base_window_narrow_tan_cropped.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture base_window_narrow_darkgreyspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/cornice02end_darkred.jpg
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture cornice02end_darkred.jpg
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/cornice02_darkred.jpg
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture cornice02_darkred.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/brickwindow_white.jpg
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture brickwindow_white.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture brickwindowarch_darkredspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/base_brickwindow_darkblue.jpg
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture base_brickwindow_darkblue.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture base_brickwindow_darkredspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/brickwindow_darkred2.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture brickwindow_darkred2.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture brickwindowplain_darkredspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/cornice01_concrete_fancy.jpg.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture cornice01_concrete_fancy.jpg.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/brickfiredepartmentdoor.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture brickfiredepartmentdoor.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/parkingspacewhite.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture parkingspacewhite.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/lowercornice01_concrete.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture lowercornice01_concrete.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/asphalt.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture asphalt.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/busstationsign.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture busstationsign.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/decowhitepanels.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture decowhitepanels.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/busstationsign2.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture busstationsign2.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/decowindow.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture decowindow.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture decowindowspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/window_standard_tanbrick.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture window_standard_tanbrick.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture window_standard_tan_croppedspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/cornice04_tan.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture cornice04_tan.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/base_window_arch_lightgrey.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture base_window_arch_lightgrey.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture base_window_arch_tan_croppedspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/base_window_narrow_lightgrey.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture base_window_narrow_lightgrey.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture base_window_narrow_darkgreyspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/window_narrow_lightdarkgrey.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture window_narrow_lightdarkgrey.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture window_narrow_tan_croppedspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/base_window_standard_lightgrey.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture base_window_standard_lightgrey.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture base_window_standard_tan_croppedspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/lowercornice02_concrete.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture lowercornice02_concrete.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/window_standard_lightdarkgrey.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture window_standard_lightdarkgrey.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture window_standard_tan_croppedspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/window_chicago_lightdarkgrey.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture window_chicago_lightdarkgrey.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture window_chicago_lightgreyspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/window_columnbase_tanbrick.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture window_columnbase_tanbrick.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture window_standard_tan_croppedspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/window_arch_tanbrick.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture window_arch_tanbrick.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture window_arch_tanbrickspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/window_column_tanbrick.png
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture window_column_tanbrick.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture window_standard_tan_croppedspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/window_columnarch_tanbrick.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture window_columnarch_tanbrick.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture window_arch_tanbrickspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/garage_base_window.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture garage_base_window.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture garage_base_windowspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/garage_window_window_topfloor.dds
+{
+	technique
+	{
+		pass
+		{			
+			scene_blend alpha_blend
+			cull_hardware none
+			alpha_rejection greater 128
+			texture_unit
+			{
+				texture garage_window_window_topfloor.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/concreteparkingspace.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture concreteparkingspace.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/garage_window_secondfloor_column.dds
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			cull_hardware none
+			alpha_rejection greater 128
+			texture_unit
+			{
+				texture garage_window_secondfloor_column.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/garage_window_mainwindow.dds
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			cull_hardware none
+			alpha_rejection greater 128
+			texture_unit
+			{
+				texture garage_window_mainwindow.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/garage_cornice.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture garage_cornice.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/concretebaretan.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture concretebaretan.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/garage_side_window.dds
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			cull_hardware none
+			alpha_rejection greater 128
+			texture_unit
+			{
+				texture garage_side_window.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/garage_window_secondfloor_nocolumn.dds
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			cull_hardware none
+			alpha_rejection greater 128
+			texture_unit
+			{
+				texture garage_window_secondfloor_nocolumn.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/garage_base_door.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture garage_base_door.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture garage_base_doorspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material queen/TEXFACE/garage_side_window.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture garage_side_window.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture garage_side_windowspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/brickwindowarch_darkred2.jpg.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture brickwindowarch_darkred2.jpg.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture brickwindowarch_darkredspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/cornice02_darkred2.jpg.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture cornice02_darkred2.jpg.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/cornice04_lightgrey.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture cornice04_lightgrey.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/brickwindowwide_darkred.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture brickwindowwide_darkred.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture brickwindowwide_darkredspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/brickwindowplain_darkred2.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture brickwindowplain_darkred2.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture brickwindowplain_darkredspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/base_window_tallsmallarch_lightgrey.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture base_window_tallsmallarch_lightgrey.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture base_window_tallsmallarch_lightgreyspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/base_window_tallarch_lightgrey.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture base_window_tallarch_lightgrey.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture base_window_tallarch_lightgreyspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/window_chicago_lightgrey2.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture window_chicago_lightgrey2.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture window_chicago_lightgreyspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/cornice05_lightgrey.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture cornice05_lightgrey.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/base_window_tallarchentrance_lightgrey.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture base_window_tallarchentrance_lightgrey.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture base_window_tallarch_lightgreyspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/window_standard_lightgrey2.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture window_standard_lightgrey2.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture window_standard_tan_croppedspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/cornice02_tan.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture cornice02_tan.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/brickwindowplain_darkred3.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture brickwindowplain_darkred3.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture brickwindowplain_darkredspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/policedepartmentsign.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture policedepartmentsign.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/base_brickentrance_columns.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture base_brickentrance_columns.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture base_brickentrance_columnsspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/lowercornice03_concrete.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture lowercornice03_concrete.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/coppersheathing.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture coppersheathing.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/gothicwindow.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture gothicwindow.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture gothicwindowspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/40wallstreetwindow01.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 40wallstreetwindow01.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture 40wallstreetwindow01spec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/window_smooth_narrow_lightgreytan.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture window_smooth_narrow_lightgreytan.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture window_narrow_tan_croppedspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/window_smooth_standard_lightgreytan.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture window_smooth_standard_lightgreytan.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture window_standard_tan_croppedspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/window_smooth_narrow_lightgreygreen.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture window_smooth_narrow_lightgreygreen.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture window_narrow_tan_croppedspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/40wallstreetcornicestandard.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 40wallstreetcornicestandard.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/window_smooth_standard_lightgreygreen.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture window_smooth_standard_lightgreygreen.dds
+				colour_op modulate
+				texture_unit
+			}
+
+			texture_unit 
+			{
+				texture window_standard_tan_croppedspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/warehouse_largewindow_loadingdock.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture warehouse_largewindow_loadingdock.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture warehouse_largewindow_loadingdockspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/warehouse_smallwindow.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture warehouse_smallwindow.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture warehouse_smallwindowspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/warehouse_smallwindow_entrance.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture warehouse_smallwindow_entrance.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture warehouse_smallwindow_entrancespec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/warehouse_smallwindow_top.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture warehouse_smallwindow_top.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture warehouse_smallwindow_topspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/warehouse_largewindow.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture warehouse_largewindow.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture warehouse_largewindowspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/warehouse_largewindow_top.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture warehouse_largewindow_top.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture warehouse_largewindow_topspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/lightgreybrick.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture lightgreybrick.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/window_standard_darkgrey.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture window_standard_darkgrey.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture window_standard_tan_croppedspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/betterbrickdiffuse.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture betterbrickdiffuse.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/asphaltshingles.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture asphaltshingles.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/concretetan.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture concretetan.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/failsign2.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture failsign2.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/concretelightgrey.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture concretelightgrey.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/concretedarkgrey.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture concretedarkgrey.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/modernistwindow01.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture modernistwindow01.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture modernistwindow01spec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/failcorplogo.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture failcorplogo.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/failsign.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture failsign.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/modernistbasewindow.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture modernistbasewindow.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture modernistbasewindowspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/modernistentrance.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture modernistentrance.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture modernistentrancespec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/antenna.tga
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture antenna.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/brickwindow_darkred.jpg
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture brickwindow_darkred.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture brickwindowplain_darkredspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/base_brickdoor_darkblue.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture base_brickdoor_darkblue.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture base_brickdoor_darkredspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/base_brickdoor_yeller.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture base_brickdoor_yeller.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture base_brickdoor_darkredspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/brickwindowarch_yeller.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture brickwindowarch_yeller.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture brickwindowarch_darkredspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/base_brickdoor_white.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture base_brickdoor_white.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture base_brickdoor_darkredspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/brickwindow_white.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture brickwindow_white.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture brickwindowarch_darkredspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/facade01topwindow.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture facade01topwindow.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture facade01topwindowspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/facade01cornice.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture facade01cornice.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material modularbuildings/TEXFACE/facade01basewindow.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture facade01basewindow.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture facade01basewindowspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/facade01window.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture facade01window.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture facade01windowspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/TEXFACE/facade01baseentrance.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture facade01baseentrance.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture facade01baseentrancespec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/SOLID/TEX/facade02basewindow.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture facade02basewindow.dds
+			}
+
+			texture_unit 
+			{
+				texture facade02basewindowspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/SOLID/TEX/facade02cornice.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture facade02cornice.dds
+			}
+		}
+	}
+}
+material modularbuildings/SOLID/TEX/chimney01.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture chimney01.dds
+			}
+		}
+	}
+}
+material modularbuildings/SOLID/TEX/facade02window.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture facade02window.dds
+			}
+
+			texture_unit 
+			{
+				texture facade02windowspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/SOLID/TEX/facade03window.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture facade03window.dds
+			}
+
+			texture_unit 
+			{
+				texture facade03windowspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/SOLID/TEX/facade02basedoor.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture facade02basedoor.dds
+			}
+		}
+	}
+}
+material modularbuildings/SOLID/TEX/brickwall_darkred.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture brickwall_darkred.dds
+			}
+		}
+	}
+}
+material modularbuildings/SOLID/TEX/sidewalkedge.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture sidewalkedge.dds
+			}
+		}
+	}
+}
+material modularbuildings/SOLID/TEX/facade03door.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture facade03door.dds
+			}
+		}
+	}
+}
+material modularbuildings/SOLID/TEX/sidewalk01.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture sidewalk01.dds
+			}
+		}
+	}
+}
+material modularbuildings/SOLID/TEX/blueawning.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture blueawning.dds
+			}
+		}
+	}
+}
+material modularbuildings/SOLID/TEX/chimney2.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture chimney2.dds
+			}
+		}
+	}
+}
+material modularbuildings/SOLID/TEX/facade03cornice.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture facade03cornice.dds
+			}
+		}
+	}
+}
+material modularbuildings/SOLID/TEX/facade03topwindow.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture facade03topwindow.dds
+			}
+
+			texture_unit 
+			{
+				texture facade03topwindowspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/SOLID/TEX/asphaltshingles.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture asphaltshingles.dds
+			}
+		}
+	}
+}
+material modularbuildings/SOLID/TEX/highdetailrowhousesigns.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture highdetailrowhousesigns.dds
+			}
+		}
+	}
+}
+material modularbuildings/SOLID/TEX/facade02topwindow.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture facade02topwindow.dds
+			}
+
+			texture_unit 
+			{
+				texture facade02topwindowspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/SOLID/TEX/facade03base.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture facade03base.dds
+			}
+
+			texture_unit 
+			{
+				texture facade03basespec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture 767chrome.jpg
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+		}
+	}
+}
+material modularbuildings/SOLID/TEX/facade03brick.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture facade03brick.dds
+			}
+		}
+	}
+}
+material modularbuildings/SOLID/TEX/roofcrap1.dds
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture roofcrap1.dds
+			}
+		}
+	}
+}
+material helipad/TEXFACE/Helipad.psd
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture Helipad.dds
+				colour_op modulate
+			}
+		}
+	}
+}
