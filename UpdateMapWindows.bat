@@ -31,7 +31,7 @@ pause
 GOTO MoveZip
 
 :MoveZip
-move "Community-Map-git.zip" "C:\Users\%USERNAME%\Documents\Rigs of Rods 0.4\terrains"
+move "Community-Map-git.zip" "C:\Users\%USERNAME%\Documents\Rigs of Rods 0.4\packs"
 echo Done. Exiting...
 pause
 EXIT
