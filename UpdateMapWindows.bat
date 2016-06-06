@@ -25,7 +25,6 @@ GOTO ZipFiles
 
 :ZipFiles
 echo Zipping Community Map files...
-7z.exe a -tzip Community-Map-git.zip *.* -mx3 -xr!?git\*
 echo Done. Moving to Rigs of Rods 0.4\packs folder...
 pause
 GOTO MoveZip
