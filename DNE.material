@@ -3524,3 +3524,102 @@ material failcorpLOD : RoR/Managed_Mats/Base
         }
     }
 }
+material Material.005/TEXFACE/sidewalkedge.dds : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+				texture sidewalkedge.dds
+			}
+		}
+	}
+}
+material Material.005/TEXFACE/sidewalk01.dds: RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+				texture sidewalk01.dds
+			}
+		}
+	}
+}
+material /TEXFACE/cornice01_darkred.dds: RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+				texture cornice01_darkred.dds
+				colour_op modulate
+			}
+		}
+	}
+}
+material Material.005/TEXFACE/base_wall_largeblocks_darkgrey.dds : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+				texture base_wall_largeblocks_darkgrey.dds
+			}
+		}
+	}
+}
+material Material.005/TEXFACE/Metalroof01.dds : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+				texture Metalroof01.dds
+			}
+		}
+	}
+}
+material Material.005/TEXFACE/betterbrickdiffuse.dds : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+				texture betterbrickdiffuse.dds
+			}
+		}
+	}
+}
+material Material.005/TEXFACE/asphaltshingles.dds : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+				texture asphaltshingles.dds
+			}
+		}
+	}
+}
