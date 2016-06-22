@@ -1,0 +1,15 @@
+woodpile6-dc.mesh
+1, 1, 1
+
+beginmesh
+mesh woodpile6-dc.mesh
+endmesh
+
+
+beginbox
+boxcoords 1
+virtual
+event shopplane avatar
+endbox
+
+end

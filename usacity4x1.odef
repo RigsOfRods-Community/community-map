@@ -1,0 +1,6 @@
+usacity4x1.mesh
+1, 1, 1
+beginmesh
+mesh usacity4x1-Col.mesh
+endmesh
+end

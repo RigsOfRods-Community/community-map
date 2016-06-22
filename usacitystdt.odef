@@ -1,0 +1,6 @@
+usacitystdt.mesh
+1, 1, 1
+beginmesh
+mesh usacitystdt-Col.mesh
+endmesh
+end

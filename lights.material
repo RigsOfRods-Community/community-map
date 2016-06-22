@@ -12,7 +12,7 @@ material Red_flash1
 			//depth_check off
 			texture_unit
 			{
-				anim_texture Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds  Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds  Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds  1.0
+				anim_texture Map-redflare.dds  Map-Light_off.dds 6
 			}
 		}
 	}
@@ -31,7 +31,7 @@ material Red_flash2
 			//depth_check off
 			texture_unit
 			{
-				anim_texture  Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds  Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds 1.0
+				anim_texture  Map-Light_off.dds Map-redflare.dds 6
 			}
 		}
 	}
@@ -50,7 +50,7 @@ material Red_flash3
 			//depth_check off
 			texture_unit
 			{
-				anim_texture Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-Light_off.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds Map-redflare.dds 1.0
+				anim_texture Map-Light_off.dds Map-Light_off.dds Map-redflare.dds 6
 			}
 		}
 	}

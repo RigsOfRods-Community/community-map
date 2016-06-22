@@ -1,0 +1,6 @@
+construction-site-tower2.mesh
+1, 1, 1
+beginmesh
+mesh construction-site-tower2.mesh
+endmesh
+end

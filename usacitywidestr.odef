@@ -1,0 +1,6 @@
+usacitywidestr.mesh
+1, 1, 1
+beginmesh
+mesh usacitywidestr-Col.mesh
+endmesh
+end

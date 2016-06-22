@@ -1,158 +1,4 @@
 import * from "managed_mats.material"
-material Splat/ShadowCast
-{
-	// Vertex program waving grass
-    technique
-    {
-        pass
-        {
-            
-  			alpha_rejection greater 150 
-            
-  			scene_blend alpha_blend
-            
-  		    cull_hardware none
-              cull_software none
-
-          }
-      }
-}
-material Splat/ShadowRecieve
-{
-	// Vertex program waving grass
-    technique
-    {
-        pass 
-		{
-			scene_blend add
-  
-			alpha_rejection greater 150       
-            
-		    cull_hardware none
-            cull_software none 
-            
-            texture_unit ShadowMap
-            {
-                 tex_address_mode border
-                 tex_border_colour 1.0 1.0 1.0 0.0                
-                 content_type shadow
-                 filtering linear linear none		
-                 tex_coord_set 0
-            }
-        }
-        
-    }
-}
-material Specular/Shadow
-{
-	transparency_casts_shadows on
-    receive_shadows on
-	technique
-	{
-	    shadow_caster_material Splat/ShadowCast
-        shadow_receiver_material Splat/ShadowRecieve
-		pass
-		{
-			scene_blend alpha_blend
-			cull_hardware none
-			shading phong
-			texture_unit
-			{
-				texture_alias base
-			}
-		}
-		pass
-		{
-			scene_blend modulate
-			cull_hardware none
-			alpha_rejection greater 128
-			shading phong
-			texture_unit
-			{
-				scale 0.0125 0.0125
-				texture_alias base_detail
-			}
-		}
-		pass
-		{
-			scene_blend_op subtract 
-			texture_unit
-			{
-				texture_alias specular
-			}
-			
-		}
-		pass
-		{
-			diffuse 0 0 0 0
-			emissive 0 0 0 0
-			specular 0.5 0.5 0.5 1 64
-			scene_blend add 
-			ambient 0.25 0.25 0.25 0
-			texture_unit
-			{
-				texture_alias specular
-			}
-			
-		}
-		pass
-		{
-			scene_blend alpha_blend
-			texture_unit Splat1
-			{
-				texture_alias watermap
-				// use alpha from this texture
-				alpha_op_ex source1 src_texture src_texture
-				// and colour from last pass
-				colour_op_ex source2 src_texture src_texture
-			}
-			texture_unit
-			{
-				cubic_texture EnvironmentTexture combinedUVW
-				color_op_ex blend_manual src_texture src_current 0.5
-				tex_address_mode wrap
-                scale 1 1
-				env_map cubic_reflection
-
-				tex_coord_set 1
-				alpha blend colour with colour from last pass
-				colour_op_ex blend_diffuse_alpha src_texture src_current
-            }
-			
-		}
-		pass
-		{
-			scene_blend alpha_blend
-			cull_hardware none
-			shading phong
-			texture_unit
-			{
-				texture_alias base_transparent
-			}
-		}
-		pass Shadow
-		{
-			// base colours, not needed for rendering, but as information
-			// to lighting pass categorisation routine
-			ambient 0 0 0 
-			
-			// do this for each light
-			iteration once
-			
-			//scene_blend src_colour src_colour
-			scene_blend modulate
-			alpha_rejection greater 150 
-            texture_unit ShadowMap
-            {
-                 tex_address_mode border
-                 tex_border_colour 1.0 1.0 1.0 0.0                
-                 content_type shadow
-                 filtering anisotropic
-                 tex_coord_set 0
-            }
-		}
-	}
-}
 
 material Dc-highway : RoR/Managed_Mats/Base
 {
@@ -1224,7 +1070,7 @@ material Rest-signs-tex : RoR/Managed_Mats/Base
 
     
     	}
-        pass BaseRender
+        pass 
         {
             scene_blend alpha_blend
             lighting off
@@ -1304,7 +1150,6 @@ material Terminal_door_glass: RoR/Managed_Mats/Base
 		    scene_blend alpha_blend
 			depth_check on
 			depth_write off
-			6.0, 6.0
 			diffuse 1 1 1 0.5
 			texture_unit Diffuse_Map
 			{
@@ -1323,7 +1168,6 @@ material Terminal_Mesh_steps: RoR/Managed_Mats/Base
 		    scene_blend alpha_blend
 			depth_check on
 			depth_write off
-			6.0, 6.0
 			diffuse 1 1 1 0.5
 			texture_unit Diffuse_Map
 			{
@@ -1599,13 +1443,12 @@ material Glass_Gray: RoR/Managed_Mats/Base
 		    scene_blend alpha_blend
 			depth_check on
 			depth_write off
-			24.0, 24.0
 			diffuse 1 1 1 0.48
 			texture_unit Diffuse_Map
 			{
 				texture fd_grey_glass.dds
 			}
-			texture_unit Diffuse_Map
+			texture_unit
 			{
 			env_map cubic_reflection
 			cubic_texture CubicShadow.dds combinedUVW

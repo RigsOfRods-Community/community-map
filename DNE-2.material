@@ -8,7 +8,7 @@ material _missing_material_
         {
             ambient 0.1 0.1 0.1 1.0
             diffuse 0.8 0.0 0.0 1.0
-            specular 0.5 0.5 0.5 1.0 12.5
+            
             emissive 0.3 0.3 0.3 1.0
         }
     }
@@ -25,7 +25,7 @@ material tutorialbuilding1 : RoR/Managed_Mats/Base
         {
             ambient 0.800000011920929 0.800000011920929 0.800000011920929 1.0
             diffuse 0.800000011920929 0.800000011920929 0.800000011920929 1.0
-            specular 0.0 0.0 0.0 1.0 12.5
+            
             emissive 0.0 0.0 0.0 1.0
             alpha_to_coverage off
             colour_write on
@@ -51,7 +51,7 @@ material tutorialbuilding1 : RoR/Managed_Mats/Base
                 tex_coord_set 0
                 colour_op replace
             }
-            texture_unit b2ogre_1330887747.684
+            texture_unit 
             {
                 texture tutorialbuildinglightmap.dds
                 tex_address_mode wrap
@@ -80,7 +80,7 @@ material greenpaintedwood : RoR/Managed_Mats/Base
                 tex_coord_set 0
                 colour_op replace
             }
-            texture_unit b2ogre_1330887747.693
+            texture_unit 
             {
                 texture tutorialbuildinglightmap.dds
                 tex_address_mode wrap
@@ -108,7 +108,7 @@ material tutorialbuilding3 : RoR/Managed_Mats/Base
                 scale 1.0 1.0
                 tex_coord_set 0
             }
-            texture_unit b2ogre_1330887747.699
+            texture_unit 
             {
                 texture tutorialbuildinglightmap.dds
                 tex_address_mode wrap
@@ -137,7 +137,7 @@ material tutorialbuilding2 : RoR/Managed_Mats/Base
                 tex_coord_set 0
                 colour_op replace
             }
-            texture_unit b2ogre_1330887747.704
+            texture_unit 
             {
                 texture tutorialbuildinglightmap.dds
                 tex_address_mode wrap
@@ -166,7 +166,7 @@ material tutorialbuilding4 : RoR/Managed_Mats/Base
                 tex_coord_set 0
                 colour_op replace
             }
-            texture_unit b2ogre_1330887747.709
+            texture_unit 
             {
                 texture tutorialbuildinglightmap.dds
                 tex_address_mode wrap
@@ -196,7 +196,7 @@ material tutorialbuilding5 : RoR/Managed_Mats/Base
                 tex_coord_set 0
                 colour_op replace
             }
-            texture_unit b2ogre_1330887747.715
+            texture_unit 
             {
                 texture tutorialbuildinglightmap.dds
                 tex_address_mode wrap
@@ -225,7 +225,7 @@ material tutorialbuilding6 : RoR/Managed_Mats/Base
                 tex_coord_set 0
                 colour_op replace
             }
-            texture_unit b2ogre_1330887747.72
+            texture_unit 
             {
                 texture tutorialbuildinglightmap.dds
                 tex_address_mode wrap
@@ -254,7 +254,7 @@ material tutorialbuilding7 : RoR/Managed_Mats/Base
                 tex_coord_set 0
                 colour_op replace
             }
-            texture_unit Diffuse_Map
+            texture_unit 
             {
                 texture tutorialbuildinglightmap.dds
                 tex_address_mode wrap
@@ -283,7 +283,7 @@ material tutorialbuilding8 : RoR/Managed_Mats/Base
                 tex_coord_set 0
                 colour_op replace
             }
-            texture_unit Diffuse_Map
+            texture_unit 
             {
                 texture tutorialbuildinglightmap.dds
                 tex_address_mode wrap
@@ -312,7 +312,7 @@ material tutorialbuilding9 : RoR/Managed_Mats/Base
                 tex_coord_set 0
                 colour_op replace
             }
-            texture_unit Diffuse_Map
+            texture_unit 
             {
                 texture tutorialbuildinglightmap.dds
                 tex_address_mode wrap
@@ -333,7 +333,7 @@ material tutorialbuilding10 : RoR/Managed_Mats/Base
         pass BaseRender
         {
 
-            texture_unit b2ogre_1330887747.738
+            texture_unit Diffuse_Map
             {
                 texture tutorialbuilding10.dds
                 tex_address_mode wrap
@@ -341,7 +341,7 @@ material tutorialbuilding10 : RoR/Managed_Mats/Base
                 tex_coord_set 0
                 colour_op replace
             }
-            texture_unit b2ogre_1330887747.774
+            texture_unit 
             {
                 texture tutorialbuildinglightmap.dds
                 tex_address_mode wrap
@@ -369,7 +369,7 @@ material tutorialbuildingroof : RoR/Managed_Mats/Base
                 tex_coord_set 0
                 colour_op replace
             }
-            texture_unit b2ogre_1330887747.779
+            texture_unit 
             {
                 texture tutorialbuildinglightmap.dds
                 tex_address_mode wrap
@@ -549,7 +549,7 @@ material rowhouse2facade4 : RoR/Managed_Mats/Base
                 tex_coord_set 0
                 colour_op replace
             }
-            texture_unit1
+            texture_unit
             {
                 texture rowhouse2lightmap.dds
                 tex_address_mode wrap
@@ -1002,7 +1002,7 @@ material rowhousefacade6 : RoR/Managed_Mats/Base
                 tex_coord_set 0
                 colour_op replace
             }
-            texture_unit5
+            texture_unit
             {
                 texture rowhouse1lightmap.dds
                 tex_address_mode wrap
