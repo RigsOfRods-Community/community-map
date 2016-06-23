@@ -1,0 +1,6 @@
+usacitybusshelter.mesh
+1, 1, 1
+beginmesh
+mesh usacitybusshelter-Col.mesh
+endmesh
+end

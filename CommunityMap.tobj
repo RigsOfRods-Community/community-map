@@ -342,6 +342,13 @@ collision-tris 1000000
 2123.38, 68.2025, 15271.6, 0, 208, 0, rowhouse1block3
 
 
+ 1689.94, 68.2026, 15050.3, 90, 0, 62, usacitystreetlightsingle
+1674.33, 68.2029, 15058.8, 90, 0, 62, usacitystreetlightsingle
+1653.99, 68.2026, 15069.7, 90, 0, 62, usacitystreetlightsingle
+
+2086.45, 68.2526, 15327.4, 90, 0, 152, tbell-lot
+2086.45, 68.2526, 15327.4, 90, 0, 152, tbell-build
+2086.45, 68.2526, 15327.4, 90, 0, 152, tbelldrive-thru
 
 
 //CityIndustrial
@@ -361,6 +368,17 @@ collision-tris 1000000
 2650.43, 68.0005, 15291.8, 90, 0, 0, Sml-pallet-pile
 2683.77, 68.0031, 15179.6, 90, 0, 0, Lg-palletstack
 2687.13, 68.0038, 15178.3, 90, 0, 0, Sml-pallet-pile
+
+2134.24, 68.0246, 14352.4, 90, 0, 242, usacitystreetlightsingle
+2114.12, 68.0023, 14363.7, 90, 0, 242, usacitystreetlightsingle
+2080.82, 68.0023, 14381.7, 90, 0, 242, usacitystreetlightsingle
+2069.54, 68.0074, 14401.7, 90, 0, 152, usacitystreetlightsingle
+2080.91, 68.0087, 14423.3, 90, 0, 152, usacitystreetlightsingle
+2106.29, 68.0023, 14469.2, 90, 0, 152, usacitystreetlightsingle
+
+2049, 68.1894, 14403.1, 90, 0, 332, usacitysignalgantry1-light
+2039.76, 68.2473, 14372.4,  90, 0, 242, usacitysignalgantry1-light
+2004.7, 68.2023, 14382.1, 90, 0, 152, usacitysignalgantry1-light
 
 //TempRoadclosedsigns
 1347.24, 68.0046, 15337.1, 0, 298, 0, Map_Barricade1
@@ -409,16 +427,12 @@ collision-tris 1000000
 1369.07, 67.973, 15176.2, 0, 323, 0, officeblock05
 
 
-;1700.85, 68.2026, 15028.1, 90, 0, 152, light-test
-;1716.48, 68.2026, 15019.9,  90, 0, 242, light-test
-;1723.68, 68.2025, 15035.1, 90, 0, 332, light-test
-;1709.96, 68.2026, 15042.4, 90, 0, 62, light-test
-;1635.18, 68.2026, 15131.2, 90, 0, 152, usacitybusshelter
-;1725.41, 68.228, 14970.2,  90, 0, 152, construction-site-tower2
-;1740.6, 68.206, 14985.3, 90, 0, 152, Gravel_pile
-;1738.86, 68.206, 14981.8, 90, 0, 152, Gravel_pile
-;1736.72, 68.206, 14977.5, 90, 0, 2, Gravel_pile
-;1705.67, 68.206, 14996.2, 90, 0, 332, woodpile6-dc
-;1705.8, 68.204, 14982.5, 90, 0, 152, woodpile6-dc
+1635.18, 68.2026, 15131.2, 90, 0, 152, usacitybusshelter
+1725.41, 68.228, 14970.2,  90, 0, 152, construction-site-tower2
+1740.6, 68.206, 14985.3, 90, 0, 152, Gravel_pile
+1738.86, 68.206, 14981.8, 90, 0, 152, Gravel_pile
+ 1736.72, 68.206, 14977.5, 90, 0, 2, Gravel_pile
+1705.67, 68.206, 14996.2, 90, 0, 332, woodpile6-dc
+1705.8, 68.204, 14982.5, 90, 0, 152, woodpile6-dc
 ;1702.03, 68.206, 14982.6, 0, 298, 0, truck2 Liebherr-630-ECH.truck
 ;1703.59, 68.2075, 14990.8, 0, 0, 0, truck2 Portapotty.load

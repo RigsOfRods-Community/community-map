@@ -1,0 +1,93 @@
+import * from "managed_mats.material"
+material alt_asphalt1  : RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+
+			texture_unit Diffuse_Map
+			{
+                texture usacityasphalt1.dds
+
+            }
+        }
+    }
+}
+
+material alt_asphalt2  : RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+
+			texture_unit Diffuse_Map
+			{
+                texture usacityasphalt2.dds
+            }
+        }
+    }
+}
+
+material alt_asphalt3  : RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+
+			texture_unit Diffuse_Map
+			{
+                texture usacityasphalt3.dds
+            }
+        }
+    }
+}
+
+material alt_sidewalk1  : RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+
+			texture_unit Diffuse_Map
+			{
+                texture usacitysidewalk1.dds
+
+            }
+        }
+    }
+}
+material shelterglass : RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			scene_blend alpha_blend
+			depth_check on
+			depth_write off
+			diffuse 1 1 1 0.48
+			texture_unit Diffuse_Map
+			{
+                texture usacityglass.png
+            }
+        }
+    }
+}
+material sheltermetal : RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+
+			texture_unit Diffuse_Map
+			{
+                texture usacitybusshelter.dds
+            }
+        }
+    }
+}

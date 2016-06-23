@@ -1,0 +1,6 @@
+usacityavenuemiddle.mesh
+1, 1, 1
+beginmesh
+mesh usacityavenuemiddle-Col.mesh
+endmesh
+end
