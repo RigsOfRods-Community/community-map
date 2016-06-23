@@ -1,0 +1,18 @@
+import * from "managed_mats.material"
+material WLPsWood62 : RoR/Managed_Mats/Base
+{
+    receive_shadows on
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+				texture WLPsWood6-2.png
+				tex_address_mode wrap
+				filtering trilinear
+				colour_op alpha_blend
+			}
+		}
+	}
+}

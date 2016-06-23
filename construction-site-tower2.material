@@ -1,0 +1,336 @@
+import * from "managed_mats.material"
+material construction-site-tow : RoR/Managed_Mats/Base
+{
+	receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+            texture Crane-man-yellow.dds
+			tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture AO-test.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+material construction-site : RoR/Managed_Mats/Base
+{
+	receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+            texture Crane-man-005.dds
+			tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture AO-test.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+material construction-site.001 : RoR/Managed_Mats/Base
+{
+	receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+            texture Concrete-wall-wood.jpg
+			tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture AO-test.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+material construction-site.002 : RoR/Managed_Mats/Base
+{
+	receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+            texture Crane-man-004.dds
+			tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture AO-test.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+material construction-site.003 : RoR/Managed_Mats/Base
+{
+	receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+            texture Crane-man-008.dds
+			tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture AO-test.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+material construction-site.004 : RoR/Managed_Mats/Base
+{
+	receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+            texture ConcreteBare0291_1_thumbhuge.jpg
+			tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture AO-test.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+material construction-site.005 : RoR/Managed_Mats/Base
+{
+	  receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+            texture ConcreteBare0054_thumbhuge.jpg
+			tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture AO-test.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+material construction-site.006 : RoR/Managed_Mats/Base
+{
+   receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+        {
+             scene_blend alpha_blend
+         alpha_rejection greater 128
+        texture_unit Diffuse_Map
+            {
+            texture Fencing_Mesh_Blue.png
+			tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture AO-test.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+material construction-site.007 : RoR/Managed_Mats/Base
+{
+   receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+            texture Groundcover_Sand_Smooth.jpg
+				tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+            }
+            texture_unit 
+            {
+                texture AO-test.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+            }
+        }
+    }
+}
+material construction-site-tower_doorzichtig : RoR/Managed_Mats/Base
+{
+   technique 
+   {
+      pass
+      {
+         scene_blend alpha_blend
+         depth_check on
+         depth_write off
+         diffuse 1.0 1.0 1.0 0.0
+         ambient 1.0 1.0 1.0 0.0
+      }
+   }
+}
+material construction-site-tower_Concrete_Aggregate_Smoke : RoR/Managed_Mats/Base
+{
+   receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+            texture Concrete_Aggregate_Smoke.jpg
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+            }
+            texture_unit 
+            {
+                texture AO-test.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+            }
+        }
+    }
+}
+material construction-site-tower_Color_006 : RoR/Managed_Mats/Base
+{
+   receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+            texture Crane-man-006.dds
+			tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture AO-test.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+material construction-site-tower_Material1 : RoR/Managed_Mats/Base
+{
+   receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+            texture Wood_Floor_Light.jpg
+                        tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture AO-test.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+material construction-site-tower__SketchupDefault
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1.0 1.0 1.0
+         ambient 1.0 1.0 1.0
+      }
+   }
+}
