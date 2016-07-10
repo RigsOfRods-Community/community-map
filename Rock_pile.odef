@@ -1,0 +1,6 @@
+Rock_pile.mesh
+1, 1, 1
+beginmesh
+mesh Rock_pile.mesh
+endmesh
+end

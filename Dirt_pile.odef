@@ -1,0 +1,6 @@
+Dirt_pile.mesh
+1, 1, 1
+beginmesh
+mesh Dirt_pile.mesh
+endmesh
+end

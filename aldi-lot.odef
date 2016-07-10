@@ -2,5 +2,6 @@ aldi-lot.mesh
 1, 1, 1
 beginmesh
 mesh aldi-lot.mesh
+stdfriction asphalt
 endmesh
 end

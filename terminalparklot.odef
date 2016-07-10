@@ -2,5 +2,6 @@ terminalparklot.mesh
 1, 1, 1
 beginmesh
 mesh terminalparklot-col.mesh
+stdfriction asphalt
 endmesh
 end

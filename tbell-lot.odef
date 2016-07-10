@@ -2,5 +2,14 @@ tbell-lot.mesh
 1, 1, 1
 beginmesh
 mesh tbell-lot-col.mesh
+stdfriction asphalt
 endmesh
+pointlight  26.3208, 7.9284,		-4.9189,  0, -1, 0, 1, 1, 1, 10 
+pointlight  59.2392, 7.9284,		-4.9189,  0, -1, 0, 1, 1, 1, 10 
+pointlight  75.281, 	7.9284,	-10.576,  0, -1, 0, 1, 1, 1, 10 
+pointlight  53.2947, 7.9284,		-31.9647,  0, -1, 0, 1, 1, 1, 10 
+pointlight  25.9627,	7.9284,	 -31.9647, 0, -1, 0, 1, 1, 1, 10 
+pointlight  1.9589,	7.9284,	 -24.9784,  0, -1, 0, 1, 1, 1, 10
+pointlight  12.4719,	2.7074,	 -11.1920,  0, -1, 0, 1, 1, 1, 10
+pointlight  11.5326,	2.882,	 -10.6497,  0, -1, 0, 1, 1, 1, 10
 end

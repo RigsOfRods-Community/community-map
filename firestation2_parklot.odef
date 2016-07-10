@@ -2,5 +2,6 @@ firestation2_parklot.mesh
 1, 1, 1
 beginmesh
 mesh firestation2_parklot_col.mesh
+stdfriction asphalt
 endmesh
 end

@@ -1,0 +1,986 @@
+import * from "managed_mats.material"
+material _missing_material_ : RoR/Managed_Mats/Base
+{
+    receive_shadows off
+    technique  BaseTechnique
+    {
+        pass BaseRender
+        {
+            ambient 0.1 0.1 0.1 1.0
+            diffuse 0.8 0.0 0.0 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.3 0.3 0.3 1.0
+        }
+    }
+}
+
+
+// blender material: intersectcorner1
+material intersectcorner1 : RoR/Managed_Mats/Base
+{
+
+    technique  BaseTechnique
+    {
+        pass BaseRender
+        {
+            
+            texture_unit Diffuse_Map
+            {
+                texture intersectoutercorner2.dds
+
+            }
+        }
+    }
+}
+
+// blender material: asphalt
+material asphalt : RoR/Managed_Mats/Base
+{
+
+    technique  BaseTechnique
+    {
+        pass BaseRender
+        {
+
+            texture_unit Diffuse_Map
+            {
+                texture asphalt.dds
+
+            }
+        }
+    }
+}
+
+// blender material: crosswalk1
+material crosswalk1 : RoR/Managed_Mats/Base
+{
+
+    technique  BaseTechnique
+    {
+        pass BaseRender
+        {
+
+            texture_unit Diffuse_Map
+            {
+                texture zebra.dds
+
+            }
+        }
+    }
+}
+
+// blender material: curb1
+material curb1 : RoR/Managed_Mats/Base
+{
+
+    technique  BaseTechnique
+    {
+        pass BaseRender
+        {
+
+            texture_unit Diffuse_Map
+            {
+                texture curb1.dds
+
+            }
+        }
+    }
+}
+
+// blender material: whitepaint
+material whitepaint : RoR/Managed_Mats/Base
+{
+
+    technique  BaseTechnique
+    {
+        pass BaseRender
+        {
+
+            texture_unit Diffuse_Map
+            {
+                texture whitepaint.dds
+
+            }
+        }
+    }
+}
+
+// blender material: singlelanesolidline
+material singlelanesolidline : RoR/Managed_Mats/Base
+{
+
+    technique  BaseTechnique
+    {
+        pass BaseRender
+        {
+
+            texture_unit Diffuse_Map
+            {
+                texture singlelanesolidline.dds
+
+            }
+        }
+    }
+}
+
+// blender material: singlelanebrokenline
+material singlelanebrokenline : RoR/Managed_Mats/Base
+{
+
+    technique  BaseTechnique
+    {
+        pass BaseRender
+        {
+
+            texture_unit Diffuse_Map           
+			{
+                texture lane1broken1solid.dds
+
+            }
+        }
+    }
+}
+
+// blender material: singlelanesolidline2
+material singlelanesolidline2 : RoR/Managed_Mats/Base
+{
+
+    technique  BaseTechnique
+    {
+        pass BaseRender
+        {
+
+            texture_unit Diffuse_Map
+            {
+                texture singlelanesolidline2.dds
+            }
+        }
+    }
+}
+
+// blender material: straightturnlane
+material straightturnlane : RoR/Managed_Mats/Base
+{
+
+    technique  BaseTechnique
+    {
+        pass BaseRender
+        {
+
+            texture_unit Diffuse_Map
+            {
+                texture straightturnlane1.dds
+            }
+        }
+    }
+}
+
+// blender material: turnlane
+material turnlane : RoR/Managed_Mats/Base
+{
+
+    technique  BaseTechnique
+    {
+        pass BaseRender
+        {
+
+            texture_unit Diffuse_Map
+            {
+                texture turnlane1.dds
+            }
+        }
+    }
+}
+
+// blender material: straightlane
+material straightlane : RoR/Managed_Mats/Base
+{
+
+    technique  BaseTechnique
+    {
+        pass BaseRender
+        {
+
+            texture_unit Diffuse_Map
+            {
+                texture straightlane1.dds
+
+            }
+        }
+    }
+}
+
+// blender material: lane
+material lane : RoR/Managed_Mats/Base
+{
+
+    technique  BaseTechnique
+    {
+        pass BaseRender
+        {
+
+            texture_unit Diffuse_Map
+            {
+                texture lane.dds
+
+            }
+        }
+    }
+}
+
+// blender material: intersectinnercorner1
+material intersectinnercorner1 : RoR/Managed_Mats/Base
+{
+
+    technique  BaseTechnique
+    {
+        pass BaseRender
+        {
+
+            texture_unit Diffuse_Map
+            {
+                texture intersectinnercorner1.dds
+
+            }
+        }
+    }
+}
+
+// blender material: intersectinnercorner5
+material intersectinnercorner5 : RoR/Managed_Mats/Base
+{
+
+    technique  BaseTechnique
+    {
+        pass BaseRender
+        {
+
+            texture_unit Diffuse_Map
+            {
+                texture intersectinnercorner2.dds
+
+            }
+        }
+    }
+}
+
+// blender material: singlelanebrokenl
+material singlelanebrokenl : RoR/Managed_Mats/Base
+{
+
+    technique  BaseTechnique
+    {
+        pass BaseRender
+        {
+
+            texture_unit Diffuse_Map            {
+                texture lane1broken.dds
+
+            }
+        }
+    }
+}
+
+// blender material: singlelanebrokenline.
+material singlelanebrokenline. : RoR/Managed_Mats/Base
+{
+
+    technique  BaseTechnique
+    {
+        pass BaseRender
+        {
+
+            texture_unit Diffuse_Map            {
+                texture lane2broken.dds
+
+            }
+        }
+    }
+}
+
+// blender material: patchedgrass
+material patchedgrass : RoR/Managed_Mats/Base
+{
+
+    technique  BaseTechnique
+    {
+        pass BaseRender
+        {
+
+            texture_unit Diffuse_Map           {
+                texture patchedgrass.dds
+
+            }
+        }
+    }
+}
+
+// blender material: concrete1
+material concrete1 : RoR/Managed_Mats/Base
+{
+
+    technique  BaseTechnique
+    {
+        pass BaseRender
+        {
+
+            texture_unit Diffuse_Map            {
+                texture Concrete1.dds
+
+            }
+        }
+    }
+}
+
+// blender material: concretelines1
+material concretelines1 : RoR/Managed_Mats/Base
+{
+
+    technique  BaseTechnique
+    {
+        pass BaseRender
+        {
+
+            texture_unit Diffuse_Map            {
+                texture Concretelines1.dds
+
+            }
+        }
+    }
+}
+
+// blender material: concreteedge
+material concreteedge : RoR/Managed_Mats/Base
+{
+
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+
+            texture_unit Diffuse_Map            {
+                texture concreteedge.dds
+
+            }
+        }
+    }
+}
+
+// blender material: cobble1
+material cobble1 : RoR/Managed_Mats/Base
+{
+
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+
+            texture_unit Diffuse_Map    
+			{
+                texture cobble1.dds
+
+            }
+        }
+    }
+}
+
+// blender material: cobble1edge2
+material cobble1edge2 : RoR/Managed_Mats/Base
+{
+
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+
+            texture_unit Diffuse_Map         
+			{
+                texture cobble1edge2.dds
+
+            }
+        }
+    }
+}
+
+// blender material: cobble1edge3
+material cobble1edge3 : RoR/Managed_Mats/Base
+{
+
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+
+            texture_unit Diffuse_Map    
+			{
+                texture cobble1edge3.dds
+
+            }
+        }
+    }
+}
+
+// blender material: concreteweatheredend1
+material concreteweatheredend1 : RoR/Managed_Mats/Base
+{
+
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+
+            texture_unit Diffuse_Map          
+			{
+                texture Concreteweatheredend1.dds
+
+            }
+        }
+    }
+}
+
+// blender material: 20ftcontainerblock
+material 20ftcontainerblock : RoR/Managed_Mats/Base
+{
+
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+
+            texture_unit Diffuse_Map          
+			{
+                texture 20ftcontainerblock.dds
+
+            }
+        }
+    }
+}
+
+// blender material: lineedge
+material lineedge : RoR/Managed_Mats/Base
+{
+
+    technique  BaseTechnique
+    {
+        pass BaseRender
+        {
+
+            texture_unit Diffuse_Map           
+			{
+                texture lineedge.dds
+
+            }
+        }
+    }
+}
+
+// blender material: linefade
+material linefade : RoR/Managed_Mats/Base
+{
+
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+
+            texture_unit Diffuse_Map          
+			{
+                texture linefade.dds
+
+            }
+        }
+    }
+}
+// blender material: asphaltedge
+material asphaltedge : RoR/Managed_Mats/Base
+{
+
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+
+            texture_unit Diffuse_Map          
+			{
+                texture asphaltedge.dds
+
+            }
+        }
+    }
+}
+
+// blender material: cobble1edge
+material cobble1edge : RoR/Managed_Mats/Base
+{
+
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+
+            texture_unit Diffuse_Map 
+            {
+                texture cobble1edge.dds
+
+            }
+        }
+    }
+}
+
+// blender material: park1
+material park1 : RoR/Managed_Mats/Base
+{
+
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+
+            texture_unit Diffuse_Map 
+            {
+                texture park1.dds
+
+            }
+        }
+    }
+}
+
+// blender material: concreteweatheredcros
+material concreteweatheredcros : RoR/Managed_Mats/Base
+{
+
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+
+            texture_unit Diffuse_Map 
+            {
+                texture Concreteweatheredcross1.dds
+
+            }
+        }
+    }
+}
+
+// blender material: asphalt2
+material asphalt2 : RoR/Managed_Mats/Base
+{
+
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+
+            texture_unit Diffuse_Map 
+            {
+                texture asphalt2.dds
+
+            }
+        }
+    }
+}
+
+// blender material: asphalt2edge
+material asphalt2edge : RoR/Managed_Mats/Base
+{
+
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+
+            texture_unit Diffuse_Map 
+            {
+                texture asphalt2edge.dds
+
+            }
+        }
+    }
+}
+
+// blender material: bricksidewalk
+material bricksidewalk : RoR/Managed_Mats/Base
+{
+
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+
+            texture_unit Diffuse_Map 
+            {
+                texture herringbonesidewalk1.dds
+
+            }
+        }
+    }
+}
+
+// blender material: lanemerge
+material lanemerge : RoR/Managed_Mats/Base
+{
+
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+
+            texture_unit Diffuse_Map
+            {
+                texture lanemerge1.dds
+
+            }
+        }
+    }
+}
+
+// blender material: failcorpconcrete3
+material failcorpconcrete3 : RoR/Managed_Mats/Base
+{
+
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+                texture concretedarkgrey.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit b2ogre_1325088073.136
+            {
+                texture failcorplightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: failcorpwindow
+material failcorpwindow 
+{
+
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit 
+            {
+                texture modernistwindow01.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+			texture_unit
+			{
+				texture modernistwindow01spec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture light.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+			texture_unit 
+            {
+                texture failcorplightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: failcorpconcrete1
+material failcorpconcrete1 : RoR/Managed_Mats/Base
+{
+
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+                texture concretelightgrey.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit b2ogre_1325088073.164
+            {
+                texture failcorplightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: failcorpconcrete2
+material failcorpconcrete2 : RoR/Managed_Mats/Base
+{
+
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+                texture concretetan.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit b2ogre_1325088073.165
+            {
+                texture failcorplightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: failticker
+material failticker 
+{
+
+    technique 
+    {
+        pass 
+        {
+            texture_unit
+            {
+                texture failticker.dds
+                tex_address_mode wrap
+				scroll_anim -0.01 0
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+			texture_unit 
+            {
+                texture failcorplightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: failcorpwindow2
+material failcorpwindow2 
+{
+
+    technique 
+    {
+        pass BaseRender
+        {
+            texture_unit
+            {
+                texture modernistbasewindow.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+				texture_unit 
+			{
+				texture modernistbasewindowspec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture light.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+			texture_unit 
+            {
+                texture failcorplightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: failcorpentrance
+material failcorpentrance 
+{
+
+    technique 
+    {
+        pass BaseRender
+        {
+            texture_unit 
+            {
+                texture modernistentrance.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+			texture_unit 
+			{
+				texture modernistentrancespec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture light.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+			texture_unit
+            {
+                texture failcorplightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: failcorpantenna
+material failcorpantenna : RoR/Managed_Mats/Base
+{
+
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+                texture antenna.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+material redglow 
+{
+
+    technique b2ogre_1325088073.169
+    {
+        pass b2ogre_1325088073.169
+        {
+           	emissive 1 1 1
+			lighting on
+			depth_bias 1
+            texture_unit b2ogre_1325088073.169
+            {
+                texture failcorpsignlarge.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }	
+    }
+	technique
+	{
+		scheme glow
+		pass
+		{
+			texture_unit
+			{
+				texture failcorpsignlarge.dds
+			}
+			ambient 0.5 0.5 0.5
+			diffuse 1 1 1
+			specular 0 0 0 1
+			emissive 0 0 0
+		}
+	}
+}
+
+// blender material: failcorpsignlarge
+material failcorpsignlarge : RoR/Managed_Mats/Base
+{
+
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+                texture failcorpsignlarge.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+material failcorplogo : RoR/Managed_Mats/Base
+{
+
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+                texture failcorplogo.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit b2ogre_1325090203.556
+            {
+                texture failcorplightmap.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+material failcorpLOD : RoR/Managed_Mats/Base
+{
+
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+                texture failcorplod.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
