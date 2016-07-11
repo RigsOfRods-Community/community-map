@@ -166,9 +166,9 @@ collision-tris 1000000
 //CityIndustrialsigns
 3257.72, 15.0022, 11589, 90, 0, 270, DCsign-stop1
 3135.96, 15.0022, 11561.9, 90, 0, 90, DCsign-stop1
-2163.28, 61.877, 14330.4, 90, 0, 287, DCsign-stop1
-2136.52, 61.0061, 14343.5, 90, 0, 330.6, DCsign-lowgrndcln
-2052.16, 61.8748, 14395, 90, 0, 330.6, DCsign-lowgrndcln
+2193.58, 61.877, 14322.4, 90, 0, 287, DCsign-stop1
+2085.57, 61.9066, 14385.9, 90, 0, 330.6, DCsign-lowgrndcln
+2085.13, 62.1127, 14358.3, 90, 0, 150.6, DCsign-lowgrndcln
 
 
 
@@ -349,6 +349,8 @@ collision-tris 1000000
 2055.26, 62.0401, 15367.8, 90, 0, 150.6, tbell-lot
 2055.26, 62.0401, 15367.8, 90, 0, 150.6, tbell-build
 2055.26, 62.0401, 15367.8, 90, 0, 150.6, tbelldrive-thru
+2188.04, 61.9721, 14637.1, 90, 0.0, -120.6, aldi-lot
+2188.04, 61.9721, 14637.1, 90, 0.0, -120.6, aldi
 
 //CityIndustrial
 2741.12, 61.8536, 15298.7, 0, 299.506, 0, warehouse1
@@ -367,15 +369,17 @@ collision-tris 1000000
 2650.43, 61.877, 15291.8, 90, 0, 0, Sml-pallet-pile
 2683.77, 61.877, 15179.6, 90, 0, 0, Lg-palletstack
 2687.13, 61.877, 15178.3, 90, 0, 0, Sml-pallet-pile
-2134.24, 61.877, 14352.4, 90, 0, 243.4, usacitystreetlightsingle
-2114.12, 61.877, 14363.7, 90, 0, 243.4, usacitystreetlightsingle
-2080.82, 61.877, 14381.7, 90, 0, 243.4, usacitystreetlightsingle
-2069.54, 61.877, 14401.7, 90, 0, 153.4, usacitystreetlightsingle
-2080.91, 61.877, 14423.3, 90, 0, 153.4, usacitystreetlightsingle
-2106.29, 61.877, 14469.2, 90, 0, 153.4, usacitystreetlightsingle
-2049, 61.1894, 14403.1, 90, 0, 333.4, usacitysignalgantry1-light
-2039.76, 61.2473, 14372.4, 90, 0, 243.4, usacitysignalgantry1-light
-2004.7, 61.2023, 14382.1, 90, 0, 153.4, usacitysignalgantry1-light
+
+2170.02, 61.877, 14341.4, 90, 0, 243.4, usacitystreetlightsingle
+2151.72, 61.877, 14351.4, 90, 0, 243.4, usacitystreetlightsingle
+2112.14, 61.877, 14374.1, 90, 0, 243.4, usacitystreetlightsingle
+2102.66, 61.877, 14391.4, 90, 0, 153.4, usacitystreetlightsingle
+2113.91, 61.877, 14411.6, 90, 0, 153.4, usacitystreetlightsingle
+2141.89, 61.877, 14461.1, 90, 0, 153.4, usacitystreetlightsingle
+2083.92, 62.0694, 14398.5, 90, 0, 330.6, usacitysignalgantry1-light
+2068.87, 61.9137, 14366.6, 90, 0, 240.6, usacitysignalgantry1-light
+2035.82, 62.0606, 14373.7, 90, 0, 150.6, usacitysignalgantry1-light
+2045.68, 62.0606, 14415.2, 90, 0, 60.6, usacitysignalgantry1-light
 
 //TempRoadclosedsigns
 1347.24, 61.0046, 15337.1, 0, 299.4, 0, Map_Barricade1
@@ -400,10 +404,11 @@ collision-tris 1000000
 1285.7, 61.0044, 14764.6, 0, 206.7, 0, Map_Barricade1
 1596.35, 61.0044, 14599.4, 0, 206.7, 0, Map_Barricade1
 1596.35, 61.0044, 14599.4, 0, 206.7, 0, Map_Barricade1
-1941.58, 61.0042, 14243.5, 0, 206.7, 0, Map_Barricade1
-1951.35, 61.0042, 14240.9, 0, 206.7, 0, Map_Barricade1
-1908.29, 61.0034, 14279.7, 0, 299.4, 0, Map_Barricade1
-1917.03, 61.0061, 14297.8, 0, 299.4, 0, Map_Barricade1
+1974.67, 61.8752, 14244.4, 0, 209.4, 0, Map_Barricade1
+1983.4, 61.8672, 14239.6, 0, 209.4, 0.19, Map_Barricade1
+1793.02, 61.9829, 14357.2, 0, 299.4, 0, Map_Barricade1
+1772.26, 61.9726, 14391.9, 0, 299.4, 0, Map_Barricade1
+
 1688.85, 67.8271, 15138.1, 0, 389.4, 0, store10
 1639.83, 67.9781, 15178.1, 0, 206.7, 0, store09
 1746.58, 67.9762, 15231.9, 0, 206.7, 0, store08
