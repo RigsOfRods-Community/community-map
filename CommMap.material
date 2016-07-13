@@ -1,5 +1,5 @@
-import * from "managed_mats.material"
 
+import * from "managed_mats.material"
 material Dc-highway : RoR/Managed_Mats/Base
 {
 	technique BaseTechnique
@@ -513,6 +513,21 @@ material DC-Bridge-tex: RoR/Managed_Mats/Base
 			texture_unit Diffuse_Map
 			{
 				texture bridge.dds
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material DC-Bridge-tex2: RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture bridge2.dds
 				tex_address_mode wrap
 				filtering trilinear
 			}
