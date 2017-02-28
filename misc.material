@@ -1,0 +1,19 @@
+import * from "managed_mats.material"
+
+material CommMap_objects1-tex  : RoR/Managed_Mats/Base
+{
+    technique BaseTechnique
+    {
+        pass BaseRender
+        {
+		    ambient 1.0 1.0 1.0 1.0
+            texture_unit Diffuse_Map
+            {
+                texture objects.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}

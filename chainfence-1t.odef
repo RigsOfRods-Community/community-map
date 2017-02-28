@@ -1,0 +1,6 @@
+chainfence-1t.mesh
+1, 1, 1
+beginmesh
+mesh chainfence-1t.mesh
+endmesh
+end

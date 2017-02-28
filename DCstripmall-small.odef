@@ -1,0 +1,7 @@
+5-stripmall-1.mesh
+1,1,1
+
+beginmesh
+mesh 5stripmall-col.mesh
+endmesh
+end

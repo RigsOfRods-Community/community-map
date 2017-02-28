@@ -14,7 +14,21 @@ material alt_asphalt1  : RoR/Managed_Mats/Base
         }
     }
 }
+material alt_grass  : RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
 
+			texture_unit Diffuse_Map
+			{
+                texture Grass0126_2_S.jpg
+
+            }
+        }
+    }
+}
 material alt_asphalt2  : RoR/Managed_Mats/Base
 {
 	technique BaseTechnique

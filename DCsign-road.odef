@@ -1,0 +1,7 @@
+DCsign-road.mesh
+1,1,1
+
+setMeshMaterial Signs-tex 
+
+drawTextOnMeshTexture  0.1, .9, .6, .6,   1, 1, 1, 1,    l, VeraMono {{argument1}}
+end

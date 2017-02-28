@@ -1,0 +1,9 @@
+oldtowshop.mesh
+1.0, 1.0, 1.0
+
+beginmesh
+mesh oldtowshop-col.mesh
+endmesh
+
+
+end

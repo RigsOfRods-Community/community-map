@@ -1,0 +1,48 @@
+material Stripmall-tex-1
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass 
+        {
+            texture_unit 
+            {
+                texture Stripmall-tex.png
+
+            }
+        }
+    }
+}
+material Stripmall-tex-2
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass 
+        {
+            texture_unit 
+            {
+                texture Stripmall-tex-grey.png
+
+            }
+        }
+    }
+}
+material Stripmall-tex-3
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass 
+        {
+            texture_unit 
+            {
+                texture Stripmall-tex-white.png
+
+            }
+        }
+    }
+}

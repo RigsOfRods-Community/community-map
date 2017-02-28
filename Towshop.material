@@ -1,0 +1,27 @@
+material DC-truckshop2
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture truck-spawner-shop.png
+			}
+		}
+	}
+}
+
+material DC-Modularbuild-ext
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture walls-exter1.png
+			}
+		}
+	}
+}

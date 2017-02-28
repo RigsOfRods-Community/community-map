@@ -1,0 +1,7 @@
+icebox-1.mesh
+1, 1, 1
+beginmesh
+mesh icebox-1-col.mesh
+endmesh
+end
+
