@@ -39,7 +39,7 @@ material BLD1_BRICKSB
             light_clip_planes off
             light_scissor off
             lighting on
-            mesh_exporter <bpy_struct, MaterialProperties("")>
+            
             normalise_normals off
             polygon_mode solid
             scene_blend one zero
@@ -73,7 +73,7 @@ material BLD1_BRICKSB
 			{
 				texture BLD1_BRICKS_s.dds
 				tex_coord_set 0
-				colour_op blend_diffuse_alpha
+				colour_op alpha_blend
 			}
 		}
     }
@@ -103,7 +103,7 @@ material BLD1_BRICKSA
             light_clip_planes off
             light_scissor off
             lighting on
-            mesh_exporter <bpy_struct, MaterialProperties("")>
+            
             normalise_normals off
             polygon_mode solid
             scene_blend one zero
@@ -137,7 +137,7 @@ material BLD1_BRICKSA
 			{
 				texture BLD1_BRICKS_s.dds
 				tex_coord_set 0
-				colour_op blend_diffuse_alpha
+				colour_op alpha_blend
 			}
 		}
     }
@@ -167,7 +167,7 @@ material BLD1_WINDOWC
             light_clip_planes off
             light_scissor off
             lighting on
-            mesh_exporter <bpy_struct, MaterialProperties("")>
+            
             normalise_normals off
             polygon_mode solid
             scene_blend one zero
@@ -215,7 +215,7 @@ material BLD1_WINDOWC
 			{
 				texture BLD1_WIND_SMALL_s.dds
 				tex_coord_set 0
-				colour_op blend_diffuse_alpha
+				colour_op alpha_blend
 			}
 		}
     }
@@ -245,7 +245,7 @@ material BLD1_WINDOWA
             light_clip_planes off
             light_scissor off
             lighting on
-            mesh_exporter <bpy_struct, MaterialProperties("")>
+            
             normalise_normals off
             polygon_mode solid
             scene_blend one zero
@@ -293,7 +293,7 @@ material BLD1_WINDOWA
 			{
 				texture BLD1_WIND_CLOSED_s.dds
 				tex_coord_set 0
-				colour_op blend_diffuse_alpha
+				colour_op alpha_blend
 			}
 		}
     }
@@ -323,7 +323,7 @@ material BLD1_DOORR
             light_clip_planes off
             light_scissor off
             lighting on
-            mesh_exporter <bpy_struct, MaterialProperties("")>
+            
             normalise_normals off
             polygon_mode solid
             scene_blend one zero
@@ -371,7 +371,7 @@ material BLD1_DOORR
 			{
 				texture BLD1_DOOR_R_s.dds
 				tex_coord_set 0
-				colour_op blend_diffuse_alpha
+				colour_op alpha_blend
 			}
 		}
     }
@@ -401,7 +401,7 @@ material BLD1_DOORL
             light_clip_planes off
             light_scissor off
             lighting on
-            mesh_exporter <bpy_struct, MaterialProperties("")>
+            
             normalise_normals off
             polygon_mode solid
             scene_blend one zero
@@ -449,7 +449,7 @@ material BLD1_DOORL
 			{
 				texture BLD1_DOOR_L_s.dds
 				tex_coord_set 0
-				colour_op blend_diffuse_alpha
+				colour_op alpha_blend
 			}
 		}
     }
@@ -479,7 +479,7 @@ material BLD1_WINDOWD
             light_clip_planes off
             light_scissor off
             lighting on
-            mesh_exporter <bpy_struct, MaterialProperties("")>
+            
             normalise_normals off
             polygon_mode solid
             scene_blend one zero
@@ -527,7 +527,7 @@ material BLD1_WINDOWD
 			{
 				texture BLD1_WINDOW_SMALL_AC_s.dds
 				tex_coord_set 0
-				colour_op blend_diffuse_alpha
+				colour_op alpha_blend
 			}
 		}
     }
@@ -557,7 +557,7 @@ material BLD1_WINDOWB
             light_clip_planes off
             light_scissor off
             lighting on
-            mesh_exporter <bpy_struct, MaterialProperties("")>
+            
             normalise_normals off
             polygon_mode solid
             scene_blend one zero
@@ -605,7 +605,7 @@ material BLD1_WINDOWB
 			{
 				texture BLD1_WINDOW_OPEN_s.dds
 				tex_coord_set 0
-				colour_op blend_diffuse_alpha
+				colour_op alpha_blend
 			}
 		}
     }
@@ -635,7 +635,7 @@ material BLD1_SIGNA
             light_clip_planes off
             light_scissor off
             lighting on
-            mesh_exporter <bpy_struct, MaterialProperties("")>
+            
             normalise_normals off
             polygon_mode solid
             scene_blend one zero

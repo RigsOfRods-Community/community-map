@@ -1,0 +1,77 @@
+material Color_D01
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1.0 0.749019607843137 0.0 1.0
+         ambient 1.0 0.749019607843137 0.0 1.0
+      }
+   }
+}
+material Color_A01
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1.0 0.0 0.0 1.0
+         ambient 1.0 0.0 0.0 1.0
+      }
+   }
+}
+material 0024_OrangeRed
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1.0 0.270588235294118 0.0 1.0
+         ambient 1.0 0.270588235294118 0.0 1.0
+      }
+   }
+}
+material 0076_Green
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.0 0.501960784313725 0.0 1.0
+         ambient 0.0 0.501960784313725 0.0 1.0
+      }
+   }
+}
+material 0132_LightGray
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.662745098039216 0.662745098039216 0.662745098039216 1.0
+         ambient 0.662745098039216 0.662745098039216 0.662745098039216 1.0
+      }
+   }
+}
+material 0136_Charcoal
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.137254901960784 0.137254901960784 0.137254901960784 1.0
+         ambient 0.137254901960784 0.137254901960784 0.137254901960784 1.0
+      }
+   }
+}
+material _SketchupDefault
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1.0 1.0 1.0
+         ambient 1.0 1.0 1.0
+      }
+   }
+}

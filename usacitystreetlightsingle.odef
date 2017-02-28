@@ -3,4 +3,8 @@ usacitystreetlightsingle.mesh
 beginmesh
 mesh usacitystreetlightsingle-Col.mesh
 endmesh
+
+;spotlight x, y, z, dirx, diry, dirz, r, g, b, range, innerAngle, outerAngle 
+:spotlight  -2.83182, 9.19784, 0, 0, -1, 0, 1, 1, 1, 10, 50, 75
+pointlight -2.83182, 9.19784, 0, 0,  -1, 0, 1, 1, 1, 10
 end

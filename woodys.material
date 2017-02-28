@@ -26,7 +26,7 @@ material woodys : RoR/Managed_Mats/Base
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
-            texture_unit Diffuse_Map
+            texture_unit light_Map
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap
@@ -64,7 +64,7 @@ material woodys1 : RoR/Managed_Mats/Base
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
-            texture_unit Diffuse_Map
+            texture_unit light_Map
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap
@@ -103,7 +103,7 @@ material woodys2 : RoR/Managed_Mats/Base
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
-            texture_unit Diffuse_Map
+            texture_unit light_Map
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap
@@ -142,7 +142,7 @@ material woodys3 : RoR/Managed_Mats/Base
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
-            texture_unit Diffuse_Map
+            texture_unit light_Map
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap
@@ -181,7 +181,7 @@ material woodys4 : RoR/Managed_Mats/Base
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
-            texture_unit Diffuse_Map
+            texture_unit light_Map
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap
@@ -209,7 +209,7 @@ material woodys5 : RoR/Managed_Mats/Base
                 tex_coord_set 0
                 colour_op replace
             }
-            texture_unit Diffuse_Map
+            texture_unit 
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap
@@ -248,7 +248,7 @@ material woodys6 : RoR/Managed_Mats/Base
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
-            texture_unit Diffuse_Map
+            texture_unit 
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap
@@ -276,7 +276,7 @@ material woodys7 : RoR/Managed_Mats/Base
                 tex_coord_set 0
                 colour_op replace
             }
-            texture_unit Diffuse_Map
+            texture_unit 
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap
@@ -315,7 +315,7 @@ material woodys8 : RoR/Managed_Mats/Base
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
-            texture_unit Diffuse_Map
+            texture_unit 
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap
@@ -343,7 +343,7 @@ material woodys9 : RoR/Managed_Mats/Base
                 tex_coord_set 0
                 colour_op replace
             }
-            texture_unit Diffuse_Map
+            texture_unit 
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap
@@ -382,7 +382,7 @@ material woodys10 : RoR/Managed_Mats/Base
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
-            texture_unit Diffuse_Map
+            texture_unit 
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap
@@ -421,7 +421,7 @@ material woodys12 : RoR/Managed_Mats/Base
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
-            texture_unit Diffuse_Map
+            texture_unit 
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap
@@ -460,7 +460,7 @@ material woodys13 : RoR/Managed_Mats/Base
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
-            texture_unit Diffuse_Map
+            texture_unit 
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap
@@ -499,7 +499,7 @@ material woodys14 : RoR/Managed_Mats/Base
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
-            texture_unit Diffuse_Map
+            texture_unit 
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap
@@ -538,7 +538,7 @@ material woodys15 : RoR/Managed_Mats/Base
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
-            texture_unit Diffuse_Map
+            texture_unit 
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap
@@ -577,7 +577,7 @@ material woodys16 : RoR/Managed_Mats/Base
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
-            texture_unit Diffuse_Map
+            texture_unit 
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap
@@ -597,7 +597,7 @@ material woodys17 : RoR/Managed_Mats/Base
     {
         pass BaseRender
         {
-            texture_unit Diffuse_Map
+            texture_unit 
             {
                 texture woodys17.dds
                 tex_address_mode wrap
@@ -635,7 +635,7 @@ material richshoes : RoR/Managed_Mats/Base
                 tex_coord_set 0
                 colour_op alpha_blend
             }
-			texture_unit Diffuse_Map
+			texture_unit 
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap
@@ -697,7 +697,7 @@ material genericawning1 : RoR/Managed_Mats/Base
         {
             alpha_rejection greater 128
             alpha_to_coverage on
-			texture_unit
+			texture_unit Diffuse_Map
             {
                 texture genericawning1.dds
 				tex_address_mode wrap
@@ -705,7 +705,7 @@ material genericawning1 : RoR/Managed_Mats/Base
                 tex_coord_set 0
                 colour_op alpha_blend
             }
-			texture_unit Diffuse_Map
+			texture_unit 
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap
@@ -735,7 +735,7 @@ material genericawning2 : RoR/Managed_Mats/Base
                 tex_coord_set 0
                 colour_op alpha_blend
             }
-			texture_unit Diffuse_Map
+			texture_unit
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap
@@ -782,7 +782,7 @@ material metalroof : RoR/Managed_Mats/Base
                 tex_coord_set 0
                 colour_op replace
             }
-            texture_unit Diffuse_Map
+            texture_unit
             {
                 texture woodyslightmap.dds
                 tex_address_mode wrap
