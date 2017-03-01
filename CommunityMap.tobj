@@ -40,16 +40,27 @@ collision-tris 1000000
 
 
 
-178.425, 20.1282, 2071.43, 90, 0, 0, scale-test
-
 531.0, 29.2289, 2143.0, 90, 0, 90, usacityavenueend
 546.471, 29.2289, 2143.0, 90, 0, 90,usacityavenuemiddle
+;839.021, 14.572, 1595.06,  90, 0, 90, Subdivsion-1
+;839.021, 14.572, 1595.06,  90, 0, 90, Subdivsion-1-ground
+;839.021, 14.572, 1595.06,  90, 0, 90, house-dc-1
+;838.021, 14.572, 1595.06,  90, 0, 90, house-dc-1
+;837.021, 14.572, 1595.06,  90, 0, 90, house-dc-1
+;836.021, 14.572, 1595.06,  90, 0, 90, house-dc-1
+;835.021, 14.572, 1595.06,  90, 0, 90, house-dc-1
+;834.021, 14.572, 1595.06,  90, 0, 90, house-dc-1
+;833.021, 14.572, 1595.06,  90, 0, 90, house-dc-1
+;832.021, 14.572, 1595.06,  90, 0, 90, house-dc-1
+;831.021, 14.572, 1595.06,  90, 0, 90, house-dc-1
+;830.021, 14.572, 1595.06,  90, 0, 90, house-dc-1
+;840.021, 14.572, 1595.06,  90, 0, 90, house-dc-1
+;841.021, 14.572, 1595.06,  90, 0, 90, dc-house-frame
 
-
-526.0, 29.0374, 1475.0, 90, 0, 0, usacitysignalgantry1-light
-501.0, 29.0374, 1475.0, 90, 0, 270, usacitysignalgantry1-light
-501.0, 29.0374, 1500.0, 90, 0, 180, usacitysignalgantry1-light
-526.0, 29.0374, 1500.0, 90, 0, 90, usacitysignalgantry1-light
+526.0, 29.0374, 1475.0, 90, 0, 0, usacitysignalgantry3-1-light
+501.0, 29.0374, 1475.0, 90, 0, 270, usacitysignalgantry3-2-light
+501.0, 29.0374, 1500.0, 90, 0, 180, usacitysignalgantry3-1-light
+526.0, 29.0374, 1500.0, 90, 0, 90, usacitysignalgantry3-2-light
 //Industrial area
 1580.9, 8.9, 280, 90, 0, 89, Case_dealer
 1580.9, 8.9, 280, 90, 0, 89, Case_dealer2
@@ -186,97 +197,6 @@ collision-tris 1000000
 
 
 
-
-
-//signs_test
-312, 0, 1510, 90, 0, 0, DCsign-dedend
-312, 0, 1512, 90, 0, 0, DCsign-amish
-312, 0, 1514, 90, 0, 0, DC-icybridge
-312, 0, 1516, 90, 0, 0, DCsign-wetpavement
-312, 0, 1518, 90, 0, 0, DCsign-bike
-312, 0, 1520, 90, 0, 0, DCsign-bridge1
-312, 0, 1522, 90, 0, 0, DCsign-bridge2
-312, 0, 1524, 90, 0, 0, DCsign-bump
-312, 0, 1526, 90, 0, 0, Dcsign-curve1
-312, 0, 1528, 90, 0, 0, Dcsign-curve2
-312, 0, 1530, 90, 0, 0, Dcsign-curve3
-
-313, 0, 1510, 90, 0, 0, Dcsign-curve4
-313, 0, 1512, 90, 0, 0, Dcsign-curve5
-313, 0, 1514, 90, 0, 0, Dcsign-curve6
-313, 0, 1516, 90, 0, 0, Dcsign-curve7
-313, 0, 1518, 90, 0, 0, Dcsign-curve8
-313, 0, 1520, 90, 0, 0, Dcsign-curve9
-313, 0, 1522, 90, 0, 0, Dcsign-curve10
-313, 0, 1524, 90, 0, 0, Dcsign-curve11
-313, 0, 1526, 90, 0, 0, Dcsign-curve12
-313, 0, 1528, 90, 0, 0, Dcsign-curve13
-313, 0, 1530, 90, 0, 0, DCsign-deer
-
-314, 0, 1510, 90, 0, 0, Dcsign-dip
-314, 0, 1512, 90, 0, 0, Dcsign-fiyatruck
-314, 0, 1514, 90, 0, 0, Dcsign-hill1
-314, 0, 1516, 90, 0, 0, Dcsign-hill2
-314, 0, 1518, 90, 0, 0, DCsign-intersect1
-314, 0, 1520, 90, 0, 0, DCsign-intersect2
-314, 0, 1522, 90, 0, 0, DCsign-intersect3
-314, 0, 1524, 90, 0, 0, DCsign-intersect4
-314, 0, 1526, 90, 0, 0, DCsign-intersect5
-314, 0, 1528, 90, 0, 0, DCsign-intersect6
-314, 0, 1530, 90, 0, 0, DCsign-intersect7
-
-315, 0, 1510, 90, 0, 0, Dcsign-laneend1
-315, 0, 1512, 90, 0, 0, Dcsign-laneend2
-315, 0, 1514, 90, 0, 0, DCsign-lowgrndcln
-315, 0, 1516, 90, 0, 0, DCsign-lowheight1
-315, 0, 1518, 90, 0, 0, DCsign-merge1
-315, 0, 1520, 90, 0, 0, DCsign-merge3
-315, 0, 1522, 90, 0, 0, DCsign-merge4
-315, 0, 1524, 90, 0, 0, DCsign-nooutlet
-315, 0, 1526, 90, 0, 0, DCsign-pavementend
-315, 0, 1528, 90, 0, 0, DCsign-people
-315, 0, 1530, 90, 0, 0, DCsign-playgrnd
-
-316, 0, 1510, 90, 0, 0, DCsign-rounda
-316, 0, 1512, 90, 0, 0, DCsigns-divhwy1
-316, 0, 1514, 90, 0, 0, DCsigns-divhwy2
-316, 0, 1516, 90, 0, 0, DCsign-Shoulder1
-316, 0, 1518, 90, 0, 0, DCsign-Shoulder2
-316, 0, 1520, 90, 0, 0, DCsign-Shoulder3
-316, 0, 1522, 90, 0, 0, DCsign-sigahd1
-316, 0, 1524, 90, 0, 0, DCsign-sigahd2
-316, 0, 1526, 90, 0, 0, DCsign-speedhmp
-316, 0, 1528, 90, 0, 0, DCsign-squiggly1
-316, 0, 1530, 90, 0, 0, DCsign-squiggly2
-
-317, 0, 1510, 90, 0, 0, DCsign-stopahd1
-317, 0, 1512, 90, 0, 0, DCsign-stopahd2
-317, 0, 1514, 90, 0, 0, DCsign-stopeventlly
-317, 0, 1516, 90, 0, 0, DCsign-tractor
-317, 0, 1518, 90, 0, 0, DCsign-trucktip
-317, 0, 1520, 90, 0, 0, DCsign-T-tracks
-317, 0, 1522, 90, 0, 0, DCsign-yieldahd1
-317, 0, 1524, 90, 0, 0, DCsign-yieldahd2
-317, 0, 1526, 90, 0, 0, DCsign-watchisland
-317, 0, 1528, 90, 0, 0, DCsign-unevenlane
-317, 0, 1530, 90, 0, 0, DCsign-undivhwy
-
-318, 0, 1510, 90, 0, 0, DCsign-yield1
-318, 0, 1512, 90, 0, 0, DCsign-yield2
-318, 0, 1514, 90, 0, 0, DCsign-stop1
-318, 0, 1516, 90, 0, 0, DCsign-stop2
-318, 0, 1518, 90, 0, 0, DCsign-stop3
-318, 0, 1520, 90, 0, 0, DCsign-smlarrowL
-318, 0, 1522, 90, 0, 0, DCsign-smlarrowR
-318, 0, 1524, 90, 0, 0, DCsign-wrong
-318, 0, 1526, 90, 0, 0, DCsign-DNE
-318, 0, 1528, 90, 0, 0, DCsign-rightway
-318, 0, 1530, 90, 0, 0, DCsign-leftway
-
-319, 0, 1510, 90, 0, 0, DCsign-arrowL
-319, 0, 1512, 90, 0, 0, DCsign-arrows
-319, 0, 1514, 90, 0, 0, DCsign-arrowR
-
 //City
 1919.86, 63.8794, 15822.5, 0, 299.4, 0, failcorpnew
 1919.86, 63.8794, 15822.5, 0, 299.4, 0, failcorpnew-lights
@@ -393,11 +313,65 @@ collision-tris 1000000
 2462.44, 63.8109, 15033.5, 90, 0, 153.4, usacitystreetlightsingle
 2480.98, 63.8403, 15066.4, 90, 0, 144.813, usacitystreetlightsingle
 2513.36, 63.8603, 14940.2, 90, 0, 153.4, usacitystreetlightsingle
-2424.01, 63.9607, 15004.6, 90, 0, 330.6, usacitysignalgantry1-light
-2411.11, 64.061, 14972.5, 90, 0, 240.6, usacitysignalgantry1-light
-2376.41, 64.0824, 14979.3, 90, 0, 150.6, usacitysignalgantry1-light
 
-2390.52, 63.86, 15017, 90, 0, 60.6, usacitysignalgantry1-light
+2424.01, 63.9607, 15004.6, 90, 0, 330.6, usacitysignalgantry3-1-light
+2411.11, 64.061, 14972.5, 90, 0, 240.6, usacitysignalgantry3-2-light
+2376.41, 64.0824, 14979.3, 90, 0, 150.6, usacitysignalgantry3-1-light
+2390.52, 63.86, 15017, 90, 0, 60.6, usacitysignalgantry4-2-light
+
+2347.22, 63.852, 14877.2, 90, 0, 330.6, usacitysignalgantry2-1-light
+2324.97, 64.0632, 14886.4, 90, 0, 60.6, usacitysignalgantry4-2-light
+2308.6, 63.8179, 14853.2, 90, 0, 150.6, usacitysignalgantry2-1-light
+
+2228.65, 64.0677, 14918.2, 90, 0, 150.6, usacitysignalgantry3-2-light
+2254.5, 63.9233, 14926.4, 90, 0, 60, usacitysignalgantry3-1-light
+2221.96, 63.7165, 14903.9, 90, 0, 240.6, usacitysignalgantry3-2-light
+
+2130.06, 64.1745, 14956.2, 90, 0, 240.6, usacitysignalgantry3-1-light
+2138.17, 64.1652, 14971.3, 90, 0, 150.6, usacitysignalgantry3-2-light
+2161.6, 63.9779, 14981.4, 90, 0, 60.6, usacitysignalgantry3-1-light
+
+2514.22, 64.0708, 15215, 90, 0, 150.6, usacitysignalgantry2-1-light
+2518.44, 64.0663, 15246.7, 90, 0, 60.6, usacitysignalgantry3-2-light
+2551.69, 64.0677, 15240.4, 90, 0, 330.6, usacitysignalgantry2-1-light
+2555.31, 64.0677, 15229.7, 90, 0, 300.6, usacitysignalgantry1-2-light
+
+2634.71, 64.067, 15430.2, 90, 0, 150.6, usacitysignalgantry3-1-light
+2645.45, 64.0677, 15471.2, 90, 0, 60.6, usacitysignalgantry4-2-light
+2682.41, 64.0677, 15455.4, 90, 0, 330.6, usacitysignalgantry3-1-light
+2668.75, 64.0677, 15423.5, 90, 0, 240.6, usacitysignalgantry3-2-light
+
+2727.92, 64.0677, 15587, 90, 0, 150.6, usacitysignalgantry2-1-light
+2761.61, 64.0677, 15581.3, 90, 0, 240.6, usacitysignalgantry2-2-light
+2772.09, 64.0677, 15600.9, 90, 0, 285.6, usacitysignalgantry1-2-light
+2763.67, 63.9399, 15608.7, 90, 0, 330.6, usacitysignalgantry2-1-light
+
+2825.74, 64.0081, 15761.2, 90, 0, 150.86, usacitysignalgantry2-1-light
+2826.98, 64.0677, 15785.9, 90, 0, 60.6, usacitysignalgantry1-2-light
+2860.76, 64.067, 15779.7, 90, 0, 330.6, usacitysignalgantry2-1-light
+
+3006.11, 64.0427, 16016, 90, 0, 240.6, usacitysignalgantry1-1-light
+2974.25, 64.0677, 16046.2, 90, 0, 60.6, usacitysignalgantry1-1-light
+3007.99, 64.0647, 16039.6, 90, 0, 330.6, usacitysignalgantry2-2-light
+2973.32, 64.0677, 16021.8, 90, 0, 150.6, usacitysignalgantry2-2-light
+
+3083.4, 64.0677, 16217.5, 90, 0, 150.6, usacitysignalgantry2-1-light
+3117.06, 64.0677, 16211.7, 90, 0, 240.6, usacitysignalgantry1-2-light
+3117.46, 64.0677, 16236, 90, 0., 330.6, usacitysignalgantry2-1-light
+
+
+
+
+2548.51, 64.0677, 15221.2,90, 0, 0, lightbox-1
+2633.87, 64.0655, 15433, 90, 0, 0, lightbox-1
+2726.08, 64.0677, 15591.2, 90, 0, 0, lightbox-1
+2832.56, 64.0677, 15788.2, 90, 0, 0, lightbox-1
+3010.51, 64.0414, 16040.7, 90, 0, 0, lightbox-1
+3112.68, 64.0677, 16209.9, 90, 0, 0, lightbox-1
+2320.67, 63.8895, 14891.6, 90, 0, -117.856, lightbox-1
+2254.79, 63.9442, 14929.1, 90, 0, -24, lightbox-1
+2163.52, 63.7557, 14980.9, 90, 0, -31.722, lightbox-1
+
 2076.96, 62.077, 14415.7, 90, 0, 153.4, usacitystreetlightdouble
 2082.67, 62.077, 14425.9, 90, 0, 153.4, usacitystreetlightdouble
 2087.78, 62.0776, 14435.1, 90, 0, 153.4, usacitystreetlightdouble
@@ -436,7 +410,7 @@ collision-tris 1000000
 ;1952.42, 74.1113, 14611.4, 0, 150.6, 0, opmaphighschool
 ;2311.16, 61.9121, 14480.6, 0.0, 120.6, 0.0, grainelevator
 
-2426.39, 64.0205, 14997.8, 89.598, -0.464, -28.326, lightbox-1
+2426.39, 64.0205, 14997.8, 90, 0, -28.326, lightbox-1
 2123.91, 61.8767, 14367, 90, 0, 60.6, chainfence-1t
 2116.68, 61.8767, 14371, 90, 0, 60.6, chainfence-1t
 2114.48, 61.8767, 14372.2, 90, 0, 60.6, chainfence-1t
