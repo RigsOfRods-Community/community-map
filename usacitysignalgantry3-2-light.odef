@@ -1,0 +1,7 @@
+usacitysignalgantry3-2-light.mesh
+1, 1, 1
+beginmesh
+mesh usacitysignalgantry3-light-Col.mesh
+endmesh
+pointlight -2.83182, 9.19784, 0, 0, -1, 0, 1, 1, 1, 10
+end
