@@ -38,7 +38,7 @@ material Caseysstore-tex : RoR/Managed_Mats/Base
 	{
 		pass BaseRender
 		{
-
+			ambient 1.0 1.0 1.0 1.0
 			texture_unit Diffuse_Map
 			{
 				texture caseys-store.dds
@@ -55,7 +55,7 @@ material Caseyspumpisland-tex: RoR/Managed_Mats/Base
 		pass BaseRender
 		{
 			//Ambient, diffuse, emissive stuff here
-
+			ambient 1.0 1.0 1.0 1.0
 			texture_unit Diffuse_Map
 			{
 				texture caseyspump.dds
@@ -72,6 +72,7 @@ material Caseys-lot-tex: RoR/Managed_Mats/Base
 	{
 		pass BaseRender
 		{
+			ambient 1.0 1.0 1.0 1.0
 			texture_unit Diffuse_Map
 			{
 				texture caseysparkinglot-tex.dds
@@ -530,19 +531,6 @@ material DC-Bridge-tex2: RoR/Managed_Mats/Base
 				texture bridge2.dds
 				tex_address_mode wrap
 				filtering trilinear
-			}
-		}
-	}
-}
-material CaseDealer1-tex: RoR/Managed_Mats/Base
-{
-	technique BaseTechnique
-	{
-		pass BaseRender
-		{
-			texture_unit Diffuse_Map
-			{
-				texture casetex-2.dds
 			}
 		}
 	}
@@ -1112,12 +1100,29 @@ material Int-speedlimit-tex : RoR/Managed_Mats/Base
 		}
 	}
 }
-material terminal-tex: RoR/Managed_Mats/Base
+material DC-speedlimit-tex : RoR/Managed_Mats/Base
 {
 	technique BaseTechnique
 	{
 		pass BaseRender
 		{
+			texture_unit Diffuse_Map
+			{
+				texture speed_limits-tex.dds
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material terminal-tex
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			diffuse 1.0 1.0 1.0 1.0
+			ambient 1.0 1.0 1.0
 			texture_unit Diffuse_Map
 			{
 				texture Terminal-tex.dds
@@ -1126,6 +1131,23 @@ material terminal-tex: RoR/Managed_Mats/Base
 	}
 }
 material Terminal_fence
+{
+   receive_shadows on
+   technique
+   {
+      pass
+      {
+         scene_blend alpha_blend
+	 alpha_rejection greater 128 
+	 texture_unit
+         {
+            texture chainlink-fence.dds
+         }
+		
+     }
+   }
+}
+material CommMap_chainfence
 {
    receive_shadows on
    technique
@@ -1561,6 +1583,21 @@ material WaterTower1-tex : RoR/Managed_Mats/Base
 			texture_unit Diffuse_Map
 			{
 				texture watertower-1-tex.dds
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material DC-speedlimit-tex : RoR/Managed_Mats/Base
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			texture_unit Diffuse_Map
+			{
+				texture speed_limits-tex.dds
 				tex_address_mode wrap
 				filtering trilinear
 			}

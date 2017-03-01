@@ -1,32 +1,35 @@
-import * from "managed_mats.material"
-material _missing_material_
+
+// trafficcycle2 genrated by blender2ogre 0.6.0
+
+material trafficcycle2 
 {
-    receive_shadows off
     technique
     {
         pass
         {
-            ambient 0.1 0.1 0.1 1.0
-            diffuse 0.8 0.0 0.0 1.0
             specular 0.5 0.5 0.5 1.0 12.5
-            emissive 0.3 0.3 0.3 1.0
+            emissive 1.0 1.0 1.0 .0
+            texture_unit 
+            {
+                anim_texture usacitystreetlights-tex_1.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds  usacitystreetlights-tex_0.dds 15
+            }
         }
     }
 }
-
 // alt-citylightpole-tex genrated by blender2ogre 0.6.0
 
-material alt-citylightpole-tex : RoR/Managed_Mats/Base
+material alt-citylightpole-tex 
 {
-	technique BaseTechnique
-	{
-		pass BaseRender
-		{
-			//Ambient, diffuse, emissive stuff here
+    receive_shadows on 
 
+    technique
+    {
+        pass alt-citylightpole-tex
+        {
             ambient 0.800000011920929 0.800000011920929 0.800000011920929 1.0
             diffuse 0.6400000190734865 0.6400000190734865 0.6400000190734865 1.0
-            emissive 0.0 0.0 0.0 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 0.0
 
             alpha_to_coverage off
             colour_write on
@@ -45,44 +48,68 @@ material alt-citylightpole-tex : RoR/Managed_Mats/Base
             shading gouraud
             transparent_sorting on
 
-			texture_unit Diffuse_Map
+            texture_unit 
             {
                 texture usacitystreetlight-tex.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
             }
         }
     }
 }
 material trafficcycle1 
 {
-	technique BaseTechnique
-	{
-		pass BaseRender
+    technique
+    {
+        pass trafficcycle1
 		{
-            ambient 0.800000011920929 0.800000011920929 0.800000011920929 1.0
-            diffuse 0.6400000190734865 0.6400000190734865 0.6400000190734865 1.0
-            emissive 1.0 0.0 0.0 0.0
-
-            alpha_to_coverage off
-            colour_write on
-            cull_hardware none
-            depth_check on
-            depth_func less_equal
-            depth_write on
-            illumination_stage 
-            light_clip_planes off
-            light_scissor off
-            lighting off
-            normalise_normals off
-            polygon_mode solid
-            scene_blend one zero
-            scene_blend_op add
-            shading gouraud
-            transparent_sorting on
-
-			texture_unit Diffuse_Map
+           emissive 1.0 1.0 1.0 1.0
+			
+			texture_unit 
             {
-                anim_texture usacitystreetlights-tex.dds 3 15
+                anim_texture usacitystreetlight-tex_0.dds usacitystreetlights-tex_1.dds usacitystreetlights-tex_2.dds  usacitystreetlights-tex_2.dds 15
             }
+        }
+    }
+}
+// trafficwalkdisabled1 genrated by blender2ogre 0.6.0
+
+material trafficwalkdisabled1 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass trafficwalkdisabled1
+        {
+            emissive 1.0 1.0 1.0 0.0
+			
+            texture_unit 
+          {
+                anim_texture usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds  usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_0.dds usacitystreetlights-tex_0.dds usacitystreetlights-tex_0.dds usacitystreetlights-tex_0.dds usacitystreetlights-tex_0.dds usacitystreetlights-tex_0.dds usacitystreetlights-tex_0.dds usacitystreetlights-tex_0.dds usacitystreetlights-tex_0.dds usacitystreetlights-tex_0.dds usacitystreetlights-tex_0.dds usacitystreetlights-tex_0.dds usacitystreetlights-tex_0.dds usacitystreetlights-tex_0.dds usacitystreetlights-tex_0.dds usacitystreetlights-tex_1.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_1.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_1.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_1.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_1.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_1.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_1.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_1.dds  15
+			}
+        }
+    }
+}
+// trafficwalkdisabled2 genrated by blender2ogre 0.6.0
+
+material trafficwalkdisabled2 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass trafficwalkdisabled2
+        {
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 1.0 1.0 1.0 0.0
+
+            texture_unit 
+             {
+                anim_texture  usacitystreetlights-tex_0.dds usacitystreetlights-tex_0.dds usacitystreetlights-tex_0.dds usacitystreetlights-tex_0.dds usacitystreetlights-tex_0.dds usacitystreetlights-tex_0.dds usacitystreetlights-tex_0.dds usacitystreetlights-tex_0.dds usacitystreetlights-tex_0.dds usacitystreetlights-tex_0.dds usacitystreetlights-tex_0.dds usacitystreetlights-tex_0.dds usacitystreetlights-tex_0.dds usacitystreetlights-tex_0.dds usacitystreetlights-tex_0.dds usacitystreetlights-tex_1.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_1.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_1.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_1.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_1.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_1.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_1.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_1.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds  usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds usacitystreetlights-tex_2.dds 16
+		  }
         }
     }
 }
