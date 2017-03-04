@@ -1,0 +1,25 @@
+material CommunityMapScenery
+ {
+     technique
+     {
+         pass
+         {
+             lighting on
+ 
+             ambient 1 1 1 1
+             diffuse 1 1 1 1
+             specular 0 0 0 0
+             emissive 0 0 0
+ 
+             scene_blend alpha_blend
+             depth_write off
+ 
+             texture_unit
+             {
+                 texture CommunityMapScenery2.png
+                 tex_coord_set 0
+                 colour_op modulate
+             }
+         }
+     }
+ }

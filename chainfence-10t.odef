@@ -1,0 +1,6 @@
+chainfence-10t.mesh
+1, 1, 1
+beginmesh
+mesh chainfence-10t-col.mesh
+endmesh
+end
