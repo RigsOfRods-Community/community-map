@@ -1,0 +1,17 @@
+
+material CommMap-dirt 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass CommMap-dirt
+        {
+            texture_unit 
+            {
+                texture CommMap-dirt.png
+
+            }
+        }
+    }
+}

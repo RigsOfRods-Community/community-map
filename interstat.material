@@ -1,0 +1,51 @@
+// CommMap-field-1 genrated by blender2ogre 0.6.0
+
+material CommMap-field-1 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass CommMap-field-1
+        {
+			texture_unit Diffuse_Map
+            {
+                texture CommMap-field-1.png
+            }
+        }
+    }
+}
+// CommMap-field-2 genrated by blender2ogre 0.6.0
+
+material CommMap-field-2 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass CommMap-field-2
+        {
+			texture_unit Diffuse_Map
+            {
+                texture CommMap-field-2.png
+            }
+        }
+    }
+}
+// CommMap-dirtroad genrated by blender2ogre 0.6.0
+
+material CommMap-dirtroad 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass CommMap-dirtroad
+        {
+			texture_unit Diffuse_Map
+            {
+                texture CommMap-dirtroad.png
+            }
+        }
+    }
+}

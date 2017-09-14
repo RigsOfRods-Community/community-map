@@ -1,0 +1,76 @@
+material 7-el-game
+{
+
+	receive_shadows on
+	technique near
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture 7-el-tex.dds
+			}		
+		}
+	}
+}
+material 7-el-parkinglot
+{
+
+	receive_shadows on
+	technique near
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture parkinglot-final-game-ready.dds
+			}		
+		}
+	}
+}
+material elevenpumpisland-tex.001
+{
+
+	receive_shadows on
+	technique near
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture elevenpump.png
+			}		
+		}
+	}
+}
+material GasStationSigns1-tex.001
+{
+
+	receive_shadows on
+	technique near
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture gasstationsigns1.png
+			}		
+		}
+	}
+}
+material GasStationSigns1-tex
+{
+
+	receive_shadows on
+	technique near
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture gasstationsigns1.png
+			}		
+		}
+	}
+}
+

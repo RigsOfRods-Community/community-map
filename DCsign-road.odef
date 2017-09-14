@@ -1,7 +1,5 @@
 DCsign-road.mesh
 1,1,1
 
-setMeshMaterial Signs-tex 
-
-drawTextOnMeshTexture  0.1, .9, .6, .6,   1, 1, 1, 1,    l, VeraMono {{argument1}}
+drawTextOnMeshTexture 0.1, 0.1, 0.9, 0.9, 1, 1, 1, 1, c, 20, 400, VeraMonoBold {{argument1}}
 end

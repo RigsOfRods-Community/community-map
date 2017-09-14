@@ -1,0 +1,6 @@
+7_11.mesh
+1, 1, 1
+beginmesh
+mesh 7_11-col.mesh
+endmesh
+end

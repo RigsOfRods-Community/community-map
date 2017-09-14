@@ -1,0 +1,284 @@
+material 6a8cUID_door_opener
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture 6a8cUID_door_opener.dds
+			}
+		}
+
+	}
+
+}
+
+
+material 6a8cUID_ground_train
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture 6a8cUID_ground_train.dds
+			}
+		}
+
+	}
+
+}
+
+
+material 6a8cUID_logo
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture 6a8cUID_logo.dds
+			}
+		}
+
+	}
+
+}
+
+
+material 6a8cUID_black_shin
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0313726 0.0313726 0.0313726 1
+			diffuse 0.0313726 0.0313726 0.0313726 1
+			specular 0.387 0.387 0.387 1 10
+		}
+
+	}
+
+}
+
+
+material 6a8cUID_glass
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			depth_write off
+			alpha_rejection greater 0
+			
+			texture_unit
+			{
+				texture 6a8cUID_windows.dds
+			}
+			
+			texture_unit
+			   {
+			   	 colour_op_ex blend_manual src_texture src_current 0.1
+			   	 env_map spherical
+				   texture 6a8cUID_windows_spec.jpg
+
+			   }
+			   
+		   }
+	   }
+}
+
+
+material 6a8cUID_spawner
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture 6a8cUID_spawner.dds
+			}
+		}
+
+	}
+
+}
+
+
+material 6a8cUID_galvanized
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture 6a8cUID_galvanized.dds
+			}
+		}
+
+	}
+
+}
+
+
+material 6a8cUID_side
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture 6a8cUID_side.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material 6a8cUID_roof
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture 6a8cUID_roof.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material 6a8cUID_grey
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.105882 0.105882 0.105882 1
+			diffuse 0.105882 0.105882 0.105882 1
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}
+
+
+material 6a8cUID_concrete
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture 6a8cUID_concrete.jpg
+			}
+		}
+
+	}
+
+}
+
+
+material 6a8cUID_silver
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.329412 0.329412 0.329412 1
+			diffuse 0.329412 0.329412 0.329412 1
+			specular 0.504 0.504 0.504 1 10
+		}
+
+	}
+
+}
+
+
+material 6a8cUID_engine
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture 6a8cUID_engine.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material NoMaterial
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.0 0.0 0.0 0.0
+         diffuse 0.0 0.0 0.0 0.0
+         scene_blend alpha_blend  
+                        depth_write off
+      }
+
+   }
+
+}

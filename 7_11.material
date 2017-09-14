@@ -1,0 +1,264 @@
+material 7-el-game
+{
+
+	receive_shadows on
+	technique near
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture 7-el-tex.png
+			}		
+		}
+	}
+}
+material 7-el-parkinglot
+{
+
+	receive_shadows on
+	technique near
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture parkinglot-final-texture.png
+			}		
+		}
+	}
+}
+material elevenpumpisland-tex.001
+{
+
+	receive_shadows on
+	technique near
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture elevenpump.png
+			}		
+		}
+	}
+}
+material GasStationSigns1-tex.001
+{
+
+	receive_shadows on
+	technique near
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture gasstationsigns1.png
+			}		
+		}
+	}
+}
+material GasStationSigns1-tex
+{
+
+	receive_shadows on
+	technique near
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture gasstationsigns1.png
+			}		
+		}
+	}
+}
+material 7-el-atract
+{
+
+	receive_shadows on
+	technique near
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture 7-11-sign-game.dds
+			}		
+		}
+	}
+}
+material 7-el-windowsshinny 
+{
+	
+	technique
+	{
+		pass
+		{
+            // Makes the pixel shader alpha output be used for alpha blending
+            scene_blend alpha_blend
+
+            // Make this pass use the vertex shader
+            vertex_program_ref NiceMetal_VS
+            {
+            }
+            // Make this pass use the pixel shader
+            fragment_program_ref SimpleMetal_PS
+            {
+            }
+           texture_unit diffusetex
+            {
+                // This pass will use this 2D texture as its input
+                texture 7-el-tex.png 2d
+                tex_coord_set 0
+            }
+            texture_unit speculartex
+            {
+                // This pass will use this 2D texture as its input
+                texture 7-el-window_s.png 2d
+                tex_coord_set 1
+            }
+        }
+        pass
+        {
+            scene_blend add
+            
+            // Make this pass use the vertex shader
+            vertex_program_ref NiceMetal_Reflect_VS
+            {
+            }
+            // Make this pass use the pixel shader
+             fragment_program_ref NiceMetal_Reflect_nocolor_PS
+              {
+              }
+              texture_unit speculartex
+              {
+                  // This pass will use this 2D texture as its input
+                  texture 7-el-window_s.png 2d
+                  tex_coord_set 0
+              }
+              texture_unit envmaptex
+              {
+                  cubic_texture EnvironmentTexture combinedUVW
+                  tex_address_mode clamp
+                  tex_coord_set 1
+              }
+          }
+    }
+}
+material overhang-shiny
+{
+	
+	technique
+	{
+		pass
+		{
+            // Makes the pixel shader alpha output be used for alpha blending
+            scene_blend alpha_blend
+
+            // Make this pass use the vertex shader
+            vertex_program_ref NiceMetal_VS
+            {
+            }
+            // Make this pass use the pixel shader
+            fragment_program_ref SimpleMetal_PS
+            {
+            }
+           texture_unit diffusetex
+            {
+                // This pass will use this 2D texture as its input
+                texture  7-el-tex.png 2d
+                tex_coord_set 0
+            }
+            texture_unit speculartex
+            {
+                // This pass will use this 2D texture as its input
+                texture 7-el-overhang.png 2d
+                tex_coord_set 1
+            }
+        }
+        pass
+        {
+            scene_blend add
+            
+            // Make this pass use the vertex shader
+            vertex_program_ref NiceMetal_Reflect_VS
+            {
+            }
+            // Make this pass use the pixel shader
+             fragment_program_ref NiceMetal_Reflect_nocolor_PS
+              {
+              }
+              texture_unit speculartex
+              {
+                  // This pass will use this 2D texture as its input
+                  texture 7-el-overhang.png 2d
+                  tex_coord_set 0
+              }
+              texture_unit envmaptex
+              {
+                  cubic_texture EnvironmentTexture combinedUVW
+                  tex_address_mode clamp
+                  tex_coord_set 1
+              }
+          }
+    }
+}
+material 7-el-support-shiny 
+{
+	
+	technique
+	{
+		pass
+		{
+            // Makes the pixel shader alpha output be used for alpha blending
+            scene_blend alpha_blend
+
+            // Make this pass use the vertex shader
+            vertex_program_ref NiceMetal_VS
+            {
+            }
+            // Make this pass use the pixel shader
+            fragment_program_ref SimpleMetal_PS
+            {
+            }
+           texture_unit diffusetex
+            {
+                // This pass will use this 2D texture as its input
+                texture 7-el-tex.png 2d
+                tex_coord_set 0
+            }
+            texture_unit speculartex
+            {
+                // This pass will use this 2D texture as its input
+                texture 7-el-metal_s.png 2d
+                tex_coord_set 1
+            }
+        }
+        pass
+        {
+            scene_blend add
+            
+            // Make this pass use the vertex shader
+            vertex_program_ref NiceMetal_Reflect_VS
+            {
+            }
+            // Make this pass use the pixel shader
+             fragment_program_ref NiceMetal_Reflect_nocolor_PS
+              {
+              }
+              texture_unit speculartex
+              {
+                  // This pass will use this 2D texture as its input
+                  texture 7-el-metal_s.png 2d
+                  tex_coord_set 0
+              }
+              texture_unit envmaptex
+              {
+                  cubic_texture EnvironmentTexture combinedUVW
+                  tex_address_mode clamp
+                  tex_coord_set 1
+              }
+          }
+    }
+}
