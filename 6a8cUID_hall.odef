@@ -1,0 +1,11 @@
+6a8cUID_hall.mesh
+1, 1, 1
+
+beginmesh
+mesh 6a8cUID_hall_col.mesh
+endmesh
+
+end
+
+
+

@@ -1,0 +1,154 @@
+
+// alt_asphalt2 genrated by blender2ogre 0.6.0
+
+material alt_asphalt2 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass alt_asphalt2
+        {
+
+            texture_unit 
+            {
+                texture usacityasphalt2.dds
+ 
+            }
+        }
+    }
+}
+// alt_asphalt1 genrated by blender2ogre 0.6.0
+
+material alt_asphalt1 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass alt_asphalt1
+        {
+            texture_unit 
+            {
+                texture usacityasphalt1.dds
+            }
+        }
+    }
+}
+// alt_asphalt-area genrated by blender2ogre 0.6.0
+
+material alt_asphalt-area 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass alt_asphalt-area
+        {
+            texture_unit 
+            {
+                texture AsphaltCloseups0102_7_S.dds
+            }
+        }
+    }
+}
+// sidewalk1 genrated by blender2ogre 0.6.0
+
+material sidewalk1 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass sidewalk1
+        {
+            texture_unit 
+            {
+                texture usacitysidewalk1.dds
+
+            }
+        }
+    }
+}
+// alt_asphalt3 genrated by blender2ogre 0.6.0
+
+material alt_asphalt3 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass alt_asphalt3
+        {
+            texture_unit 
+            {
+                texture usacityasphalt3.dds
+            }
+        }
+    }
+}
+
+material alt_concrete2 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass alt_asphalt2
+        {
+
+            texture_unit 
+            {
+                texture usacityconcrete2.dds
+ 
+            }
+        }
+    }
+}
+
+
+material alt_concrete1 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass alt_asphalt1
+        {
+            texture_unit 
+            {
+                texture usacityconcrete1.dds
+            }
+        }
+    }
+}
+material alt_concrete3 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass alt_asphalt3
+        {
+            texture_unit 
+            {
+                texture usacityconcrete3.dds
+            }
+        }
+    }
+}
+material alt_grass 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass alt_asphalt1
+        {
+            texture_unit 
+            {
+                texture alt_grass.dds
+            }
+        }
+    }
+}

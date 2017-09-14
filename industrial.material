@@ -1,0 +1,127 @@
+// CommMap-Concrete_mottled genrated by blender2ogre 0.6.0
+
+material CommMap-Concrete_mottled 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass CommMap-Concrete_mottled
+        {
+            texture_unit 
+            {
+                texture concretemottled.dds
+            }
+        }
+    }
+}
+// CommMap-Sidewalk genrated by blender2ogre 0.6.0
+
+material CommMap-Sidewalk 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass CommMap-Sidewalk
+        {
+            texture_unit 
+            {
+                texture Concrete1.dds
+            }
+        }
+    }
+}
+// Industbld2-tex genrated by blender2ogre 0.6.0
+
+material Industbld2-tex 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass Industbld2-tex
+        {
+
+			texture_unit 
+            {
+                texture industrialbuild-2-tex.png
+            }
+        }
+    }
+}
+// Industrialbld-signs2 genrated by blender2ogre 0.6.0
+
+material Industrialbld-signs2 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass Industrialbld-signs2
+        {
+            texture_unit 
+            {
+                texture industrialbuild1-signs.png
+            }
+        }
+    }
+}
+material Industbld2-tex-shiny 
+{
+	
+	technique
+	{
+		pass
+		{
+            // Makes the pixel shader alpha output be used for alpha blending
+            scene_blend alpha_blend
+
+            // Make this pass use the vertex shader
+            vertex_program_ref NiceMetal_VS
+            {
+            }
+            // Make this pass use the pixel shader
+            fragment_program_ref SimpleMetal_PS
+            {
+            }
+           texture_unit diffusetex
+            {
+                // This pass will use this 2D texture as its input
+                texture industrialbuild-2-tex.png 2d
+                tex_coord_set 0
+            }
+            texture_unit speculartex
+            {
+                // This pass will use this 2D texture as its input
+                texture indust-window_s.png 2d
+                tex_coord_set 1
+            }
+        }
+        pass
+        {
+            scene_blend add
+            
+            // Make this pass use the vertex shader
+            vertex_program_ref NiceMetal_Reflect_VS
+            {
+            }
+            // Make this pass use the pixel shader
+             fragment_program_ref NiceMetal_Reflect_nocolor_PS
+              {
+              }
+              texture_unit speculartex
+              {
+                  // This pass will use this 2D texture as its input
+                  texture indust-window_s.png 2d
+                  tex_coord_set 0
+              }
+              texture_unit envmaptex
+              {
+                  cubic_texture EnvironmentTexture combinedUVW
+                  tex_address_mode clamp
+                  tex_coord_set 1
+              }
+          }
+    }
+}

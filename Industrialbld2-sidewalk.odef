@@ -1,0 +1,6 @@
+industrialbld2-sidewalk.mesh
+1, 1, 1
+beginmesh
+mesh industrialbld2-sidewalk.mesh
+endmesh
+end

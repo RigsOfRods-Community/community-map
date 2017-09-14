@@ -1,0 +1,25 @@
+6a8cUID_spawner4.mesh
+1, 1, 1
+
+beginmesh
+mesh 6a8cUID_spawner4.mesh
+endmesh
+
+beginbox
+boxcoords 27, 29, -0.05, 3, -14, -12
+virtual
+event shopextension avatar
+endbox
+
+beginbox
+boxcoords  0.5, 27, 0.20, 10, -14, -2
+virtual
+event spawnzone
+direction 0, 0, 0
+endbox
+
+end
+
+
+
+

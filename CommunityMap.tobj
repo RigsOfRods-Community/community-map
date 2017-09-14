@@ -7,8 +7,11 @@ collision-tris 1000000
 170, 21, 800, 90, 0, 0,   city-roads
 170, 21, 800, 90, 0, 0, city_offramp-1
 170, 21, 800, 90, 0, 0, highwaypiece-1-grass
+170, 21, 1800, 90, 0, 0, highwaypiece-1-gr
 170, 21, 800, 90, 0, 0, highwaypiece-1-asp
 170, 21, 800, 90, 0, 0, highwaypiece-2
+170, 21, 800, 90, 0, 0, highwaypiece-1-ground
+170, 21, 800, 90, 0, 0, highwaypiece-site
 
 
 304.377, 29.0374, 1493.63, 90, 0, 180, Gas_station_sign1
@@ -42,8 +45,8 @@ collision-tris 1000000
 
 531.0, 29.2289, 2143.0, 90, 0, 90, usacityavenueend
 546.471, 29.2289, 2143.0, 90, 0, 90,usacityavenuemiddle
-;839.021, 14.572, 1595.06,  90, 0, 90, Subdivsion-1
-;839.021, 14.572, 1595.06,  90, 0, 90, Subdivsion-1-ground
+839.021, 14.572, 1595.06,  90, 0, 90, Subdivsion-1
+839.021, 14.572, 1595.06,  90, 0, 90, Subdivsion-1-ground
 ;839.021, 14.572, 1595.06,  90, 0, 90, house-dc-1
 ;838.021, 14.572, 1595.06,  90, 0, 90, house-dc-1
 ;837.021, 14.572, 1595.06,  90, 0, 90, house-dc-1
@@ -68,6 +71,17 @@ collision-tris 1000000
 1487, 9.34429, 320, 90, 0, 89, terminaloffice
 1487, 9.34429, 320, 90, 0, 89, terminalparklot
 1487, 9.34429, 320, 90, 0, 89, Terminal_misc
+2684.21, 64.05, 15090.3, 0, 299.6, 0,  truck2 6a8cUID_demag_hall.load
+2684.21, 64.05, 15090.3, 0, 299.6, 0, 6a8cUID_hall
+2684.21, 64.05, 15090.3, 0, 299.6, 0, 6a8cUID_support
+2684.21, 64.05, 15090.3, 0, 299.6, 0, 6a8cUID_spawner1 sale spawnZone_truck-spawner_1
+2684.21, 64.05, 15090.3, 0, 299.6, 0, 6a8cUID_spawner2 sale spawnZone_load-spawner_2
+2684.21, 64.05, 15090.3, 0, 299.6, 0, 6a8cUID_spawner3 sale spawnZone_load-spawner_3
+2684.21, 64.05, 15090.3, 0, 299.6, 0, 6a8cUID_spawner4 sale spawnZone_load-spawner_4
+
+2684.21, 64.4, 15090.3, 0, 299.6, 0, truck2 6a8cUID_door.fixed
+
+
 
 
 1623.9, 9.34429, 33.4501, 0, 180, 0, highway-depot-lot
@@ -196,6 +210,36 @@ collision-tris 1000000
 2424.75, 63.872, 14963.9, 90, 0, 150.6, DCsign-lowgrndcln
 
 
+2564.8, 64.027, 15064.7, 90, 0, 150, DCsign-stop1
+2576.09, 64.027, 15113, 90, 0, 330, DCsign-stop1
+2625.41, 64.027, 14999.5, 90, 0, 330, DCsign-stop1
+2626.43, 63.97, 14937.3, 90, 0, 330, DCsign-stop1
+2753.48, 64.027, 15166.3, 90, 0, 330, DCsign-stop1
+2814.03, 64.027, 15271.3, 90, 0, 330, DCsign-stop1
+
+2596.6, 64.0185, 15121.2, 90, 0, 150, DCsign-stop1
+2634.46, 64.027, 15189.5, 90, 0, 240, DCsign-stop1
+2691.66, 64.027, 15158.8, 90, 0, 240, DCsign-stop1
+2729.86, 64.027, 15226, 90, 0, 1,150 DCsign-stop1
+2753.22, 64.027, 15265.8, 90, 0, 150, DCsign-stop1
+2777.74, 64.0276, 15335.2, 90, 0, 60, DCsign-stop1
+2767.24, 64.027, 15368, 90, 0, 240.6, usacitysignalgantry2-2-light
+2818.76, 64.027, 15361.3, 90, 0, 60.6, usacitysignalgantry2-2-light
+2772.23, 64.027, 15346.4, 90, 0, 115.6, usacitysignalgantry1-1-light
+2738.64, 64.027, 15133.6, 90, 0, 150.6, usacitysignalgantry2-2-light
+2744.47, 64.027, 15105.8, 90, 0, 330.6, usacitysignalgantry2-2-light
+2751.8, 63.9525, 15120.3, 90, 0, 60.6, usacitysignalgantry1-1-light
+2655.49, 64.027, 14985.9, 90, 0, 150.6, usacitysignalgantry2-2-light
+2661.58, 64.027, 14958.3, 90, 0, 330.6, usacitysignalgantry2-2-light
+2669.89, 64.027, 14973.4, 90, 0, 60.6, usacitysignalgantry1-1-light
+
+
+
+
+
+
+2658.89, 64.027, 14955.7, 90, 0, 270, 
+
 
 //City
 1919.86, 63.8794, 15822.5, 0, 299.4, 0, failcorpnew
@@ -306,12 +350,6 @@ collision-tris 1000000
 1961.46, 64.15, 15650.3, 90, 0, 180.4, yellowlines-decal-1
 1918.87, 64.15, 15681.4, 90, 0, 150.4, yellowlines-decal-2
 
-2443.56, 63.8164, 14984.1, 90, 0, 243.4, usacitystreetlightsingle
-2493.83, 63.8688, 14955.6, 90, 0, 243.4, usacitystreetlightsingle
-2457.73, 63.8768, 14976.3, 90, 0, 243.4, usacitystreetlightsingle
-2462.44, 63.8109, 15033.5, 90, 0, 153.4, usacitystreetlightsingle
-2480.98, 63.8403, 15066.4, 90, 0, 144.813, usacitystreetlightsingle
-2513.36, 63.8603, 14940.2, 90, 0, 153.4, usacitystreetlightsingle
 
 2424.01, 63.9607, 15004.6, 90, 0, 330.6, usacitysignalgantry3-1-light
 2411.11, 64.061, 14972.5, 90, 0, 240.6, usacitysignalgantry3-2-light
@@ -335,10 +373,18 @@ collision-tris 1000000
 2551.69, 64.0677, 15240.4, 90, 0, 330.6, usacitysignalgantry2-1-light
 2555.31, 64.0677, 15229.7, 90, 0, 300.6, usacitysignalgantry1-2-light
 
-2634.71, 64.067, 15430.2, 90, 0, 150.6, usacitysignalgantry3-1-light
-2645.45, 64.0677, 15471.2, 90, 0, 60.6, usacitysignalgantry4-2-light
-2682.41, 64.0677, 15455.4, 90, 0, 330.6, usacitysignalgantry3-1-light
-2668.75, 64.0677, 15423.5, 90, 0, 240.6, usacitysignalgantry3-2-light
+2634.71, 64.067, 15430.2, 90, 0, 150.6, usacitysignalgantry3-1-light-r
+;2634.71, 64.067, 15430.2, 90, 0, 150.6, usacitysignalgantry-r-sign sign Broadway
+
+2645.45, 64.0677, 15471.2, 90, 0, 60.6, usacitysignalgantry4-2-light-r
+;2645.45, 64.0677, 15471.2, 90, 0, 60.6, usacitysignalgantry-r-sign sign Maple
+
+2682.41, 64.0677, 15455.4, 90, 0, 330.6, usacitysignalgantry3-1-light-r 
+;2682.41, 64.0677, 15455.4, 90, 0, 330.6, usacitysignalgantry-r-sign sign Broadway
+
+2668.75, 64.0677, 15423.5, 90, 0, 240.6, usacitysignalgantry3-2-light-r
+;2668.75, 64.0677, 15423.5, 90, 0, 240.6, usacitysignalgantry-r-sign sign Maple
+
 
 2727.92, 64.0677, 15587, 90, 0, 150.6, usacitysignalgantry2-1-light
 2761.61, 64.0677, 15581.3, 90, 0, 240.6, usacitysignalgantry2-2-light
@@ -358,7 +404,7 @@ collision-tris 1000000
 3117.06, 64.0677, 16211.7, 90, 0, 240.6, usacitysignalgantry1-2-light
 3117.46, 64.0677, 16236, 90, 0., 330.6, usacitysignalgantry2-1-light
 
-
+;2480.92, 66.8677, 15000, 90, 180, 0,  DCsign-road sign Testing
 
 
 2548.51, 64.0677, 15221.2,90, 0, 0, lightbox-1
@@ -367,46 +413,24 @@ collision-tris 1000000
 2832.56, 64.0677, 15788.2, 90, 0, 0, lightbox-1
 3010.51, 64.0414, 16040.7, 90, 0, 0, lightbox-1
 3112.68, 64.0677, 16209.9, 90, 0, 0, lightbox-1
-2320.67, 63.8895, 14891.6, 90, 0, -117.856, lightbox-1
-2254.79, 63.9442, 14929.1, 90, 0, -24, lightbox-1
-2163.52, 63.7557, 14980.9, 90, 0, -31.722, lightbox-1
+2320.67, 63.8895, 14891.6, 90, 0, 240.6, lightbox-1
+2254.79, 63.9442, 14929.1, 90, 0, 330, lightbox-1
+2163.52, 63.7557, 14980.9, 90, 0, 330.6, lightbox-1
 
-2076.96, 62.077, 14415.7, 90, 0, 153.4, usacitystreetlightdouble
-2082.67, 62.077, 14425.9, 90, 0, 153.4, usacitystreetlightdouble
-2087.78, 62.0776, 14435.1, 90, 0, 153.4, usacitystreetlightdouble
-2093.19, 62.0778, 14444.8, 90, 0, 153.4, usacitystreetlightdouble
-2098.63, 62.0776, 14454.1, 90, 0, 153.4, usacitystreetlightdouble
-2102.88, 62.0773, 14461.8, 90, 0, 153.4, usacitystreetlightdouble
-2106.83, 62.0607, 14469, 90, 0, 153.4, usacitystreetlightdouble
-2110.77, 62.0496, 14476.1, 90, 0, 153.4, usacitystreetlightdouble
-2116.18, 62.0459, 14485.6, 90, 0, 153.4, usacitystreetlightdouble
-2121.25, 62.0497, 14494.6, 90, 0, 153.4, usacitystreetlightdouble
-2126.11, 62.0263, 14503.3, 90, 0, 153.4, usacitystreetlightdouble
-2027.42, 62.077, 14403.3, 90, 0, 63.4, usacitystreetlightdouble
-2014.78, 62.0774, 14410.6, 90, 0, 63.4, usacitystreetlightdouble
-2006.36, 62.0774, 14415.3, 90, 0, 63.4, usacitystreetlightdouble
-1997.27, 62.0777, 14420.1, 90, 0, 63.4, usacitystreetlightdouble
-1988.8, 62.0777, 14424.8, 90, 0, 63.4, usacitystreetlightdouble
-1980.42, 62.0774, 14429.6, 90, 0, 63.4, usacitystreetlightdouble
-1971.4, 62.0781, 14434.6, 90, 0, 63.4, usacitystreetlightdouble
-1962.62, 62.0775, 14440, 90, 0, 63.4, usacitystreetlightdouble
-1954.69, 62.0776, 14445.9, 90, 0, 63.4, usacitystreetlightdouble
-1945.13, 62.0774, 14451.5, 90, 0, 63.4, usacitystreetlightdouble
-1936.78, 62.078, 14456.6, 90, 0, 63.4, usacitystreetlightdouble
-1927.71, 62.0781, 14461.1, 90, 0, 63.4, usacitystreetlightdouble
-1918.98, 62.0774, 14466.7, 90, 0, 63.4, usacitystreetlightdouble
-1910.42, 62.0774, 14471.5, 90, 0, 63.4, usacitystreetlightdouble
-1902.85, 62.0776, 14475.9, 90, 0, 63.4, usacitystreetlightdouble
-1893.66, 62.0774, 14481.1, 90, 0, 63.4, usacitystreetlightdouble
-1878.7, 62.0774, 14489.5, 90, 0, 63.4, usacitystreetlightdouble
-1871, 62.0775, 14493.6, 90, 0, 63.4, usacitystreetlightdouble
-1861.53, 62.0776, 14499, 90, 0, 63.4, usacitystreetlightdouble
-1852.97, 62.0781, 14504.2, 90, 0, 63.4, usacitystreetlightdouble
-1844.51, 62.0774, 14510.8, 90, 0, 63.4, usacitystreetlightdouble
+
 2365.42, 64.1188, 15950.5, 0, 299.5, 0, oldtowshop
 ;2193.09, 61.8544, 14424.3, 90, 0, 0, sams_club
 
 ;1952.42, 74.1113, 14611.4, 0, 150.6, 0, opmaphighschool
+
+2403.78, 64.1571, 15554.6, 0, 299.5, 0, 7_11
+2406.22, 64.2674, 15459.4, 90, 0., -120.5, industrialbld2-sidewalk
+
+
+2632.42, 64.13, 15128.8, 90, 0, -119, industrialbld2-sidewalk
+2632.42, 64.13, 15128.8, 90, 0., -119., Industrialbld2
+
+
 ;2311.16, 61.9121, 14480.6, 0.0, 120.6, 0.0, grainelevator
 
 2426.39, 63.85, 14997.8, 90, 0, 330.6, lightbox-1
@@ -480,3 +504,43 @@ collision-tris 1000000
 ;1702.03, 61.206, 14982.6, 0, 299.4, 0, truck2 Liebherr-630-ECH.truck
 ;1703.59, 61.2075, 14990.8, 0, 0, 0, truck2 Portapotty.load
 9000.0, -200.0, 9000.0, 90, 0, 0, CommunityMapScenery
+
+2472.69, 63.9783, 15120.8, 90, 0, 153.4, usacitystreetlightdouble
+2457.79, 64.1098, 15094.4, 90, 0, 153.4, usacitystreetlightdouble
+2445.3, 64.0774, 15072.1, 90, 0, 153.4, usacitystreetlightdouble
+2433.76, 63.9951, 15051.8, 90, 0, 153.4, usacitystreetlightdouble
+2423.58, 64.0859, 15033.7, 90, 0, 153.4, usacitystreetlightdouble
+2415.08, 64.0611, 15018.5, 90, 0, 153.4, usacitystreetlightdouble
+2379.62, 63.977, 14955.8, 90, 0, 153.4, usacitystreetlightdouble
+2369.83, 63.9914, 14938.3, 90, 0, 153.4, usacitystreetlightdouble
+2359.86, 64.0717, 14920.8, 90, 0, 153.4, usacitystreetlightdouble
+2351.64, 64.0245, 14905.9, 90, 0, 153.4, usacitystreetlightdouble
+2343.54, 64.0016, 14891.6, 90, 0, 153.4, usacitystreetlightdouble
+2053.13, 64.0348, 15020, 90, 0, 63.4, usacitystreetlightdouble
+2074.71, 64.0522, 15007.6, 90, 0, 63.4, usacitystreetlightdouble
+2109.85, 64.1437, 14987.8, 90, 0, 63.4, usacitystreetlightdouble
+2093.27, 64.1531, 14997.4, 90, 0, 63.4, usacitystreetlightdouble
+2123.75, 64.119, 14980, 90, 0, 63.4, usacitystreetlightdouble
+2162.57, 63.9937, 14960.1, 90, 0, 63.4, usacitystreetlightdouble
+2170.98, 64.1194, 14954.6, 90, 0, 63.4, usacitystreetlightdouble
+2179.14, 64.0363, 14949.1, 90, 0, 63.4, usacitystreetlightdouble
+2187.55, 64.0279, 14943.9, 90, 0, 63.4, usacitystreetlightdouble
+2195.93, 64.0942, 14938.7, 90, 0, 63.4, usacitystreetlightdouble
+2204.33, 64.0773, 14933.7, 90, 0, 63.4, usacitystreetlightdouble
+2212.32, 64.0189, 14927.9, 90, 0, 63.4, usacitystreetlightdouble
+2220.67, 63.9997, 14922.7, 90, 0, 63.4, usacitystreetlightdouble
+2032.31, 64.0187, 15031.3, 90, 0, 63.4, usacitystreetlightdouble
+2010.45, 63.9524, 15043.9, 90, 0, 63.4, usacitystreetlightdouble
+1994.43, 63.9197, 15054.8, 90, 0, 63.4, usacitystreetlightdouble
+2307.89, 63.9942, 14873.8, 90, 0, 63.4, usacitystreetlightdouble
+2294.22, 64.0518, 14882.2, 90, 0, 63.4, usacitystreetlightdouble
+2280.81, 64.0689, 14891.4, 90, 0, 63.4, usacitystreetlightdouble
+2264.74, 64.1359, 14900.7, 90, 0, 63.4, usacitystreetlightdouble
+2248.52, 64.0937, 14909, 90, 0, 63.4, usacitystreetlightdouble
+
+2443.56, 63.8164, 14984.1, 90, 0, 243.4, usacitystreetlightsingle
+2493.83, 63.8688, 14955.6, 90, 0, 243.4, usacitystreetlightsingle
+2457.73, 63.8768, 14976.3, 90, 0, 243.4, usacitystreetlightsingle
+2462.44, 63.8109, 15033.5, 90, 0, 153.4, usacitystreetlightsingle
+2480.98, 63.8403, 15066.4, 90, 0, 144.813, usacitystreetlightsingle
+2513.36, 63.8603, 14940.2, 90, 0, 153.4, usacitystreetlightsingle

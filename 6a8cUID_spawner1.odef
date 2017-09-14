@@ -1,0 +1,22 @@
+6a8cUID_spawner1.mesh
+1, 1, 1
+
+beginmesh
+mesh 6a8cUID_spawner1.mesh
+endmesh
+
+beginbox
+boxcoords -29, -27, -0.05, 3, 12, 14
+virtual
+event shoptruck avatar
+endbox
+
+beginbox
+boxcoords  -27, -0.5, 0.20, 10, 2, 14
+virtual
+event spawnzone
+direction 0, 0, 0
+endbox
+
+end
+
