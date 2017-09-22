@@ -1,97 +1,92 @@
-material 7-el-game
+import * from "managed_mats.material"
+material 7-el-game : RoR/Managed_Mats/Base
 {
-
-	receive_shadows on
-	technique near
-	{
-		pass
-		{
-			texture_unit
+	  receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
 			{
 				texture 7-el-tex.png
 			}		
 		}
 	}
 }
-material 7-el-parkinglot
+material 7-el-parkinglot : RoR/Managed_Mats/Base
 {
-
-	receive_shadows on
-	technique near
-	{
-		pass
-		{
-			texture_unit
+	  receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
 			{
 				texture parkinglot-final-texture.png
 			}		
 		}
 	}
 }
-material elevenpumpisland-tex.001
+material elevenpumpisland-tex.001 : RoR/Managed_Mats/Base
 {
-
-	receive_shadows on
-	technique near
-	{
-		pass
-		{
-			texture_unit
+	  receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
 			{
 				texture elevenpump.png
 			}		
 		}
 	}
 }
-material GasStationSigns1-tex.001
+material GasStationSigns1-tex.001 : RoR/Managed_Mats/Base
 {
-
-	receive_shadows on
-	technique near
-	{
-		pass
-		{
-			texture_unit
+	  receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
 			{
 				texture gasstationsigns1.png
 			}		
 		}
 	}
 }
-material GasStationSigns1-tex
+material GasStationSigns1-tex : RoR/Managed_Mats/Base
 {
-
-	receive_shadows on
-	technique near
-	{
-		pass
-		{
-			texture_unit
+	  receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
 			{
 				texture gasstationsigns1.png
 			}		
 		}
 	}
 }
-material 7-el-atract
+material 7-el-atract : RoR/Managed_Mats/Base
 {
-
-	receive_shadows on
-	technique near
-	{
-		pass
-		{
-			texture_unit
+	  receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
 			{
 				texture 7-11-sign-game.dds
 			}		
 		}
 	}
 }
-material 7-el-windowsshinny 
+material 7-el-windowsshinny : RoR/Managed_Mats/Base
 {
 	
-	technique
+	technique BaseTechnique
 	{
 		pass
 		{
@@ -146,10 +141,10 @@ material 7-el-windowsshinny
           }
     }
 }
-material overhang-shiny
+material overhang-shiny : RoR/Managed_Mats/Base
 {
 	
-	technique
+	technique BaseTechnique
 	{
 		pass
 		{
@@ -204,10 +199,10 @@ material overhang-shiny
           }
     }
 }
-material 7-el-support-shiny 
+material 7-el-support-shiny : RoR/Managed_Mats/Base
 {
 	
-	technique
+	technique BaseTechnique
 	{
 		pass
 		{
