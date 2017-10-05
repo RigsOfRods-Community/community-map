@@ -12,7 +12,9 @@ collision-tris 1000000
 170, 21, 800, 90, 0, 0, highwaypiece-2
 170, 21, 800, 90, 0, 0, highwaypiece-1-ground
 170, 21, 800, 90, 0, 0, highwaypiece-site
-
+1566.48, 8.34799, 462.121, 0, 0, 0, roadtest-1
+514.376, 29.1781, 2159.93, 0, 270, 0, roadtest-2
+668.249, 29.1863, 1487.32,0, 270, 0, roadtest-3
 
 304.377, 29.0374, 1493.63, 90, 0, 180, Gas_station_sign1
 342.806, 29.03736, 1523.0, 90, 0, 180, Caseys-store
@@ -81,7 +83,8 @@ collision-tris 1000000
 
 2684.21, 64.4, 15090.3, 0, 299.6, 0, truck2 6a8cUID_door.fixed
 
-
+2684.21, 64.4, 15090.3, 90, 0, 89, Case_dealer
+2684.21, 64.4, 15090.3, 90, 0, 89, Case_dealer2
 
 
 1623.9, 9.34429, 33.4501, 0, 180, 0, highway-depot-lot
@@ -311,6 +314,9 @@ collision-tris 1000000
 2495.04, 63.8548, 15004.5, 90, 0, 330.6, terminalbase
 2495.04, 63.8548, 15004.5, 90, 0, 330.6, Terminaloffice
 2498.46, 63.8548, 15034.8, 90, 0, 240.6, terminalbase
+
+2556.69, 73.8173, 14948.7, 0, 0, 0,  LJTruckShop
+2556.69, 75.8173, 14948.7, 0, 0, 0, LJLoadSpawner
 
 //CityIndustrial_details
 2507.08, 63.8513, 15057.5, 90, 0, 0, Lg-palletstack2
