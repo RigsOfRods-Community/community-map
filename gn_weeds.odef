@@ -1,0 +1,6 @@
+gn_weeds.mesh
+1, 1, 1
+beginmesh
+mesh gn_weeds.mesh
+endmesh
+end

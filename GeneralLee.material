@@ -1,0 +1,211 @@
+material GN-Palm_branch 
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			   alpha_rejection greater 128
+			diffuse 0.500000 0.500000 0.500000
+			specular 0.050000 0.050000 0.050000 
+			emissive 0.0 0.5 0.0 0.5
+			//lighting off
+			cull_hardware none
+			cull_software none
+			scene_blend alpha_blend
+			alpha_rejection greater_equal 128
+			//depth_write off
+			texture_unit Diffuse_Map
+			{
+				texture GN-Palm-branch.png
+			}
+		}
+	}
+}
+material a
+{
+    receive_shadows off
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+			cull_software none
+			alpha_rejection greater 120
+			texture_unit
+			{
+				texture gn-bush-low.dds
+			}
+		}
+	}
+}
+material gn-bush2
+{
+    receive_shadows off
+	technique
+	{
+		pass
+		{
+			specular 0.050000 0.050000 0.050000 
+			cull_hardware none
+			cull_software none
+			alpha_rejection greater 120
+			texture_unit
+			{
+				texture FrontBush-Closeup.png
+			}
+		}
+	}
+}
+material GN-Palm-bark
+{
+    receive_shadows off
+	technique
+	{
+		pass
+		{
+			diffuse 0.800000 0.800000 0.800000
+			specular 0.050000 0.050000 0.050000 1.500000
+			texture_unit
+			{
+				texture palmtree.png
+			}
+		}
+	}
+}
+material gn-bsuh-leaf2
+{
+    receive_shadows off
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+			cull_software none
+			alpha_rejection greater 120
+			texture_unit
+			{
+				texture gn-bush1.dds
+			}
+		}
+	}
+}
+material lilly1-leaf
+{
+    receive_shadows off
+	technique
+	{
+		pass
+		{
+			specular 0.050000 0.050000 0.050000 
+			cull_hardware none
+			cull_software none
+			alpha_rejection greater 120
+			texture_unit
+			{
+				texture gn-leaf2.dds
+			}
+		}
+	}
+}
+material lilly2-leaf
+{
+    receive_shadows off
+	technique
+	{
+		pass
+		{
+			specular 0.050000 0.050000 0.050000 
+			cull_hardware none
+			cull_software none
+			alpha_rejection greater 120
+			texture_unit
+			{
+				texture gn-leaf1.dds
+			}
+		}
+	}
+}
+material gn-weed1
+{
+    receive_shadows off
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+			cull_software none
+			alpha_rejection greater 120
+			texture_unit
+			{
+				texture gn-weedset.dds
+			}
+		}
+	}
+}
+material gn-bush-low
+{
+    receive_shadows off
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+			cull_software none
+			alpha_rejection greater 120
+			texture_unit
+			{
+				texture gn-bush1.dds
+			}
+		}
+	}
+}
+material bush-small-l
+{
+    receive_shadows off
+	technique
+	{
+		pass
+		{
+			
+			cull_hardware none
+			cull_software none
+			alpha_rejection greater 120
+			texture_unit
+			{
+				texture gn-bush3.dds
+			}
+		}
+	}
+}
+material gn-bush3
+{
+    receive_shadows off
+	technique
+	{
+		pass
+		{	
+			
+			cull_hardware none
+			cull_software none
+			alpha_rejection greater 120
+			texture_unit
+			{
+				texture gn-bush2.dds
+			}
+		}
+	}
+}
+material Gen-Planter
+{
+    receive_shadows off
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture gn-planter.dds
+			}
+		}
+	}
+}

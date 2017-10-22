@@ -1,0 +1,6 @@
+gn-palm-tree.mesh
+1, 1, 1
+beginmesh
+mesh gn-palm-tree.mesh
+endmesh
+end
