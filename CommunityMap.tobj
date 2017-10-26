@@ -4,8 +4,8 @@ collision-tris 1000000
 571, 29.03736, 1710, 90, 0, 0, test
 
 170, 21, 800, 90, 0, 0, highwaypiece
-170, 21, 800, 90, 0, 0,   city-roads
-170, 21, 800, 90, 0, 0, city_offramp-1
+170, 21, 800, 0, 0, 0,   city-roads
+170, 21, 800, 0, 0, 0, city_offramp-1
 170, 21, 800, 90, 0, 0, highwaypiece-1-grass
 170, 21, 1800, 90, 0, 0, highwaypiece-1-gr
 170, 21, 800, 90, 0, 0, highwaypiece-1-asp
