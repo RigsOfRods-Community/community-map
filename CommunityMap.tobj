@@ -4,10 +4,11 @@ collision-tris 1000000
 571, 29.03736, 1710, 90, 0, 0, test
 
 170, 21, 800, 90, 0, 0, highwaypiece
-170, 21, 800, 90, 0, 0,   city-roads
-170, 21, 800, 90, 0, 0, city_offramp-1
+170, 21, 800, 0, 0, 0,   city-roads
+170, 21, 800, 0, 0, 0, city_offramp-1
+170, 21, 800, 0, 0, 0, highwaypiece-3-leaf
 170, 21, 800, 90, 0, 0, highwaypiece-1-grass
-170, 21, 1800, 90, 0, 0, highwaypiece-1-gr
+170, 21, -200, 90, 0, 0, highwaypiece-1-gr
 170, 21, 800, 90, 0, 0, highwaypiece-1-asp
 170, 21, 800, 90, 0, 0, highwaypiece-2
 170, 21, 800, 90, 0, 0, highwaypiece-1-ground
@@ -83,8 +84,7 @@ collision-tris 1000000
 
 2684.21, 64.4, 15090.3, 0, 299.6, 0, truck2 6a8cUID_door.fixed
 
-2684.21, 64.4, 15090.3, 90, 0, 89, Case_dealer
-2684.21, 64.4, 15090.3, 90, 0, 89, Case_dealer2
+
 
 
 1623.9, 9.34429, 33.4501, 0, 180, 0, highway-depot-lot
@@ -315,8 +315,7 @@ collision-tris 1000000
 2495.04, 63.8548, 15004.5, 90, 0, 330.6, Terminaloffice
 2498.46, 63.8548, 15034.8, 90, 0, 240.6, terminalbase
 
-2556.69, 73.8173, 14948.7, 0, 0, 0,  LJTruckShop
-2556.69, 75.8173, 14948.7, 0, 0, 0, LJLoadSpawner
+
 
 //CityIndustrial_details
 2507.08, 63.8513, 15057.5, 90, 0, 0, Lg-palletstack2
