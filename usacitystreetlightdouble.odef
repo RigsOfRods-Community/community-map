@@ -3,6 +3,6 @@ usacitystreetlightdouble.mesh
 beginmesh
 mesh usacitystreetlightdouble-Col.mesh
 endmesh
-pointlight -2.83182, 9.19784, 0, 0,  -1, 0, 1, 1, 1, 10
-pointlight 2.83182, 9.19784, 0, 0,  -1, 0, 1, 1, 1, 10
+pointlight -2.83182, 9.19784, 0, 0,  -1, 0,  0.937254902, 0.9215686275, 0.7294117647, 100
+pointlight 2.83182, 9.19784, 0, 0,  -1, 0,  0.937254902, 0.9215686275, 0.7294117647, 100
 end

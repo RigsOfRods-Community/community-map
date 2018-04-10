@@ -1,0 +1,6 @@
+neg-build.mesh
+1,1,1
+beginmesh
+mesh neg-build.mesh
+endmesh
+end

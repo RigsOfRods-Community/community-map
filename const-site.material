@@ -1,0 +1,17 @@
+material site-tex2 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass site-tex2
+        {
+            texture_unit 
+            {
+                texture sitetest.png
+
+            }
+        }
+    }
+}
+

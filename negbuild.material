@@ -1,0 +1,63 @@
+
+// Neg-build-tex genrated by blender2ogre 0.6.0
+
+material Neg-build-tex 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass Neg-build-tex
+        {
+
+            texture_unit 
+            {
+                texture neg-build-tex.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+// Neg-build-lot genrated by blender2ogre 0.6.0
+
+material Neg-build-lot 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass Neg-build-lot
+        {
+            texture_unit 
+            {
+                texture neg-lot-tex.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// ModWall-exterior-2 genrated by blender2ogre 0.6.0
+
+material ModWall-exterior-2 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass ModWall-exterior-2
+        {
+            texture_unit 
+            {
+                texture walls-exter1-rw.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}

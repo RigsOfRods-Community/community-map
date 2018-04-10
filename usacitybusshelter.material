@@ -1,5 +1,5 @@
-import * from "managed_mats.material"
-material alt_asphalt1  : RoR/Managed_Mats/Base
+
+material alt_asphalt1   
 {
 	technique BaseTechnique
 	{
@@ -14,7 +14,7 @@ material alt_asphalt1  : RoR/Managed_Mats/Base
         }
     }
 }
-material alt_grass  : RoR/Managed_Mats/Base
+material alt_grass   
 {
 	technique BaseTechnique
 	{
@@ -29,7 +29,7 @@ material alt_grass  : RoR/Managed_Mats/Base
         }
     }
 }
-material alt_asphalt2  : RoR/Managed_Mats/Base
+material alt_asphalt2   
 {
 	technique BaseTechnique
 	{
@@ -44,7 +44,7 @@ material alt_asphalt2  : RoR/Managed_Mats/Base
     }
 }
 
-material alt_asphalt3  : RoR/Managed_Mats/Base
+material alt_asphalt3   
 {
 	technique BaseTechnique
 	{
@@ -59,7 +59,22 @@ material alt_asphalt3  : RoR/Managed_Mats/Base
     }
 }
 
-material alt_sidewalk1  : RoR/Managed_Mats/Base
+material alt_concretesidewalk1   
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+
+			texture_unit Diffuse_Map
+			{
+                texture usacitysidewalk1-concrete.dds
+
+            }
+        }
+    }
+}
+material alt_sidewalk1   
 {
 	technique BaseTechnique
 	{
@@ -74,7 +89,7 @@ material alt_sidewalk1  : RoR/Managed_Mats/Base
         }
     }
 }
-material shelterglass : RoR/Managed_Mats/Base
+material shelterglass  
 {
 	technique BaseTechnique
 	{
@@ -91,7 +106,7 @@ material shelterglass : RoR/Managed_Mats/Base
         }
     }
 }
-material sheltermetal : RoR/Managed_Mats/Base
+material sheltermetal  
 {
 	technique BaseTechnique
 	{

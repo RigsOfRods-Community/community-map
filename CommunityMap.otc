@@ -1,8 +1,8 @@
 //Heightmap options
 
-WorldSizeX=18000
-WorldSizeZ=18000
-WorldSizeY=0
+WorldSizeX=6000
+WorldSizeZ=6000
+WorldSizeY=550
  
 PageSize=1025
 PageFileFormat=CommunityMap-page-0-0.otc

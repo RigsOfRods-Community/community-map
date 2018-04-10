@@ -1,6 +1,6 @@
 
-import * from "managed_mats.material"
-material Dc-highway : RoR/Managed_Mats/Base
+
+material Dc-highway 
 {
 	technique BaseTechnique
 	{
@@ -16,7 +16,7 @@ material Dc-highway : RoR/Managed_Mats/Base
 		}
 	}
 }
-material 2Dc-highwaytex: RoR/Managed_Mats/Base
+material 2Dc-highwaytex 
 {
 	technique BaseTechnique
 	{
@@ -32,7 +32,7 @@ material 2Dc-highwaytex: RoR/Managed_Mats/Base
 	}
 }
 
-material Caseysstore-tex : RoR/Managed_Mats/Base
+material Caseysstore-tex 
 {
 	technique BaseTechnique
 	{
@@ -48,7 +48,7 @@ material Caseysstore-tex : RoR/Managed_Mats/Base
 		}
 	}
 }
-material Caseyspumpisland-tex: RoR/Managed_Mats/Base
+material Caseyspumpisland-tex 
 {
 	technique BaseTechnique
 	{
@@ -59,14 +59,22 @@ material Caseyspumpisland-tex: RoR/Managed_Mats/Base
 			texture_unit Diffuse_Map
 			{
 				texture caseyspump.dds
-				tex_address_mode wrap
-				filtering trilinear
 			}
 		}
-	}
+		pass
+		
+        	{
+			scene_blend alpha_blend
+			lighting off
+			texture_unit
+            		{
+                		texture caseyspump-emissive.dds
+           
+            		}
+			}
+   	}
 }
-
-material Caseys-lot-tex: RoR/Managed_Mats/Base
+material Caseys-lot-tex 
 {
 	technique BaseTechnique
 	{
@@ -80,7 +88,23 @@ material Caseys-lot-tex: RoR/Managed_Mats/Base
 		}
 	}
 }
-material Terminal_parklot-tex: RoR/Managed_Mats/Base
+material CaseDealer1-tex
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+
+			texture_unit Diffuse_Map
+			{
+				texture casetex-2.dds
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material Terminal_parklot-tex 
 {
 	technique BaseTechnique
 	{
@@ -96,7 +120,7 @@ material Terminal_parklot-tex: RoR/Managed_Mats/Base
 		}
 	}
 }
-material Casedealerlot1-tex : RoR/Managed_Mats/Base
+material Casedealerlot1-tex 
 {
 	technique BaseTechnique
 	{
@@ -112,7 +136,7 @@ material Casedealerlot1-tex : RoR/Managed_Mats/Base
 		}
 	}
 }
-material Casedealerlot2-tex : RoR/Managed_Mats/Base
+material Casedealerlot2-tex 
 {
 	technique BaseTechnique
 	{
@@ -128,7 +152,7 @@ material Casedealerlot2-tex : RoR/Managed_Mats/Base
 		}
 	}
 }
-material Dealership_ground : RoR/Managed_Mats/Base
+material Dealership_ground 
 {
 	technique BaseTechnique
 	{
@@ -179,7 +203,7 @@ material communitymap-grass
         }
     }
 }
-material DC-roads-tex2 : RoR/Managed_Mats/Base
+material DC-roads-tex2 
 {
 	technique BaseTechnique
 	{
@@ -195,7 +219,7 @@ material DC-roads-tex2 : RoR/Managed_Mats/Base
 		}
 	}
 }
-material MCDs-lot-tex : RoR/Managed_Mats/Base
+material MCDs-lot-tex 
 {
 	technique BaseTechnique
 	{
@@ -205,14 +229,22 @@ material MCDs-lot-tex : RoR/Managed_Mats/Base
 			texture_unit Diffuse_Map
 			{
 				texture mcd-lot-tex.dds
-				tex_address_mode wrap
-				filtering trilinear
 			}
 		}
-	}
+		pass
+		
+        	{
+			scene_blend alpha_blend
+			lighting off
+			texture_unit
+            		{
+                		texture mcd-lot-tex-emissive.dds
+           
+            		}
+			}
+   	}
 }
-
-material GasStationSigns1-tex: RoR/Managed_Mats/Base
+material GasStationSigns1-tex 
 {
 	technique BaseTechnique
 	{
@@ -221,12 +253,21 @@ material GasStationSigns1-tex: RoR/Managed_Mats/Base
 			texture_unit Diffuse_Map
 			{
 				texture gasstationsigns1.dds
-
 			}
 		}
-	}
+		pass
+		        	{
+			scene_blend alpha_blend
+			lighting off
+			texture_unit
+            		{
+                		texture gasstationsigns1-emissive.dds
+           
+            		}
+			}
+   	}
 }
-material Billboards1-tex: RoR/Managed_Mats/Base
+material Billboards1-tex 
 {
 	technique BaseTechnique
 	{
@@ -252,7 +293,7 @@ material Billboards1-tex: RoR/Managed_Mats/Base
 			}
    	}
 }
-material Billboard-tex2: RoR/Managed_Mats/Base
+material Billboard-tex2 
 {
 	technique BaseTechnique
 	{
@@ -267,7 +308,7 @@ material Billboard-tex2: RoR/Managed_Mats/Base
 		}
 	}
 }
-material tbell-lot-decals: RoR/Managed_Mats/Base
+material tbell-lot-decals 
 {
 	technique BaseTechnique
 	{
@@ -287,7 +328,7 @@ material tbell-lot-decals: RoR/Managed_Mats/Base
 		}
 	}
 }
-material tbell-lot-tex: RoR/Managed_Mats/Base
+material tbell-lot-tex 
 {
 	technique BaseTechnique
 	{
@@ -302,7 +343,7 @@ material tbell-lot-tex: RoR/Managed_Mats/Base
 		}
 	}
 }
-material tbell-build-tex: RoR/Managed_Mats/Base
+material tbell-build-tex 
 {
 	technique BaseTechnique
 	{
@@ -317,7 +358,7 @@ material tbell-build-tex: RoR/Managed_Mats/Base
 		}
 	}
 }
-material tbell-build-tex2: RoR/Managed_Mats/Base
+material tbell-build-tex2 
 {
 	technique BaseTechnique
 	{
@@ -333,7 +374,7 @@ material tbell-build-tex2: RoR/Managed_Mats/Base
 	}
 }
 
-material tbell-dthru-tex: RoR/Managed_Mats/Base
+material tbell-dthru-tex 
 {
 	technique BaseTechnique
 	{
@@ -346,10 +387,20 @@ material tbell-dthru-tex: RoR/Managed_Mats/Base
 				texture tbell-dthru-tex.dds
 			}
 		}
-	}
+		pass
+		
+        	{
+			scene_blend alpha_blend
+			lighting off
+			texture_unit
+            		{
+                		texture tbell-dthru-tex-emissive.dds
+           
+            		}
+			}
+   	}
 }
-
-material CommMap-asphalt1: RoR/Managed_Mats/Base
+material CommMap-asphalt1 
 {
 	technique BaseTechnique
 	{
@@ -364,7 +415,7 @@ material CommMap-asphalt1: RoR/Managed_Mats/Base
 		}
 	}
 }
-material CommMap-Concrete1: RoR/Managed_Mats/Base
+material CommMap-Concrete1 
 {
 	technique BaseTechnique
 	{
@@ -379,7 +430,7 @@ material CommMap-Concrete1: RoR/Managed_Mats/Base
 		}
 	}
 }
-material Aldi-lot-tex: RoR/Managed_Mats/Base
+material Aldi-lot-tex 
 {
 	technique BaseTechnique
 	{
@@ -392,9 +443,20 @@ material Aldi-lot-tex: RoR/Managed_Mats/Base
 				texture aldi-lot-misc.dds
 			}
 		}
-	}
+		pass
+		
+        	{
+			scene_blend alpha_blend
+			lighting off
+			texture_unit
+            		{
+                		texture aldi-lot-misc-emissive.png
+           
+            		}
+			}
+   	}
 }
-material Vegetation_Grass1 : RoR/Managed_Mats/Base
+material Vegetation_Grass1 
 {
 	technique BaseTechnique
 	{
@@ -410,7 +472,7 @@ material Vegetation_Grass1 : RoR/Managed_Mats/Base
 		}
 	}
 }
-material CommunityMap-grass-1: RoR/Managed_Mats/Base
+material CommunityMap-grass-1 
 {
 	technique BaseTechnique
 	{
@@ -425,7 +487,7 @@ material CommunityMap-grass-1: RoR/Managed_Mats/Base
 		}
 	}
 }
-material CommMap-sidewalk-1: RoR/Managed_Mats/Base
+material CommMap-sidewalk-1 
 {
 	technique BaseTechnique
 	{
@@ -440,7 +502,7 @@ material CommMap-sidewalk-1: RoR/Managed_Mats/Base
 		}
 	}
 }
-material CommMap-lot-decals: RoR/Managed_Mats/Base
+material CommMap-lot-decals 
 {
 	technique BaseTechnique
 	{
@@ -460,7 +522,7 @@ material CommMap-lot-decals: RoR/Managed_Mats/Base
 		}
 	}
 }
-material CommMap-Glass-tex: RoR/Managed_Mats/Base
+material CommMap-Glass-tex 
 {
 	technique BaseTechnique
 	{
@@ -475,7 +537,7 @@ material CommMap-Glass-tex: RoR/Managed_Mats/Base
 		}
 	}
 }
-material Aldi-tex2: RoR/Managed_Mats/Base
+material Aldi-tex2 
 {
 	technique BaseTechnique
 	{
@@ -488,9 +550,20 @@ material Aldi-tex2: RoR/Managed_Mats/Base
 				texture aldi2-tex.dds
 			}
 		}
-	}
+		pass
+		
+        	{
+			scene_blend alpha_blend
+			lighting off
+			texture_unit
+            		{
+                		texture aldi2-tex-emissive.dds
+           
+            		}
+			}
+   	}
 }
-material Aldi1-tex: RoR/Managed_Mats/Base
+material Aldi1-tex 
 {
 	technique BaseTechnique
 	{
@@ -503,9 +576,20 @@ material Aldi1-tex: RoR/Managed_Mats/Base
 				texture aldi-tex.dds
 			}
 		}
-	}
+		pass
+		
+        	{
+			scene_blend alpha_blend
+			lighting off
+			texture_unit
+            		{
+                		texture aldi-tex-emissive.dds
+           
+            		}
+			}
+   	}
 }
-material DC-Bridge-tex: RoR/Managed_Mats/Base
+material DC-Bridge-tex 
 {
 	technique BaseTechnique
 	{
@@ -520,7 +604,7 @@ material DC-Bridge-tex: RoR/Managed_Mats/Base
 		}
 	}
 }
-material DC-Bridge-tex2: RoR/Managed_Mats/Base
+material DC-Bridge-tex2 
 {
 	technique BaseTechnique
 	{
@@ -535,7 +619,7 @@ material DC-Bridge-tex2: RoR/Managed_Mats/Base
 		}
 	}
 }
-material CaseDealer2-tex: RoR/Managed_Mats/Base
+material CaseDealer2-tex 
 {
 	technique BaseTechnique
 	{
@@ -548,7 +632,7 @@ material CaseDealer2-tex: RoR/Managed_Mats/Base
 		}
 	}
 }
-material Case_dealer-fence: RoR/Managed_Mats/Base
+material Case_dealer-fence 
 {
 	technique BaseTechnique
 	{
@@ -583,7 +667,7 @@ material Dealership_ground
 
 }
 
-material Dealership: RoR/Managed_Mats/Base
+material Dealership 
 {
 	technique BaseTechnique
 	{
@@ -598,7 +682,7 @@ material Dealership: RoR/Managed_Mats/Base
 		}
 	}
 }
-material Dealership_sign: RoR/Managed_Mats/Base
+material Dealership_sign 
 {
 	technique BaseTechnique
 	{
@@ -614,7 +698,7 @@ material Dealership_sign: RoR/Managed_Mats/Base
 		}
 	}
 }
-material Dealership_building: RoR/Managed_Mats/Base
+material Dealership_building 
 {
 	technique BaseTechnique
 	{
@@ -629,7 +713,7 @@ material Dealership_building: RoR/Managed_Mats/Base
 		}
 	}
 }
-material Dealership_garage: RoR/Managed_Mats/Base
+material Dealership_garage 
 {
 	technique BaseTechnique
 	{
@@ -644,7 +728,7 @@ material Dealership_garage: RoR/Managed_Mats/Base
 		}
 	}
 }
-material Dealership_Ginterior: RoR/Managed_Mats/Base
+material Dealership_Ginterior 
 {
 	technique BaseTechnique
 	{
@@ -659,7 +743,7 @@ material Dealership_Ginterior: RoR/Managed_Mats/Base
 		}
 	}
 }
-material Dealership_Gdetails: RoR/Managed_Mats/Base
+material Dealership_Gdetails 
 {
 	technique BaseTechnique
 	{
@@ -670,11 +754,22 @@ material Dealership_Gdetails: RoR/Managed_Mats/Base
 				texture Dealership_Gdetails.dds
 				tex_address_mode wrap
 				filtering trilinear
-			}
+				}
 		}
-	}
+		pass
+		
+        	{
+			scene_blend alpha_blend
+			lighting off
+			texture_unit
+            		{
+                		texture Dealership_Gdetails-emissive.dds
+           
+            		}
+			}
+   	}
 }
-material Dealership_Gdetails_2: RoR/Managed_Mats/Base
+material Dealership_Gdetails_2 
 {
 	technique BaseTechnique
 	{
@@ -689,7 +784,7 @@ material Dealership_Gdetails_2: RoR/Managed_Mats/Base
 		}
 	}
 }
-material Dealership_decals: RoR/Managed_Mats/Base
+material Dealership_decals 
 {
 	technique BaseTechnique
 	{
@@ -707,7 +802,7 @@ material Dealership_decals: RoR/Managed_Mats/Base
 		}
 	}
 }
-material Dealership_aircon: RoR/Managed_Mats/Base
+material Dealership_aircon 
 {
 	technique BaseTechnique
 	{
@@ -722,15 +817,15 @@ material Dealership_aircon: RoR/Managed_Mats/Base
 		}
 	}
 }
-material ROR_dpw_asphalt : RoR/Managed_Mats/Base
+material ROR_dpw_asphalt 
 {
 	set_texture_alias diffuse_tex ASPHALT3.dds
 }
-material ROR_dpw_fence_pole : RoR/Managed_Mats/Base
+material ROR_dpw_fence_pole 
 {
 	set_texture_alias diffuse_tex pole.dds
 }
-material ROR_dpw_Roof: RoR/Managed_Mats/Base
+material ROR_dpw_Roof 
 {
 	technique BaseTechnique
 	{
@@ -745,7 +840,7 @@ material ROR_dpw_Roof: RoR/Managed_Mats/Base
 		}
 	}
 }
-material ROR_dpw_spreader_shack: RoR/Managed_Mats/Base
+material ROR_dpw_spreader_shack 
 {
 	technique BaseTechnique
 	{
@@ -761,7 +856,7 @@ material ROR_dpw_spreader_shack: RoR/Managed_Mats/Base
 	}
 }
 
-material ROR_dpw_brick1-tex : RoR/Managed_Mats/Base
+material ROR_dpw_brick1-tex 
 {
 	technique BaseTechnique
 	{
@@ -776,7 +871,7 @@ material ROR_dpw_brick1-tex : RoR/Managed_Mats/Base
 		}
 	}
 }
-material ROR_dpw_misc1-tex : RoR/Managed_Mats/Base
+material ROR_dpw_misc1-tex 
 {
 	technique BaseTechnique
 	{
@@ -791,7 +886,7 @@ material ROR_dpw_misc1-tex : RoR/Managed_Mats/Base
 		}
 	}
 }
-material ROR_DPW_floor1-tex : RoR/Managed_Mats/Base
+material ROR_DPW_floor1-tex 
 {
 	technique BaseTechnique
 	{
@@ -806,7 +901,7 @@ material ROR_DPW_floor1-tex : RoR/Managed_Mats/Base
 		}
 	}
 }
-material ROR_dpw_roofext1-tex: RoR/Managed_Mats/Base
+material ROR_dpw_roofext1-tex 
 {
 	technique BaseTechnique
 	{
@@ -821,7 +916,7 @@ material ROR_dpw_roofext1-tex: RoR/Managed_Mats/Base
 		}
 	}
 }
-material ROR_dpw_walls1-tex : RoR/Managed_Mats/Base
+material ROR_dpw_walls1-tex 
 {
 	technique BaseTechnique
 	{
@@ -836,7 +931,7 @@ material ROR_dpw_walls1-tex : RoR/Managed_Mats/Base
 		}
 	}
 }
-material ROR_dpw_roofint1-tex : RoR/Managed_Mats/Base
+material ROR_dpw_roofint1-tex 
 {
 	technique BaseTechnique
 	{
@@ -851,7 +946,7 @@ material ROR_dpw_roofint1-tex : RoR/Managed_Mats/Base
 		}
 	}
 }
-material ROR_dpw_Build2-tex  : RoR/Managed_Mats/Base
+material ROR_dpw_Build2-tex  
 {
 	technique BaseTechnique
 	{
@@ -866,7 +961,7 @@ material ROR_dpw_Build2-tex  : RoR/Managed_Mats/Base
 		}
 	}
 }
-material ROR_dpw_build3-tex : RoR/Managed_Mats/Base
+material ROR_dpw_build3-tex 
 {
 	technique BaseTechnique
 	{
@@ -881,7 +976,7 @@ material ROR_dpw_build3-tex : RoR/Managed_Mats/Base
 		}
 	}
 }
-material ROR_dpw_Door: RoR/Managed_Mats/Base
+material ROR_dpw_Door 
 {
 	technique BaseTechnique
 	{
@@ -896,7 +991,7 @@ material ROR_dpw_Door: RoR/Managed_Mats/Base
 		}
 	}
 }
-material ROR_dpw_Roof: RoR/Managed_Mats/Base
+material ROR_dpw_Roof 
 {
 	technique BaseTechnique
 	{
@@ -911,7 +1006,7 @@ material ROR_dpw_Roof: RoR/Managed_Mats/Base
 		}
 	}
 }
-material ROR_dpw_spreader_shack: RoR/Managed_Mats/Base
+material ROR_dpw_spreader_shack 
 {
 	technique BaseTechnique
 	{
@@ -926,7 +1021,7 @@ material ROR_dpw_spreader_shack: RoR/Managed_Mats/Base
 		}
 	}
 }
-material Salt-dome-tex: RoR/Managed_Mats/Base
+material Salt-dome-tex 
 {
 	technique BaseTechnique
 	{
@@ -941,7 +1036,7 @@ material Salt-dome-tex: RoR/Managed_Mats/Base
 		}
 	}
 }
-material MerchantsII-2-tex: RoR/Managed_Mats/Base
+material MerchantsII-2-tex 
 {
 	technique BaseTechnique
 	{
@@ -957,7 +1052,7 @@ material MerchantsII-2-tex: RoR/Managed_Mats/Base
 	}
 }
 
-material MerchantsII-roof: RoR/Managed_Mats/Base
+material MerchantsII-roof 
 {
 	technique BaseTechnique
 	{
@@ -972,7 +1067,7 @@ material MerchantsII-roof: RoR/Managed_Mats/Base
 		}
 	}
 }
-material MerchantsrowII-tex: RoR/Managed_Mats/Base
+material MerchantsrowII-tex 
 {
 	technique BaseTechnique
 	{
@@ -987,7 +1082,7 @@ material MerchantsrowII-tex: RoR/Managed_Mats/Base
 		}
 	}
 }
-material MerchantsII-1-tex: RoR/Managed_Mats/Base
+material MerchantsII-1-tex 
 {
 	technique BaseTechnique
 	{
@@ -1002,7 +1097,7 @@ material MerchantsII-1-tex: RoR/Managed_Mats/Base
 		}
 	}
 }
-material MerchantsII-sidewalk: RoR/Managed_Mats/Base
+material MerchantsII-sidewalk 
 {
 	technique BaseTechnique
 	{
@@ -1017,7 +1112,7 @@ material MerchantsII-sidewalk: RoR/Managed_Mats/Base
 		}
 	}
 }
-material MerchantsII-3-tex: RoR/Managed_Mats/Base
+material MerchantsII-3-tex 
 {
 	technique BaseTechnique
 	{
@@ -1032,7 +1127,7 @@ material MerchantsII-3-tex: RoR/Managed_Mats/Base
 		}
 	}
 }
-material McD-tex1: RoR/Managed_Mats/Base
+material McD-tex1 
 {
 	technique BaseTechnique
 	{
@@ -1043,9 +1138,20 @@ material McD-tex1: RoR/Managed_Mats/Base
 				texture mcd-tex1.dds
 			}
 		}
-	}
+		pass
+		
+        	{
+			scene_blend alpha_blend
+			lighting off
+			texture_unit
+            		{
+                		texture mcd-tex1-emissive.dds
+           
+            		}
+			}
+   	}
 }
-material McD-tex2: RoR/Managed_Mats/Base
+material McD-tex2 
 {
 	technique BaseTechnique
 	{
@@ -1056,9 +1162,20 @@ material McD-tex2: RoR/Managed_Mats/Base
 				texture mcd-tex2.dds
 			}
 		}
-	}
+		pass
+		
+        	{
+			scene_blend alpha_blend
+			lighting off
+			texture_unit
+            		{
+                		texture mcd-tex2-emissive.dds
+           
+            		}
+			}
+   	}
 }
-material Rest-signs-tex : RoR/Managed_Mats/Base
+material Rest-signs-tex 
 {
 	technique BaseTechnique
 	{
@@ -1085,7 +1202,7 @@ material Rest-signs-tex : RoR/Managed_Mats/Base
         }
     }
 }
-material Int-speedlimit-tex : RoR/Managed_Mats/Base
+material Int-speedlimit-tex 
 {
 	technique BaseTechnique
 	{
@@ -1100,7 +1217,7 @@ material Int-speedlimit-tex : RoR/Managed_Mats/Base
 		}
 	}
 }
-material DC-speedlimit-tex : RoR/Managed_Mats/Base
+material DC-speedlimit-tex 
 {
 	technique BaseTechnique
 	{
@@ -1165,7 +1282,7 @@ material CommMap_chainfence
    }
 }
 
-material teminal-misc-tex: RoR/Managed_Mats/Base
+material teminal-misc-tex 
 {
 	technique BaseTechnique
 	{
@@ -1178,7 +1295,7 @@ material teminal-misc-tex: RoR/Managed_Mats/Base
 		}
 	}
 }
-material Terminal_door_glass: RoR/Managed_Mats/Base
+material Terminal_door_glass 
 {
 	technique BaseTechnique
 	{
@@ -1196,7 +1313,7 @@ material Terminal_door_glass: RoR/Managed_Mats/Base
 	}
 }
 
-material Terminal_Mesh_steps: RoR/Managed_Mats/Base
+material Terminal_Mesh_steps 
 {
 	technique BaseTechnique
 	{
@@ -1213,7 +1330,7 @@ material Terminal_Mesh_steps: RoR/Managed_Mats/Base
 		}
 	}
 }
-material Loading-Ramp-tex: RoR/Managed_Mats/Base
+material Loading-Ramp-tex 
 {
 	technique BaseTechnique
 	{
@@ -1226,7 +1343,7 @@ material Loading-Ramp-tex: RoR/Managed_Mats/Base
 		}
 	}
 }
-material SOLID/TEX/LJTreeBirchTrunk.dds: RoR/Managed_Mats/Base
+material SOLID/TEX/LJTreeBirchTrunk.dds 
 {
 	technique BaseTechnique
 	{
@@ -1290,7 +1407,7 @@ material ALPHA/TEX/LJTreeBirchBranchesb.dds/TWOSIDE: RoR/Managed_Mats/Vegetation
 		}
 	}
 }
-material SOLID/TEX/LJTreeBirchTrunk.dds: RoR/Managed_Mats/Base
+material SOLID/TEX/LJTreeBirchTrunk.dds 
 {
 	technique BaseTechnique
 	{
@@ -1354,7 +1471,7 @@ material ALPHA/TEX/LJTreeBirchBranchesb.dds/TWOSIDE: RoR/Managed_Mats/Vegetation
 		}
 	}
 }
-material 96,96,96: RoR/Managed_Mats/Base
+material 96,96,96 
 {
 	technique BaseTechnique
 	{
@@ -1367,7 +1484,7 @@ material 96,96,96: RoR/Managed_Mats/Base
 		}
 	}
 }
-material dc_roads-straight3: RoR/Managed_Mats/Base
+material dc_roads-straight3 
 {
 	technique BaseTechnique
 	{
@@ -1380,7 +1497,7 @@ material dc_roads-straight3: RoR/Managed_Mats/Base
 		}
 	}
 }
-material dc_roads-sidewalk: RoR/Managed_Mats/Base
+material dc_roads-sidewalk 
 {
 	technique BaseTechnique
 	{
@@ -1393,7 +1510,7 @@ material dc_roads-sidewalk: RoR/Managed_Mats/Base
 		}
 	}
 }
-material dc_roads-straight1: RoR/Managed_Mats/Base
+material dc_roads-straight1 
 {
 	technique BaseTechnique
 	{
@@ -1406,7 +1523,7 @@ material dc_roads-straight1: RoR/Managed_Mats/Base
 		}
 	}
 }
-material dc_roads-T: RoR/Managed_Mats/Base
+material dc_roads-T 
 {
 	technique BaseTechnique
 	{
@@ -1419,7 +1536,7 @@ material dc_roads-T: RoR/Managed_Mats/Base
 		}
 	}
 }
-material Station2_tex2: RoR/Managed_Mats/Base
+material Station2_tex2 
 {
 	technique BaseTechnique
 	{
@@ -1432,7 +1549,7 @@ material Station2_tex2: RoR/Managed_Mats/Base
 		}
 	}
 }
-material Station_2tex1: RoR/Managed_Mats/Base
+material Station_2tex1 
 {
 	technique BaseTechnique
 	{
@@ -1445,7 +1562,7 @@ material Station_2tex1: RoR/Managed_Mats/Base
 		}
 	}
 }
-material fd_warning_lights: RoR/Managed_Mats/Base
+material fd_warning_lights 
 {
 	technique BaseTechnique
 	{
@@ -1458,7 +1575,7 @@ material fd_warning_lights: RoR/Managed_Mats/Base
 		}
 	}
 }
-material FD_door-tex: RoR/Managed_Mats/Base
+material FD_door-tex 
 {
 	technique BaseTechnique
 	{
@@ -1471,7 +1588,7 @@ material FD_door-tex: RoR/Managed_Mats/Base
 		}
 	}
 }
-material Glass_Gray: RoR/Managed_Mats/Base
+material Glass_Gray 
 {
 	technique BaseTechnique
 	{
@@ -1494,7 +1611,7 @@ material Glass_Gray: RoR/Managed_Mats/Base
 		}
 	}
 }
-material Firestation2_park-tex: RoR/Managed_Mats/Base
+material Firestation2_park-tex 
 {
 	technique BaseTechnique
 	{
@@ -1507,7 +1624,7 @@ material Firestation2_park-tex: RoR/Managed_Mats/Base
 		}
 	}
 }
-material Sign2-tex: RoR/Managed_Mats/Base
+material Sign2-tex 
 {
 	technique BaseTechnique
 	{
@@ -1520,7 +1637,7 @@ material Sign2-tex: RoR/Managed_Mats/Base
 		}
 	}
 }
-material signs3-tex: RoR/Managed_Mats/Base
+material signs3-tex 
 {
 	technique BaseTechnique
 	{
@@ -1533,7 +1650,7 @@ material signs3-tex: RoR/Managed_Mats/Base
 		}
 	}
 }
-material Signs-tex: RoR/Managed_Mats/Base
+material Signs-tex 
 {
 	technique BaseTechnique
 	{
@@ -1546,7 +1663,7 @@ material Signs-tex: RoR/Managed_Mats/Base
 		}
 	}
 }
-material Signbacks-tex: RoR/Managed_Mats/Base
+material Signbacks-tex 
 {
 	technique BaseTechnique
 	{
@@ -1559,7 +1676,7 @@ material Signbacks-tex: RoR/Managed_Mats/Base
 		}
 	}
 }
-material CommMap-ConcWall : RoR/Managed_Mats/Base
+material CommMap-ConcWall 
 {
 	technique BaseTechnique
 	{
@@ -1574,7 +1691,7 @@ material CommMap-ConcWall : RoR/Managed_Mats/Base
 		}
 	}
 }
-material WaterTower1-tex : RoR/Managed_Mats/Base
+material WaterTower1-tex 
 {
 	technique BaseTechnique
 	{
@@ -1589,7 +1706,7 @@ material WaterTower1-tex : RoR/Managed_Mats/Base
 		}
 	}
 }
-material DC-speedlimit-tex : RoR/Managed_Mats/Base
+material DC-speedlimit-tex 
 {
 	technique BaseTechnique
 	{

@@ -1,0 +1,7 @@
+city_bridges.mesh
+1, 1, 1
+beginmesh
+mesh city_bridges.mesh
+stdfriction asphalt
+endmesh
+end

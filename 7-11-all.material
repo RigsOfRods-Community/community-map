@@ -28,7 +28,7 @@ material 7-el-parkinglot
 		}
 	}
 }
-material elevenpumpisland-tex.001
+material elevenpumpisland-tex
 {
 
 	receive_shadows on
@@ -39,38 +39,18 @@ material elevenpumpisland-tex.001
 			texture_unit
 			{
 				texture elevenpump.png
-			}		
+			}
 		}
-	}
-}
-material GasStationSigns1-tex.001
-{
-
-	receive_shadows on
-	technique near
-	{
 		pass
-		{
+		        	{
+			scene_blend alpha_blend
+			lighting off
 			texture_unit
-			{
-				texture gasstationsigns1.png
-			}		
-		}
-	}
-}
-material GasStationSigns1-tex
-{
-
-	receive_shadows on
-	technique near
-	{
-		pass
-		{
-			texture_unit
-			{
-				texture gasstationsigns1.png
-			}		
-		}
-	}
+            		{
+                		texture elevenpump-emissive.png
+           
+            		}
+			}
+   	}
 }
 

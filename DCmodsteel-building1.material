@@ -23,7 +23,23 @@ material modWall-interior/SOLID/TEX/DC-modsteel-1a-AO.png
 	}
 
 }
+material modWall-interior
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1.000000 1.000000 1.000000
+			specular 0.000000 0.000000 0.000000 12.500000
+			texture_unit
+			{
+				texture int-walls.png
+			}
+		}
 
+	}
+
+}
 material Mod_build-Concrete/SOLID/TEX/DC-modsteel-1a-AO.png
 {
 	technique
@@ -49,7 +65,23 @@ material Mod_build-Concrete/SOLID/TEX/DC-modsteel-1a-AO.png
 	}
 
 }
+material Mod_build-Concrete
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1.000000 1.000000 1.000000
+			specular 0.000000 0.000000 0.000000 12.500000
+			texture_unit
+			{
+				texture modular-floors-tex.png
+			}
+		}
 
+	}
+
+}
 material Indust-exterior1-tex/SOLID/TEX/DC-modsteel-1a-AO.png
 {
 	technique
