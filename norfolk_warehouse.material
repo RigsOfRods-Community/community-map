@@ -13,7 +13,7 @@ material MMwarehouse7lod
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
             texture_unit b2ogre_1324919467.182
             {
@@ -42,7 +42,7 @@ material MMwarehouse1lod
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
             texture_unit b2ogre_1324919467.192
             {
@@ -71,7 +71,7 @@ material MMwarehouse6lod
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
             texture_unit b2ogre_1324919467.196
             {
@@ -100,7 +100,7 @@ material MMwarehouse5lod
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
             texture_unit b2ogre_1324919467.199
             {
@@ -129,7 +129,7 @@ material MMwarehouse3lod
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
             texture_unit b2ogre_1324919467.202
             {
@@ -158,7 +158,7 @@ material MMwarehouse2lod
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
             texture_unit b2ogre_1324919467.205
             {
@@ -187,7 +187,7 @@ material MMwarehouse4lod
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
             texture_unit b2ogre_1324919467.208
             {
@@ -215,7 +215,7 @@ material MMwarehouse8lod
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
             texture_unit b2ogre_1324919467.212
             {
@@ -244,7 +244,7 @@ material MMwarehouse9lod
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
             texture_unit b2ogre_1324919467.217
             {
@@ -273,7 +273,7 @@ material MMmetalroof01lod
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
             texture_unit b2ogre_1324919467.22
             {
@@ -302,7 +302,7 @@ material MMwarehouse7
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
             texture_unit b2ogre_1324919467.222
             {
@@ -331,7 +331,7 @@ material MMwarehouse1
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
             texture_unit b2ogre_1324919467.225
             {
@@ -360,7 +360,7 @@ material MMwarehouse6
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
             texture_unit b2ogre_1324919467.228
             {
@@ -389,7 +389,7 @@ material MMwarehouse5
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
             texture_unit b2ogre_1324919467.229
             {
@@ -418,7 +418,7 @@ material MMwarehouse3
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
             texture_unit b2ogre_1324919467.231
             {
@@ -447,7 +447,7 @@ material MMwarehouse2
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
             texture_unit b2ogre_1324919467.233
             {
@@ -476,7 +476,7 @@ material MMwarehouse4
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
             texture_unit b2ogre_1324919467.235
             {
@@ -505,7 +505,7 @@ material MMwarehouse8
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
             texture_unit b2ogre_1324919467.236
             {
@@ -534,7 +534,7 @@ material MMwarehouse9
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
             texture_unit b2ogre_1324919467.239
             {
@@ -563,7 +563,7 @@ material MMmetalroof01
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
 			texture_unit b2ogre_1324919467.239
             {

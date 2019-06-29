@@ -1,0 +1,8 @@
+rorbot3statue.mesh
+1.0, 1.0, 1.0
+
+beginmesh
+mesh rorbot3statue.mesh
+endmesh
+
+end

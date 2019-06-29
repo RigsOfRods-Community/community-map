@@ -1,0 +1,332 @@
+// CVS-USA-Sidewalk genrated by blender2ogre 0.6.0
+
+material CVS-USA-Sidewalk 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass CVS-USA-Sidewalk
+        {
+            texture_unit 
+            {
+                texture usacitysidewalk1.dds
+                tex_coord_set 0
+            }
+        }
+    }
+}
+// CVS-Gravel genrated by blender2ogre 0.6.0
+
+material CVS-Gravel 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass CVS-Gravel
+        {
+            texture_unit 
+            {
+                texture CVS-Gravel.jpg
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture CVS-PARK-AO.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+// CVS-As genrated by blender2ogre 0.6.0
+
+material CVS-As 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass CVS-As
+        {
+
+            texture_unit 
+            {
+                texture CVS-As.png
+                tex_address_mode mirror
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture CVS-PARK-AO.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+// cvs-lot-decals genrated by blender2ogre 0.6.0
+
+material cvs-lot-decals 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass cvs-lot-decals
+        {
+			scene_blend alpha_blend
+			depth_write off
+            texture_unit 
+            {
+                texture lot-decals.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+// CVS-Park-decal2 genrated by blender2ogre 0.6.0
+
+material CVS-Park-decal2 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass CVS-Park-decal2
+        {
+			scene_blend alpha_blend
+			depth_write off
+            texture_unit 
+            {
+                texture CVS-park-decals2.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+// CVS-Park-stop genrated by blender2ogre 0.6.0
+
+material CVS-Park-stop 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass CVS-Park-stop
+        {
+            texture_unit 
+            {
+                texture CVS-Parking-C.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture CVS-EN-GN.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+// CVS-gate genrated by blender2ogre 0.6.0
+
+material CVS-gate 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass CVS-gate
+        {
+            texture_unit 
+            {
+                texture Gn-CVS-enclourse.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+// CVS-EN1-Stone genrated by blender2ogre 0.6.0
+
+material CVS-EN1-Stone 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass CVS-EN1-Stone
+        {
+            texture_unit 
+            {
+                texture CVS-Stone.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture CVS-EN-GN.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+// CVS-EN1-Wall genrated by blender2ogre 0.6.0
+
+material CVS-EN1-Wall 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass CVS-EN1-Wall
+        {
+            texture_unit 
+            {
+                texture CVS-trim.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture CVS-EN-GN.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+// CVS-EN2-Wall genrated by blender2ogre 0.6.0
+
+material CVS-EN2-Wall 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass CVS-EN2-Wall
+        {
+            texture_unit 
+            {
+                texture CVS-trim.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture Gn-CVS-enclourse.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+// CVS-EN2-Stone genrated by blender2ogre 0.6.0
+
+material CVS-EN2-Stone 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass CVS-EN2-Stone
+        {
+            texture_unit 
+            {
+                texture Gn-CVS-enclourse.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture CVS-Stone.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+// CVS-USA-Sidewalk1 genrated by blender2ogre 0.6.0
+
+material CVS-USA-Sidewalk1 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass CVS-USA-Sidewalk1
+        {
+            texture_unit 
+            {
+                texture usacitysidewalk1-concrete.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+// CVS-Grass genrated by blender2ogre 0.6.0
+
+material CVS-Grass 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass CVS-Grass
+        {
+
+            texture_unit 
+            {
+                texture alt_grass.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}

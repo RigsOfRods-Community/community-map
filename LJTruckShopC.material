@@ -1,0 +1,13 @@
+material SOLID/TEX/LJTruckShop.dds
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture LJTruckShop.dds
+			}
+		}
+	}
+}

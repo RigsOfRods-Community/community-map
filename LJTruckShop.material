@@ -1,0 +1,29 @@
+material SOLID/TEX/LJTruckShop.dds
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture LJTruckShop.dds
+			}
+		}
+	}
+}
+material ALPHA/TEX/LJTruckShop.dds/TWOSIDE
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend 
+			cull_hardware none
+			cull_software none
+			texture_unit
+			{
+				texture LJTruckShop.dds
+			}
+		}
+	}
+}

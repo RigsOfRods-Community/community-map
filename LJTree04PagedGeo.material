@@ -1,0 +1,65 @@
+material ALPHA/TEX/Branches01b.dds/TWOSIDE
+{
+    receive_shadows off
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+			cull_software none
+			alpha_rejection greater 120
+			texture_unit
+			{
+				texture Branches01b.dds
+			}
+		}
+	}
+}
+material SOLID/TEX/Branches02trunk.dds
+{
+    receive_shadows off
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture Branches02trunk.dds
+			}
+		}
+	}
+}
+material ALPHA/TEX/Branches02branchonly.dds/TWOSIDE
+{
+    receive_shadows off
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+			cull_software none
+			alpha_rejection greater 120
+			texture_unit
+			{
+				texture Branches02branchonly.dds
+			}
+		}
+	}
+}
+material ALPHA/TEX/Branches01a.dds/TWOSIDE
+{
+    receive_shadows off
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+			cull_software none
+			alpha_rejection greater 120
+			texture_unit
+			{
+				texture Branches01a.dds
+			}
+		}
+	}
+}

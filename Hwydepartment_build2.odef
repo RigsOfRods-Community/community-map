@@ -1,6 +1,6 @@
 Hwydepartment_build2.mesh
 1, 1, 1
 beginmesh
-mesh Hwydepartment_build2.mesh
+mesh Hwydepartment_build2-col.mesh
 endmesh
 end

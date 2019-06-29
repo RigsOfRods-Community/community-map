@@ -340,7 +340,8 @@ material concretelines1
         pass BaseRender
         {
  
-            texture_unit Diffuse_Map            {
+            texture_unit Diffuse_Map  
+			{
                 texture Concretelines1.dds
 
             }
@@ -357,7 +358,8 @@ material concreteedge
         pass BaseRender
         {
  
-            texture_unit Diffuse_Map            {
+            texture_unit Diffuse_Map    
+			{
                 texture concreteedge.dds
 
             }
@@ -712,7 +714,8 @@ material whitepaint.001
         pass BaseRender
         {
  
-            texture_unit Diffuse_Map            {
+            texture_unit Diffuse_Map        
+			{
                 texture whitepaint.dds
 
             }
@@ -729,7 +732,8 @@ material singlelanesolidli.000
         pass BaseRender
         {
  
-            texture_unit Diffuse_Map            {
+            texture_unit Diffuse_Map           
+			{
                 texture singlelanesolidline.dds
 
             }
@@ -746,7 +750,8 @@ material singlelanebrokenl.001
         pass BaseRender
         {
  
-            texture_unit Diffuse_Map            {
+            texture_unit Diffuse_Map          
+			{
                 texture lane1broken1solid.dds
 
             }
@@ -763,7 +768,8 @@ material singlelanesolidli.001
         pass BaseRender
         {
  
-            texture_unit Diffuse_Map            {
+            texture_unit Diffuse_Map       
+			{
                 texture singlelanesolidline2.dds
 
             }
@@ -780,7 +786,8 @@ material straightturnlane.001
         pass BaseRender
         {
  
-            texture_unit Diffuse_Map            {
+            texture_unit Diffuse_Map   
+			{
                 texture straightturnlane.dds
 
             }
@@ -797,7 +804,8 @@ material turnlane.001
         pass BaseRender
         {
  
-            texture_unit Diffuse_Map            {
+            texture_unit Diffuse_Map  
+			{
                 texture turnlane.dds
 
             }
@@ -814,7 +822,8 @@ material straightlane.001
         pass BaseRender
         {
  
-            texture_unit Diffuse_Map            {
+            texture_unit Diffuse_Map      
+			{
                 texture straightlane.dds
 
             }
@@ -831,7 +840,8 @@ material lane.001
         pass BaseRender
         {
  
-            texture_unit Diffuse_Map            {
+            texture_unit Diffuse_Map      
+			{
                 texture lane.dds
 
             }
@@ -848,7 +858,8 @@ material intersectinnercor.000
         pass BaseRender
         {
  
-            texture_unit Diffuse_Map            {
+            texture_unit Diffuse_Map     
+			{
                 texture intersectinnercorner1.dds
 
             }
@@ -865,7 +876,8 @@ material intersectinnercor.001
         pass BaseRender
         {
  
-            texture_unit Diffuse_Map            {
+            texture_unit Diffuse_Map    
+			{
                 texture intersectinnercorner2.dds
 
             }
@@ -882,7 +894,8 @@ material singlelanebrokenl.002
         pass BaseRender
         {
  
-            texture_unit Diffuse_Map            {
+            texture_unit Diffuse_Map      
+			{
                 texture lane1broken.dds
 
             }

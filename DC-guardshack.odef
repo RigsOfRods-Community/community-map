@@ -1,0 +1,6 @@
+DC-guardshack.mesh
+1,1,1
+beginmesh
+mesh DC-guardshack-col.mesh
+endmesh
+end

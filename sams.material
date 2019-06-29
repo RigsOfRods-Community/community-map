@@ -1,0 +1,416 @@
+material Sams_LightGray  
+{
+	receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+            texture sams-AO.png
+			tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture 34388_114615815264712_3821216_n.jpg
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+material Sams_Practical_Beige 
+{
+	receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+            texture sams-AO.png
+			tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture Practical_Beige.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+material Sams_portabello 
+{
+	receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+            texture sams-AO.png
+			tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture portabello.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+material Sams_Fencing_Chain_Link  
+{
+	receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+            texture sams-AO.png
+			tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture Fencing_Chain_Link.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+material Sams_SC_Logo  
+{
+	receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+            texture sams-AO.png
+			tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture SC_Logo.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+material Sams_Concrete_Scored_Joint 
+{
+	receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+            texture sams-AO.png
+			tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture Concrete_Scored_Jointless.jpg
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+material Sams_Metal_Steel_Textured_  
+{
+	receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+            texture sams-AO.png
+			tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture Metal_Steel_Textured_White.jpg
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+material Sams_Color_001 
+{
+	receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+            texture sams-AO.png
+			tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture gray.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+material Sams_Collision  
+{
+	receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+            texture sams-AO.png
+			tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture collision.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+material Sams_Concrete_Form_4x8  
+{
+	receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+            texture sams-AO.png
+			tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture Concrete_Form_4x8.jpg
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+material Sams_black   
+{
+	receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+            texture sams-AO.png
+			tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture piso_cimento.jpg
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+material Sams_splitface_brick  
+{
+	receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+            texture sams-AO.png
+			tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture 5609wr_split_face.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+material Sams_Color_008  
+{
+	receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+            texture sams-AO.png
+			tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture black.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+material Sams_cardboard  
+{
+	receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+            texture sams-AO.png
+			tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture cardboard.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+material Sams_Asphalt_New  
+{
+	receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+            texture sams-AO.png
+			tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture Asphalt_New.jpg
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+material Sams_96,96,96  
+{
+	receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+            texture sams-AO.png
+			tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture quik-brik_architectural_color_swatch_wilkesboro.jpg
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}

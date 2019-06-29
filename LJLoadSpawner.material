@@ -1,0 +1,28 @@
+material SOLID/TEX/LJLoadSpawner.png
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture LJLoadSpawner.png
+			}
+		}
+	}
+}
+material SOLID/TEX/LJLoadSpawner.png/TWOSIDE
+{
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+			cull_software none
+			texture_unit
+			{
+				texture LJLoadSpawner.png
+			}
+		}
+	}
+}

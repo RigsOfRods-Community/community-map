@@ -1,5 +1,5 @@
-import * from "managed_mats.material"
-material _missing_material_ : RoR/Managed_Mats/Base
+
+material _missing_material_ 
 {
     receive_shadows off
     technique  BaseTechnique
@@ -16,7 +16,7 @@ material _missing_material_ : RoR/Managed_Mats/Base
 
 
 // blender material: intersectcorner1
-material intersectcorner1 : RoR/Managed_Mats/Base
+material intersectcorner1 
 {
 
     technique  BaseTechnique
@@ -34,7 +34,7 @@ material intersectcorner1 : RoR/Managed_Mats/Base
 }
 
 // blender material: asphalt
-material asphalt : RoR/Managed_Mats/Base
+material asphalt 
 {
 
     technique  BaseTechnique
@@ -52,7 +52,7 @@ material asphalt : RoR/Managed_Mats/Base
 }
 
 // blender material: crosswalk1
-material crosswalk1 : RoR/Managed_Mats/Base
+material crosswalk1 
 {
 
     technique  BaseTechnique
@@ -70,7 +70,7 @@ material crosswalk1 : RoR/Managed_Mats/Base
 }
 
 // blender material: curb1
-material curb1 : RoR/Managed_Mats/Base
+material curb1 
 {
 
     technique  BaseTechnique
@@ -88,7 +88,7 @@ material curb1 : RoR/Managed_Mats/Base
 }
 
 // blender material: whitepaint
-material whitepaint : RoR/Managed_Mats/Base
+material whitepaint 
 {
 
     technique  BaseTechnique
@@ -106,7 +106,7 @@ material whitepaint : RoR/Managed_Mats/Base
 }
 
 // blender material: singlelanesolidline
-material singlelanesolidline : RoR/Managed_Mats/Base
+material singlelanesolidline 
 {
 
     technique  BaseTechnique
@@ -124,7 +124,7 @@ material singlelanesolidline : RoR/Managed_Mats/Base
 }
 
 // blender material: singlelanebrokenline
-material singlelanebrokenline : RoR/Managed_Mats/Base
+material singlelanebrokenline 
 {
 
     technique  BaseTechnique
@@ -142,7 +142,7 @@ material singlelanebrokenline : RoR/Managed_Mats/Base
 }
 
 // blender material: singlelanesolidline2
-material singlelanesolidline2 : RoR/Managed_Mats/Base
+material singlelanesolidline2 
 {
 
     technique  BaseTechnique
@@ -159,7 +159,7 @@ material singlelanesolidline2 : RoR/Managed_Mats/Base
 }
 
 // blender material: straightturnlane
-material straightturnlane : RoR/Managed_Mats/Base
+material straightturnlane 
 {
 
     technique  BaseTechnique
@@ -176,7 +176,7 @@ material straightturnlane : RoR/Managed_Mats/Base
 }
 
 // blender material: turnlane
-material turnlane : RoR/Managed_Mats/Base
+material turnlane 
 {
 
     technique  BaseTechnique
@@ -193,7 +193,7 @@ material turnlane : RoR/Managed_Mats/Base
 }
 
 // blender material: straightlane
-material straightlane : RoR/Managed_Mats/Base
+material straightlane 
 {
 
     technique  BaseTechnique
@@ -211,7 +211,7 @@ material straightlane : RoR/Managed_Mats/Base
 }
 
 // blender material: lane
-material lane : RoR/Managed_Mats/Base
+material lane 
 {
 
     technique  BaseTechnique
@@ -229,7 +229,7 @@ material lane : RoR/Managed_Mats/Base
 }
 
 // blender material: intersectinnercorner1
-material intersectinnercorner1 : RoR/Managed_Mats/Base
+material intersectinnercorner1 
 {
 
     technique  BaseTechnique
@@ -247,7 +247,7 @@ material intersectinnercorner1 : RoR/Managed_Mats/Base
 }
 
 // blender material: intersectinnercorner5
-material intersectinnercorner5 : RoR/Managed_Mats/Base
+material intersectinnercorner5 
 {
 
     technique  BaseTechnique
@@ -265,7 +265,7 @@ material intersectinnercorner5 : RoR/Managed_Mats/Base
 }
 
 // blender material: singlelanebrokenl
-material singlelanebrokenl : RoR/Managed_Mats/Base
+material singlelanebrokenl 
 {
 
     technique  BaseTechnique
@@ -282,7 +282,7 @@ material singlelanebrokenl : RoR/Managed_Mats/Base
 }
 
 // blender material: singlelanebrokenline.
-material singlelanebrokenline. : RoR/Managed_Mats/Base
+material singlelanebrokenline. 
 {
 
     technique  BaseTechnique
@@ -299,7 +299,7 @@ material singlelanebrokenline. : RoR/Managed_Mats/Base
 }
 
 // blender material: patchedgrass
-material patchedgrass : RoR/Managed_Mats/Base
+material patchedgrass 
 {
 
     technique  BaseTechnique
@@ -316,7 +316,7 @@ material patchedgrass : RoR/Managed_Mats/Base
 }
 
 // blender material: concrete1
-material concrete1 : RoR/Managed_Mats/Base
+material concrete1 
 {
 
     technique  BaseTechnique
@@ -333,7 +333,7 @@ material concrete1 : RoR/Managed_Mats/Base
 }
 
 // blender material: concretelines1
-material concretelines1 : RoR/Managed_Mats/Base
+material concretelines1 
 {
 
     technique  BaseTechnique
@@ -350,7 +350,7 @@ material concretelines1 : RoR/Managed_Mats/Base
 }
 
 // blender material: concreteedge
-material concreteedge : RoR/Managed_Mats/Base
+material concreteedge 
 {
 
     technique BaseTechnique
@@ -367,7 +367,7 @@ material concreteedge : RoR/Managed_Mats/Base
 }
 
 // blender material: cobble1
-material cobble1 : RoR/Managed_Mats/Base
+material cobble1 
 {
 
     technique BaseTechnique
@@ -385,7 +385,7 @@ material cobble1 : RoR/Managed_Mats/Base
 }
 
 // blender material: cobble1edge2
-material cobble1edge2 : RoR/Managed_Mats/Base
+material cobble1edge2 
 {
 
     technique BaseTechnique
@@ -403,7 +403,7 @@ material cobble1edge2 : RoR/Managed_Mats/Base
 }
 
 // blender material: cobble1edge3
-material cobble1edge3 : RoR/Managed_Mats/Base
+material cobble1edge3 
 {
 
     technique BaseTechnique
@@ -421,7 +421,7 @@ material cobble1edge3 : RoR/Managed_Mats/Base
 }
 
 // blender material: concreteweatheredend1
-material concreteweatheredend1 : RoR/Managed_Mats/Base
+material concreteweatheredend1 
 {
 
     technique BaseTechnique
@@ -439,7 +439,7 @@ material concreteweatheredend1 : RoR/Managed_Mats/Base
 }
 
 // blender material: 20ftcontainerblock
-material 20ftcontainerblock : RoR/Managed_Mats/Base
+material 20ftcontainerblock 
 {
 
     technique BaseTechnique
@@ -457,7 +457,7 @@ material 20ftcontainerblock : RoR/Managed_Mats/Base
 }
 
 // blender material: lineedge
-material lineedge : RoR/Managed_Mats/Base
+material lineedge 
 {
 
     technique  BaseTechnique
@@ -475,7 +475,7 @@ material lineedge : RoR/Managed_Mats/Base
 }
 
 // blender material: linefade
-material linefade : RoR/Managed_Mats/Base
+material linefade 
 {
 
     technique BaseTechnique
@@ -492,7 +492,7 @@ material linefade : RoR/Managed_Mats/Base
     }
 }
 // blender material: asphaltedge
-material asphaltedge : RoR/Managed_Mats/Base
+material asphaltedge 
 {
 
     technique BaseTechnique
@@ -510,7 +510,7 @@ material asphaltedge : RoR/Managed_Mats/Base
 }
 
 // blender material: cobble1edge
-material cobble1edge : RoR/Managed_Mats/Base
+material cobble1edge 
 {
 
     technique BaseTechnique
@@ -528,7 +528,7 @@ material cobble1edge : RoR/Managed_Mats/Base
 }
 
 // blender material: park1
-material park1 : RoR/Managed_Mats/Base
+material park1 
 {
 
     technique BaseTechnique
@@ -546,7 +546,7 @@ material park1 : RoR/Managed_Mats/Base
 }
 
 // blender material: concreteweatheredcros
-material concreteweatheredcros : RoR/Managed_Mats/Base
+material concreteweatheredcros 
 {
 
     technique BaseTechnique
@@ -564,7 +564,7 @@ material concreteweatheredcros : RoR/Managed_Mats/Base
 }
 
 // blender material: asphalt2
-material asphalt2 : RoR/Managed_Mats/Base
+material asphalt2 
 {
 
     technique BaseTechnique
@@ -582,7 +582,7 @@ material asphalt2 : RoR/Managed_Mats/Base
 }
 
 // blender material: asphalt2edge
-material asphalt2edge : RoR/Managed_Mats/Base
+material asphalt2edge 
 {
 
     technique BaseTechnique
@@ -600,7 +600,7 @@ material asphalt2edge : RoR/Managed_Mats/Base
 }
 
 // blender material: bricksidewalk
-material bricksidewalk : RoR/Managed_Mats/Base
+material bricksidewalk 
 {
 
     technique BaseTechnique
@@ -618,7 +618,7 @@ material bricksidewalk : RoR/Managed_Mats/Base
 }
 
 // blender material: lanemerge
-material lanemerge : RoR/Managed_Mats/Base
+material lanemerge 
 {
 
     technique BaseTechnique
@@ -636,7 +636,7 @@ material lanemerge : RoR/Managed_Mats/Base
 }
 
 // blender material: failcorpconcrete3
-material failcorpconcrete3 : RoR/Managed_Mats/Base
+material failcorpconcrete3 
 {
 
     technique BaseTechnique
@@ -703,7 +703,7 @@ material failcorpwindow
 }
 
 // blender material: failcorpconcrete1
-material failcorpconcrete1 : RoR/Managed_Mats/Base
+material failcorpconcrete1 
 {
 
     technique BaseTechnique
@@ -731,7 +731,7 @@ material failcorpconcrete1 : RoR/Managed_Mats/Base
 }
 
 // blender material: failcorpconcrete2
-material failcorpconcrete2 : RoR/Managed_Mats/Base
+material failcorpconcrete2 
 {
 
     technique BaseTechnique
@@ -866,7 +866,7 @@ material failcorpentrance
 }
 
 // blender material: failcorpantenna
-material failcorpantenna : RoR/Managed_Mats/Base
+material failcorpantenna 
 {
 
     technique BaseTechnique
@@ -922,7 +922,7 @@ material redglow
 }
 
 // blender material: failcorpsignlarge
-material failcorpsignlarge : RoR/Managed_Mats/Base
+material failcorpsignlarge 
 {
 
     technique BaseTechnique
@@ -940,7 +940,7 @@ material failcorpsignlarge : RoR/Managed_Mats/Base
         }
     }
 }
-material failcorplogo : RoR/Managed_Mats/Base
+material failcorplogo 
 {
 
     technique BaseTechnique
@@ -966,7 +966,7 @@ material failcorplogo : RoR/Managed_Mats/Base
         }
     }
 }
-material failcorpLOD : RoR/Managed_Mats/Base
+material failcorpLOD 
 {
 
     technique BaseTechnique

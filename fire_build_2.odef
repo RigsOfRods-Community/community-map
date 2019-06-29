@@ -1,8 +1,6 @@
 fire_build_2.mesh
 1, 1, 1
-beginmesh
-mesh fire_build_2_collision.mesh
-endmesh
+
 
 pointlight -3.40360,   3.35280, 4.95617,   0,  -1, 0, 1, 1, 1, 25
 pointlight -3.40360,   8.83920, 4.95617,   0,  -1, 0, 1, 1, 1, 25 

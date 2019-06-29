@@ -2,9 +2,7 @@
 Name = Community Map
 GeometryConfig = CommunityMap.otc
 AmbientColor = 0.93, 0.86, 0.76
-
 StartPosition = 2480.92, 63.8677, 3000
-
 SandStormCubeMap = tracks/skyboxcol
 Gravity = -9.81
 CategoryID = 129
@@ -13,7 +11,6 @@ GUID = CommunityMap
 
 [Authors]
 terrain = Community/DarthCain
-converting = Hotrod55
 
  
 [Objects]

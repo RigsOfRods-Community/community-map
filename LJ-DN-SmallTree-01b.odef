@@ -1,0 +1,8 @@
+LJ-DN-SmallTree-01b.mesh
+1, 1, 1
+
+beginmesh
+mesh LJ-DN-SmallTree-01bCo.mesh
+endmesh
+
+end

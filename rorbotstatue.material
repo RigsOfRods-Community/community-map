@@ -1,0 +1,39 @@
+material rorbot1statue
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture rorbot1statue.png
+			}
+		}
+	}
+}
+material rorbot2statue
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture rorbot2statue.png
+			}
+		}
+	}
+}
+material rorbot3statue
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture rorbot3statue.png
+			}
+		}
+	}
+}

@@ -1,0 +1,6 @@
+CVS-pylon.mesh
+1, 1, 1
+beginmesh
+mesh CVS-pylon-col.mesh
+endmesh
+end

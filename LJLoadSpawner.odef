@@ -1,0 +1,22 @@
+LJLoadSpawner.mesh
+1, 1, 1
+
+beginmesh
+mesh LJLoadSpawnerC.mesh
+endmesh
+
+;virtualBox_1_avatar
+beginbox
+boxcoords -10.85, -5.15, 0.25, 2.75, -10.95, -8.05
+virtual
+event shopextension avatar
+endbox
+
+;virtualBox_2_spawnzone
+beginbox
+boxcoords -8.65, 16.65, 1.05, 5.95, -5.50, 7.50
+virtual
+event spawnzone
+endbox
+
+end
