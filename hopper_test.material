@@ -1,0 +1,63 @@
+material Color_004
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.556862745098039 0.556862745098039 0.556862745098039 1.0
+         ambient 0.556862745098039 0.556862745098039 0.556862745098039 1.0
+      }
+   }
+}
+material Color_003
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.666666666666667 0.666666666666667 0.666666666666667 1.0
+         ambient 0.666666666666667 0.666666666666667 0.666666666666667 1.0
+      }
+   }
+}
+material Concrete_Aggregate_Smoke
+{
+   technique
+   {
+      pass
+      {
+         12.0, 12.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Concrete_Aggregate_Smoke.jpg
+         }
+      }
+   }
+}
+material Groundcover_Rock_Crushed_2inch
+{
+   technique
+   {
+      pass
+      {
+         24.0, 23.9454545454545
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture gravel_seamless_background_sjpg16461.jpg
+         }
+      }
+   }
+}
+material _SketchupDefault
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1.0 1.0 1.0
+         ambient 1.0 1.0 1.0
+      }
+   }
+}

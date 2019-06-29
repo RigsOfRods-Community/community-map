@@ -1,0 +1,21 @@
+
+// sign-test genrated by blender2ogre 0.6.0
+
+material sign-test
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass sign-test
+        {
+            texture_unit 
+            {
+                texture dynamicsign-test.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}

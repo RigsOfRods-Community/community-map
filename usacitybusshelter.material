@@ -1,19 +1,4 @@
 
-material alt_asphalt1   
-{
-	technique BaseTechnique
-	{
-		pass BaseRender
-		{
-
-			texture_unit Diffuse_Map
-			{
-                texture usacityasphalt1.dds
-
-            }
-        }
-    }
-}
 material alt_grass   
 {
 	technique BaseTechnique
@@ -24,6 +9,21 @@ material alt_grass
 			texture_unit Diffuse_Map
 			{
                 texture Grass0126_2_S.jpg
+
+            }
+        }
+    }
+}
+material alt_asphalt1   
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+
+			texture_unit Diffuse_Map
+			{
+                texture usacityasphalt1.dds
 
             }
         }
@@ -116,6 +116,50 @@ material sheltermetal
 			texture_unit Diffuse_Map
 			{
                 texture usacitybusshelter.dds
+            }
+        }
+    }
+}
+material alt_newasphalt1   
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+
+			texture_unit Diffuse_Map
+			{
+                texture usacitynewasphalt1.dds
+
+            }
+        }
+    }
+}
+material alt_newasphalt2   
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+
+			texture_unit Diffuse_Map
+			{
+                texture usacitynewasphalt2.dds
+            }
+        }
+    }
+}
+
+material alt_newasphalt3   
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+
+			texture_unit Diffuse_Map
+			{
+                texture usacitynewasphalt3.dds
             }
         }
     }

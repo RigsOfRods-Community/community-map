@@ -1,0 +1,192 @@
+material BM-hghschl_Cladd
+{
+	receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+            texture Cladding_Siding_Tan.dds
+			tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture highschool-AO.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+material BM-hghschl_Con
+{
+	receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+            texture Concrete_Scored_Jointless.dds
+			tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture highschool-AO.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+material BM-hghschl_Metal2
+{
+	receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+            texture Metal_Rough.dds
+			tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture highschool-AO.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+material BM-hghschl_Metal
+{
+	receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+            texture Metal_Aluminum_Anodized.dds
+			tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture highschool-AO.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+material BM-hghschl_roof
+{
+	receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+            texture Metal_Rough.dds
+			tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture highschool-AO.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+material BM-hghschl_window
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000 0.960000
+			diffuse 0.294902 0.294902 0.294902 0.960000
+			specular 0.000000 0.000000 0.000000 0.960000 12.500000
+			emissive 0.000000 0.000000 0.000000 0.960000
+			scene_blend alpha_blend
+			depth_write off
+			texture_unit
+			{
+				texture window.dds
+				tex_address_mode wrap
+				filtering trilinear
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+				texture light.dds
+				colour_op alpha_blend
+			}
+            texture_unit 
+            {
+                texture highschool-AO.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+material BM-hghschl_Brick
+{
+	receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+            texture 420103_313084702084488_1563725626_n.dds
+			tex_address_mode wrap
+                scale 0.75 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture highschool-AO.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}

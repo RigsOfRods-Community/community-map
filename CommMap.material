@@ -16,6 +16,22 @@ material Dc-highway
 		}
 	}
 }
+material DC-Road-tex
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+
+			texture_unit Diffuse_Map
+			{
+				texture DC-road-tex.png
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
 material 2Dc-highwaytex 
 {
 	technique BaseTechnique
@@ -1720,4 +1736,74 @@ material DC-speedlimit-tex
 			}
 		}
 	}
+}
+
+// DNE-viaduct-1 genrated by blender2ogre 0.6.0
+
+material DNE-viaduct-1 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass DNE-viaduct-1
+        {
+            texture_unit 
+            {
+                texture embankmentpost.tif
+            }
+        }
+    }
+}
+// DNE-viaduct-2 genrated by blender2ogre 0.6.0
+
+material DNE-viaduct-2 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass DNE-viaduct-2
+        {
+            texture_unit 
+            {
+                texture embankmentrailing.tif
+            }
+        }
+    }
+}
+// DNE-viaduct-3 genrated by blender2ogre 0.6.0
+
+material DNE-viaduct-3 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass DNE-viaduct-3
+        {
+
+            texture_unit 
+            {
+                texture embankmentarch.tif
+            }
+        }
+    }
+}
+// DNE-viaduct-4 genrated by blender2ogre 0.6.0
+
+material DNE-viaduct-4 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass DNE-viaduct-4
+        {
+            texture_unit 
+            {
+                texture embankmentwall.tif
+            }
+        }
+    }
 }

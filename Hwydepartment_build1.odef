@@ -1,6 +1,4 @@
 Hwydepartment_build1.mesh
 1, 1, 1
-beginmesh
-mesh Hwydepartment_build1-col.mesh
-endmesh
+
 end

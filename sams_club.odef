@@ -1,0 +1,6 @@
+sams_club.mesh
+1, 1, 1
+beginmesh
+mesh sams_club.mesh
+endmesh
+end

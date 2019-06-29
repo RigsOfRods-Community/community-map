@@ -1,0 +1,12 @@
+grainelevator.mesh
+1,1,1
+
+beginmesh
+mesh grainelevator_lod1.mesh
+endmesh
+
+beginlodmesh
+500, grainelevator_lod1.mesh
+endlodmesh
+
+end

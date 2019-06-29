@@ -1,0 +1,527 @@
+
+// CVS-Logo genrated by blender2ogre 0.6.0
+
+material CVS-Logo 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass CVS-Logo
+        {
+            texture_unit 
+            {
+                texture cvs-text.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+			}
+		}
+		pass
+		
+        	{
+			scene_blend alpha_blend
+			lighting off
+			texture_unit
+            		{
+                		texture cvs-text-emissive.png
+           
+            		}
+			}
+   	}
+}
+// CVS-Door genrated by blender2ogre 0.6.0
+
+material CVS-Door 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass CVS-Door
+        {
+            texture_unit 
+            {
+                texture CVS-Door-tex.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+// CVS-top-window genrated by blender2ogre 0.6.0
+
+material CVS-top-window 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass CVS-top-window
+        {
+            texture_unit 
+            {
+                texture CVS-top-win-tex.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+// CVS-stone genrated by blender2ogre 0.6.0
+
+material CVS-stone 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass CVS-stone
+        {
+            texture_unit 
+            {
+                texture CVS-Stone.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture CVS-Trim-AO.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+// CVS-front-trim genrated by blender2ogre 0.6.0
+
+material CVS-front-trim 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass CVS-front-trim
+        {
+            texture_unit 
+            {
+                texture CVS-trim.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture CVS-Front-AO.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+// CVS-Front-Sandy genrated by blender2ogre 0.6.0
+
+material CVS-Front-Sandy 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass CVS-Front-Sandy
+        {
+            texture_unit 
+            {
+                texture CVS-trim.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture CVS-Front-AO.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+// CVS-Roof genrated by blender2ogre 0.6.0
+
+material CVS-Roof 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass CVS-Roof
+        {
+            texture_unit 
+            {
+                texture CVS-Roof.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture CVS-Wall-AO.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+// cvs-coffee-brown genrated by blender2ogre 0.6.0
+
+material cvs-coffee-brown 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass cvs-coffee-brown
+        {
+            texture_unit 
+            {
+                texture Coffee-brown.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture CVS-Wall-AO.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+// cvs-sandywhite2 genrated by blender2ogre 0.6.0
+
+material cvs-sandywhite2 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass cvs-sandywhite2
+        {
+            texture_unit 
+            {
+                texture CVS-Sandywhite-L.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture CVS-Wall-AO.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+// CVS-wall genrated by blender2ogre 0.6.0
+
+material CVS-wall 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass CVS-wall
+        {
+            texture_unit 
+            {
+                texture CVS-Sandy-dark.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture CVS-Wall-AO.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+// cvs-backdoor genrated by blender2ogre 0.6.0
+
+material cvs-backdoor 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass cvs-backdoor
+        {
+            texture_unit 
+            {
+                texture backdoor.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture CVS-Wall-AO.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+// cvs-rolling-door genrated by blender2ogre 0.6.0
+
+material cvs-rolling-door 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass cvs-rolling-door
+        {
+            texture_unit 
+            {
+                texture CVS-garagedoor.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture CVS-Wall-AO.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+// CVS-roof-trim genrated by blender2ogre 0.6.0
+
+material CVS-roof-trim 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass CVS-roof-trim
+        {
+            texture_unit 
+            {
+                texture roof-trim.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture CVS-Trim-AO.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+// CVS-WALL1-trim genrated by blender2ogre 0.6.0
+
+material CVS-WALL1-trim 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass CVS-WALL1-trim
+        {
+            texture_unit 
+            {
+                texture CVS-trim.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture CVS-Trim-AO.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+// CVS-F-Side-win genrated by blender2ogre 0.6.0
+
+material CVS-F-Side-win 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass CVS-F-Side-win
+        {
+            texture_unit 
+            {
+                texture CVS-sidewindows.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+// 7-el-game genrated by blender2ogre 0.6.0
+
+material 7-el-game 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass 7-el-game
+        {
+            texture_unit 
+            {
+                texture 7-el-tex-nobake.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+// cvs-drive genrated by blender2ogre 0.6.0
+
+material cvs-drive 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass cvs-drive
+        {
+            texture_unit 
+            {
+                texture CVS-Drive-tex.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+        }
+    }
+}
+// CVS-Front-Stone genrated by blender2ogre 0.6.0
+
+material CVS-Front-Stone 
+
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass CVS-stone
+        {
+            texture_unit 
+            {
+                texture CVS-Stone.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture CVS-Front-AO.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+// Smalldumpster-tex genrated by blender2ogre 0.6.0
+
+material Smalldumpster-tex 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass Smalldumpster-tex
+        {
+
+            texture_unit 
+            {
+                texture Small-drumpy.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// general-6yard-dumpster genrated by blender2ogre 0.6.0
+
+material general-6yard-dumpster 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass general-6yard-dumpster
+        {
+            texture_unit 
+            {
+                texture g-f-loader_Base_Color.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}

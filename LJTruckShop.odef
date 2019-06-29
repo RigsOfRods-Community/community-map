@@ -1,0 +1,23 @@
+LJTruckShop.mesh
+1, 1, 1
+
+beginmesh
+mesh LJTruckShopC.mesh
+endmesh
+
+;virtualBox_1_avatar
+beginbox
+boxcoords -1.85, -0.15, 0.05, 2.95, 9.15, 11.85
+virtual
+event shoptruck avatar
+endbox
+
+
+;virtualBox_2_spawnzone
+beginbox
+boxcoords -6.85, 5.85, 1.10, 5.90, -3.85, 3.85
+virtual
+event spawnzone
+endbox
+
+end

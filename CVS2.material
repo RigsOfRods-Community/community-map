@@ -1,0 +1,154 @@
+
+// CVSpylon-stone genrated by blender2ogre 0.6.0
+
+material CVSpylon-stone 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass CVS-stone
+        {
+            texture_unit 
+            {
+                texture CVS-Stone.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture CVS-pylon-AO.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+// CVSpylon-rooftrim genrated by blender2ogre 0.6.0
+
+material CVSpylon-rooftrim 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass CVS-roodtrim
+        {
+            texture_unit 
+            {
+                texture roof-trim.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture CVS-pylon-AO.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+// CVSpylon-sandywhite2 genrated by blender2ogre 0.6.0
+
+material CVSpylon-sandywhite2 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass CVS-sandywhite
+        {
+            texture_unit 
+            {
+                texture CVS-Sandywhite-L.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture CVS-pylon-AO.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+// CVS-pylon-sign genrated by blender2ogre 0.6.0
+
+material CVS-pylon-sign 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass CVS-pylon-sign
+        {
+            texture_unit 
+            {
+                texture CVSpylon1.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+			}
+		}
+		pass
+		
+        	{
+			scene_blend alpha_blend
+			lighting off
+			texture_unit
+            		{
+                		texture CVSpylon1-emissive.png
+           
+            		}
+			}
+		
+   	}
+}
+		
+// CVSpylon-sign2 genrated by blender2ogre 0.6.0
+
+material CVSpylon-sign2 
+{
+	receive_shadows off
+	technique
+	{
+		pass
+		{
+			lighting off
+ 			scene_blend alpha_blend
+			alpha_rejection greater 2
+			depth_write off
+			//depth_check off
+			texture_unit
+			{
+				anim_texture CVSpylon2_1.png  CVSpylon2_1.png CVSpylon2.png CVSpylon2.png CVSpylon2_2.png  CVSpylon2_2.png CVSpylon2_3.png  CVSpylon2_3.png 10
+			}
+		}
+		pass
+		
+        	{
+			scene_blend alpha_blend
+			lighting off
+			texture_unit
+            		{
+                		anim_texture CVSpylon2_1-emissive.png  CVSpylon2_1-emissive.png CVSpylon2-emissive.png CVSpylon2-emissive.png CVSpylon2_2-emissive.png  CVSpylon2_2-emissive.png CVSpylon2_3-emissive.png  CVSpylon2_3-emissive.png 10
+           
+            		}
+			}
+		
+   	}
+}

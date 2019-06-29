@@ -1,0 +1,257 @@
+// blender material: woodshingles
+material woodshingles 
+{
+    receive_shadows on
+    technique b2ogre_1324931692.705
+    {
+        pass b2ogre_1324931692.706
+        {
+            texture_unit b2ogre_1324931692.708
+            {
+                texture woodshingles.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+            texture_unit b2ogre_1324931692.717
+            {
+                texture aotest.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 2
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: grainelevator1
+material grainelevator1 
+{
+    receive_shadows on
+    technique b2ogre_1324931692.724
+    {
+        pass b2ogre_1324931692.724
+        {
+            texture_unit b2ogre_1324931692.724
+            {
+                texture grainelevator1.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+            texture_unit b2ogre_1324931692.73
+            {
+                texture aotest.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 2
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: grainelevator7
+material grainelevator7 
+{
+    receive_shadows on
+    technique b2ogre_1324931692.731
+    {
+        pass b2ogre_1324931692.732
+        {
+            texture_unit b2ogre_1324931692.732
+            {
+                texture grainelevator7.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+            texture_unit b2ogre_1324931692.732
+            {
+                texture aotest.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 2
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: grainelevator3
+material grainelevator3 
+{
+    receive_shadows on
+    technique b2ogre_1324931692.734
+    {
+        pass b2ogre_1324931692.734
+        {
+            texture_unit b2ogre_1324931692.734
+            {
+                texture grainelevator3.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit b2ogre_1324931692.768
+            {
+                texture Grungemap1.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op_ex modulate_x2 src_current src_texture
+            }
+            texture_unit b2ogre_1324931692.772
+            {
+                texture aotest.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 2
+                colour_op modulate
+            }
+            texture_unit b2ogre_1324931692.772
+            {
+                texture aotest.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 2
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: grainelevator2
+material grainelevator2 
+{
+    receive_shadows on
+    technique b2ogre_1324931692.774
+    {
+        pass b2ogre_1324931692.774
+        {
+            texture_unit b2ogre_1324931692.774
+            {
+                texture grainelevator2.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+            texture_unit b2ogre_1324931692.778
+            {
+                texture aotest.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 2
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: grainelevator5
+material grainelevator5 
+{
+    receive_shadows on
+    technique b2ogre_1324931692.78
+    {
+        pass b2ogre_1324931692.78
+        {
+            texture_unit b2ogre_1324931692.78
+            {
+                texture grainelevator5.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+            texture_unit b2ogre_1324931692.784
+            {
+                texture aotest.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 2
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: grainelevator6
+material grainelevator6 
+{
+    receive_shadows on
+    technique b2ogre_1324931692.785
+    {
+        pass b2ogre_1324931692.785
+        {
+            texture_unit b2ogre_1324931692.786
+            {
+                texture grainelevator6.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+            texture_unit b2ogre_1324931692.789
+            {
+                texture aotest.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 2
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// blender material: grainelevatorpipes
+material grainelevatorpipes 
+{
+    receive_shadows on
+    technique b2ogre_1324931692.791
+    {
+        pass b2ogre_1324931692.791
+        {
+            texture_unit b2ogre_1324931692.792
+            {
+                texture rustybasemetal.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+            texture_unit b2ogre_1324931692.796
+            {
+                texture aotest.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 2
+                colour_op modulate
+            }
+        }
+    }
+}
+material grainelevatorLOD 
+{
+    receive_shadows on
+    technique b2ogre_1325105665.152
+    {
+        pass b2ogre_1325105665.152
+        {
+            texture_unit b2ogre_1325105665.152
+            {
+                texture grainelevatorLOD.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op replace
+            }
+        }
+    }
+}

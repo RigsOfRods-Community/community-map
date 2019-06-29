@@ -1,0 +1,14 @@
+material DC-ranch1-tex
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture house.png
+			}
+		}
+	}
+}

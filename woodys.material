@@ -1,4 +1,4 @@
-import * from "managed_mats.material"
+
 // blender material: woodys
 material woodys : RoR/Managed_Mats/Base
 {
@@ -13,7 +13,7 @@ material woodys : RoR/Managed_Mats/Base
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
 			texture_unit
 			{
@@ -51,7 +51,7 @@ material woodys1 : RoR/Managed_Mats/Base
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
 			texture_unit
 			{
@@ -90,7 +90,7 @@ material woodys2 : RoR/Managed_Mats/Base
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
 			texture_unit
 			{
@@ -129,7 +129,7 @@ material woodys3 : RoR/Managed_Mats/Base
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
 			texture_unit
 			{
@@ -168,7 +168,7 @@ material woodys4 : RoR/Managed_Mats/Base
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
 			texture_unit
 			{
@@ -207,7 +207,7 @@ material woodys5 : RoR/Managed_Mats/Base
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
             texture_unit 
             {
@@ -235,7 +235,7 @@ material woodys6 : RoR/Managed_Mats/Base
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
 			texture_unit
 			{
@@ -274,7 +274,7 @@ material woodys7 : RoR/Managed_Mats/Base
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
             texture_unit 
             {
@@ -302,7 +302,7 @@ material woodys8 : RoR/Managed_Mats/Base
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
 			texture_unit
 			{
@@ -341,7 +341,7 @@ material woodys9 : RoR/Managed_Mats/Base
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
             texture_unit 
             {
@@ -369,7 +369,7 @@ material woodys10 : RoR/Managed_Mats/Base
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
 			texture_unit
 			{
@@ -408,7 +408,7 @@ material woodys12 : RoR/Managed_Mats/Base
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
 			texture_unit
 			{
@@ -447,7 +447,7 @@ material woodys13 : RoR/Managed_Mats/Base
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
 			texture_unit
 			{
@@ -486,7 +486,7 @@ material woodys14 : RoR/Managed_Mats/Base
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
 			texture_unit
 			{
@@ -525,7 +525,7 @@ material woodys15 : RoR/Managed_Mats/Base
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
 			texture_unit
 			{
@@ -564,7 +564,7 @@ material woodys16 : RoR/Managed_Mats/Base
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
 			texture_unit
 			{
@@ -603,7 +603,7 @@ material woodys17 : RoR/Managed_Mats/Base
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
             texture_unit Diffuse_Map
             {
@@ -780,7 +780,7 @@ material metalroof : RoR/Managed_Mats/Base
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
             texture_unit
             {
@@ -827,7 +827,7 @@ material woodys18 : RoR/Managed_Mats/Base
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
-                colour_op replace
+                
             }
         }
     }

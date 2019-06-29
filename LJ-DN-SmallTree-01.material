@@ -1,0 +1,34 @@
+material NoRef.001/SOLID/TEX/LJ-DN-SpikyLeaves.dds/TWOSIDE
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater_equal 128 
+			scene_blend alpha_blend 
+			diffuse 0.800000 0.800000 0.800000
+			specular 0.050000 0.050000 0.050000 1.500000
+			cull_hardware none
+			cull_software none
+			texture_unit
+			{
+				texture LJ-DN-SpikyLeaves.dds
+			}
+		}
+	}
+}
+material NoRef.001/SOLID/TEX/LJ-DN-Trunk-D.dds
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.800000 0.800000 0.800000
+			specular 0.050000 0.050000 0.050000 1.500000
+			texture_unit
+			{
+				texture LJ-DN-Trunk-D.dds
+			}
+		}
+	}
+}

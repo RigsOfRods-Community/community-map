@@ -16,40 +16,20 @@ material _missing_material_
 
 
 // blender material: tutorialbuilding1
-material tutorialbuilding1 : RoR/Managed_Mats/Base
+material tutorialbuilding1
 {
     receive_shadows on
     technique BaseTechnique
     {
         pass BaseRender
         {
-            ambient 0.800000011920929 0.800000011920929 0.800000011920929 1.0
-            diffuse 0.800000011920929 0.800000011920929 0.800000011920929 1.0
-            specular 0.0 0.0 0.0 1.0 12.5
-            emissive 0.0 0.0 0.0 1.0
-            alpha_to_coverage off
-            colour_write on
-            cull_hardware clockwise
-            depth_check on
-            depth_func less_equal
-            depth_write on
-            illumination_stage 
-            light_clip_planes off
-            light_scissor off
-            lighting on
-            normalise_normals off
-            polygon_mode solid
-            scene_blend one zero
-            scene_blend_op add
-            shading gouraud
-            transparent_sorting on
             texture_unit Diffuse_Map
             {
                 texture tutorialbuilding1.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
             texture_unit 
             {
@@ -64,7 +44,7 @@ material tutorialbuilding1 : RoR/Managed_Mats/Base
 }
 
 // blender material: greenpaintedwood
-material greenpaintedwood : RoR/Managed_Mats/Base
+material greenpaintedwood
 {
     receive_shadows on
     technique BaseTechnique
@@ -78,7 +58,7 @@ material greenpaintedwood : RoR/Managed_Mats/Base
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
             texture_unit 
             {
@@ -93,7 +73,7 @@ material greenpaintedwood : RoR/Managed_Mats/Base
 }
 
 // blender material: tutorialbuilding3
-material tutorialbuilding3 : RoR/Managed_Mats/Base
+material tutorialbuilding3
 {
     receive_shadows on
     technique BaseTechnique
@@ -121,7 +101,7 @@ material tutorialbuilding3 : RoR/Managed_Mats/Base
 }
 
 // blender material: tutorialbuilding2
-material tutorialbuilding2 : RoR/Managed_Mats/Base
+material tutorialbuilding2
 {
     receive_shadows on
     technique BaseTechnique
@@ -135,7 +115,7 @@ material tutorialbuilding2 : RoR/Managed_Mats/Base
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
             texture_unit 
             {
@@ -150,7 +130,7 @@ material tutorialbuilding2 : RoR/Managed_Mats/Base
 }
 
 // blender material: tutorialbuilding4
-material tutorialbuilding4 : RoR/Managed_Mats/Base
+material tutorialbuilding4
 {
     receive_shadows on
     technique BaseTechnique
@@ -164,7 +144,7 @@ material tutorialbuilding4 : RoR/Managed_Mats/Base
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
             texture_unit 
             {
@@ -179,7 +159,7 @@ material tutorialbuilding4 : RoR/Managed_Mats/Base
 }
 
 // blender material: tutorialbuilding5
-material tutorialbuilding5 : RoR/Managed_Mats/Base
+material tutorialbuilding5
 {
     receive_shadows on
     technique BaseTechnique
@@ -194,7 +174,7 @@ material tutorialbuilding5 : RoR/Managed_Mats/Base
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
             texture_unit 
             {
@@ -209,7 +189,7 @@ material tutorialbuilding5 : RoR/Managed_Mats/Base
 }
 
 // blender material: tutorialbuilding6
-material tutorialbuilding6 : RoR/Managed_Mats/Base
+material tutorialbuilding6
 {
     receive_shadows on
     technique BaseTechnique
@@ -223,7 +203,7 @@ material tutorialbuilding6 : RoR/Managed_Mats/Base
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
             texture_unit 
             {
@@ -238,7 +218,7 @@ material tutorialbuilding6 : RoR/Managed_Mats/Base
 }
 
 // blender material: tutorialbuilding7
-material tutorialbuilding7 : RoR/Managed_Mats/Base
+material tutorialbuilding7
 {
     receive_shadows on
     technique BaseTechnique
@@ -252,7 +232,7 @@ material tutorialbuilding7 : RoR/Managed_Mats/Base
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
             texture_unit 
             {
@@ -267,7 +247,7 @@ material tutorialbuilding7 : RoR/Managed_Mats/Base
 }
 
 // blender material: tutorialbuilding8
-material tutorialbuilding8 : RoR/Managed_Mats/Base
+material tutorialbuilding8
 {
     receive_shadows on
     technique BaseTechnique
@@ -281,7 +261,7 @@ material tutorialbuilding8 : RoR/Managed_Mats/Base
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
             texture_unit 
             {
@@ -296,7 +276,7 @@ material tutorialbuilding8 : RoR/Managed_Mats/Base
 }
 
 // blender material: tutorialbuilding9
-material tutorialbuilding9 : RoR/Managed_Mats/Base
+material tutorialbuilding9
 {
     receive_shadows on
     technique BaseTechnique
@@ -310,7 +290,7 @@ material tutorialbuilding9 : RoR/Managed_Mats/Base
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
             texture_unit 
             {
@@ -325,7 +305,7 @@ material tutorialbuilding9 : RoR/Managed_Mats/Base
 }
 
 // blender material: tutorialbuilding10
-material tutorialbuilding10 : RoR/Managed_Mats/Base
+material tutorialbuilding10
 {
     receive_shadows on
     technique BaseTechnique
@@ -339,7 +319,7 @@ material tutorialbuilding10 : RoR/Managed_Mats/Base
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
             texture_unit
             {
@@ -354,7 +334,7 @@ material tutorialbuilding10 : RoR/Managed_Mats/Base
 }
 
 // blender material: tutorialbuildingroof
-material tutorialbuildingroof : RoR/Managed_Mats/Base
+material tutorialbuildingroof
 {
     receive_shadows on
     technique BaseTechnique
@@ -367,7 +347,7 @@ material tutorialbuildingroof : RoR/Managed_Mats/Base
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
-                colour_op replace
+                
             }
             texture_unit
             {
@@ -381,7 +361,7 @@ material tutorialbuildingroof : RoR/Managed_Mats/Base
     }
 }
 // blender material: tutorialbuildingLOD
-material tutorialbuildingLOD : RoR/Managed_Mats/Base
+material tutorialbuildingLOD
 {
     receive_shadows on
     technique BaseTechnique
@@ -393,7 +373,7 @@ material tutorialbuildingLOD : RoR/Managed_Mats/Base
                 texture tutorialbuildingLOD.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
-                colour_op replace
+                
             }
         }
     }

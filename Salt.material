@@ -1,0 +1,15 @@
+material Salt-pile-tex
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture salt-pile-tex.dds
+
+			}
+		}
+	}
+}

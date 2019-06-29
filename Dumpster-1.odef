@@ -1,0 +1,6 @@
+Dumpster-1.mesh
+1, 1, 1
+beginmesh
+mesh Dumpster-1-col.mesh
+endmesh
+end

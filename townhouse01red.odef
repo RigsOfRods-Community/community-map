@@ -1,0 +1,6 @@
+townhouse01red.mesh
+1,1,1
+beginmesh
+mesh townhouse01box.mesh
+endmesh
+end

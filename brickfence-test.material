@@ -1,0 +1,117 @@
+material Fencing_Chain_Link
+{
+   technique
+   {
+      pass
+      {
+         2.0, 2.0
+         diffuse 1 1 1 1.0
+		 scene_blend alpha_blend
+		 depth_write off
+         texture_unit
+         {
+            texture Fencing_Chain_Link.png
+         }
+      }
+   }
+}
+material Color_002
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.776470588235294 0.776470588235294 0.776470588235294 1.0
+         ambient 0.776470588235294 0.776470588235294 0.776470588235294 1.0
+      }
+   }
+}
+material Brick_Antique
+{
+   technique
+   {
+      pass
+      {
+         58.0, 37.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Brick_Antique.jpg
+         }
+      }
+   }
+}
+material Cladding_Siding_White
+{
+   technique
+   {
+      pass
+      {
+         38.0, 38.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Cladding_Siding_White.jpg
+         }
+      }
+   }
+}
+material Cladding_Stucco_White
+{
+   technique
+   {
+      pass
+      {
+         18.0, 27.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Cladding_Stucco_White.jpg
+         }
+      }
+   }
+}
+material Brick_Rough_Dark
+{
+   technique
+   {
+      pass
+      {
+         28.0, 24.0
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture 430401_313088045417487_23319871_n1.jpg
+         }
+      }
+   }
+}
+material Fencing_Metal_Straight
+{
+   technique
+   {
+      pass
+      {
+         98.0, 66.0
+         diffuse 1 1 1 1.0
+		 cull_hardware none
+		 scene_blend alpha_blend
+		 depth_write off
+         texture_unit
+         {
+            texture Fencing_Metal_Straight.png
+         }
+      }
+   }
+}
+material Color_008
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.117647058823529 0.117647058823529 0.117647058823529 1.0
+         ambient 0.117647058823529 0.117647058823529 0.117647058823529 1.0
+      }
+   }
+}

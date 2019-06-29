@@ -1,0 +1,19 @@
+
+// DC-guard-tex genrated by blender2ogre 0.6.0
+
+material DC-guard-tex 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass DC-guard-tex
+        {
+            texture_unit 
+            {
+                texture shack-tex.png
+
+            }
+        }
+    }
+}
