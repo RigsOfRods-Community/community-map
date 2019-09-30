@@ -1,4 +1,4 @@
-material SOLID/TEX/LJLoadSpawner.png
+material SOLID/TEX/LJLoadSpawner.dds
 {
 	technique
 	{
@@ -6,12 +6,12 @@ material SOLID/TEX/LJLoadSpawner.png
 		{
 			texture_unit
 			{
-				texture LJLoadSpawner.png
+				texture LJLoadSpawner.dds
 			}
 		}
 	}
 }
-material SOLID/TEX/LJLoadSpawner.png/TWOSIDE
+material SOLID/TEX/LJLoadSpawner.dds/TWOSIDE
 {
 	technique
 	{
@@ -21,7 +21,7 @@ material SOLID/TEX/LJLoadSpawner.png/TWOSIDE
 			cull_software none
 			texture_unit
 			{
-				texture LJLoadSpawner.png
+				texture LJLoadSpawner.dds
 			}
 		}
 	}

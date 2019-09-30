@@ -8,7 +8,7 @@ material 7-el-game : RoR/Managed_Mats/Base
         {
             texture_unit Diffuse_Map
 			{
-				texture 7-el-tex.png
+				texture 7-el-tex.dds
 			}		
 		}
 	}
@@ -22,7 +22,7 @@ material 7-el-parkinglot : RoR/Managed_Mats/Base
         {
             texture_unit Diffuse_Map
 			{
-				texture parkinglot-final-texture.png
+				texture parkinglot-final-texture.dds
 			}		
 		}
 	}
@@ -36,7 +36,7 @@ material elevenpumpisland-tex.001 : RoR/Managed_Mats/Base
         {
             texture_unit Diffuse_Map
 			{
-				texture elevenpump.png
+				texture elevenpump.dds
 			}		
 		}
 	}
@@ -50,7 +50,7 @@ material GasStationSigns1-tex.001 : RoR/Managed_Mats/Base
         {
             texture_unit Diffuse_Map
 			{
-				texture gasstationsigns1.png
+				texture gasstationsigns1.dds
 			}		
 		}
 	}
@@ -64,7 +64,7 @@ material GasStationSigns1-tex : RoR/Managed_Mats/Base
         {
             texture_unit Diffuse_Map
 			{
-				texture gasstationsigns1.png
+				texture gasstationsigns1.dds
 			}		
 		}
 	}
@@ -104,13 +104,13 @@ material 7-el-windowsshinny : RoR/Managed_Mats/Base
            texture_unit diffusetex
             {
                 // This pass will use this 2D texture as its input
-                texture 7-el-tex.png 2d
+                texture 7-el-tex.dds 2d
                 tex_coord_set 0
             }
             texture_unit speculartex
             {
                 // This pass will use this 2D texture as its input
-                texture 7-el-window_s.png 2d
+                texture 7-el-window_s.dds 2d
                 tex_coord_set 1
             }
         }
@@ -129,7 +129,7 @@ material 7-el-windowsshinny : RoR/Managed_Mats/Base
               texture_unit speculartex
               {
                   // This pass will use this 2D texture as its input
-                  texture 7-el-window_s.png 2d
+                  texture 7-el-window_s.dds 2d
                   tex_coord_set 0
               }
               texture_unit envmaptex
@@ -162,13 +162,13 @@ material overhang-shiny : RoR/Managed_Mats/Base
            texture_unit diffusetex
             {
                 // This pass will use this 2D texture as its input
-                texture  7-el-tex.png 2d
+                texture  7-el-tex.dds 2d
                 tex_coord_set 0
             }
             texture_unit speculartex
             {
                 // This pass will use this 2D texture as its input
-                texture 7-el-overhang.png 2d
+                texture 7-el-overhang.dds 2d
                 tex_coord_set 1
             }
         }
@@ -187,7 +187,7 @@ material overhang-shiny : RoR/Managed_Mats/Base
               texture_unit speculartex
               {
                   // This pass will use this 2D texture as its input
-                  texture 7-el-overhang.png 2d
+                  texture 7-el-overhang.dds 2d
                   tex_coord_set 0
               }
               texture_unit envmaptex
@@ -220,13 +220,13 @@ material 7-el-support-shiny : RoR/Managed_Mats/Base
            texture_unit diffusetex
             {
                 // This pass will use this 2D texture as its input
-                texture 7-el-tex.png 2d
+                texture 7-el-tex.dds 2d
                 tex_coord_set 0
             }
             texture_unit speculartex
             {
                 // This pass will use this 2D texture as its input
-                texture 7-el-metal_s.png 2d
+                texture 7-el-metal_s.dds 2d
                 tex_coord_set 1
             }
         }
@@ -245,7 +245,7 @@ material 7-el-support-shiny : RoR/Managed_Mats/Base
               texture_unit speculartex
               {
                   // This pass will use this 2D texture as its input
-                  texture 7-el-metal_s.png 2d
+                  texture 7-el-metal_s.dds 2d
                   tex_coord_set 0
               }
               texture_unit envmaptex

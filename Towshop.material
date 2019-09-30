@@ -6,7 +6,7 @@ material DC-truckshop2
 		{
 			texture_unit
 			{
-				texture truck-spawner-shop.png
+				texture truck-spawner-shop.dds
 			}
 		}
 	}
@@ -20,7 +20,7 @@ material DC-Modularbuild-ext
 		{
 			texture_unit
 			{
-				texture walls-exter1.png
+				texture walls-exter1.dds
 			}
 		}
 	}

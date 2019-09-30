@@ -11,7 +11,7 @@ material CVSpylon-stone
         {
             texture_unit 
             {
-                texture CVS-Stone.png
+                texture CVS-Stone.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
@@ -19,7 +19,7 @@ material CVSpylon-stone
             }
             texture_unit 
             {
-                texture CVS-pylon-AO.png
+                texture CVS-pylon-AO.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
@@ -40,7 +40,7 @@ material CVSpylon-rooftrim
         {
             texture_unit 
             {
-                texture roof-trim.png
+                texture roof-trim.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
@@ -48,7 +48,7 @@ material CVSpylon-rooftrim
             }
             texture_unit 
             {
-                texture CVS-pylon-AO.png
+                texture CVS-pylon-AO.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
@@ -69,7 +69,7 @@ material CVSpylon-sandywhite2
         {
             texture_unit 
             {
-                texture CVS-Sandywhite-L.png
+                texture CVS-Sandywhite-L.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
@@ -77,7 +77,7 @@ material CVSpylon-sandywhite2
             }
             texture_unit 
             {
-                texture CVS-pylon-AO.png
+                texture CVS-pylon-AO.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
@@ -98,7 +98,7 @@ material CVS-pylon-sign
         {
             texture_unit 
             {
-                texture CVSpylon1.png
+                texture CVSpylon1.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 colour_op modulate
@@ -111,7 +111,7 @@ material CVS-pylon-sign
 			lighting off
 			texture_unit
             		{
-                		texture CVSpylon1-emissive.png
+                		texture CVSpylon1-emissive.dds
            
             		}
 			}
@@ -135,7 +135,7 @@ material CVSpylon-sign2
 			//depth_check off
 			texture_unit
 			{
-				anim_texture CVSpylon2_1.png  CVSpylon2_1.png CVSpylon2.png CVSpylon2.png CVSpylon2_2.png  CVSpylon2_2.png CVSpylon2_3.png  CVSpylon2_3.png 10
+				anim_texture CVSpylon2_1.dds  CVSpylon2_1.dds CVSpylon2.dds CVSpylon2.dds CVSpylon2_2.dds  CVSpylon2_2.dds CVSpylon2_3.dds  CVSpylon2_3.dds 10
 			}
 		}
 		pass
@@ -145,7 +145,7 @@ material CVSpylon-sign2
 			lighting off
 			texture_unit
             		{
-                		anim_texture CVSpylon2_1-emissive.png  CVSpylon2_1-emissive.png CVSpylon2-emissive.png CVSpylon2-emissive.png CVSpylon2_2-emissive.png  CVSpylon2_2-emissive.png CVSpylon2_3-emissive.png  CVSpylon2_3-emissive.png 10
+                		anim_texture CVSpylon2_1-emissive.dds  CVSpylon2_1-emissive.dds CVSpylon2-emissive.dds CVSpylon2-emissive.dds CVSpylon2_2-emissive.dds  CVSpylon2_2-emissive.dds CVSpylon2_3-emissive.dds  CVSpylon2_3-emissive.dds 10
            
             		}
 			}

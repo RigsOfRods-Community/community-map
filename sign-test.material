@@ -8,7 +8,7 @@ material sign-test
 		{
 			texture_unit
 			{
-				texture dynamicsign-test.png
+				texture dynamicsign-test.dds
 				tex_address_mode wrap
 				filtering trilinear
 				colour_op alpha_blend

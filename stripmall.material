@@ -8,7 +8,7 @@ material Stripmall-tex-1
         {
             texture_unit 
             {
-                texture Stripmall-tex.png
+                texture Stripmall-tex.dds
 
             }
         }
@@ -24,7 +24,7 @@ material Stripmall-tex-2
         {
             texture_unit 
             {
-                texture Stripmall-tex-grey.png
+                texture Stripmall-tex-grey.dds
 
             }
         }
@@ -40,7 +40,7 @@ material Stripmall-tex-3
         {
             texture_unit 
             {
-                texture Stripmall-tex-white.png
+                texture Stripmall-tex-white.dds
 
             }
         }

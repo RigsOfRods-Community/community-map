@@ -6,7 +6,7 @@ material rorbot1statue
 		{
 			texture_unit
 			{
-				texture rorbot1statue.png
+				texture rorbot1statue.dds
 			}
 		}
 	}
@@ -19,7 +19,7 @@ material rorbot2statue
 		{
 			texture_unit
 			{
-				texture rorbot2statue.png
+				texture rorbot2statue.dds
 			}
 		}
 	}
@@ -32,7 +32,7 @@ material rorbot3statue
 		{
 			texture_unit
 			{
-				texture rorbot3statue.png
+				texture rorbot3statue.dds
 			}
 		}
 	}

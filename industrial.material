@@ -45,7 +45,7 @@ material Industbld2-tex
 
 			texture_unit 
             {
-                texture industrialbuild-2-tex.png
+                texture industrialbuild-2-tex.dds
             }
         }
     }
@@ -62,7 +62,7 @@ material Industrialbld-signs2
         {
             texture_unit 
             {
-                texture industrialbuild1-signs.png
+                texture industrialbuild1-signs.dds
             }
         }
     }
@@ -88,13 +88,13 @@ material Industbld2-tex-shiny
            texture_unit diffusetex
             {
                 // This pass will use this 2D texture as its input
-                texture industrialbuild-2-tex.png 2d
+                texture industrialbuild-2-tex.dds 2d
                 tex_coord_set 0
             }
             texture_unit speculartex
             {
                 // This pass will use this 2D texture as its input
-                texture indust-window_s.png 2d
+                texture indust-window_s.dds 2d
                 tex_coord_set 1
             }
         }
@@ -113,7 +113,7 @@ material Industbld2-tex-shiny
               texture_unit speculartex
               {
                   // This pass will use this 2D texture as its input
-                  texture indust-window_s.png 2d
+                  texture indust-window_s.dds 2d
                   tex_coord_set 0
               }
               texture_unit envmaptex

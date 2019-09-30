@@ -38,7 +38,7 @@ material elevenpumpisland-tex
 		{
 			texture_unit
 			{
-				texture elevenpump.png
+				texture elevenpump.dds
 			}
 		}
 		pass
@@ -47,7 +47,7 @@ material elevenpumpisland-tex
 			lighting off
 			texture_unit
             		{
-                		texture elevenpump-emissive.png
+                		texture elevenpump-emissive.dds
            
             		}
 			}

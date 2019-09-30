@@ -25,7 +25,7 @@ material DC-Road-tex
 
 			texture_unit Diffuse_Map
 			{
-				texture DC-road-tex.png
+				texture DC-road-tex.dds
 				tex_address_mode wrap
 				filtering trilinear
 			}
@@ -466,7 +466,7 @@ material Aldi-lot-tex
 			lighting off
 			texture_unit
             		{
-                		texture aldi-lot-misc-emissive.png
+                		texture aldi-lot-misc-emissive.dds
            
             		}
 			}
@@ -1750,7 +1750,7 @@ material DNE-viaduct-1
         {
             texture_unit 
             {
-                texture embankmentpost.tif
+                texture embankmentpost.dds
             }
         }
     }
@@ -1767,7 +1767,7 @@ material DNE-viaduct-2
         {
             texture_unit 
             {
-                texture embankmentrailing.tif
+                texture embankmentrailing.dds
             }
         }
     }
@@ -1785,7 +1785,7 @@ material DNE-viaduct-3
 
             texture_unit 
             {
-                texture embankmentarch.tif
+                texture embankmentarch.dds
             }
         }
     }
@@ -1802,7 +1802,7 @@ material DNE-viaduct-4
         {
             texture_unit 
             {
-                texture embankmentwall.tif
+                texture embankmentwall.dds
             }
         }
     }

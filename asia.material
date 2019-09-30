@@ -32,7 +32,7 @@ material Material_#58/asiawindow
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -86,7 +86,7 @@ material Material_#58/asiamarble
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -112,7 +112,7 @@ material Material_#58/asiafacade
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}

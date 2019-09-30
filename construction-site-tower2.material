@@ -16,7 +16,7 @@ material construction-site-tow : RoR/Managed_Mats/Base
             }
             texture_unit 
             {
-                texture AO-test.png
+                texture AO-test.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
@@ -42,7 +42,7 @@ material construction-site : RoR/Managed_Mats/Base
             }
             texture_unit 
             {
-                texture AO-test.png
+                texture AO-test.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
@@ -60,7 +60,7 @@ material construction-site.001 : RoR/Managed_Mats/Base
         {
             texture_unit Diffuse_Map
             {
-            texture Concrete-wall-wood.jpg
+            texture Concrete-wall-wood.dds
 			tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
@@ -68,7 +68,7 @@ material construction-site.001 : RoR/Managed_Mats/Base
             }
             texture_unit 
             {
-                texture AO-test.png
+                texture AO-test.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
@@ -94,7 +94,7 @@ material construction-site.002 : RoR/Managed_Mats/Base
             }
             texture_unit 
             {
-                texture AO-test.png
+                texture AO-test.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
@@ -120,7 +120,7 @@ material construction-site.003 : RoR/Managed_Mats/Base
             }
             texture_unit 
             {
-                texture AO-test.png
+                texture AO-test.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
@@ -138,7 +138,7 @@ material construction-site.004 : RoR/Managed_Mats/Base
         {
             texture_unit Diffuse_Map
             {
-            texture ConcreteBare0291_1_thumbhuge.jpg
+            texture ConcreteBare0291_1_thumbhuge.dds
 			tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
@@ -146,7 +146,7 @@ material construction-site.004 : RoR/Managed_Mats/Base
             }
             texture_unit 
             {
-                texture AO-test.png
+                texture AO-test.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
@@ -164,7 +164,7 @@ material construction-site.005 : RoR/Managed_Mats/Base
         {
             texture_unit Diffuse_Map
             {
-            texture ConcreteBare0054_thumbhuge.jpg
+            texture ConcreteBare0054_thumbhuge.dds
 			tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
@@ -172,7 +172,7 @@ material construction-site.005 : RoR/Managed_Mats/Base
             }
             texture_unit 
             {
-                texture AO-test.png
+                texture AO-test.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
@@ -192,7 +192,7 @@ material construction-site.006 : RoR/Managed_Mats/Base
          alpha_rejection greater 128
         texture_unit Diffuse_Map
             {
-            texture Fencing_Mesh_Blue.png
+            texture Fencing_Mesh_Blue.dds
 			tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
@@ -200,7 +200,7 @@ material construction-site.006 : RoR/Managed_Mats/Base
             }
             texture_unit 
             {
-                texture AO-test.png
+                texture AO-test.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
@@ -218,14 +218,14 @@ material construction-site.007 : RoR/Managed_Mats/Base
         {
             texture_unit Diffuse_Map
             {
-            texture Groundcover_Sand_Smooth.jpg
+            texture Groundcover_Sand_Smooth.dds
 				tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
             }
             texture_unit 
             {
-                texture AO-test.png
+                texture AO-test.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
@@ -256,14 +256,14 @@ material construction-site-tower_Concrete_Aggregate_Smoke : RoR/Managed_Mats/Bas
         {
             texture_unit Diffuse_Map
             {
-            texture Concrete_Aggregate_Smoke.jpg
+            texture Concrete_Aggregate_Smoke.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
             }
             texture_unit 
             {
-                texture AO-test.png
+                texture AO-test.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
@@ -288,7 +288,7 @@ material construction-site-tower_Color_006 : RoR/Managed_Mats/Base
             }
             texture_unit 
             {
-                texture AO-test.png
+                texture AO-test.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
@@ -306,7 +306,7 @@ material construction-site-tower_Material1 : RoR/Managed_Mats/Base
         {
             texture_unit Diffuse_Map
             {
-            texture Wood_Floor_Light.jpg
+            texture Wood_Floor_Light.dds
                         tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
@@ -314,7 +314,7 @@ material construction-site-tower_Material1 : RoR/Managed_Mats/Base
             }
             texture_unit 
             {
-                texture AO-test.png
+                texture AO-test.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1

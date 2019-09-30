@@ -10,7 +10,7 @@ material Fencing_Chain_Link
 		 depth_write off
          texture_unit
          {
-            texture Fencing_Chain_Link.png
+            texture Fencing_Chain_Link.dds
          }
       }
    }
@@ -36,7 +36,7 @@ material Brick_Antique
          diffuse 1 1 1 1.0
          texture_unit
          {
-            texture Brick_Antique.jpg
+            texture Brick_Antique.dds
          }
       }
    }
@@ -51,7 +51,7 @@ material Cladding_Siding_White
          diffuse 1 1 1 1.0
          texture_unit
          {
-            texture Cladding_Siding_White.jpg
+            texture Cladding_Siding_White.dds
          }
       }
    }
@@ -66,7 +66,7 @@ material Cladding_Stucco_White
          diffuse 1 1 1 1.0
          texture_unit
          {
-            texture Cladding_Stucco_White.jpg
+            texture Cladding_Stucco_White.dds
          }
       }
    }
@@ -81,7 +81,7 @@ material Brick_Rough_Dark
          diffuse 1 1 1 1.0
          texture_unit
          {
-            texture 430401_313088045417487_23319871_n1.jpg
+            texture 430401_313088045417487_23319871_n1.dds
          }
       }
    }
@@ -99,7 +99,7 @@ material Fencing_Metal_Straight
 		 depth_write off
          texture_unit
          {
-            texture Fencing_Metal_Straight.png
+            texture Fencing_Metal_Straight.dds
          }
       }
    }

@@ -74,7 +74,7 @@ material modularbuildings/TEXFACE/base_window_narrow_darkgrey.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -98,7 +98,7 @@ material modularbuildings/TEXFACE/window_narrow_darkgrey.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -124,7 +124,7 @@ material modularbuildings/TEXFACE/window_narrow_archtop_darkgrey.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -178,7 +178,7 @@ material modularbuildings/TEXFACE/Epicrailhqwindow06fixed.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -203,7 +203,7 @@ material modularbuildings/TEXFACE/Epicrailhqwindow02fixed.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -228,7 +228,7 @@ material modularbuildings/TEXFACE/Epicrailhqwindow04fixed.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -253,7 +253,7 @@ material modularbuildings/TEXFACE/Epicrailhqwindow05fixed.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -278,7 +278,7 @@ material modularbuildings/TEXFACE/Epicrailhqwindow01fixed.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -303,7 +303,7 @@ material modularbuildings/TEXFACE/Epicrailhqwindow03fixed.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -342,7 +342,7 @@ material modularbuildings/TEXFACE/window_chicago_lightgrey.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -367,7 +367,7 @@ material modularbuildings/TEXFACE/base_window_chicago_lightgrey.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -393,7 +393,7 @@ material modularbuildings/TEXFACE/base_window_largearch_lightgrey.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -419,7 +419,7 @@ material modularbuildings/TEXFACE/brickwindowarch_darkred.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -473,7 +473,7 @@ material modularbuildings/TEXFACE/base_brickentrance_darkred.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -499,7 +499,7 @@ material modularbuildings/TEXFACE/base_brickdoor_darkred.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -525,7 +525,7 @@ material modularbuildings/TEXFACE/brickwindowplain_darkred.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -551,7 +551,7 @@ material modularbuildings/TEXFACE/base_brickwindow_darkred.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -591,7 +591,7 @@ material modularbuildings/TEXFACE/brickwindowarch_darkblue.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -617,7 +617,7 @@ material modularbuildings/TEXFACE/base_brickwindow_white.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -643,7 +643,7 @@ material modularbuildings/TEXFACE/brickwindowplain_yeller.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -669,7 +669,7 @@ material modularbuildings/TEXFACE/brickwindow_yeller.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -723,7 +723,7 @@ material modularbuildings/TEXFACE/brickwindownonarch_white.dds
 			}
 			texture_unit 
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -749,7 +749,7 @@ material modularbuildings/TEXFACE/brickwindowplain_darkblue.dds
 			}
 			texture_unit 
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -790,7 +790,7 @@ material modularbuildings/TEXFACE/base_brickentrance_white.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -831,7 +831,7 @@ material modularbuildings/TEXFACE/base_brickentrance_darkblue.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -886,7 +886,7 @@ material modularbuildings/TEXFACE/window_chicago_darkgrey.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -913,7 +913,7 @@ material modularbuildings/TEXFACE/base_window_largearch_darkgrey.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -940,7 +940,7 @@ material modularbuildings/TEXFACE/window_2small_darkgrey.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -967,7 +967,7 @@ material modularbuildings/TEXFACE/base_window_chicago_darkgrey.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -994,7 +994,7 @@ material modularbuildings/TEXFACE/base_window_standard_tan_cropped.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -1021,7 +1021,7 @@ material modularbuildings/TEXFACE/base_window_arch_tan_cropped.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -1048,7 +1048,7 @@ material modularbuildings/TEXFACE/window_standard_tan_cropped.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -1075,7 +1075,7 @@ material modularbuildings/TEXFACE/window_narrow_tan_cropped.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -1102,7 +1102,7 @@ material modularbuildings/TEXFACE/base_window_narrow_tan_cropped.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -1118,7 +1118,7 @@ material modularbuildings/TEXFACE/cornice02end_darkred.jpg
 
 			texture_unit
 			{
-				texture cornice02end_darkred.jpg
+				texture cornice02end_darkred.dds
 				colour_op modulate
 			}
 		}
@@ -1159,7 +1159,7 @@ material modularbuildings/TEXFACE/brickwindow_white.jpg
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -1186,7 +1186,7 @@ material modularbuildings/TEXFACE/base_brickwindow_darkblue.jpg
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -1213,7 +1213,7 @@ material modularbuildings/TEXFACE/brickwindow_darkred2.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -1229,7 +1229,7 @@ material modularbuildings/TEXFACE/cornice01_concrete_fancy.jpg.dds
 
 			texture_unit
 			{
-				texture cornice01_concrete_fancy.jpg.dds
+				texture cornice01_concrete_fancy.dds.dds
 				colour_op modulate
 			}
 		}
@@ -1360,7 +1360,7 @@ material modularbuildings/TEXFACE/decowindow.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -1387,7 +1387,7 @@ material modularbuildings/TEXFACE/window_standard_tanbrick.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -1429,7 +1429,7 @@ material modularbuildings/TEXFACE/base_window_arch_lightgrey.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -1456,7 +1456,7 @@ material modularbuildings/TEXFACE/base_window_narrow_lightgrey.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -1483,7 +1483,7 @@ material modularbuildings/TEXFACE/window_narrow_lightdarkgrey.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -1510,7 +1510,7 @@ material modularbuildings/TEXFACE/base_window_standard_lightgrey.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -1552,7 +1552,7 @@ material modularbuildings/TEXFACE/window_standard_lightdarkgrey.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -1579,7 +1579,7 @@ material modularbuildings/TEXFACE/window_chicago_lightdarkgrey.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -1606,7 +1606,7 @@ material modularbuildings/TEXFACE/window_columnbase_tanbrick.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -1633,7 +1633,7 @@ material modularbuildings/TEXFACE/window_arch_tanbrick.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -1660,7 +1660,7 @@ material modularbuildings/TEXFACE/window_column_tanbrick.png
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -1687,7 +1687,7 @@ material modularbuildings/TEXFACE/window_columnarch_tanbrick.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -1714,7 +1714,7 @@ material modularbuildings/TEXFACE/garage_base_window.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -1871,7 +1871,7 @@ material modularbuildings/TEXFACE/garage_base_door.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -1898,7 +1898,7 @@ material queen/TEXFACE/garage_side_window.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -1914,7 +1914,7 @@ material modularbuildings/TEXFACE/brickwindowarch_darkred2.jpg.dds
 
 			texture_unit
 			{
-				texture brickwindowarch_darkred2.jpg.dds
+				texture brickwindowarch_darkred2.dds.dds
 				colour_op modulate
 			}
 
@@ -1925,7 +1925,7 @@ material modularbuildings/TEXFACE/brickwindowarch_darkred2.jpg.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -1941,7 +1941,7 @@ material modularbuildings/TEXFACE/cornice02_darkred2.jpg.dds
 
 			texture_unit
 			{
-				texture cornice02_darkred2.jpg.dds
+				texture cornice02_darkred2.dds.dds
 				colour_op modulate
 			}
 		}
@@ -1982,7 +1982,7 @@ material modularbuildings/TEXFACE/brickwindowwide_darkred.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -2009,7 +2009,7 @@ material modularbuildings/TEXFACE/brickwindowplain_darkred2.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -2036,7 +2036,7 @@ material modularbuildings/TEXFACE/base_window_tallsmallarch_lightgrey.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -2063,7 +2063,7 @@ material modularbuildings/TEXFACE/base_window_tallarch_lightgrey.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -2090,7 +2090,7 @@ material modularbuildings/TEXFACE/window_chicago_lightgrey2.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -2132,7 +2132,7 @@ material modularbuildings/TEXFACE/base_window_tallarchentrance_lightgrey.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -2159,7 +2159,7 @@ material modularbuildings/TEXFACE/window_standard_lightgrey2.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -2201,7 +2201,7 @@ material modularbuildings/TEXFACE/brickwindowplain_darkred3.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -2243,7 +2243,7 @@ material modularbuildings/TEXFACE/base_brickentrance_columns.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -2300,7 +2300,7 @@ material modularbuildings/TEXFACE/gothicwindow.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -2327,7 +2327,7 @@ material modularbuildings/TEXFACE/40wallstreetwindow01.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -2354,7 +2354,7 @@ material modularbuildings/TEXFACE/window_smooth_narrow_lightgreytan.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -2381,7 +2381,7 @@ material modularbuildings/TEXFACE/window_smooth_standard_lightgreytan.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -2408,7 +2408,7 @@ material modularbuildings/TEXFACE/window_smooth_narrow_lightgreygreen.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -2451,7 +2451,7 @@ material modularbuildings/TEXFACE/window_smooth_standard_lightgreygreen.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -2478,7 +2478,7 @@ material modularbuildings/TEXFACE/warehouse_largewindow_loadingdock.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -2505,7 +2505,7 @@ material modularbuildings/TEXFACE/warehouse_smallwindow.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -2532,7 +2532,7 @@ material modularbuildings/TEXFACE/warehouse_smallwindow_entrance.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -2559,7 +2559,7 @@ material modularbuildings/TEXFACE/warehouse_smallwindow_top.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -2586,7 +2586,7 @@ material modularbuildings/TEXFACE/warehouse_largewindow.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -2613,7 +2613,7 @@ material modularbuildings/TEXFACE/warehouse_largewindow_top.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -2655,7 +2655,7 @@ material modularbuildings/TEXFACE/window_standard_darkgrey.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -2772,7 +2772,7 @@ material modularbuildings/TEXFACE/modernistwindow01.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -2829,7 +2829,7 @@ material modularbuildings/TEXFACE/modernistbasewindow.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -2856,7 +2856,7 @@ material modularbuildings/TEXFACE/modernistentrance.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -2898,7 +2898,7 @@ material modularbuildings/TEXFACE/brickwindow_darkred.jpg
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -2925,7 +2925,7 @@ material modularbuildings/TEXFACE/base_brickdoor_darkblue.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -2952,7 +2952,7 @@ material modularbuildings/TEXFACE/base_brickdoor_yeller.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -2979,7 +2979,7 @@ material modularbuildings/TEXFACE/brickwindowarch_yeller.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -3006,7 +3006,7 @@ material modularbuildings/TEXFACE/base_brickdoor_white.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -3033,7 +3033,7 @@ material modularbuildings/TEXFACE/brickwindow_white.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -3060,7 +3060,7 @@ material modularbuildings/TEXFACE/facade01topwindow.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -3102,7 +3102,7 @@ material modularbuildings/TEXFACE/facade01basewindow.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -3129,7 +3129,7 @@ material modularbuildings/TEXFACE/facade01window.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -3156,7 +3156,7 @@ material modularbuildings/TEXFACE/facade01baseentrance.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -3182,7 +3182,7 @@ material modularbuildings/SOLID/TEX/facade02basewindow.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -3236,7 +3236,7 @@ material modularbuildings/SOLID/TEX/facade02window.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -3262,7 +3262,7 @@ material modularbuildings/SOLID/TEX/facade03window.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -3400,7 +3400,7 @@ material modularbuildings/SOLID/TEX/facade03topwindow.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -3454,7 +3454,7 @@ material modularbuildings/SOLID/TEX/facade02topwindow.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -3480,7 +3480,7 @@ material modularbuildings/SOLID/TEX/facade03base.dds
 			}
 			texture_unit
 			{
-           		texture 767chrome.jpg
+           		texture 767chrome.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
