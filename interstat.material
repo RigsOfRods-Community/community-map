@@ -10,7 +10,7 @@ material CommMap-field-1
         {
 			texture_unit Diffuse_Map
             {
-                texture CommMap-field-1.png
+                texture CommMap-field-1.dds
             }
         }
     }
@@ -27,7 +27,7 @@ material CommMap-field-2
         {
 			texture_unit Diffuse_Map
             {
-                texture CommMap-field-2.png
+                texture CommMap-field-2.dds
             }
         }
     }
@@ -44,7 +44,7 @@ material CommMap-dirtroad
         {
 			texture_unit Diffuse_Map
             {
-                texture CommMap-dirtroad.png
+                texture CommMap-dirtroad.dds
             }
         }
     }

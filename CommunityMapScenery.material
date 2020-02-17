@@ -16,7 +16,7 @@ material CommunityMapScenery
  
              texture_unit
              {
-                 texture CommunityMapScenery2.png
+                 texture CommunityMapScenery2.dds
                  tex_coord_set 0
                  colour_op modulate
              }

@@ -11,7 +11,7 @@ material DC-guard-tex
         {
             texture_unit 
             {
-                texture shack-tex.png
+                texture shack-tex.dds
 
             }
         }

@@ -8,7 +8,7 @@ material opmaphighschoolcoll_Metal_Rough
          diffuse 1 1 1 1.0
          texture_unit
          {
-            texture Metal_Rough.jpg
+            texture Metal_Rough.dds
          }
       }
    }
@@ -23,7 +23,7 @@ material opmaphighschoolcoll_Metal_Aluminum_Anodized
          diffuse 1 1 1 1.0
          texture_unit
          {
-            texture Metal_Aluminum_Anodized.jpg
+            texture Metal_Aluminum_Anodized.dds
          }
       }
    }
@@ -38,7 +38,7 @@ material opmaphighschoolcoll_[Metal_Rough]1
          diffuse 1 1 1 1.0
          texture_unit
          {
-            texture Metal_Rough.jpg
+            texture Metal_Rough.dds
          }
       }
    }
@@ -67,7 +67,7 @@ material opmaphighschoolcoll_Brick_Rough_Dark
          diffuse 1 1 1 1.0
          texture_unit
          {
-            texture Brick_Rough_Dark.jpg
+            texture Brick_Rough_Dark.dds
          }
       }
    }
@@ -82,7 +82,7 @@ material opmaphighschoolcoll_Stone_Pavers_Flagstone_Gray
          diffuse 1 1 1 1.0
          texture_unit
          {
-            texture Stone_Pavers_Flagstone_Gray.jpg
+            texture Stone_Pavers_Flagstone_Gray.dds
          }
       }
    }
@@ -97,7 +97,7 @@ material opmaphighschoolcoll_Concrete_Scored_Jointless
          diffuse 1 1 1 1.0
          texture_unit
          {
-            texture Concrete_Scored_Jointless.jpg
+            texture Concrete_Scored_Jointless.dds
          }
       }
    }
@@ -112,7 +112,7 @@ material opmaphighschoolcoll_Cladding_Siding_Tan
          diffuse 1 1 1 1.0
          texture_unit
          {
-            texture Cladding_Siding_Tan.jpg
+            texture Cladding_Siding_Tan.dds
          }
       }
    }

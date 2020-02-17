@@ -97,7 +97,7 @@ material 6a8cUID_glass
 			   {
 			   	 colour_op_ex blend_manual src_texture src_current 0.1
 			   	 env_map spherical
-				   texture 6a8cUID_windows_spec.jpg
+				   texture 6a8cUID_windows_spec.dds
 
 			   }
 			   
@@ -182,7 +182,7 @@ material 6a8cUID_roof
 
 			texture_unit
 			{
-				texture 6a8cUID_roof.jpg
+				texture 6a8cUID_roof.dds
 			}
 		}
 
@@ -220,7 +220,7 @@ material 6a8cUID_concrete
 
 			texture_unit
 			{
-				texture 6a8cUID_concrete.jpg
+				texture 6a8cUID_concrete.dds
 			}
 		}
 

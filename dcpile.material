@@ -8,7 +8,7 @@ material WLPsWood62 : RoR/Managed_Mats/Base
         {
             texture_unit Diffuse_Map
             {
-				texture WLPsWood6-2.png
+				texture WLPsWood6-2.dds
 				tex_address_mode wrap
 				filtering trilinear
 				colour_op alpha_blend

@@ -8,7 +8,7 @@ material busstopNJTopaqe
 
 			texture_unit
 			{
-				texture busstopdiffuse.png
+				texture busstopdiffuse.dds
 			}
 		}
 	}
@@ -33,7 +33,7 @@ material busstopNJTtrans
 			   {
 			   	 colour_op_ex blend_manual src_texture src_current 0.1
 			   	 env_map spherical
-				   texture busstopNJTtrans_spec.jpg
+				   texture busstopNJTtrans_spec.dds
 
 			   }
 			   

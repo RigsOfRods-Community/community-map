@@ -16,7 +16,7 @@ material GN-Palm_branch
 			//depth_write off
 			texture_unit Diffuse_Map
 			{
-				texture GN-Palm-branch.png
+				texture GN-Palm-branch.dds
 			}
 		}
 	}
@@ -51,7 +51,7 @@ material gn-bush2
 			alpha_rejection greater 120
 			texture_unit
 			{
-				texture FrontBush-Closeup.png
+				texture FrontBush-Closeup.dds
 			}
 		}
 	}
@@ -67,7 +67,7 @@ material GN-Palm-bark
 			specular 0.050000 0.050000 0.050000 1.500000
 			texture_unit
 			{
-				texture palmtree.png
+				texture palmtree.dds
 			}
 		}
 	}

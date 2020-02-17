@@ -60,7 +60,7 @@ material busstopNJTopaqe_old
          texture_unit 
          { 
       texture_alias normalmap 
-            texture busstopnormals.png
+            texture busstopnormals.dds
             tex_coord_set 0 
          } 
 
@@ -68,7 +68,7 @@ material busstopNJTopaqe_old
          texture_unit 
          { 
       texture_alias diffusemap 
-            texture busstopdiffuse.png
+            texture busstopdiffuse.dds
             tex_coord_set 1 
          } 
 
@@ -76,7 +76,7 @@ material busstopNJTopaqe_old
          texture_unit 
          { 
       texture_alias lightmap 
-            texture busstopdiffuse.png
+            texture busstopdiffuse.dds
       tex_coord_set 2      
          } 
       } 
@@ -92,7 +92,7 @@ material busstopNJTopaqe_old
          texture_unit 
          { 
       texture_alias diffusemap 
-            texture busstopdiffuse.png
+            texture busstopdiffuse.dds
       tex_coord_set 0 
          } 
 
@@ -100,7 +100,7 @@ material busstopNJTopaqe_old
          texture_unit 
          { 
             texture_alias lightmap 
-            texture busstopdiffuse.png
+            texture busstopdiffuse.dds
          tex_coord_set 2 
          colour_op modulate 
          } 
@@ -121,7 +121,7 @@ material busstopNJTtrans_old
 			cull_hardware none
 			texture_unit
 			{
-				texture busstopdiffuse.png
+				texture busstopdiffuse.dds
 				color_op modulate
 			}
 		}

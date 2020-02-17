@@ -8,7 +8,7 @@ material alt_grass
 
 			texture_unit Diffuse_Map
 			{
-                texture Grass0126_2_S.jpg
+                texture Grass0126_2_S.dds
 
             }
         }
@@ -101,7 +101,7 @@ material shelterglass
 			diffuse 1 1 1 0.48
 			texture_unit Diffuse_Map
 			{
-                texture usacityglass.png
+                texture usacityglass.dds
             }
         }
     }

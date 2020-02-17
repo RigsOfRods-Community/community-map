@@ -8,11 +8,11 @@ material modWall-interior/SOLID/TEX/DC-modsteel-1a-AO.png
 			specular 0.000000 0.000000 0.000000 12.500000
 			texture_unit
 			{
-				texture int-walls.png
+				texture int-walls.dds
 			}
 			texture_unit AO
 		    {
-				texture DC-modsteel-1a-AO.png
+				texture DC-modsteel-1a-AO.dds
 				tex_address_mode wrap
        		    scale 1.0 1.0
            	    tex_coord_set 1
@@ -33,7 +33,7 @@ material modWall-interior
 			specular 0.000000 0.000000 0.000000 12.500000
 			texture_unit
 			{
-				texture int-walls.png
+				texture int-walls.dds
 			}
 		}
 
@@ -50,11 +50,11 @@ material Mod_build-Concrete/SOLID/TEX/DC-modsteel-1a-AO.png
 			specular 0.000000 0.000000 0.000000 12.500000
 			texture_unit
 			{
-				texture modular-floors-tex.png
+				texture modular-floors-tex.dds
 			}
 			texture_unit AO
 		    {
-				texture DC-modsteel-1a-AO.png
+				texture DC-modsteel-1a-AO.dds
 				tex_address_mode wrap
        		    scale 1.0 1.0
            	    tex_coord_set 1
@@ -75,7 +75,7 @@ material Mod_build-Concrete
 			specular 0.000000 0.000000 0.000000 12.500000
 			texture_unit
 			{
-				texture modular-floors-tex.png
+				texture modular-floors-tex.dds
 			}
 		}
 
@@ -92,11 +92,11 @@ material Indust-exterior1-tex/SOLID/TEX/DC-modsteel-1a-AO.png
 			specular 0.000000 0.000000 0.000000 12.500000
 			texture_unit
 			{
-				texture walls-exter1.png
+				texture walls-exter1.dds
 			}
 			texture_unit AO
 		    {
-				texture DC-modsteel-1a-AO.png
+				texture DC-modsteel-1a-AO.dds
 				tex_address_mode wrap
        		    scale 1.0 1.0
            	    tex_coord_set 1

@@ -7,7 +7,7 @@ material DC-ranch1-tex
 		{
 			texture_unit
 			{
-				texture house.png
+				texture house.dds
 			}
 		}
 	}

@@ -95,7 +95,7 @@ material Brick_Antique
          diffuse 1 1 1 1.0
          texture_unit
          {
-            texture Brick_Antique.jpg
+            texture Brick_Antique.dds
          }
       }
    }
@@ -109,7 +109,7 @@ material Concrete_Aggregate_Smoke
          diffuse 1 1 1 1.0
          texture_unit
          {
-            texture Concrete_Aggregate_Smoke.jpg
+            texture Concrete_Aggregate_Smoke.dds
          }
       }
    }

@@ -30,7 +30,7 @@ material Concrete_Aggregate_Smoke
          diffuse 1 1 1 1.0
          texture_unit
          {
-            texture Concrete_Aggregate_Smoke.jpg
+            texture Concrete_Aggregate_Smoke.dds
          }
       }
    }
@@ -45,7 +45,7 @@ material Groundcover_Rock_Crushed_2inch
          diffuse 1 1 1 1.0
          texture_unit
          {
-            texture gravel_seamless_background_sjpg16461.jpg
+            texture gravel_seamless_background_sjpg16461.dds
          }
       }
    }

@@ -8,7 +8,7 @@ material site-tex2
         {
             texture_unit 
             {
-                texture sitetest.png
+                texture sitetest.dds
 
             }
         }

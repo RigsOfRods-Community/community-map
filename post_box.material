@@ -32,7 +32,7 @@ material post_box
 
             texture_unit 
             {
-                texture post_box.png
+                texture post_box.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 colour_op modulate

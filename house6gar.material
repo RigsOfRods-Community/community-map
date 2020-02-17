@@ -11,14 +11,14 @@ material bmhome6wgarage_[Concr
 			emissive 0.000000 0.000000 0.000000 1.000000
 			texture_unit
 			{
-				texture Concrete_Aggregate_Smoke.jpg
+				texture Concrete_Aggregate_Smoke.dds
 				tex_address_mode wrap
 				filtering trilinear
 				colour_op alpha_blend
 			}
             texture_unit 
             {
-                texture BMhouse6-gar-AO.png
+                texture BMhouse6-gar-AO.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
@@ -40,14 +40,14 @@ material bmhome6wgarage_Concre
 			emissive 0.000000 0.000000 0.000000 1.000000
 			texture_unit
 			{
-				texture Concrete_Aggregate_Smoke.jpg
+				texture Concrete_Aggregate_Smoke.dds
 				tex_address_mode wrap
 				filtering trilinear
 				colour_op alpha_blend
 			}
             texture_unit 
             {
-                texture BMhouse6-gar-AO.png
+                texture BMhouse6-gar-AO.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
@@ -69,7 +69,7 @@ material bmhome6wgarage_0022_M
 			emissive 0.000000 0.000000 0.000000 1.000000
             texture_unit 
             {
-                texture  BMhouse6-gar-AO.png
+                texture  BMhouse6-gar-AO.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
@@ -91,7 +91,7 @@ material bmhome6wgarage_0021_D
 			emissive 0.000000 0.000000 0.000000 1.000000
             texture_unit 
             {
-                texture BMhouse6-gar-AO.png
+                texture BMhouse6-gar-AO.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
@@ -113,7 +113,7 @@ material bmhome6wgarage_Color_
 			emissive 0.000000 0.000000 0.000000 1.000000
             texture_unit 
             {
-                texture BMhouse6-gar-AO.png
+                texture BMhouse6-gar-AO.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
@@ -135,7 +135,7 @@ material bmhome6wgarage_Beige1
 			emissive 0.000000 0.000000 0.000000 1.000000
             texture_unit 
             {
-                texture BMhouse6-gar-AO.png
+                texture BMhouse6-gar-AO.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
@@ -157,14 +157,14 @@ material bmhome6wgarage_Ma
 			emissive 0.000000 0.000000 0.000000 1.000000
 			texture_unit
 			{
-				texture 10414908_787521181307502_7268420964378931633_n.jpg
+				texture 10414908_787521181307502_7268420964378931633_n.dds
 				tex_address_mode wrap
 				filtering trilinear
 				colour_op alpha_blend
 			}
             texture_unit 
             {
-                texture BMhouse6-gar-AO.png
+                texture BMhouse6-gar-AO.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
@@ -186,14 +186,14 @@ material bmhome6wgarage_Roofin
 			emissive 0.000000 0.000000 0.000000 1.000000
 			texture_unit
 			{
-				texture Roofing_Shingles_Multi.jpg
+				texture Roofing_Shingles_Multi.dds
 				tex_address_mode wrap
 				filtering trilinear
 				colour_op alpha_blend
 			}
             texture_unit 
             {
-                texture BMhouse6-gar-AO.png
+                texture BMhouse6-gar-AO.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
@@ -217,7 +217,7 @@ material bmhome6wgarage_Transl
 			depth_write off
             texture_unit 
             {
-                texture BMhouse6-gar-AO.png
+                texture BMhouse6-gar-AO.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
@@ -239,7 +239,7 @@ material bmhome6wgarage_Co
 			emissive 0.000000 0.000000 0.000000 1.000000
             texture_unit 
             {
-                texture BMhouse6-gar-AO.png
+                texture BMhouse6-gar-AO.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
@@ -261,7 +261,7 @@ material bmhome6wgarage_Ma.002
 			emissive 0.000000 0.000000 0.000000 1.000000
 			texture_unit
 			{
-				texture 1185070_562204557172500_492168453_n.jpg
+				texture 1185070_562204557172500_492168453_n.dds
 			tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
@@ -269,7 +269,7 @@ material bmhome6wgarage_Ma.002
             }
             texture_unit 
             {
-                texture  BMhouse6-gar-AO.png
+                texture  BMhouse6-gar-AO.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
@@ -291,7 +291,7 @@ material bmhome6wgarage_Ma.003
 			emissive 0.000000 0.000000 0.000000 1.000000
 			texture_unit
 			{
-				texture 1004538_562206170505672_611876040_n.jpg
+				texture 1004538_562206170505672_611876040_n.dds
 			tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
@@ -299,7 +299,7 @@ material bmhome6wgarage_Ma.003
             }
             texture_unit 
             {
-                texture  BMhouse6-gar-AO.png
+                texture  BMhouse6-gar-AO.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
@@ -321,7 +321,7 @@ material bmhome6wgarage_Ma.001
 			emissive 0.000000 0.000000 0.000000 1.000000
 			texture_unit
 			{
-				texture 1011611_562206133839009_1175229661_n.jpg
+				texture 1011611_562206133839009_1175229661_n.dds
 			tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
@@ -329,7 +329,7 @@ material bmhome6wgarage_Ma.001
             }
             texture_unit 
             {
-                texture  BMhouse6-gar-AO.png
+                texture  BMhouse6-gar-AO.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
@@ -351,7 +351,7 @@ material bmhome6wgarage_Materi
 			emissive 0.000000 0.000000 0.000000 1.000000
 			texture_unit
 			{
-				texture 1377601_586940444698911_262222097_n.jpg
+				texture 1377601_586940444698911_262222097_n.dds
 			tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
@@ -359,7 +359,7 @@ material bmhome6wgarage_Materi
             }
             texture_unit 
             {
-                texture  BMhouse6-gar-AO.png
+                texture  BMhouse6-gar-AO.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
@@ -381,7 +381,7 @@ material bmhome6wgarage_Metal_
 			emissive 0.000000 0.000000 0.000000 1.000000
 			texture_unit
 			{
-				texture Metal_Rough.jpg
+				texture Metal_Rough.dds
 			tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
@@ -389,7 +389,7 @@ material bmhome6wgarage_Metal_
             }
             texture_unit 
             {
-                texture  BMhouse6-gar-AO.png
+                texture  BMhouse6-gar-AO.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1

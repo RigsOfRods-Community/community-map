@@ -12,7 +12,7 @@ material Neg-build-tex
 
             texture_unit 
             {
-                texture neg-build-tex.png
+                texture neg-build-tex.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 colour_op modulate
@@ -32,7 +32,7 @@ material Neg-build-lot
         {
             texture_unit 
             {
-                texture neg-lot-tex.png
+                texture neg-lot-tex.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 colour_op modulate
@@ -53,7 +53,7 @@ material ModWall-exterior-2
         {
             texture_unit 
             {
-                texture walls-exter1-rw.png
+                texture walls-exter1-rw.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 colour_op modulate

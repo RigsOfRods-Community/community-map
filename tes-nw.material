@@ -28,7 +28,7 @@ material CVS-Gravel
         {
             texture_unit 
             {
-                texture CVS-Gravel.jpg
+                texture CVS-Gravel.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
@@ -36,7 +36,7 @@ material CVS-Gravel
             }
             texture_unit 
             {
-                texture CVS-PARK-AO.png
+                texture CVS-PARK-AO.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
@@ -58,7 +58,7 @@ material CVS-As
 
             texture_unit 
             {
-                texture CVS-As.png
+                texture CVS-As.dds
                 tex_address_mode mirror
                 scale 1.0 1.0
                 tex_coord_set 0
@@ -66,7 +66,7 @@ material CVS-As
             }
             texture_unit 
             {
-                texture CVS-PARK-AO.png
+                texture CVS-PARK-AO.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
@@ -112,7 +112,7 @@ material CVS-Park-decal2
 			depth_write off
             texture_unit 
             {
-                texture CVS-park-decals2.png
+                texture CVS-park-decals2.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
@@ -133,7 +133,7 @@ material CVS-Park-stop
         {
             texture_unit 
             {
-                texture CVS-Parking-C.png
+                texture CVS-Parking-C.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
@@ -141,7 +141,7 @@ material CVS-Park-stop
             }
             texture_unit 
             {
-                texture CVS-EN-GN.png
+                texture CVS-EN-GN.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
@@ -183,7 +183,7 @@ material CVS-EN1-Stone
         {
             texture_unit 
             {
-                texture CVS-Stone.png
+                texture CVS-Stone.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
@@ -191,7 +191,7 @@ material CVS-EN1-Stone
             }
             texture_unit 
             {
-                texture CVS-EN-GN.png
+                texture CVS-EN-GN.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
@@ -212,7 +212,7 @@ material CVS-EN1-Wall
         {
             texture_unit 
             {
-                texture CVS-trim.png
+                texture CVS-trim.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
@@ -220,7 +220,7 @@ material CVS-EN1-Wall
             }
             texture_unit 
             {
-                texture CVS-EN-GN.png
+                texture CVS-EN-GN.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 1
@@ -241,7 +241,7 @@ material CVS-EN2-Wall
         {
             texture_unit 
             {
-                texture CVS-trim.png
+                texture CVS-trim.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
@@ -278,7 +278,7 @@ material CVS-EN2-Stone
             }
             texture_unit 
             {
-                texture CVS-Stone.png
+                texture CVS-Stone.dds
                 tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
