@@ -1,0 +1,318 @@
+
+// Sunbelt-sign-tex genrated by blender2ogre 0.6.0
+
+material Sunbelt-sign-tex 
+{
+   
+    technique
+    {
+        pass Sunbelt-sign-tex
+        {
+
+            texture_unit 
+            {
+                texture Sunbelt-sign.dds
+            }
+        }
+    }
+}
+material Sunbelt-build2-tex-2 
+{
+
+    technique
+
+    {
+        pass Sunbelt-build1-tex-2
+		 
+        {
+            texture_unit 
+            {
+                texture Sunbelt-2-tex.dds
+				tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture sunbeltbuild2-ao.dds
+				tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+// Sunbelt-build1-tex-3 genrated by blender2ogre 0.6.0
+
+material Sunbelt-build2-tex-3 
+{
+
+
+    technique
+
+    {
+        pass Sunbelt-build1-tex-3
+		 
+        {
+            texture_unit 
+            {
+                texture Sunbelt-3-tex.dds
+				tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture sunbeltbuild2-ao.dds
+				tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+// Sunbelt-build1-tex-4 genrated by blender2ogre 0.6.0
+
+material Sunbelt-build2-tex-4 
+{
+
+    technique
+
+    {
+        pass Sunbelt-build1-tex-4
+		 
+        {
+
+            texture_unit 
+            {
+                texture Sunbelt-4-tex.dds
+				tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture sunbeltbuild2-ao.dds
+				tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+// Sunbeltbuild1-5 genrated by blender2ogre 0.6.0
+
+material Sunbeltbuild2-tex-5 
+{
+
+    technique
+
+    {
+        pass Sunbeltbuild1-5
+		 
+        {
+
+            texture_unit 
+            {
+                texture sunbelt-build2-tex.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+material Sunbelt-build2-col 
+{
+
+    technique
+    {
+        pass Sunbelt-build2-col
+        {
+            texture_unit 
+            {
+                texture Sunbelt-build2-col.dds
+
+            }
+        }
+    }
+}
+// Sunbeltbuild2-tex-6 genrated by blender2ogre 0.6.0
+
+material Sunbeltbuild2-tex-6 
+{
+   technique BaseTechnique
+    {
+        pass BaseRender
+		 
+        {
+            texture_unit Diffuse_Map
+            {
+            texture Sunbelt-6-tex.dds
+			tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture sunbeltbuild2-ao.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// Sunbelt-build1-tex-1 genrated by blender2ogre 0.6.0
+
+material Sunbelt-build1-tex-1 
+{
+
+    technique
+
+    {
+        pass Sunbelt-build1-tex-1
+		 
+        {
+            texture_unit 
+            {
+                texture sunbelt-colors.dds
+				tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture sunbeltbuild1-ao.dds
+				tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+// Sunbelt-build1-tex-2 genrated by blender2ogre 0.6.0
+
+material Sunbelt-build1-tex-2 
+{
+
+
+    technique
+
+    {
+        pass Sunbelt-build1-tex-2
+		 
+        {
+            texture_unit 
+            {
+                texture Sunbelt-2-tex.dds
+				tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture sunbeltbuild1-ao.dds
+				tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+// Sunbelt-build1-tex-3 genrated by blender2ogre 0.6.0
+
+material Sunbelt-build1-tex-3 
+{
+
+    technique
+
+    {
+        pass Sunbelt-build1-tex-3
+		 
+        {
+            texture_unit 
+            {
+                texture Sunbelt-3-tex.dds
+				tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture sunbeltbuild1-ao.dds
+				tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+// Sunbelt-build1-tex-4 genrated by blender2ogre 0.6.0
+
+material Sunbelt-build1-tex-4 
+{
+
+    technique
+
+    {
+        pass Sunbelt-build1-tex-4
+		 
+        {
+
+            texture_unit 
+            {
+                texture Sunbelt-4-tex.dds
+				tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture sunbeltbuild1-ao.dds
+				tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+// Sunbeltbuild1-5 genrated by blender2ogre 0.6.0
+
+material Sunbeltbuild1-5 
+{
+
+    technique
+
+    {
+        pass Sunbeltbuild1-5
+		 
+        {
+
+            texture_unit 
+            {
+                texture sunbelt-build1-tex.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}

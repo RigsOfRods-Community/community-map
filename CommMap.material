@@ -1,10 +1,190 @@
+material DC-bridge-2LN-1
+{
+	technique BaseTechnique
 
+	{
+		pass BaseRender
+		 
+		{
 
+			texture_unit Diffuse_Map
+			{
+				texture 2-lane-n-bridge-tex-1.dds
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material DC-bridge-2LN-2
+{
+	technique BaseTechnique
+
+	{
+		pass BaseRender
+		 
+		{
+
+			texture_unit Diffuse_Map
+			{
+				texture 2-lane-n-bridge-tex-2.dds
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material DC-bridge-2LW-1
+{
+	technique BaseTechnique
+
+	{
+		pass BaseRender
+		 
+		{
+
+			texture_unit Diffuse_Map
+			{
+				texture 2-lane-w-bridge-tex-1.dds
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material DC-bridge-2LW-2
+{
+	technique BaseTechnique
+
+	{
+		pass BaseRender
+		 
+		{
+
+			texture_unit Diffuse_Map
+			{
+				texture 2-lane-w-bridge-tex-2.dds
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material DC-bridge-1LN-1
+{
+	technique BaseTechnique
+
+	{
+		pass BaseRender
+		 
+		{
+
+			texture_unit Diffuse_Map
+			{
+				texture 1-lane-n-bridge-tex-1.dds
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material DC-bridge-1LN-2
+{
+	technique BaseTechnique
+
+	{
+		pass BaseRender
+		 
+		{
+
+			texture_unit Diffuse_Map
+			{
+				texture 1-lane-n-bridge-tex-2.dds
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material DC-bridge-4LW-1
+{
+	technique BaseTechnique
+
+	{
+		pass BaseRender
+		 
+		{
+
+			texture_unit Diffuse_Map
+			{
+				texture 4-lane-w-bridge-tex-1.dds
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material DC-bridge-4LW-2
+{
+	technique BaseTechnique
+
+	{
+		pass BaseRender
+		 
+		{
+
+			texture_unit Diffuse_Map
+			{
+				texture 4-lane-w-bridge-tex-2.dds
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material DC-bridge-6LW-1
+{
+	technique BaseTechnique
+
+	{
+		pass BaseRender
+		 
+		{
+
+			texture_unit Diffuse_Map
+			{
+				texture 6-lane-w-bridge-tex-1.dds
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material DC-bridge-6LW-2
+{
+	technique BaseTechnique
+
+	{
+		pass BaseRender
+		 
+		{
+
+			texture_unit Diffuse_Map
+			{
+				texture 6-lane-w-bridge-tex-2.dds
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
 material Dc-highway 
 {
 	technique BaseTechnique
+
 	{
 		pass BaseRender
+		 
 		{
 
 			texture_unit Diffuse_Map
@@ -15,6 +195,172 @@ material Dc-highway
 			}
 		}
 	}
+}
+// Comm-map-fence-1 genrated by blender2ogre 0.6.0
+
+material Comm-map-fence-1 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass Comm-map-fence-1
+        {
+
+            texture_unit 
+            {
+                texture CommMap-Fence-1.dds
+
+            }
+        }
+    }
+}
+// Comm-map-fence-2 genrated by blender2ogre 0.6.0
+
+material Comm-map-fence-2 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass Comm-map-fence-2
+        {
+            texture_unit 
+            {
+                texture CommMap-fence-2.dds
+
+            }
+        }
+    }
+}
+material CommMap-gravel
+{
+	technique BaseTechnique
+
+	{
+		pass BaseRender
+		 
+		{
+
+			texture_unit Diffuse_Map
+			{
+				texture CommMap-gravel-1.dds
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material Sunbelt-asphalt1 
+{
+	receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+		 
+        {
+            texture_unit Diffuse_Map
+            {
+            texture CommMap-asphalt-1.dds
+			tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture Sunbelt-conc-AO.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+material CommMap-Blockwall-1 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass CommMap-Blockwall-1
+        {
+
+            texture_unit 
+            {
+                texture CommMap-Blockwall-1.dds
+				tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture Sunbelt-conc-AO.dds
+			tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1 
+                colour_op modulate
+            }
+        }
+    }
+}
+material Sunbelt-Concrete1 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass Sunbelt-Concrete1
+		 
+        {
+
+
+            texture_unit 
+            {
+                texture CommMap-concrete-1.dds
+			tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture Sunbelt-conc-AO.dds
+			tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
+}
+material Sunbelt-mulch 
+{
+	receive_shadows on
+   technique BaseTechnique
+    {
+        pass BaseRender
+        {
+            texture_unit Diffuse_Map
+            {
+            texture CommMap-Mulch-1.dds
+			tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op modulate
+            }
+            texture_unit 
+            {
+                texture Sunbelt-conc-AO.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+                colour_op modulate
+            }
+        }
+    }
 }
 material DC-Road-tex
 {
@@ -50,17 +396,28 @@ material 2Dc-highwaytex
 
 material Caseysstore-tex 
 {
-	technique BaseTechnique
+	technique
 	{
-		pass BaseRender
+		pass
 		{
-			ambient 1.0 1.0 1.0 1.0
-			texture_unit Diffuse_Map
+
+			texture_unit
 			{
 				texture caseys-store.dds
-				tex_address_mode wrap
-				filtering trilinear
+				colour_op modulate
 			}
+
+			texture_unit 
+			{
+				texture caseys-store-spec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture dark.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
 		}
 	}
 }
@@ -190,6 +547,7 @@ material communitymap-grass
     technique
     {
         pass
+		 
         {
             texture_unit
             {
@@ -376,20 +734,31 @@ material tbell-build-tex
 }
 material tbell-build-tex2 
 {
-	technique BaseTechnique
+	technique
 	{
-		pass BaseRender
+		pass
 		{
-			//Ambient, diffuse, emissive stuff here
 
-			texture_unit Diffuse_Map
+			texture_unit
 			{
 				texture tell-tex.dds
+				colour_op modulate
 			}
+
+			texture_unit 
+			{
+				texture tell-tex-spec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture dark.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
 		}
 	}
 }
-
 material tbell-dthru-tex 
 {
 	technique BaseTechnique
@@ -503,6 +872,21 @@ material CommunityMap-grass-1
 		}
 	}
 }
+material alt-grass
+{
+	technique BaseTechnique
+	{
+		pass BaseRender
+		{
+			//Ambient, diffuse, emissive stuff here
+
+			texture_unit Diffuse_Map
+			{
+				texture alt-grass.dds
+			}
+		}
+	}
+}
 material CommMap-sidewalk-1 
 {
 	technique BaseTechnique
@@ -568,7 +952,7 @@ material Aldi-tex2
 		}
 		pass
 		
-        	{
+        {
 			scene_blend alpha_blend
 			lighting off
 			texture_unit
@@ -576,25 +960,38 @@ material Aldi-tex2
                 		texture aldi2-tex-emissive.dds
            
             		}
-			}
-   	}
+		}
+	}
 }
+
 material Aldi1-tex 
 {
-	technique BaseTechnique
+	technique
 	{
-		pass BaseRender
+		pass
 		{
-			//Ambient, diffuse, emissive stuff here
 
-			texture_unit Diffuse_Map
+			texture_unit
 			{
 				texture aldi-tex.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture aldi-tex-spec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture dark.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
 			}
 		}
 		pass
 		
-        	{
+        {
 			scene_blend alpha_blend
 			lighting off
 			texture_unit
@@ -602,8 +999,10 @@ material Aldi1-tex
                 		texture aldi-tex-emissive.dds
            
             		}
-			}
-   	}
+		}
+			
+	}
+	
 }
 material DC-Bridge-tex 
 {
@@ -1085,16 +1484,28 @@ material MerchantsII-roof
 }
 material MerchantsrowII-tex 
 {
-	technique BaseTechnique
+	technique
 	{
-		pass BaseRender
+		pass
 		{
-			//Ambient, diffuse, emissive stuff here
 
-			texture_unit Diffuse_Map
+			texture_unit
 			{
 				texture mainstreet-tex.dds
+				colour_op modulate
 			}
+
+			texture_unit 
+			{
+				texture mainstreet-spec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture dark.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
 		}
 	}
 }
@@ -1169,18 +1580,32 @@ material McD-tex1
 }
 material McD-tex2 
 {
-	technique BaseTechnique
+	technique
 	{
-		pass BaseRender
+		pass
 		{
-			texture_unit Diffuse_Map
+
+			texture_unit
 			{
 				texture mcd-tex2.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture mcd-tex2-spec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture dark.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
 			}
 		}
 		pass
 		
-        	{
+        {
 			scene_blend alpha_blend
 			lighting off
 			texture_unit
@@ -1188,8 +1613,10 @@ material McD-tex2
                 		texture mcd-tex2-emissive.dds
            
             		}
-			}
-   	}
+		}
+			
+	}
+	
 }
 material Rest-signs-tex 
 {
@@ -1253,6 +1680,7 @@ material terminal-tex
 	technique BaseTechnique
 	{
 		pass BaseRender
+		
 		{
 			diffuse 1.0 1.0 1.0 1.0
 			ambient 1.0 1.0 1.0
@@ -1297,20 +1725,55 @@ material CommMap_chainfence
      }
    }
 }
+material Comm-metalfence-2
+{
+   receive_shadows on
+   technique
+   {
+      pass
+      {
+         scene_blend alpha_blend
+	 alpha_rejection greater 128 
+	 texture_unit
+         {
+            texture Comm-metalfence-2.dds
+         }
+		
+     }
+   }
+}
 
 material teminal-misc-tex 
 {
-	technique BaseTechnique
+	technique
 	{
-		pass BaseRender
+		pass
 		{
-			texture_unit Diffuse_Map
+
+			texture_unit
 			{
 				texture Terminal_misc-tex.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture Terminal_misc-spec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture dark.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
 			}
 		}
+			
 	}
+	
 }
+
+
 material Terminal_door_glass 
 {
 	technique BaseTechnique

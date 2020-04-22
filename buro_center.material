@@ -1,0 +1,111 @@
+// blender material: buro1
+material buro1 
+{
+    technique b2ogre_1330891186.855
+    {
+        pass b2ogre_1330891186.855
+        {
+            texture_unit b2ogre_1330891186.855
+            {
+                texture buro1.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+            }
+            texture_unit b2ogre_1330891186.858
+            {
+                texture buroAO.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+            }
+        }
+    }
+}
+
+// blender material: buro3
+material buro3 
+{
+
+    technique b2ogre_1330891186.863
+    {
+        pass b2ogre_1330891186.863
+        {
+            texture_unit b2ogre_1330891186.863
+            {
+                texture buro3.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+            }
+            texture_unit b2ogre_1330891186.867
+            {
+                texture buroAO.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+            }
+        }
+    }
+}
+
+// blender material: buro2
+material buro2 
+{
+
+    technique b2ogre_1330891186.868
+    {
+        pass b2ogre_1330891186.868
+        {
+            texture_unit b2ogre_1330891186.868
+            {
+                texture buro2.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+            }
+			texture_unit
+			{
+				texture buro2spec.dds
+			}
+			texture_unit
+			{
+           		texture dark.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+         	}
+            texture_unit b2ogre_1330891186.872
+            {
+                texture buroAO.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+            }
+        }
+    }
+}
+
+// blender material: buro4
+material buro4 
+{
+    technique b2ogre_1330891186.873
+    {
+        pass b2ogre_1330891186.873
+        {
+            texture_unit b2ogre_1330891186.873
+            {
+                texture Metalroof01.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+            }
+            texture_unit b2ogre_1330891186.879
+            {
+                texture buroAO.dds
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 1
+            }
+        }
+    }
+}

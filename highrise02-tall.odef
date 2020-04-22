@@ -1,0 +1,6 @@
+highrise02-tall.mesh
+1,1,1
+beginmesh
+mesh highrise02-tall.mesh
+endmesh
+end

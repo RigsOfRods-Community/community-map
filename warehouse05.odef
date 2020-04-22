@@ -1,0 +1,6 @@
+warehouse05.mesh
+1,1,1
+beginmesh
+mesh warehouse05.mesh
+endmesh
+end

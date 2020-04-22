@@ -1,0 +1,34 @@
+// blender material: DNE-fence-1
+material DNE-fence-1
+{
+    receive_shadows on
+    technique
+    {
+        pass
+        {
+
+            texture_unit
+            {
+                texture planksbare3.dds
+
+            }
+        }
+    }
+}
+// blender material: Townhouse-rolling-door
+material Townhouse-rolling-door
+{
+    receive_shadows on
+    technique
+    {
+        pass
+        {
+
+            texture_unit
+            {
+                texture CVS-garagedoor.dds
+
+            }
+        }
+    }
+}

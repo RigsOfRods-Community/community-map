@@ -34,43 +34,63 @@ material CVS-Logo
 
 material CVS-Door 
 {
-    receive_shadows on 
+	technique
+	{
+		pass
+		{
 
-    technique
-    {
-        pass CVS-Door
-        {
-            texture_unit 
-            {
-                texture CVS-Door-tex.dds
-                tex_address_mode wrap
-                scale 1.0 1.0
-                tex_coord_set 0
-                colour_op modulate
-            }
-        }
-    }
+			texture_unit
+			{
+				texture CVS-Door-tex.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture CVS-Door-spec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture dark.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+			}
+		}
+			
+	}
+	
 }
 // CVS-top-window genrated by blender2ogre 0.6.0
 
 material CVS-top-window 
 {
-    receive_shadows on 
+	technique
+	{
+		pass
+		{
 
-    technique
-    {
-        pass CVS-top-window
-        {
-            texture_unit 
-            {
-                texture CVS-top-win-tex.dds
-                tex_address_mode wrap
-                scale 1.0 1.0
-                tex_coord_set 0
-                colour_op modulate
-            }
-        }
-    }
+			texture_unit
+			{
+				texture CVS-top-win-tex.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture CVS-top-win-spec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture dark.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+			}
+		}
+			
+	}
+	
 }
 // CVS-stone genrated by blender2ogre 0.6.0
 
@@ -395,22 +415,32 @@ material CVS-WALL1-trim
 
 material CVS-F-Side-win 
 {
-    receive_shadows on 
+	technique
+	{
+		pass
+		{
 
-    technique
-    {
-        pass CVS-F-Side-win
-        {
-            texture_unit 
-            {
-                texture CVS-sidewindows.dds
-                tex_address_mode wrap
-                scale 1.0 1.0
-                tex_coord_set 0
-                colour_op modulate
-            }
-        }
-    }
+			texture_unit
+			{
+				texture CVS-sidewindows.dds
+				colour_op modulate
+			}
+
+			texture_unit 
+			{
+				texture CVS-sidewindows-spec.dds
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture dark.dds
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+			}
+		}
+			
+	}
+	
 }
 // 7-el-game genrated by blender2ogre 0.6.0
 
@@ -435,23 +465,40 @@ material 7-el-game
 // cvs-drive genrated by blender2ogre 0.6.0
 
 material cvs-drive 
-{
-    receive_shadows on 
 
-    technique
-    {
-        pass cvs-drive
-        {
-            texture_unit 
-            {
-                texture CVS-Drive-tex.dds
-                tex_address_mode wrap
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture CVS-Drive-tex.dds
+			    tex_address_mode wrap
                 scale 1.0 1.0
                 tex_coord_set 0
                 colour_op modulate
-            }
-        }
-    }
+
+			}
+
+			texture_unit 
+			{
+				texture CVS-Drive-spec.dds
+				tex_coord_set 0
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+           		texture dark.dds
+				tex_coord_set 0
+           		colour_op_ex blend_current_alpha src_texture src_current
+				env_map spherical
+			}
+		}
+			
+	}
+	
 }
 // CVS-Front-Stone genrated by blender2ogre 0.6.0
 

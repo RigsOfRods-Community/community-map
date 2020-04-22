@@ -1,0 +1,15 @@
+material oak_bark_PG
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture RC-beech-01-diffuseAO-PG.dds
+
+			}
+		}
+	}
+}

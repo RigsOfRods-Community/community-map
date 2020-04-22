@@ -1,0 +1,48 @@
+material oak_leaves_in
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			//lighting off
+			ambient 1.000000 1.000000 1.000000 1.000000
+			diffuse 2.000000 2.000000 2.000000 1.000000
+			emissive 0.000000 0.000000 0.000000 1.000000
+			cull_hardware none
+			cull_software none
+			alpha_rejection greater 128
+			texture_unit
+			{
+				texture fagus_leaves_in.dds
+				tex_address_mode wrap
+				colour_op modulate
+			}
+		}
+	}
+}
+
+material oak_leaves_out
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			//lighting off
+			ambient 1.000000 1.000000 1.000000 1.000000
+			diffuse 2.000000 2.000000 2.000000 1.000000
+			emissive 0.000000 0.000000 0.000000 1.000000
+			cull_hardware none
+			cull_software none
+			alpha_rejection greater 128
+			texture_unit
+			{
+				texture fagus_leaves_out.dds
+				tex_address_mode wrap
+				colour_op modulate
+				wave_xform scroll_x sine 1.0 0.2 0.0 0.1
+			}
+		}
+	}
+}
