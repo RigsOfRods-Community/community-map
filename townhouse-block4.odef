@@ -1,0 +1,6 @@
+townhouse-block4.mesh
+1,1,1
+beginmesh
+mesh townhouse-block4.mesh
+endmesh
+end

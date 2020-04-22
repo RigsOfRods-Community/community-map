@@ -1,0 +1,8 @@
+Sunbelt-test.mesh
+1, 1, 1
+
+beginmesh
+mesh Sunbelt-test.mesh
+endmesh
+
+end

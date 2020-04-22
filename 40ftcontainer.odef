@@ -1,0 +1,6 @@
+40ftcontainer.mesh
+1, 1, 1
+beginmesh
+mesh 40ftcontainerC.mesh
+endmesh
+end

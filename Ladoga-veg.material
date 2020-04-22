@@ -1,0 +1,210 @@
+material mr_fir_big/TWOSIDE
+{
+	receive_shadows off
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+			cull_software none
+			alpha_rejection greater 148
+			texture_unit
+			{
+				texture mr_fir_big.dds
+			}
+		}
+	}
+}
+
+material 3D-Diggers/fir01
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.5 0.5 0.5 1
+			diffuse 0.6 0.6 0.6 1
+
+			alpha_rejection greater_equal 128
+
+			texture_unit
+			{
+				texture fir01.dds alpha
+			}
+		}
+	}
+}
+
+material 3D-Diggers/fir02
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.5 0.5 0.5 1
+			diffuse 0.6 0.6 0.6 1
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture fir02.dds -1
+			}
+		}
+	}
+}
+material betula_leaves/TWOSIDE
+{
+	technique
+	{
+		pass
+		{
+
+			//scene_blend alpha_blend
+			alpha_rejection greater 128
+			//depth_write off
+			cull_hardware none
+			cull_software none
+			texture_unit
+			{
+				texture betula_leaves.dds
+			}
+		}
+	}
+}
+material betula_bark
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture betula_bark.dds
+			}
+		}
+	}
+}
+material big-branch 
+{
+	receive_shadows off
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+			cull_software none
+			alpha_rejection greater_equal 170
+			texture_unit
+			{
+				texture abies-branch-big.dds
+			}
+		}
+	}
+}
+material 40ftcontainer
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture 40ftcontainerREDRUST.dds
+			}
+		}
+	}
+}
+material pinus_leaves/TWOSIDE
+{
+	technique
+	{
+		pass
+		{
+
+			//scene_blend alpha_blend
+			alpha_rejection greater 128
+			//depth_write off
+			cull_hardware none
+			cull_software none
+			texture_unit
+			{
+				texture pinus_leaves.dds
+			}
+		}
+	}
+}
+material pinus_bark
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture pinus_bark.dds
+			}
+		}
+	}
+}
+material sambucus_leaves/TWOSIDE
+{
+	technique
+	{
+		pass
+		{
+
+			//scene_blend alpha_blend
+			alpha_rejection greater 128
+			//depth_write off
+			cull_hardware none
+			cull_software none
+			texture_unit
+			{
+				texture sambucus_leaves.dds
+			}
+		}
+	}
+}
+material genista_leaves/TWOSIDE
+{
+	technique
+	{
+		pass
+		{
+
+			//scene_blend alpha_blend
+			alpha_rejection greater 128
+			//depth_write off
+			cull_hardware none
+			cull_software none
+			texture_unit
+			{
+				texture genista_leaves.dds
+			}
+		}
+	}
+}
+material fir-bark 
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+			ambient 0.800000011920929 0.800000011920929 0.800000011920929 1.0
+			diffuse 0.800000011920929 0.800000011920929 0.800000011920929 1.0
+			specular 0.0 0.0 0.0 1.0 12.5
+			emissive 0.0 0.0 0.0 1.0
+			scene_blend one zero
+			texture_unit
+			{
+				texture BarkPine0012_5_S.dds
+				tex_address_mode wrap
+				scale 1.0 1.0
+				colour_op_ex blend_manual src_current src_texture 0.0
+			}
+		}
+	}
+}

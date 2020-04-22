@@ -1,0 +1,6 @@
+store07c.mesh
+1,1,1
+beginmesh
+mesh store07box.mesh
+endmesh
+end

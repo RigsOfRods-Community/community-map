@@ -1,0 +1,6 @@
+Sunbelt-fence.mesh
+1, 1, 1
+beginmesh
+mesh Sunbelt-fence.mesh
+endmesh
+end

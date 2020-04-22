@@ -1,0 +1,7 @@
+DC-roadsign-3-light.mesh
+1,1,1
+
+setMeshMaterial sign-test
+
+drawTextOnMeshTexture 0.1, 0.1, 0.9, 0.9, 1, 1, 1, 1, c, 10, 400, CyberbitEnglish {{argument1}} 
+end

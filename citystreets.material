@@ -1,83 +1,86 @@
 
 material citybuilding01a
 {
-	receive_shadows on
 	technique
 	{
 		pass
 		{
+
 			texture_unit
 			{
 				texture citybuilding01a.dds
+				colour_op modulate
 			}
-			texture_unit
+
+			texture_unit 
 			{
-				texture citybuilding01a.dds
+				texture citybuilding-spec.dds
 				colour_op alpha_blend
 			}
 			texture_unit
 			{
-           		texture citystreets_chrome.dds
+           		texture dark.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
-         		}
+         	}
 		}
 	}
 }
-
 
 material citybuilding01b
 {
-	receive_shadows on
 	technique
 	{
 		pass
 		{
+
 			texture_unit
 			{
 				texture citybuilding01b.dds
+				colour_op modulate
 			}
-			texture_unit
+
+			texture_unit 
 			{
-				texture citybuilding01b.dds
+				texture citybuilding-spec.dds
 				colour_op alpha_blend
 			}
 			texture_unit
 			{
-           		texture citystreets_chrome.dds
+           		texture dark.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
-         		}
+         	}
 		}
 	}
 }
-
 material citybuilding01c
 {
-	receive_shadows on
 	technique
 	{
 		pass
 		{
+
 			texture_unit
 			{
 				texture citybuilding01c.dds
+				colour_op modulate
 			}
-			texture_unit
+
+			texture_unit 
 			{
-				texture citybuilding01c.dds
+				texture citybuilding-spec.dds
 				colour_op alpha_blend
 			}
 			texture_unit
 			{
-           		texture citystreets_chrome.dds
+           		texture dark.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
-         		}
+         	}
 		}
 	}
 }
-
 material cityhighrise01a/cityhighrise01a_glass
 {
 	receive_shadows on
@@ -92,11 +95,11 @@ material cityhighrise01a/cityhighrise01a_glass
 			texture_unit
 			{
 				texture cityhighrise01a_glass.dds
-				colour_op alpha_blend
+ 
 			}
 			texture_unit
 			{
-           		texture citystreets_chrome.dds
+           		texture dark.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          		}
@@ -153,11 +156,11 @@ material cityhighrise01a/cityhighrise01a_bracing
 			texture_unit
 			{
 				texture cityhighrise01a_bracing.dds
-				colour_op alpha_blend
+ 
 			}
 			texture_unit
 			{
-           		texture citystreets_chrome.dds
+           		texture dark.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          	}
@@ -180,11 +183,11 @@ material cityhighrise02a/cityhighrise02a_glass
 			texture_unit
 			{
 				texture cityhighrise02a_glass.dds
-				colour_op alpha_blend
+ 
 			}
 			texture_unit
 			{
-           		texture citystreets_chrome.dds
+           		texture dark.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          		}
@@ -216,11 +219,11 @@ material cityhighrise02a/cityhighrise02a_concrete
 			texture_unit
 			{
 				texture cityhighrise02a_concrete.dds
-				colour_op alpha_blend
+ 
 			}
 			texture_unit
 			{
-           		texture citystreets_chrome.dds
+           		texture dark.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          		}
@@ -254,11 +257,11 @@ material cityhighrise03a/cityhighrise03a_glass
 			texture_unit
 			{
 				texture cityhighrise03a_glass.dds
-				colour_op alpha_blend
+ 
 			}
 			texture_unit
 			{
-           		texture citystreets_chrome.dds
+           		texture dark.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          		}
@@ -290,11 +293,11 @@ material cityhighrise03a/cityhighrise03a_concrete
 			texture_unit
 			{
 				texture cityhighrise03a_concrete.dds
-				colour_op alpha_blend
+ 
 			}
 			texture_unit
 			{
-           		texture citystreets_chrome.dds
+           		texture dark.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          		}
@@ -328,11 +331,11 @@ material cityhighrise03a/cityhighrise03a_bracing
 			texture_unit
 			{
 				texture cityhighrise03a_bracing.dds
-				colour_op alpha_blend
+ 
 			}
 			texture_unit
 			{
-           		texture citystreets_chrome.dds
+           		texture dark.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          		}
@@ -364,11 +367,11 @@ material cityhighrise04a/cityhighrise04a_wall
 			texture_unit
 			{
 				texture cityhighrise04a_wall.dds
-				colour_op alpha_blend
+ 
 			}
 			texture_unit
 			{
-           		texture citystreets_chrome.dds
+           		texture dark.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          		}
@@ -399,11 +402,11 @@ material cityhighrise04a/cityhighrise04a_concrete
 			texture_unit
 			{
 				texture cityhighrise04a_concrete.dds
-				colour_op alpha_blend
+ 
 			}
 			texture_unit
 			{
-           		texture citystreets_chrome.dds
+           		texture dark.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          		}
@@ -458,11 +461,11 @@ material cityhighrise04a/cityhighrise04a_glass
 			texture_unit
 			{
 				texture cityhighrise04a_glass.dds
-				colour_op alpha_blend
+ 
 			}
 			texture_unit
 			{
-           		texture citystreets_chrome.dds
+           		texture dark.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          		}
@@ -492,11 +495,11 @@ material cityhighrise05a/cityhighrise05a_wall
 			texture_unit
 			{
 				texture cityhighrise05a_wall.dds
-				colour_op alpha_blend
+ 
 			}
 			texture_unit
 			{
-           		texture citystreets_chrome.dds
+           		texture dark.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          		}
@@ -519,11 +522,11 @@ material cityhighrise05a/cityhighrise05a_concrete
 			texture_unit
 			{
 				texture cityhighrise05a_concrete.dds
-				colour_op alpha_blend
+ 
 			}
 			texture_unit
 			{
-           		texture citystreets_chrome.dds
+           		texture dark.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          		}
@@ -545,11 +548,11 @@ material cityhighrise05a/cityhighrise05a_glass
 			texture_unit
 			{
 				texture cityhighrise05a_glass.dds
-				colour_op alpha_blend
+ 
 			}
 			texture_unit
 			{
-           		texture citystreets_chrome.dds
+           		texture dark.dds
            		colour_op_ex blend_current_alpha src_texture src_current
 				env_map spherical
          		}
