@@ -1,7 +1,9 @@
 community-map
 =============
 
-This is an attempt at building a large map for the Rigs of Rods vehicle physics simulator. Discussion: http://www.rigsofrods.com/threads/117570-Community-assembled-Map-Project
+This is an attempt at building a large map for the Rigs of Rods vehicle physics simulator. Discussion: http://www.rigsofrods.com/threads/117570-Community-assembled-Map-Project 
+
+**Disclaimer: All content is protected under applicable copyright laws by their respective owners. This means no content can be modified or reused without prior consent, express or written, by their respective owners.**
 
 **If you want to contribute, follow these steps**
 
